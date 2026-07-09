@@ -12,6 +12,8 @@
 run/*
 !run/config/
 !run/config/**
+!run/packwiz-installer.jar
+!run/options.txt
 
 ### gradle ####
 .gradle
