@@ -1,0 +1,13 @@
+name = "Lavendre"
+author = "Aerhazu"
+version = "0.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "005d4418e6fc09ec8ac26c66f482571c1696bd0d3d77869a9c5f7e3e92f03654"
+
+[versions]
+fabric = "0.19.3"
+minecraft = "1.21.4"

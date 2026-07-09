@@ -1,0 +1,5 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/fabric/indigo-renderer.properties"
+hash = "02ea407c69fa74ebfd6c6636ab6291880ec8e4b96c681eb3742bb64ce1bc2912"
