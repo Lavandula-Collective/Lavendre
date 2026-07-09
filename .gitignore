@@ -1,3 +1,17 @@
+###     PATTERN                     DESCRIPTION                     EXAMPLE
+###   filename.ext          Ignores specific file globally        secrets.txt
+###       dir/                  Ignores entire directory         node_modules/
+###      *.ext                  Wildcard for file types       *.log (all log files)
+###        ?                 Matches exactly one character    file?.txt (file1.txt)
+###      [abc]                  Matches set characters            log[0-9].txt
+###        !                   Negation (Do NOT ignore)      Negation (Do not ignore)
+###      /**/                   Matches nested folders              **/logs/
+###       #                     Starts a comment line          # API keys below
+
+### Minecraft ###
+run/
+
+### gradle ####
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
