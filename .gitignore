@@ -9,8 +9,9 @@
 ###       #                     Starts a comment line          # API keys below
 
 ### Minecraft ###
-run/
-!run/config
+run/*
+!run/config/
+!run/config/**
 
 ### gradle ####
 .gradle
