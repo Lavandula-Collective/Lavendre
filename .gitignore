@@ -10,6 +10,7 @@
 
 ### Minecraft ###
 run/
+!run/config
 
 ### gradle ####
 .gradle
@@ -30,6 +31,7 @@ build/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+/.idea/runConfigurations/
 
 ### Eclipse ###
 .apt_generated
