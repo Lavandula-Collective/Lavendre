@@ -14,8 +14,6 @@ run/*
 !run/options.txt
 
 ### Mod Configs ###
-!run/config/
-!run/config/**
 !run/config/fancymenu
 
 ### gradle ####
