@@ -10,10 +10,14 @@
 
 ### Minecraft ###
 run/*
-!run/config/
-!run/config/**
+
 !run/packwiz-installer.jar
 !run/options.txt
+
+### Mod Configs ###
+!run/config/
+!run/config/**
+!run/config/fancymenu
 
 ### gradle ####
 .gradle
