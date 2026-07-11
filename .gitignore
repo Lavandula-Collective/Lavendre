@@ -10,7 +10,6 @@
 
 ### Minecraft ###
 run/*
-
 !run/packwiz-installer.jar
 !run/options.txt
 
