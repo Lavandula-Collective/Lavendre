@@ -28,6 +28,10 @@ run/config/xaero/*
 !run/config/xaero/minimap/
 run/config/xaero/minimap/*
 !run/config/xaero/minimap/common.cfg
+### Crash Assistant
+!run/config/crash_assistant/
+run/config/crash_assistant/*
+!run/config/crash_assistant/config.toml
 
 ### gradle ####
 .gradle
