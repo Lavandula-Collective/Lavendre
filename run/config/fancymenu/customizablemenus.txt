@@ -1,0 +1,14 @@
+type = customizablemenus
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.client.gui.screen.GameMenuScreen {
+}
+
+net.minecraft.client.gui.screen.option.OptionsScreen {
+}
+
+net.minecraft.client.gui.screen.TitleScreen {
+}
+
