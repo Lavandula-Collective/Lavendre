@@ -14,12 +14,12 @@ run/*
 !run/options.txt
 
 ### Mod Configs ###
-!run/config/fancymenu
-!run/config/isxander-main-menu-credits.json
-!run/config/betterf3.json
-!run/config/chatpatches.json
-!run/config/presencefootsteps/userconfig.json
-!run/config/xaero/minimap/common.cfg
+!run/config/fancymenu/**
+!run/config/isxander-main-menu-credits.json/**
+!run/config/betterf3.json/**
+!run/config/chatpatches.json/**
+!run/config/presencefootsteps/userconfig.json/**
+!run/config/xaero/minimap/common.cfg/**
 
 ### gradle ####
 .gradle
