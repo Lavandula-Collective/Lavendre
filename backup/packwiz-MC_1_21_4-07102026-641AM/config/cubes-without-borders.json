@@ -1,0 +1,7 @@
+{
+  "fullscreenMode": "ON",
+  "preferredFullscreenMode": "ON",
+  "fullscreenType": "minecraft:default",
+  "borderlessFullscreenType": "macos:borderless",
+  "preferredMonitor": "0,0,1920,1080"
+}

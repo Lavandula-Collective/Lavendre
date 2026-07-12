@@ -1,0 +1,13 @@
+name = "Mizuno Connected Texture"
+filename = "Mizuno Connected Texture 2.6.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/gXk3JSUR/versions/OgpPCpH3/Mizuno%20Connected%20Texture%202.6.zip"
+hash-format = "sha512"
+hash = "4bcd7000f22982cf91e885adf81c5e30a30c3325a8932ed17b8cf8a4b637a77c3db2c234bff6e767f4cc8a2d8d509f9202af4da51d7e954f4d2ccc5192621b5e"
+
+[update]
+[update.modrinth]
+mod-id = "gXk3JSUR"
+version = "OgpPCpH3"

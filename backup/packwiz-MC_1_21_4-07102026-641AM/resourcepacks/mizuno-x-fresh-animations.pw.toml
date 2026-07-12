@@ -1,0 +1,13 @@
+name = "Mizuno x Fresh Animations"
+filename = "Mizuno x Fresh Animations 4.5.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/DCF67rmr/versions/A1H5RhS8/Mizuno%20x%20Fresh%20Animations%204.5.zip"
+hash-format = "sha512"
+hash = "fe42989a00748fe281594865ff73f3d6c3818fa6735c1dedb79e34e2bebe38a1187f58b87e16635cdf73b26662055f38a99ed30da3ffad406ac3e94a166455c3"
+
+[update]
+[update.modrinth]
+mod-id = "DCF67rmr"
+version = "A1H5RhS8"

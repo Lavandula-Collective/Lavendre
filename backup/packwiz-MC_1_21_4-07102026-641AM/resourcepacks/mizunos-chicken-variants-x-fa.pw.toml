@@ -1,0 +1,13 @@
+name = "Mizuno's Chicken Variants x FA"
+filename = "Mizuno's Chicken Variant x FA.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/izuJwVO9/versions/JSUjG0dO/Mizuno%27s%20Chicken%20Variant%20x%20FA.zip"
+hash-format = "sha512"
+hash = "0204b913682465260195f259fa8879f368cbf60ad1ae6c5979f806c0971d6f9d8419beef70345c8df6ac8e50036dbd2217d6857f60755d77c3c578f54ae3de6c"
+
+[update]
+[update.modrinth]
+mod-id = "izuJwVO9"
+version = "JSUjG0dO"

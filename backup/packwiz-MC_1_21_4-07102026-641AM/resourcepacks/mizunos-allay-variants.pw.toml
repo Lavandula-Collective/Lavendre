@@ -1,0 +1,13 @@
+name = "Mizuno's Allay Variants"
+filename = "Mizuno's Allay Variants 1.3.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/c3UDeXZ4/versions/e7k5EPzV/Mizuno%27s%20Allay%20Variants%201.3.zip"
+hash-format = "sha512"
+hash = "0fd7c2741f6cbaeed6bb0d5d308efce41c1245bb3516abb0a29f2f45484471569f0d0126feeb2e156310cb1505407b6c6b40649644ccb9d9a77f12a92504010c"
+
+[update]
+[update.modrinth]
+mod-id = "c3UDeXZ4"
+version = "e7k5EPzV"
