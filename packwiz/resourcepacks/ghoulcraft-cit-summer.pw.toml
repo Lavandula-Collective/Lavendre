@@ -1,0 +1,8 @@
+name = "Ghoulcraft CIT - Summer"
+filename = "[Summer] Ghoulcraft 7-6-20.zip"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/aerhazu/CIT-Repository/main/minecraft/CITs/Ghoulcraft%20Collection/%5BSummer%5D%20Ghoulcraft%207-6-20.zip"
+hash-format = "sha512"
+hash = "9180e40201ddd163f483b9a39d26a84e647be00617e876c522a21680a5d38f68dcd2af55ad3396978c84ebeaff0acb8d7dedee24d0d8925c02d414eca5a98658"

@@ -1,0 +1,8 @@
+name = "Ghoulcraft CIT - Weapons & Wearables"
+filename = "[Weapons & Wearables] Ghoulcraft 10-20-20.zip"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/aerhazu/CIT-Repository/main/minecraft/CITs/Ghoulcraft%20Collection/%5BWeapons%20%26%20Wearables%5D%20Ghoulcraft%2010-20-20.zip"
+hash-format = "sha512"
+hash = "b9d3d08a1fbfc1b4a15c2969ef1807da4040a0845617b944b14b07f5b428966063362756379f991bcf9263f91d6dc6eac9618d848ef2333245895e0eb6bdd690"

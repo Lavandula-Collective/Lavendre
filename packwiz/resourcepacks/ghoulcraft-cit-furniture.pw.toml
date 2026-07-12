@@ -1,0 +1,8 @@
+name = "Ghoulcraft CIT - Furniture"
+filename = "[Furniture] Ghoulcraft 10-20-20.zip"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/aerhazu/CIT-Repository/main/minecraft/CITs/Ghoulcraft%20Collection/%5BFurniture%5D%20Ghoulcraft%2010-20-20.zip"
+hash-format = "sha512"
+hash = "63e39a88b5bf8aad062174e97a5bec86f667383f27836df7adb3209f2a93583b082a1b346278007dfbb77c2736d44c266bc73fa0b276aedea0f90c7317ad6800"

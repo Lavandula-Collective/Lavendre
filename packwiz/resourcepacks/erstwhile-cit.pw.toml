@@ -1,0 +1,8 @@
+name = "Erstwhile CIT"
+filename = "Erstwhile_CIT_v1.0.zip"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/aerhazu/CIT-Repository/main/minecraft/CITs/Erstwhile_CIT_v1.0.zip"
+hash-format = "sha512"
+hash = "925eb87e59e13aad1ed0c75c94d5f0bcaa6851b002e02983269e2705a2b126f9c1053fd030205e3f69a3202fae75886cbd897a5fbdc259a24b69ff4d830eea49"

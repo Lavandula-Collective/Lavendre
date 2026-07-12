@@ -1,0 +1,13 @@
+name = "Biomes O' Plenty | Mizuno's Texture Pack"
+filename = "BOP - Mizuno's Style 1.21.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yp4CouYl/versions/58CAGa7w/BOP%20-%20Mizuno%27s%20Style%201.21.1.zip"
+hash-format = "sha512"
+hash = "6251102699a8c9af56009709e4da3d3107dc08b2712165db53d0eae35d56b281d48f03cae1b41d67d25f5ead11d90ca7e24830e3f6ad1bae99712578edddfe76"
+
+[update]
+[update.modrinth]
+mod-id = "yp4CouYl"
+version = "58CAGa7w"

@@ -1,0 +1,13 @@
+name = "Mizuno's Connected Glass"
+filename = "Mizuno's Connected Glass 1.4.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/qbZmMHUH/versions/s8GApLnZ/Mizuno%27s%20Connected%20Glass%201.4.zip"
+hash-format = "sha512"
+hash = "faa98153aef83b65cc7175a6d0cca924868f64ed8f9cc59caf6d36131906549645128fcceea1734842ec56b2b19098cf0f94a1687b8e51cd3998dfad828b82f9"
+
+[update]
+[update.modrinth]
+mod-id = "qbZmMHUH"
+version = "s8GApLnZ"

@@ -1,0 +1,8 @@
+name = "Mizuno's 16 Craft CIT"
+filename = "Mizunos 16 Craft JE CIT_1.20.1-1.0_230720.zip"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/aerhazu/CIT-Repository/main/minecraft/CITs/Mizunos%2016%20Craft%20JE%20CIT_1.20.1-1.0_230720.zip"
+hash-format = "sha512"
+hash = "57740b9a51a6c273ac4821d673c67c9d3b4c7168882fee2840bc3270fec805fd695333646062da00db54efc3146f4bfbf1a2c15778b1e8b8c1296e923af25d21"

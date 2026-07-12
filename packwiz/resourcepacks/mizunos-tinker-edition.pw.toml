@@ -1,0 +1,13 @@
+name = "Mizuno's | Tinker Edition"
+filename = "Tinker_1.21.1-1.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/O2Uw36Xt/versions/unGNy3Gy/Tinker_1.21.1-1.0.zip"
+hash-format = "sha512"
+hash = "b34d4b395db0138cca10ac5ab8092e7ec924ff9e511efb1d55102844b1487a0d6e821e17fdfa5a3a111eb6b47300555b914f4f04cc43c363d116bd6fd37c9950"
+
+[update]
+[update.modrinth]
+mod-id = "O2Uw36Xt"
+version = "unGNy3Gy"

@@ -1,0 +1,8 @@
+name = "Ghoulcraft CIT - Food"
+filename = "[Food] Ghoulcraft 10-20-20.zip"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/aerhazu/CIT-Repository/main/minecraft/CITs/Ghoulcraft%20Collection/%5BFood%5D%20Ghoulcraft%2010-20-20.zip"
+hash-format = "sha512"
+hash = "43a9ed8611b2dbda87b3a4321a0db2d3ba46a6ae1e9ea5f46a4446de21b579a5e0a7be0f46f3f0114e4642a4012444c3df856384bd48ab3a01dd08725a3af49e"

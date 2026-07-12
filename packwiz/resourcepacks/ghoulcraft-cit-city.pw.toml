@@ -1,0 +1,8 @@
+name = "Ghoulcraft CIT - City"
+filename = "[City] Ghoulcraft 10-20-20.zip"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/aerhazu/CIT-Repository/main/minecraft/CITs/Ghoulcraft%20Collection/%5BCity%5D%20Ghoulcraft%2010-20-20.zip"
+hash-format = "sha512"
+hash = "ea3120792a2943ff2740297f623c30ce01916d52f1e009e0d555b3b9ebceccceeb9f6a84b792f4a699a06a37c0452410c8cd8bf564245b24966b427177e90d20"

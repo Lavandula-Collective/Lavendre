@@ -1,0 +1,13 @@
+name = "Mizuno's Pig Variants x FA"
+filename = "Mizuno's Pig Variant x FA 2.2.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Vjw6C0IS/versions/aFNjmSNB/Mizuno%27s%20Pig%20Variant%20x%20FA%202.2.zip"
+hash-format = "sha512"
+hash = "8881949d351658842134be255481857dcd5605127cc80a97286d7bd7285cb947cfe971b565692757e9ff78dbde2dcea4b07f196f000cae2708d540c06bd12775"
+
+[update]
+[update.modrinth]
+mod-id = "Vjw6C0IS"
+version = "aFNjmSNB"

@@ -1,0 +1,8 @@
+name = "Hananacraft CIT"
+filename = "Hananacraft v1.3.4.zip"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/aerhazu/CIT-Repository/main/minecraft/CITs/Hananacraft%20v1.3.4.zip"
+hash-format = "sha512"
+hash = "0bb43888e7ca77e561393ca89534b033fcf4e8370dd1f8e84364d7c463c976caa621a42ba9d1a6247222ec52a746968f8ccc457b5ea760163bac975ef624d3c2"

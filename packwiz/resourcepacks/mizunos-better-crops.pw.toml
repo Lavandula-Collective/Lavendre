@@ -1,0 +1,13 @@
+name = "Mizuno's Better Crops"
+filename = "Mizuno's Better Crops 1.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/hAUAjkzE/versions/6PMQmvjw/Mizuno%27s%20Better%20Crops%201.1.zip"
+hash-format = "sha512"
+hash = "9e15f319d33cc27b177ece551ce1ca456055bce265c6747aaa939ffcf8321a8cc0e5c83b71dcc1d3d1deb7e9096ef1f03fabfab9cc90ae7472eb11396363fbbe"
+
+[update]
+[update.modrinth]
+mod-id = "hAUAjkzE"
+version = "6PMQmvjw"
