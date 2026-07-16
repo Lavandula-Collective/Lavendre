@@ -36,6 +36,12 @@ run/config/xaero/minimap/*
 run/config/crash_assistant/*
 !run/config/crash_assistant/config.toml
 
+### Others ###
+CIT Catalog/
+
+### Packwiz ###
+packwiz/config/*
+
 ### gradle ####
 .gradle
 build/
