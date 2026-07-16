@@ -1,6 +1,122 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/betterf3.json"
+hash = "52a5d28b85f00d448a5c5fecdbbe5430dac4cfc2799be301451d50e480b35987"
+
+[[files]]
+file = "config/chatpatches.json"
+hash = "88cc5d41b3bafdcd184e2a229ad2a20a18a19c161567830ec735dcaf40c15fab"
+
+[[files]]
+file = "config/crash_assistant/config.toml"
+hash = "06f32ffeeedc10dfc28041529ea4134122a7576bbb1491700d1e19c197106cf7"
+
+[[files]]
+file = "config/fancymenu/assets/gss.json"
+hash = "05f3fc3ace0e87d5435b5f358872e3e22148c5d5170ff0846c1bbfe13884ed29"
+
+[[files]]
+file = "config/fancymenu/assets/lavendre_title.png"
+hash = "5cbfc945f3ad4b66c8bacb7db6946ac55d616ae3dfa28b9b63e300cd595e6849"
+
+[[files]]
+file = "config/fancymenu/assets/resources_guide.md"
+hash = "55edca1cd9089c33c9b775565493ce10574fe2c7552e3fbd70238f5619213795"
+
+[[files]]
+file = "config/fancymenu/custom_gui_screens.txt"
+hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "60e857a37d37c22434cc9a8e2b90ffe05d2e92337c62879300a289c59428c35d"
+
+[[files]]
+file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
+hash = "d212a3c74057a76f0cf1af3ae2e820ce2a58e3f3d70288ae9ae0c2c11b659df9"
+
+[[files]]
+file = "config/fancymenu/customization/lavendre_options_screen_layout.txt"
+hash = "804b72e57dc2f1ca5629ed42ff675da9115e2e6480134e10c89c3e86052385b9"
+
+[[files]]
+file = "config/fancymenu/customization/lavendre_pause_screen_layout.txt"
+hash = "a5ba226d5ea4a033467a128394d0643960fd00b0303c7c303ca66c65d18f8c54"
+
+[[files]]
+file = "config/fancymenu/customization/lavendre_title_screen_layout.txt"
+hash = "7e814386377e33bc16dc2fafa83636d35cf81505fd382d6f3b36df3d7b12a573"
+
+[[files]]
+file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+hash = "a0ae34b1bc49e7190a0997c1186ce09c4b21d4956d069bb0e05282aed9bc2363"
+
+[[files]]
+file = "config/fancymenu/legacy_checklist.txt"
+hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+
+[[files]]
+file = "config/fancymenu/normalized_scroll_screens.json"
+hash = "9bdd808b0e3e8a7fa3f0f3b543da5905e53cf20b5bceff2a8eac542d5fec56e1"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "404d8c51a47b127e68ed7edb8e6dba9b83c73e060792a1b26523f97ac5ab69ea"
+
+[[files]]
+file = "config/fancymenu/ui_themes/cherry_blossom.json"
+hash = "993c16664fe2d1b9e8ad107bf1c19c1dbb244729c403ed058ca2e54616dc5452"
+
+[[files]]
+file = "config/fancymenu/ui_themes/cozy_campfire.json"
+hash = "1e7505231b9d99e6315845043ce810dfc7004ce1d8f5a4ceddb4ecb96c03ac50"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark.json"
+hash = "01e2a3b5d250c0259a7f97f0d353785bfeab6d7ee2e147c16bb910f1d23e9498"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark_high_contrast.json"
+hash = "54316a2b309ddb472b9133f8ccb8694dce9b57be6ebcfb3c2e9d1bbfdade3f26"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light.json"
+hash = "a05e95f7b62f338049fe0045d9a6a50060d3aba52d5ab83ac1ed6ff55cac1153"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light_high_contrast.json"
+hash = "7c96ba2f2cb4d59d20eaf88960de7a9308ce8a3460c4e1757e07c42e174ea65a"
+
+[[files]]
+file = "config/fancymenu/ui_themes/pumpkin_soup.json"
+hash = "7c6a5d5b19e53ca2f88371c2e867f51339b045697aab29864df5877a6bba9311"
+
+[[files]]
+file = "config/fancymenu/ui_themes/purple_void.json"
+hash = "fa63577441fd576ebac90ecf06b7ded376cbf80ca5103d398bc9a73a25c6c2c0"
+
+[[files]]
+file = "config/fancymenu/ui_themes/spooky_season.json"
+hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
+
+[[files]]
+file = "config/fancymenu/user_variables.db"
+hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
+
+[[files]]
+file = "config/isxander-main-menu-credits.json"
+hash = "05217315101ef25bdfddb205eac06c0f981901da6a45e0e489a2563ba2ce3294"
+
+[[files]]
+file = "config/presencefootsteps/userconfig.json"
+hash = "8ac0d8f3eb2387bd02d9a3d933e69deb85c9c83206010d87fcee01049e850c53"
+
+[[files]]
+file = "config/xaero/minimap/common.cfg"
+hash = "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "abd853502542de7e87f6bbe6d4f08f1185058689fe8a5b2cafafab0d2c74a2d5"
 metafile = true
@@ -632,7 +748,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/ghoulcraft-cit-garden.pw.toml"
-hash = "cf81cd463c64957206335adbaa74308519b8bf25172de366907cb6488890bf46"
+hash = "a8296c57cc25cd2150046dd836c80af32e17f88dfd08c031a2719df0334a79d0"
 metafile = true
 
 [[files]]
@@ -652,7 +768,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/ghoulcraft-cit-mega.pw.toml"
-hash = "bd64edeb50446c276a4d679bb14b9978deb847f9000652d1585c5a23af6614ed"
+hash = "ac3e846dccf523d8c615a32aa67e799594c335d7bc59c22c392d051bc18b270b"
 metafile = true
 
 [[files]]
@@ -697,7 +813,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/mizuno-cit.pw.toml"
-hash = "206b1ffdbcb43ca2cf301f89ca7f900baf813f08f24a117f25557a4b2eab52ad"
+hash = "43d19402e91dd3609bb898777b7ee309412d47bc841c131fc6878bf196badfae"
 metafile = true
 
 [[files]]
