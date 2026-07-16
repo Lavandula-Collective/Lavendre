@@ -108,17 +108,37 @@ tasks.register("installPack", Exec) {
             "http://localhost:8080/pack.toml"
     )
 }
+tasks.register("syncConfigs") {
+    doLast {
+        copy {
+            from("run/config") {
+                // Files
+                include("crash_assistant/config.toml")
+                include("presencefootsteps/userconfig.json")
+                include("xaero/minimap/common.cfg")
+                include("betterf3.json")
+                include("chatpatches.json")
+                include("isxander-main-menu-credits.json")
+
+                // Folders
+                include("fancymenu/**")
+            }
+
+            into("packwiz/config")
+        }
+    }
+}
 ///
 /// [COMMAND] "./gradlew pack build=#" - Packages downloaded modpacks, resources, etc. for Modrinth upload or external launcher testing. enter build number on #. Outputs to build/distribution.
 ///
 tasks.named("runClient") {
-    dependsOn("installPack")
+    dependsOn("installPack", "syncConfigs")
 }
 tasks.register("pack", Zip) {
     group = "modpack"
     description = "Packages the modpack for Modrinth."
 
-    dependsOn("installPack")
+    dependsOn("installPack", "syncConfigs")
 
     def buildNumber = project.findProperty("build")
 
@@ -137,19 +157,7 @@ tasks.register("pack", Zip) {
     }
 
     // Configs
-    from("run/config/fancymenu") {
-        into("config")
-    }
-    from("run/config/isxander-main-menu-credits.json") {
-        into("config")
-    }
-    from("run/config/betterf3.json") {
-        into("config")
-    }
-    from("run/config/chatpatches.json") {
-        into("config")
-    }
-    from("run/config/presencefootsteps/userconfig.json") {
+    from("packwiz/config") {
         into("config")
     }
 
