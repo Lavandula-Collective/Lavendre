@@ -21,6 +21,7 @@ run/config/*
 !run/config/isxander-main-menu-credits.json
 !run/config/betterf3.json
 !run/config/chatpatches.json
+!run/config/sounds
 ### Presence Footsteps ###
 !run/config/presencefootsteps/
 run/config/presencefootsteps/*
@@ -30,11 +31,17 @@ run/config/presencefootsteps/*
 run/config/xaero/*
 !run/config/xaero/minimap/
 run/config/xaero/minimap/*
-!run/config/xaero/minimap/common.cfg
+!run/config/xaero/minimap/profiles/
+run/config/xaero/minimap/profiles*
+!
 ### Crash Assistant ###
 !run/config/crash_assistant/
 run/config/crash_assistant/*
 !run/config/crash_assistant/config.toml
+### JEI ###
+!run/config/jei/
+run/config/jei/*
+!run/config/jei/jei-client.ini
 
 ### Others ###
 CIT Catalog/
