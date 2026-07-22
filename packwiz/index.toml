@@ -106,7 +106,7 @@ hash = "d267e2cb16ce71dbc20b8f966e5793b008429c7bd2c0f3f2acb6e8c238c18832"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "3c9519c5f58b566df60ca95541222b3e42d8c41783ec24be89ae30f554c16e20"
+hash = "ae887171d90331f7945aa21cb3f35a9b220e98405aa5bc0d64880a133c2b4c2f"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -162,7 +162,7 @@ hash = "8ac0d8f3eb2387bd02d9a3d933e69deb85c9c83206010d87fcee01049e850c53"
 
 [[files]]
 file = "config/sounds/chat.json"
-hash = "3b193b652c71887a642444f0d0899154767cfab07eadc09b82ce4378cad51768"
+hash = "d2f3927cd92c47d2bbb587d1c3050a9d5c33de7d16bf86360d9ee1ca981d1d0d"
 
 [[files]]
 file = "config/sounds/event.json"
