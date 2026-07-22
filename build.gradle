@@ -115,13 +115,15 @@ tasks.register("syncConfigs") {
                 // Files
                 include("crash_assistant/config.toml")
                 include("presencefootsteps/userconfig.json")
-                include("xaero/minimap/common.cfg")
+                include("jei/jei-client.ini")
                 include("betterf3.json")
                 include("chatpatches.json")
                 include("isxander-main-menu-credits.json")
 
                 // Folders
                 include("fancymenu/**")
+                include("sounds/**")
+                include("xaero/minimap/profiles/**")
             }
 
             into("packwiz/config")
@@ -161,11 +163,6 @@ tasks.register("pack", Zip) {
         into("config")
     }
 
-    // Default configs
-    from("run/defaultconfigs") {
-        into("defaultconfigs")
-    }
-
     // Resource packs
     from("run/resourcepacks") {
         into("resourcepacks")
@@ -183,5 +180,4 @@ tasks.register("pack", Zip) {
 
     // Optional files
     from("run/options.txt")
-    from("run/optionsshaders.txt")
 }
