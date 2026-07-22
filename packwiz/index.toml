@@ -6,7 +6,7 @@ hash = "52a5d28b85f00d448a5c5fecdbbe5430dac4cfc2799be301451d50e480b35987"
 
 [[files]]
 file = "config/chatpatches.json"
-hash = "88cc5d41b3bafdcd184e2a229ad2a20a18a19c161567830ec735dcaf40c15fab"
+hash = "fc9d92cfccc7288b28fbe53750ae2d31e09854511bff7752ffffbd21b772bcaf"
 
 [[files]]
 file = "config/crash_assistant/config.toml"
@@ -15,6 +15,14 @@ hash = "06f32ffeeedc10dfc28041529ea4134122a7576bbb1491700d1e19c197106cf7"
 [[files]]
 file = "config/fancymenu/assets/gss.json"
 hash = "05f3fc3ace0e87d5435b5f358872e3e22148c5d5170ff0846c1bbfe13884ed29"
+
+[[files]]
+file = "config/fancymenu/assets/icon_pixelated.png"
+hash = "ca15f3003c87db7448a5fd436576dc737b1352ae3ed46d76eec0326ffe039f34"
+
+[[files]]
+file = "config/fancymenu/assets/lavendre_random.txt"
+hash = "311d2485db2a3e0107399d715502ca575c4084b2bd30aaa287b8bbb862363f10"
 
 [[files]]
 file = "config/fancymenu/assets/lavendre_title.png"
@@ -26,27 +34,39 @@ hash = "55edca1cd9089c33c9b775565493ce10574fe2c7552e3fbd70238f5619213795"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
-hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+hash = "5b1fb4f898ae94bacea7fdd1a50cf50e7148e8235c24b2f3d6926e25d229532d"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "60e857a37d37c22434cc9a8e2b90ffe05d2e92337c62879300a289c59428c35d"
+hash = "d3cb54f5f8d40dfad8de65aa6f0d9f912982f1a14dc064bcb46cb9d5f0fbfe64"
+
+[[files]]
+file = "config/fancymenu/customization/credits_and_attribution_screen_layout.txt"
+hash = "59f06c30c6f9564765519c527a207318f03f183681ea316577ff7087a6f3ab31"
 
 [[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
-hash = "d212a3c74057a76f0cf1af3ae2e820ce2a58e3f3d70288ae9ae0c2c11b659df9"
+hash = "f51a6764278eba1371576c7fba0fa33f64a4f25908ed29e371902367982a7b74"
+
+[[files]]
+file = "config/fancymenu/customization/io.github.aerhazu.lavendre.credits_layout.txt"
+hash = "aab1372c3c38c771d1755182967fbbd211491cde8e5bb3738f4c1bf534eb0a64"
 
 [[files]]
 file = "config/fancymenu/customization/lavendre_options_screen_layout.txt"
-hash = "804b72e57dc2f1ca5629ed42ff675da9115e2e6480134e10c89c3e86052385b9"
+hash = "fac662d8e4e2db1acb2811e0fd2acd6963466af0d62e8c2fca36d576eb585182"
+
+[[files]]
+file = "config/fancymenu/customization/lavendre_pack_selection_screen_layout.txt"
+hash = "89f737a86eb1e092bec915245699aa8d70a13222cb1045087ff8844ddeaa6b05"
 
 [[files]]
 file = "config/fancymenu/customization/lavendre_pause_screen_layout.txt"
-hash = "a5ba226d5ea4a033467a128394d0643960fd00b0303c7c303ca66c65d18f8c54"
+hash = "b93379ab869b3cfbb30092ddc36d69b835649a74b087b346e7fcf996993862ba"
 
 [[files]]
 file = "config/fancymenu/customization/lavendre_title_screen_layout.txt"
-hash = "7e814386377e33bc16dc2fafa83636d35cf81505fd382d6f3b36df3d7b12a573"
+hash = "178ac0a36cdee4b694f76b1f97cd1fa3b9772034c0deb453463fd2983b891412"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -58,11 +78,11 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/normalized_scroll_screens.json"
-hash = "9bdd808b0e3e8a7fa3f0f3b543da5905e53cf20b5bceff2a8eac542d5fec56e1"
+hash = "5a3f27046be8e84e2491dbe69bbb25ca5d49e8555d49135128851e310150e518"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "404d8c51a47b127e68ed7edb8e6dba9b83c73e060792a1b26523f97ac5ab69ea"
+hash = "ebbeb1dfddb647a92f9e03b59197dc36c1bec1bf5879b86d7f065d9100b56d51"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -106,15 +126,47 @@ hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "05217315101ef25bdfddb205eac06c0f981901da6a45e0e489a2563ba2ce3294"
+hash = "f4b4cf2cb7b2ebf0e1fdc18233f737363168d3c1259a39f142d95a0c20789515"
+
+[[files]]
+file = "config/jei/jei-client.ini"
+hash = "ee2a0135c02b43c7b475c20e023ecded28f57e23af535fbe360c0b618461055b"
 
 [[files]]
 file = "config/presencefootsteps/userconfig.json"
 hash = "8ac0d8f3eb2387bd02d9a3d933e69deb85c9c83206010d87fcee01049e850c53"
 
 [[files]]
-file = "config/xaero/minimap/common.cfg"
-hash = "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0"
+file = "config/sounds/chat.json"
+hash = "4d0374e6ad061c8fbe06aa83904defd88a67ef0259cddd69a796ee553490b9e2"
+
+[[files]]
+file = "config/sounds/event.json"
+hash = "6245d6fd01be9aac33c2c7967fb795b8542a21526623ffc19a85596b3a6e1d1f"
+
+[[files]]
+file = "config/sounds/mod_utils.json"
+hash = "73bbae09724ff8b670c902211f355b73101fbe5e144c6134174ca84e49371818"
+
+[[files]]
+file = "config/sounds/ui.json"
+hash = "6745bbaa3dcd3d2ec6b51e5afac1311796402438d64c86d2029cc97ce925dbf4"
+
+[[files]]
+file = "config/sounds/world.json"
+hash = "f8f1818ba5c8887bd01973839f9a413c1232cc1a1c4be7e5c72250ff2af042e7"
+
+[[files]]
+file = "config/xaero/minimap/profiles/default.cfg"
+hash = "699aa382d30d593a4000f37cb0b441558d0dceefc890c6df411d5f69ebe3205c"
+
+[[files]]
+file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
+hash = "b78887937acc1f06fb7a4b00cb7e84402b435efaa9c62639135b81608fcd9bee"
+
+[[files]]
+file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
+hash = "9e1877c0fae35b98a139b86199a1e19e2425179a1bf8415e6bf9d1a5c7827638"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -199,6 +251,11 @@ metafile = true
 [[files]]
 file = "mods/chatpatches.pw.toml"
 hash = "50a6452407be21007f1cdd1b24244734bf59588878c7791d9bcfb45078eef8a4"
+metafile = true
+
+[[files]]
+file = "mods/cit-manager.pw.toml"
+hash = "1f76a5bb39ef8f818707a9bf5e5e45bd5f63c4f2087d414db4016812aafc59c2"
 metafile = true
 
 [[files]]
@@ -357,6 +414,11 @@ hash = "1d5799cd3b6ea714602c18546b99ba894e7511835b77803304792468fb7ee187"
 metafile = true
 
 [[files]]
+file = "mods/flash.pw.toml"
+hash = "fd39f92be7217d120beb79c905a5c6da2a0f824dba936e1a84591c4d4af1ad3d"
+metafile = true
+
+[[files]]
 file = "mods/flashback.pw.toml"
 hash = "3c5a9ee28529be499d10661f4547086cc86e9ab63b5f73b9b5b25767b8ccd1bd"
 metafile = true
@@ -492,6 +554,11 @@ hash = "b9651d06e56ad51c1cdcf4b03b6a34328b7dc941f263ff92b189ee26a47cc224"
 metafile = true
 
 [[files]]
+file = "mods/modmenu.pw.toml"
+hash = "4a33f888af603e0859359f44b068854e4148d4fba35ee0818bb977171236a805"
+metafile = true
+
+[[files]]
 file = "mods/moreculling.pw.toml"
 hash = "714334a18735cf73c4ac91d2d465845f3e22d4fcf04eebd3e0fd2579afb6d8a2"
 metafile = true
@@ -607,8 +674,8 @@ hash = "55a727cabdd9d6e84fb0232b49d0dfa207751002e7f1f63b959baa35e2f29868"
 metafile = true
 
 [[files]]
-file = "mods/rrls.pw.toml"
-hash = "16dbaca6ead0782c38759729d228b863119f104c10b3a0e85a7875c3111a611e"
+file = "mods/rsls.pw.toml"
+hash = "ab2e57c3a1d78bbe81cfbf6709b9ca1c532ac4fb920924ed233ca88e84ef2960"
 metafile = true
 
 [[files]]
@@ -697,6 +764,16 @@ hash = "af20070dd9497817a83162c17b181a0a44f7213ea302d059a81c5aed02d0c877"
 metafile = true
 
 [[files]]
+file = "mods/yungs-api.pw.toml"
+hash = "4d98bdba90cdeae788a747bb6fe7d438ba49fdc4eb67c38d4573304eec4a2ef8"
+metafile = true
+
+[[files]]
+file = "mods/yungs-menu-tweaks.pw.toml"
+hash = "486344643491c3745e4ccef40d98f987f4448345be36c34827b3b62ce8d2dd7e"
+metafile = true
+
+[[files]]
 file = "mods/zoomify.pw.toml"
 hash = "96f866de9f3ebaa42dfcb92392684c241ff189f82ce24c3e7a32c1d0b8f37db8"
 metafile = true
@@ -719,11 +796,6 @@ metafile = true
 [[files]]
 file = "resourcepacks/fa-player-extension.pw.toml"
 hash = "2e1a6866e4366cebe200dcf71ab52923b7653f76dc48741b93411ee3bf77372a"
-metafile = true
-
-[[files]]
-file = "resourcepacks/fresh-animations-extensions.pw.toml"
-hash = "a609bfde1f92ebb5c5462a9a7aa0464888b5bdb271392c81787ff3e27239ce4a"
 metafile = true
 
 [[files]]
@@ -877,6 +949,21 @@ hash = "6129953229fca86f427a7f2ae1daf6ca3e13ab35c6dba10ae5b4c50b16ceac3e"
 metafile = true
 
 [[files]]
+file = "resourcepacks/serified-font.pw.toml"
+hash = "f0c8256be8502a337263dc0463e3dd95bfb82957c88e58c59647dbe42afcaf6b"
+metafile = true
+
+[[files]]
 file = "resourcepacks/translations-for-sodium.pw.toml"
 hash = "f7f951d79622a7100947fdab4c3f61d4ee0cb0b412beb5af3dfb5ab188388600"
+metafile = true
+
+[[files]]
+file = "shaderpacks/bsl-shaders.pw.toml"
+hash = "f91c2ec79366b4607d93928a07c223cbaa4a2e18fe0c110e68a3fc064e69b65a"
+metafile = true
+
+[[files]]
+file = "shaderpacks/makeup-ultra-fast-shaders.pw.toml"
+hash = "6e3714b3eee005229146eb0c36a911380f209fac39fedeaa0f2d303d7ca06402"
 metafile = true

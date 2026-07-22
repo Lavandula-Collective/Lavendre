@@ -1,0 +1,13 @@
+name = "Flash"
+filename = "flash-2.1.1-fabric.1.21.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Zmu8jXWA/versions/Ktzbblxh/flash-2.1.1-fabric.1.21.jar"
+hash-format = "sha512"
+hash = "a731629cae159327a6c5a02e821c244dfe43db58d4356d4ef4018b7a0ffc50a604ac9d28ac17458fa948c95223246743231a6a39bf29cbe9c05fa3d52787261e"
+
+[update]
+[update.modrinth]
+mod-id = "Zmu8jXWA"
+version = "Ktzbblxh"
