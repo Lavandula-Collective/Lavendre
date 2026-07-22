@@ -32,9 +32,6 @@ run/config/xaero/*
 !run/config/xaero/minimap/
 run/config/xaero/minimap/*
 !run/config/xaero/minimap/profiles/
-run/config/xaero/minimap/profiles/*
-!run/config/xaero/minimap/profiles/default.cfg
-
 ### Crash Assistant ###
 !run/config/crash_assistant/
 run/config/crash_assistant/*
