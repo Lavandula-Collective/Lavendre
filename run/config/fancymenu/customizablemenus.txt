@@ -9,6 +9,15 @@ net.minecraft.client.gui.screen.GameMenuScreen {
 net.minecraft.client.gui.screen.option.OptionsScreen {
 }
 
+net.minecraft.client.gui.screen.pack.PackScreen {
+}
+
+com.blamejared.controlling.client.NewKeyBindsScreen {
+}
+
 net.minecraft.client.gui.screen.TitleScreen {
+}
+
+net.minecraft.client.gui.screen.option.CreditsAndAttributionScreen {
 }
 

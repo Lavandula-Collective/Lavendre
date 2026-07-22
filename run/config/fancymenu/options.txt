@@ -7,7 +7,7 @@ B:play_vanilla_menu_music = 'true';
 
 ##[customization]
 
-B:modpack_mode = 'false';
+B:modpack_mode = 'true';
 B:show_customization_overlay = 'false';
 B:advanced_customization_mode = 'true';
 
@@ -16,7 +16,7 @@ B:advanced_customization_mode = 'true';
 
 B:game_intro_fade_out = 'true';
 S:game_intro_sound_channel = 'master';
-S:preload_resources = '';
+S:preload_resources = 'true';
 B:allow_game_intro_skip = 'true';
 S:game_intro_animation_name = '';
 F:game_intro_volume = '1.0';

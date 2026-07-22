@@ -4,7 +4,11 @@
     "top_right": [],
     "bottom_left": [
       {
-        "text": "§dLavendre §f0.0.1"
+        "clickEvent" : {
+          "action" : "open_url",
+          "value" : "https:\/\/modrinth.com\/project\/lavendre\/"
+        },
+        "text" : "Lavendre v0.0.1-beta"
       }
     ],
     "bottom_right": [
@@ -20,15 +24,27 @@
   },
   "pause_menu": {
     "top_left": [],
-    "top_right": [],
-    "bottom_left": [
+    "top_right": [
       {
-        "text": "§dLavendre §f0.0.1"
+        "text" : "Press §G§f to open CIT Manager/List."
       }
     ],
-    "bottom_right": [
+    "bottom_left": [
       {
-        "text": "Need help? Join The Pond §9Discord§f."
+        "clickEvent" : {
+          "action" : "open_url",
+          "value" : "https:\/\/modrinth.com\/project\/lavendre\/"
+        },
+        "text" : "Lavendre v0.0.1-beta"
+      }
+    ],
+    "bottom_right" : [
+      {
+        "clickEvent" : {
+          "action" : "open_url",
+          "value" : "https:\/\/bit.ly\/LavendreMasterCatalog\/"
+        },
+        "text" : "Open Lavendre CIT Master Catalog here."
       }
     ],
     "mod_blacklist": []
