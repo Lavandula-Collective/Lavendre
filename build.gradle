@@ -124,6 +124,7 @@ tasks.register("syncConfigs") {
                 include("fancymenu/**")
                 include("sounds/**")
                 include("xaero/minimap/profiles/**")
+                include("simple-rpc/**")
             }
 
             into("packwiz/config")
