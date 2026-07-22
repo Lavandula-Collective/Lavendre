@@ -1,0 +1,23 @@
+type = customizablemenus
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+com.blamejared.controlling.client.NewKeyBindsScreen {
+}
+
+net.minecraft.class_442 {
+}
+
+net.minecraft.class_429 {
+}
+
+net.minecraft.class_5375 {
+}
+
+net.minecraft.class_8219 {
+}
+
+net.minecraft.class_433 {
+}
+

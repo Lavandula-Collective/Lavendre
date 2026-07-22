@@ -7,8 +7,8 @@ B:play_vanilla_menu_music = 'true';
 
 ##[customization]
 
-B:modpack_mode = 'true';
-B:show_customization_overlay = 'false';
+B:modpack_mode = 'false';
+B:show_customization_overlay = 'true';
 B:advanced_customization_mode = 'true';
 
 
@@ -25,11 +25,11 @@ S:custom_game_intro_skip_text = '';
 
 ##[window]
 
-B:show_custom_window_icon = 'false';
-S:custom_window_icon_macos = '';
-S:custom_window_icon_32 = '';
+B:show_custom_window_icon = 'true';
+S:custom_window_icon_macos = '/config/fancymenu/assets/pack_icon.icns';
+S:custom_window_icon_32 = '/config/fancymenu/assets/pack_icon_32.png';
 S:custom_window_title = '';
-S:custom_window_icon_16 = '';
+S:custom_window_icon_16 = '/config/fancymenu/assets/pack_icon_16.png';
 
 
 ##[global_customizations]
@@ -40,7 +40,7 @@ S:global_button_background_normal = '';
 B:global_button_label_shadow = 'true';
 S:global_button_background_inactive = '';
 B:global_button_background_nine_slice = 'false';
-S:global_button_label_hover_color = '';
+S:global_button_label_hover_color = '#F2D8FFFF';
 F:global_slider_label_scale = '1.0';
 S:global_button_label_base_color = '';
 S:global_button_click_sound = '';

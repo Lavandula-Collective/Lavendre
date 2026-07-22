@@ -1,0 +1,52 @@
+{
+  "main_menu": {
+    "top_left": [],
+    "top_right": [],
+    "bottom_left": [
+      {
+        "clickEvent" : {
+          "action" : "open_url",
+          "value" : "https:\/\/modrinth.com\/project\/lavendre\/"
+        },
+        "text" : "Lavendre v0.0.1-beta"
+      }
+    ],
+    "bottom_right": [
+      {
+        "text": "Based on Fabulously Optimized 6.5.0",
+        "clickEvent": {
+          "action": "open_url",
+          "value": "https://fabulously-optimized.github.io/"
+        }
+      }
+    ],
+    "mod_blacklist": []
+  },
+  "pause_menu": {
+    "top_left": [],
+    "top_right": [
+      {
+        "text" : "Press §G§f to open CIT Manager/List."
+      }
+    ],
+    "bottom_left": [
+      {
+        "clickEvent" : {
+          "action" : "open_url",
+          "value" : "https:\/\/modrinth.com\/project\/lavendre\/"
+        },
+        "text" : "Lavendre v0.0.1-beta"
+      }
+    ],
+    "bottom_right" : [
+      {
+        "clickEvent" : {
+          "action" : "open_url",
+          "value" : "https:\/\/bit.ly\/LavendreMasterCatalog\/"
+        },
+        "text" : "Open Lavendre CIT Master Catalog here."
+      }
+    ],
+    "mod_blacklist": []
+  }
+}

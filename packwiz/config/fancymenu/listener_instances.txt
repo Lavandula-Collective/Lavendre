@@ -1,0 +1,15 @@
+type = listener_instances
+
+listener_instance {
+  listener_instance_identifier = 5716cb17-97d5-4a60-9f06-f7bdb5cb1ff3-1784713681582
+  listener_provider_identifier = world_entered
+  listener_instance_action_script_identifier = 70d97666-c983-4a68-a77e-2021c713afbd-1784713681582
+  [executable_action_instance:91e24a64-1362-4e19-a611-919adda70606-1784713720134][action_type:opengui] = new_world
+  [executable_block:874f00df-10b0-4209-bafe-b4468a6b2480-1784713715292][type:if] = [executables:91e24a64-1362-4e19-a611-919adda70606-1784713720134;]
+  [if_executable_block_body:874f00df-10b0-4209-bafe-b4468a6b2480-1784713715292] = a038cba3-0f1b-401e-8ce0-fbf3a9ed079b-1784713684023
+  [loading_requirement_container_meta:a038cba3-0f1b-401e-8ce0-fbf3a9ed079b-1784713684023] = [groups:][instances:24e794d0-d704-461c-84ef-7db7cdbf21cd-1784713685341;]
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:24e794d0-d704-461c-84ef-7db7cdbf21cd-1784713685341] = ["mode":"equals","text":"$$world_is_first_join","compare_with":"TRUE"]$
+  [if_executable_block_collapsed:874f00df-10b0-4209-bafe-b4468a6b2480-1784713715292] = false
+  [executable_block:70d97666-c983-4a68-a77e-2021c713afbd-1784713681582][type:generic] = [executables:874f00df-10b0-4209-bafe-b4468a6b2480-1784713715292;]
+}
+
