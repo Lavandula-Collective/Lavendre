@@ -35,11 +35,21 @@ You are permitted to:
 
 Unless you have obtained prior written permission from the Lavendre team, you may **not**:
 
-- Redistribute Lavendre or modified versions of the modpack.
+- Redistribute Lavendre or any modified version of the modpack.
 - Reupload Lavendre to other websites, launchers, mirrors, or file-hosting services.
-- Create and publicly distribute derivative versions or forks of the modpack.
+- Publish or distribute forks or derivative versions of Lavendre.
 - Sell, monetize, or commercially distribute Lavendre, in whole or in part.
-- Remove, alter, or obscure any credits, notices, or attributions included with the modpack.
+- Remove or alter any credits, notices, or attributions included with the modpack.
+
+Cloning or forking the public source repository for **personal use, development, or contributing to the project** is permitted. However, publicly distributing builds or modified versions of Lavendre without prior written permission is prohibited.
+
+---
+
+## Source Code
+
+The Lavendre GitHub repository is publicly available to encourage transparency, issue reporting, and community contributions.
+
+Access to the source repository does **not** grant permission to redistribute compiled builds, modified releases, or bundled third-party content except where permitted by the respective licenses or with prior written permission.
 
 ---
 
