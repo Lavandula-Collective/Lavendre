@@ -2,7 +2,7 @@
 
 # Lavendre Modpack License
 
-**Copyright © 2026 Gabriel Guiang (AerHazu). All Rights Reserved.**
+**Copyright © 2026 Aerhazu. All Rights Reserved.**
 
 *A custom license governing the distribution and use of the Lavendre Modpack.*
 
