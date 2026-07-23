@@ -50,7 +50,7 @@ hash = "403ac68d9631749bfd6873d34ad2907f2653b2f6d22a4ba0ea41d31b62e37687"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "3e2e71313bf068d088178eac2aad3a43fb9d7e2775f7796c7d3504469535ae08"
+hash = "0acd6a74bf168b53ddcd006a3aaf8f34374554363afa5b81244f471eece6ed5a"
 
 [[files]]
 file = "config/fancymenu/customization/credits_and_attribution_screen_layout.txt"
@@ -161,8 +161,16 @@ file = "config/presencefootsteps/userconfig.json"
 hash = "8ac0d8f3eb2387bd02d9a3d933e69deb85c9c83206010d87fcee01049e850c53"
 
 [[files]]
+file = "config/simple-rpc/server-entries.toml"
+hash = "6dfd7e6dfd8bb89d93c9eadc92716a7d8cd05005f526beec8174db4ca3ebb019"
+
+[[files]]
+file = "config/simple-rpc/simple-rpc.toml"
+hash = "58df0b4489b96c98a1fe752f7bf94fe63b1b6ebc13bc1fe19841c3d053d578ba"
+
+[[files]]
 file = "config/sounds/chat.json"
-hash = "d2f3927cd92c47d2bbb587d1c3050a9d5c33de7d16bf86360d9ee1ca981d1d0d"
+hash = "8d755cbca5a29c0d26a0238825ba45f3e432c736d507439a92a049e5c3bb4fc3"
 
 [[files]]
 file = "config/sounds/event.json"
@@ -668,6 +676,11 @@ hash = "2e2c1b47b513663871e71c89a699c66ac9fcc97633f007ed064ce4410f220f5a"
 metafile = true
 
 [[files]]
+file = "mods/platform.pw.toml"
+hash = "246e7782ef2cab501af48f56353de9d6a46f3479dcb12f282152eeacd03b7e60"
+metafile = true
+
+[[files]]
 file = "mods/polytone.pw.toml"
 hash = "3803246d2ee5dc93f6c241e8e3d6d2e28b0d0ba523253fc1111c54215fab49a3"
 metafile = true
@@ -765,6 +778,11 @@ metafile = true
 [[files]]
 file = "mods/trowel.pw.toml"
 hash = "358c974c2b3bb204e3b7af527e32e5939af2261ec5aebb57a87b19a7848f4a05"
+metafile = true
+
+[[files]]
+file = "mods/vanillabackport.pw.toml"
+hash = "0865bcf91d32cd710ac30a282a3c2202816670942c5175f7f475a29aeb3fe19b"
 metafile = true
 
 [[files]]
