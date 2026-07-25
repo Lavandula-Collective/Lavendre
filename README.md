@@ -6,7 +6,7 @@
 [![Version](https://img.shields.io/modrinth/v/lavendre?style=for-the-badge&logo=modrinth&logoColor=lightgreen)](https://modrinth.com/modpack/lavendre)
 [![Minecraft](https://img.shields.io/modrinth/game-versions/lavendre?style=for-the-badge&logo=minecraft&label=MC)](https://modrinth.com/modpack/lavendre)
 ![Fabric](https://img.shields.io/badge/Requires%20-Fabric%20API-%23dbd0b4?style=for-the-badge)
-[![License](https://img.shields.io/badge/License-ARR-D8BFD8?style=for-the-badge)](LICENSE.md)
+[![License](https://img.shields.io/badge/License-ARR-D8BFD8?style=for-the-badge)](https://github.com/aerhazu/Lavendre/blob/master/LICENSE.md)
 
 </div>
 <div align="center">
@@ -32,7 +32,7 @@ Welcome to cottagecore Minecraft. Built upon Mizuno's 16 Craft, Lavendre blends 
       <a href="https://modrinth.com/modpack/lavendre/">Install ↗</a>
     </td>
     <td align="center">
-      <a href="BUILD.md">Build from Source ↗</a>
+      <a href="https://github.com/aerhazu/Lavendre/blob/master/BUILD.md">Build from Source ↗</a>
     </td>
     <td align="center">
       <a href="https://github.com/aerhazu/Lavendre/issues">GitHub Issues ↗</a>
