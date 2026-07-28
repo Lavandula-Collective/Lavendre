@@ -396,6 +396,16 @@ hash = "582070fa54fe1743a837c0351eee7ea4a79080e647d5438656d372ae9433b272"
 metafile = true
 
 [[files]]
+file = "mods/dynamiccrosshair.pw.toml"
+hash = "08154559c426512b546b5c270c6ab01cdabc09dad78b693e1213f5539e15f56c"
+metafile = true
+
+[[files]]
+file = "mods/dynamiccrosshaircompat.pw.toml"
+hash = "38018ffa9f90036aae28efe27816b317c1dd2cb63851237680e1c62c5c278d52"
+metafile = true
+
+[[files]]
 file = "mods/ebe.pw.toml"
 hash = "b1f89407254a20cde6c60994a6315bd841b7f562669a1d29b436ec97463ff2ae"
 metafile = true
@@ -583,6 +593,11 @@ metafile = true
 [[files]]
 file = "mods/modelfix.pw.toml"
 hash = "d12b136e07f6f83a1e199aabe430426d19702c9f69e55731092b5d5c2f3fb69f"
+metafile = true
+
+[[files]]
+file = "mods/modern-world-creation.pw.toml"
+hash = "532d9a1544dfdfbccb0a623b72df56583efffb4e8d3f5e2144b00933d8881111"
 metafile = true
 
 [[files]]
