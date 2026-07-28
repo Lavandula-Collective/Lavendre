@@ -1,7 +1,7 @@
 <div align="center">
 <img src="https://github.com/aerhazu/Lavendre/blob/master/assets/pack_icon.png"> 
 
-# Lavendre
+# Lavendre 1.21.1
 
 </div>
 <div align="center">
@@ -10,7 +10,7 @@
 > [!NOTE]
 > **This is the stable branch of Lavendre.**
 >
-> It contains the latest complete, polished, and officially supported version of the modpack.
+> It contains the latest complete, polished, and LTS version of the modpack.
 >
 > New features are thoroughly tested before being merged here, making this the recommended branch for players, pack maintainers, and contributors seeking a reliable development base.
 
