@@ -119,6 +119,7 @@ tasks.register("syncConfigs") {
                 include("betterf3.json")
                 include("chatpatches.json")
                 include("isxander-main-menu-credits.json")
+                include("smooth_steps.json")
 
                 // Folders
                 include("fancymenu/**")
