@@ -23,6 +23,7 @@ run/config/*
 !run/config/chatpatches.json
 !run/config/sounds
 !run/client/simple-rpc
+!run/config/smooth_steps.json
 ### Presence Footsteps ###
 !run/config/presencefootsteps/
 run/config/presencefootsteps/*
