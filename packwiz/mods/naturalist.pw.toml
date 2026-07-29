@@ -1,0 +1,13 @@
+name = "Naturalist"
+filename = "naturalist-2.0.2-fabric-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/F8BQNPWX/versions/R17tPorv/naturalist-2.0.2-fabric-1.21.1.jar"
+hash-format = "sha512"
+hash = "c623d51f52dc2b93447ce94308a60c975020d4b7ddb8156614e8bfb9fd4601d81c1e65b66980e26db5c1205d794c09edaebe68f7892631b043a7e262c95cfb56"
+
+[update]
+[update.modrinth]
+mod-id = "F8BQNPWX"
+version = "R17tPorv"
