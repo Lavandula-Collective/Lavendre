@@ -8,7 +8,7 @@
           "action" : "open_url",
           "value" : "https:\/\/modrinth.com\/project\/lavendre\/"
         },
-        "text" : "Lavendre v0.0.1-beta"
+        "text" : "Lavendre 1.0.0"
       }
     ],
     "bottom_right": [
@@ -24,18 +24,14 @@
   },
   "pause_menu": {
     "top_left": [],
-    "top_right": [
-      {
-        "text" : "Press §G§f to open CIT Manager/List."
-      }
-    ],
+    "top_right": [],
     "bottom_left": [
       {
         "clickEvent" : {
           "action" : "open_url",
           "value" : "https:\/\/modrinth.com\/project\/lavendre\/"
         },
-        "text" : "Lavendre v0.0.1-beta"
+        "text" : "Lavendre 1.0.0"
       }
     ],
     "bottom_right" : [
