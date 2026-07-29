@@ -1,0 +1,13 @@
+name = "DBTools for Axiom"
+filename = "DBTools-2.2.2_AX_5.4.2_MC1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6SWRzDjk/versions/WS2CVDi6/DBTools-2.2.2_AX_5.4.2_MC1.21.1.jar"
+hash-format = "sha512"
+hash = "f524fb97617d46526df4288dae677ebdd5349aaa258879929ba673d5b4d97dd6bd765728388eeb99422a89c1cc34b8f15cc3daa4a0e8bb7e20773097bcc18adf"
+
+[update]
+[update.modrinth]
+mod-id = "6SWRzDjk"
+version = "WS2CVDi6"
