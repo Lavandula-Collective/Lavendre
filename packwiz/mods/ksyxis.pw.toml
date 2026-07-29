@@ -1,6 +1,6 @@
 name = "Ksyxis"
 filename = "Ksyxis-1.4.3.jar"
-side = "server"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/2ecVyZ49/versions/kL32PN9Q/Ksyxis-1.4.3.jar"

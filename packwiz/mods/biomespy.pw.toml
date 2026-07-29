@@ -1,6 +1,6 @@
 name = "BiomeSpy"
 filename = "biomespy-fabric-1.21.1-1.3.3.jar"
-side = "server"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/OieZFwRr/versions/TEEDNibG/biomespy-fabric-1.21.1-1.3.3.jar"
