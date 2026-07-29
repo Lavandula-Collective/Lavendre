@@ -1,12 +1,12 @@
 name = "Lavendre"
 author = "Aerhazu"
-version = "0.0.1"
+version = "1.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "9f4c4ac5e8e2e2eabba7328c254d865e322b4665b1c1d0af425f63fc5fc2c291"
+hash = "5cb15bad4f8c0867be8b2d37454fd6dfc54b94d8c7825c19e1ff2651b86b4a20"
 
 [versions]
 fabric = "0.19.3"
