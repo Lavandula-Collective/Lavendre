@@ -1,0 +1,13 @@
+name = "Universal Bushy Leaves"
+filename = "Universal Bushy Leaves.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/K2QW8EcS/versions/BfDuXLe3/Universal%20Bushy%20Leaves.zip"
+hash-format = "sha512"
+hash = "ec4b6dc6c504ee6c29d7a42490176c7e6095b7a1276a73f467fa2fadc9e6c3dfc742b512607593c7409cdaf7713d3a8c682b64982f2a408c07e499598e4edbdb"
+
+[update]
+[update.modrinth]
+mod-id = "K2QW8EcS"
+version = "BfDuXLe3"
