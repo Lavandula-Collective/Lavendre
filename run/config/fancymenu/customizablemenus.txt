@@ -6,12 +6,18 @@ de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 com.blamejared.controlling.client.NewKeyBindsScreen {
 }
 
-net.minecraft.client.gui.screen.TitleScreen {
+net.minecraft.class_429 {
 }
 
-net.minecraft.client.gui.screen.option.OptionsScreen {
+net.minecraft.class_8219 {
 }
 
-net.minecraft.client.gui.screen.pack.PackScreen {
+net.minecraft.class_5375 {
+}
+
+net.minecraft.class_433 {
+}
+
+net.minecraft.class_442 {
 }
 
