@@ -4,8 +4,8 @@ overridden_screens {
 }
 
 custom_gui {
-  identifier = new_world
-  title = 
+  identifier = about
+  title = About Lavendre
   allow_esc = true
   transparent_world_background = true
   transparent_world_background_overlay = true

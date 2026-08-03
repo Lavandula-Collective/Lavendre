@@ -1,7 +1,7 @@
 ##[general]
 
-I:default_gui_scale = '-1';
-B:force_fullscreen = 'false';
+I:default_gui_scale = '2';
+B:force_fullscreen = 'true';
 B:play_vanilla_menu_music = 'false';
 
 
@@ -18,7 +18,7 @@ B:game_intro_fade_out = 'true';
 S:game_intro_sound_channel = 'master';
 S:preload_resources = 'true';
 B:allow_game_intro_skip = 'true';
-S:game_intro_animation_name = '[source:local]/config/fancymenu/assets/mojang_intro.mp4';
+S:game_intro_animation_name = '';
 F:game_intro_volume = '1.0';
 S:custom_game_intro_skip_text = '';
 
@@ -43,7 +43,7 @@ B:global_button_background_nine_slice = 'false';
 S:global_button_label_hover_color = '#F2D8FFFF';
 F:global_slider_label_scale = '1.0';
 S:global_button_label_base_color = '';
-S:global_button_click_sound = '';
+S:global_button_click_sound = '[source:local]/config/fancymenu/assets/audios/interface/click_003.ogg';
 S:global_slider_label_base_color = '';
 B:global_button_label_underline_on_hover = 'false';
 I:global_button_background_nine_slice_border_right = '5';
@@ -58,7 +58,7 @@ S:global_button_label_scale_raw = '';
 I:global_slider_handle_nine_slice_border_right = '5';
 S:global_slider_label_hover_color = '';
 I:global_slider_background_nine_slice_border_bottom = '5';
-S:global_menu_music_tracks = '[source:local]/config/fancymenu/assets/after_tea_party.ogg%!source_end!%[source:local]/config/fancymenu/assets/around_the_moon_in_eighty_worlds.ogg%!source_end!%[source:local]/config/fancymenu/assets/old_tales_inscribed_in_verse.ogg%!source_end!%[source:local]/config/fancymenu/assets/the_gleaming_thread.ogg%!source_end!%[source:local]/config/fancymenu/assets/we_choose_the_moon.ogg%!source_end!%[source:local]/config/fancymenu/assets/where_the_cricket_sings.ogg%!source_end!%';
+S:global_menu_music_tracks = '[source:local]/config/fancymenu/assets/audios/after_tea_party.ogg%!source_end!%[source:local]/config/fancymenu/assets/audios/around_the_moon_in_eighty_worlds.ogg%!source_end!%[source:local]/config/fancymenu/assets/audios/old_tales_inscribed_in_verse.ogg%!source_end!%[source:local]/config/fancymenu/assets/audios/the_gleaming_thread.ogg%!source_end!%[source:local]/config/fancymenu/assets/audios/we_choose_the_moon.ogg%!source_end!%[source:local]/config/fancymenu/assets/audios/where_the_cricket_sings.ogg%!source_end!%';
 I:global_slider_background_nine_slice_border_left = '5';
 S:global_button_background_hover = '';
 I:global_button_background_nine_slice_border_top = '5';
@@ -72,7 +72,7 @@ B:seamless_world_loading = 'false';
 B:global_slider_background_transparent = 'false';
 S:global_slider_handle_normal = '';
 I:global_slider_background_nine_slice_border_right = '5';
-S:global_background_panorama = '';
+S:global_background_panorama = 'Lavendre Panorama';
 I:global_slider_handle_nine_slice_border_left = '5';
 S:global_menu_background_texture = '';
 
@@ -110,11 +110,11 @@ B:enable_element_tilting_controls = 'true';
 ##[ui]
 
 B:enable_ui_animations = 'true';
-S:ui_scale_v2 = 'auto';
+S:ui_scale_v2 = 'small';
 I:context_menu_hover_open_speed = '1';
-S:ui_theme = 'dark';
+S:ui_theme = 'purple_void';
 B:pip_window_docking = 'true';
-B:enable_ui_blur = 'false';
+B:enable_ui_blur = 'true';
 F:ui_blur_intensity = '3.0';
 B:use_minecraft_font = 'false';
 B:play_ui_click_sounds = 'true';
