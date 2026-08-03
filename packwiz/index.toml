@@ -13,36 +13,52 @@ file = "config/crash_assistant/config.toml"
 hash = "c513273c79ceccfe5894b744f7565f648d752dd17b71db85139e3caa696318d4"
 
 [[files]]
-file = "config/fancymenu/assets/after_tea_party.ogg"
+file = "config/fancymenu/assets/apple_inc.png"
+hash = "021b008531a8bbdba7e5e28dd116cd123638e43dcb6cd81958d55129f958ff85"
+
+[[files]]
+file = "config/fancymenu/assets/audios/after_tea_party.ogg"
 hash = "f5712f5c14f4cb9a2f75a25b590b5f3b65be919d10e154c6b52109ddd0d931f3"
 
 [[files]]
-file = "config/fancymenu/assets/around_the_moon_in_eighty_worlds.ogg"
+file = "config/fancymenu/assets/audios/around_the_moon_in_eighty_worlds.ogg"
 hash = "d99001bec8764e52fc68e666a1ed3a40e28f789761bf529691e06482f5ef5bc0"
 
 [[files]]
-file = "config/fancymenu/assets/icon_pixelated.png"
-hash = "ca15f3003c87db7448a5fd436576dc737b1352ae3ed46d76eec0326ffe039f34"
+file = "config/fancymenu/assets/audios/interface/click_003.ogg"
+hash = "2fa929138bc3a0f432696588f66eac94b8f6d463905ec8808c6461ce4b054292"
+
+[[files]]
+file = "config/fancymenu/assets/audios/macos_warning.ogg"
+hash = "6ac83ed1327a3f25fc5c81e416bb5dd5a92410bff2df1cf4d9b11035dd8087d3"
+
+[[files]]
+file = "config/fancymenu/assets/audios/old_tales_inscribed_in_verse.ogg"
+hash = "568b841643d67be16d92f4a4025681e81375cb5be18aa339a5301ed262f87d5e"
+
+[[files]]
+file = "config/fancymenu/assets/audios/the_gleaming_thread.ogg"
+hash = "b18fe309a6ab46d0b1ade74500a4a110297e6781ee816f93cc28b714bd893767"
+
+[[files]]
+file = "config/fancymenu/assets/audios/we_choose_the_moon.ogg"
+hash = "27c1ea397c5bb9d9b8bc70768f21e5204cfb55462570a450db5cd6dbea0e943a"
+
+[[files]]
+file = "config/fancymenu/assets/audios/where_the_cricket_sings.ogg"
+hash = "949fd22a59d1fa79d9d88d79969c14615a81433725002c37e66e724cf290f81e"
 
 [[files]]
 file = "config/fancymenu/assets/lavendre_title.png"
-hash = "5cbfc945f3ad4b66c8bacb7db6946ac55d616ae3dfa28b9b63e300cd595e6849"
+hash = "77bca633f0f39736ae571bf7911f476430f2beb49e7f86e52284401f3531a597"
 
 [[files]]
 file = "config/fancymenu/assets/mizuno.png"
 hash = "88b9a5852caa85ec172d20eb1a323d0d766307f4fdeb81fb81f4f0cd5e8e8a09"
 
 [[files]]
-file = "config/fancymenu/assets/mojang_intro.mp4"
-hash = "9e4d8f23dbd7382e5948dcaee063541a640399881aa197ee38d6625d84310370"
-
-[[files]]
-file = "config/fancymenu/assets/old_tales_inscribed_in_verse.ogg"
-hash = "568b841643d67be16d92f4a4025681e81375cb5be18aa339a5301ed262f87d5e"
-
-[[files]]
 file = "config/fancymenu/assets/order.jpg"
-hash = "36079404055144af1a3e50894851e3a2470900190a3b0ec3674724e3996e41a5"
+hash = "e2bb9743711c5435cc3d1307b79c9e7ceb5d6157d8121ef5325e57383f8b5d8c"
 
 [[files]]
 file = "config/fancymenu/assets/pack_icon.icns"
@@ -65,128 +81,144 @@ file = "config/fancymenu/assets/pack_icon_64.png"
 hash = "c32914461026f960f4bf0c4297912b18713def84ebe8e0c749cad99fed658e66"
 
 [[files]]
-file = "config/fancymenu/assets/the_gleaming_thread.ogg"
-hash = "b18fe309a6ab46d0b1ade74500a4a110297e6781ee816f93cc28b714bd893767"
-
-[[files]]
-file = "config/fancymenu/assets/we_choose_the_moon.ogg"
-hash = "27c1ea397c5bb9d9b8bc70768f21e5204cfb55462570a450db5cd6dbea0e943a"
-
-[[files]]
-file = "config/fancymenu/assets/where_the_cricket_sings.ogg"
-hash = "949fd22a59d1fa79d9d88d79969c14615a81433725002c37e66e724cf290f81e"
-
-[[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
-hash = "da9c748ff3d67a9aaa50453f8c687d063449ba2e9e637edc178d5d567fadef12"
+hash = "74554f7b79f3f52e082373ae56fbf34ccc475841fc5c543369f810784b641794"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "9ced844bdd2bdcdaef95fe35558b472b7a7e70e1730cfd4bbbc795406760e595"
+hash = "77f8b9d993dcc591daffb461649fc0e74f4ccf43c385ebe839b955887a2c56a7"
+
+[[files]]
+file = "config/fancymenu/customization/about_lavedre_layout.txt"
+hash = "0714890fa55d49c9a8aba75276acddac34c8e926fa42d24b0446595808b5ee64"
+
+[[files]]
+file = "config/fancymenu/customization/about_layout.txt"
+hash = "716c8bf232cac8985a6e7a37a2bd8866cc1401193aff952d6c974867ad364e1c"
 
 [[files]]
 file = "config/fancymenu/customization/credits_and_attribution_screen_layout.txt"
-hash = "36003812f00dbcc1b8eba830a480f35f2d3edda22853b5bcc4245bf8db97ea12"
+hash = "f4afbcb0d600c87698ee164d18566bb4e1071626796de08ca0a59d6633f9dab1"
 
 [[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
-hash = "e530d4d9e7e199c1f493711226579ca4d47217c52014cb4414bcc8a56a0e86f3"
+hash = "a4afd6e1f41ee9e56fd46e2e211da351bdf13ee44b471f25a18f0b4dcf88ac6a"
 
 [[files]]
 file = "config/fancymenu/customization/io.github.aerhazu.lavendre.credits_layout.txt"
-hash = "1c5f614337a5a5a07e036545be3d0a36f928215f2774157ed7c1ebe00849949f"
+hash = "aab1372c3c38c771d1755182967fbbd211491cde8e5bb3738f4c1bf534eb0a64"
 
 [[files]]
 file = "config/fancymenu/customization/io.github.aerhazu.lavendre.packorder_layout.txt"
-hash = "05feeef23b71939f3ce9f73a8073a37e17085a5fa93964797e04e6eb4dcc535d"
+hash = "1f386a64fa748df44422dfb15882948fa82ff3ef6fee84784e39ce3294452ceb"
 
 [[files]]
 file = "config/fancymenu/customization/lavendre_options_screen_layout.txt"
-hash = "03b1934ca57a6859dc65af1e1da8356ab7dbb2df385884671bfe493d88d8acbb"
+hash = "077858aa61e153d9b79f4b7654a4bd54397fcf9535615c833f99a8055c90e6ce"
 
 [[files]]
 file = "config/fancymenu/customization/lavendre_pack_selection_screen_layout.txt"
-hash = "c8a23ce0af765c9349755d2603e32c7a59ee197f190d0175501b318112374852"
+hash = "13cdf3bf70cfa52d64ae1c5d39f0d69862bba470648d5a82d3375c6be41c2f7e"
 
 [[files]]
 file = "config/fancymenu/customization/lavendre_pause_screen_layout.txt"
-hash = "bb9ecd5aad81b2ff14853538878f32a20ecfa2d75b8bca79920f3d155c592c25"
+hash = "6a7f5afead1fb1fa75650beee6d6c8baff97750fe0f45e975bad312279eed9f6"
 
 [[files]]
 file = "config/fancymenu/customization/lavendre_title_screen_layout.txt"
-hash = "b8bede759ff21155235d895ee6525fbe45518f952fc19cbc8e9e04ace456d60a"
-
-[[files]]
-file = "config/fancymenu/customization/macos_warn_title_screen_layout.txt"
-hash = "365ce4d512418d8f12e77759335a42869bf809acf982448e6d8d46863eea8a4b"
+hash = "9edc02bff77b6f3654ce1183cbbdd676874fdabd7804708ec3ed5828d10c3401"
 
 [[files]]
 file = "config/fancymenu/customization/missing_title_screen_layout.txt"
-hash = "7e34b00b9bf32431518dca9abceffc7ad43602718059fcf6cdd03a2872c965a6"
+hash = "c64de65f557cdd3e4c3c47b3c237079e958f4c23789c0779e57ab837bb570662"
 
 [[files]]
 file = "config/fancymenu/customization/mizuno_title_screen_layout.txt"
-hash = "b6d53b65456dc5b08841c8dc7cb664c48f8d84f12a912f4ecd39dbf6f95af8d0"
-
-[[files]]
-file = "config/fancymenu/customization/new_world_layout.txt"
-hash = "bab0a01b4a6e70e2cd50cbdab9a64847da818dff30e55a89ef9f57a58f6dc1d0"
+hash = "eeaa4bb9b97f7ad71b6242907a367e3c6a8a5f71058c699ed62614cf886c5b86"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "795b81df9004cfd5e4105a0aad484d9a91122880135df21dea4ebcd4da0b7e06"
+hash = "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
-hash = "878c9368bec63cd86822b28ceca345704ebaa411f7b72dd0bb4e682235b790e1"
+hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/listener_instances.txt"
-hash = "86d2f24dd6b7d1e15847ab68d921806d2f8105b069b4240af24fb80a7087095e"
+hash = "4851b9a66d7c10a423430a935fed54793eda06790038782519b25a628d104ed0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "373757840a6343fc09fc9376b09d7031d21303eb0502e5901365a51addfd8a94"
+hash = "a85b01fe3db8d174009ab223884ddbd2997474a305d074f46311b2faa30bdfd4"
+
+[[files]]
+file = "config/fancymenu/panoramas/Lavendre Panorama/panorama/panorama_0.png"
+hash = "18bee479342accfa000feb33c7416d70f9173ce96ae1e38ef5c1202519fa0412"
+
+[[files]]
+file = "config/fancymenu/panoramas/Lavendre Panorama/panorama/panorama_1.png"
+hash = "011072beaf3397ced93718b9e938f2e1c4bad1445bc40887d847334f65eb5a45"
+
+[[files]]
+file = "config/fancymenu/panoramas/Lavendre Panorama/panorama/panorama_2.png"
+hash = "20aced1fa4155d85961e79d6b53571d593b74193086a2afcff4f22e41f810c07"
+
+[[files]]
+file = "config/fancymenu/panoramas/Lavendre Panorama/panorama/panorama_3.png"
+hash = "392b8d28e3415d460de14b277020c14e66a20e10d0fb459d662fb1ab59ed05dc"
+
+[[files]]
+file = "config/fancymenu/panoramas/Lavendre Panorama/panorama/panorama_4.png"
+hash = "4a9cf60ff93defe319de84633e5cce93c3ae9535a106e58d68d312d0544efca1"
+
+[[files]]
+file = "config/fancymenu/panoramas/Lavendre Panorama/panorama/panorama_5.png"
+hash = "ed4fc0e5be2a63eebc2df2b8a123a334fc439ca9b6f48ecb73d699528ebbc21b"
+
+[[files]]
+file = "config/fancymenu/panoramas/Lavendre Panorama/properties.txt"
+hash = "edb91df7acf6d5ef885d92daa78b09654411de540d28c5c66cd4be488c261f96"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
-hash = "6c155e91e0a8088c0d301072860c9379d969fe1fff8948e10a6f8a1eb50e7035"
+hash = "993c16664fe2d1b9e8ad107bf1c19c1dbb244729c403ed058ca2e54616dc5452"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cozy_campfire.json"
-hash = "246bdf1c77a76cded940547e3364c45d54ca897e1c2cba709ea1f2e803b470be"
+hash = "1e7505231b9d99e6315845043ce810dfc7004ce1d8f5a4ceddb4ecb96c03ac50"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
-hash = "2173e14a16ea69fc7667cfaf44560be2feff776b392f3ca2ac229bae8198a0b4"
+hash = "01e2a3b5d250c0259a7f97f0d353785bfeab6d7ee2e147c16bb910f1d23e9498"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark_high_contrast.json"
-hash = "86ac00c41d37cda3716a8fd8bfc7853f27777808fa1abc921731cf3d3c28eb03"
+hash = "54316a2b309ddb472b9133f8ccb8694dce9b57be6ebcfb3c2e9d1bbfdade3f26"
 
 [[files]]
 file = "config/fancymenu/ui_themes/light.json"
-hash = "cc5243595f70be5d80252d35bb675d2aa9d4b492738c48b08d7c7e337e19a526"
+hash = "a05e95f7b62f338049fe0045d9a6a50060d3aba52d5ab83ac1ed6ff55cac1153"
 
 [[files]]
 file = "config/fancymenu/ui_themes/light_high_contrast.json"
-hash = "647fe87f548362dbf09181119632388c9bcc5a0c33f0ab1784ec4a2e08c60050"
+hash = "7c96ba2f2cb4d59d20eaf88960de7a9308ce8a3460c4e1757e07c42e174ea65a"
 
 [[files]]
 file = "config/fancymenu/ui_themes/pumpkin_soup.json"
-hash = "1bd373d3f6924b200bbef324965b88de7e79e74a49a61ddf4d265d31a61366f6"
+hash = "7c6a5d5b19e53ca2f88371c2e867f51339b045697aab29864df5877a6bba9311"
 
 [[files]]
 file = "config/fancymenu/ui_themes/purple_void.json"
-hash = "0d23d3f09912878e7c6ddde4a2d3ed0a4b84cc714226a05d3b03e46fba5e46a3"
+hash = "fa63577441fd576ebac90ecf06b7ded376cbf80ca5103d398bc9a73a25c6c2c0"
 
 [[files]]
 file = "config/fancymenu/ui_themes/spooky_season.json"
-hash = "1427d90097c55dff9e3a810711034bedf51a28cd874d92d93f7703bf95e96c18"
+hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
 
 [[files]]
 file = "config/fancymenu/user_variables.db"
-hash = "1b287025595ebc2862c9506ced6505f23189bd6f79c03bac717ad56d90c68394"
+hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
@@ -276,7 +308,7 @@ metafile = true
 
 [[files]]
 file = "mods/axiom.pw.toml"
-hash = "d96e1e5aa63a1a6023578fc3d8f4de1239da8bd105769c43ed2798082ff0acf3"
+hash = "32c2c966fe45ddc29f6c7b170a2a698e27d94df3013f56716f912a8d0bd43202"
 metafile = true
 
 [[files]]
@@ -426,7 +458,7 @@ metafile = true
 
 [[files]]
 file = "mods/dbtools.pw.toml"
-hash = "bcd9b583b41e038c1c09aeb281240137c63b0761594531be11503695f3e8bfcc"
+hash = "d2eb95d2f05deb3aa540f3b67d9e114d93086eacc579b1cade7c375e7e226eef"
 metafile = true
 
 [[files]]
@@ -507,6 +539,11 @@ metafile = true
 [[files]]
 file = "mods/fabrishot.pw.toml"
 hash = "5fb9a78e57ab296c8077e6167f23eff43321dece11bbb53339fb3c00ce38b0d0"
+metafile = true
+
+[[files]]
+file = "mods/fancy-entity-renderer.pw.toml"
+hash = "6a98d8d8f4c13b24243dc60c833e1c05b0c02762032d244251cc7e2dd4e0caa7"
 metafile = true
 
 [[files]]
