@@ -110,6 +110,8 @@ tasks.register("installPack", Exec) {
 }
 tasks.register("syncConfigs") {
     doLast {
+        delete("packwiz/config")
+
         copy {
             from("run/config") {
                 // Files
