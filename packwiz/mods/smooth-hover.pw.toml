@@ -1,0 +1,13 @@
+name = "Smooth Hover"
+filename = "smooth_hover-fabric-1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yQPKBg26/versions/swoyRmMj/smooth_hover-fabric-1.0.jar"
+hash-format = "sha512"
+hash = "2295c73fdd48b0df0c7e1489ce0697342dcf35fa73a616c5b9ad7ca954894964a7ece9bb6069bbe9939bd76009c89a56b7b2f8bbda084160630dfb383a3e78e9"
+
+[update]
+[update.modrinth]
+mod-id = "yQPKBg26"
+version = "swoyRmMj"
