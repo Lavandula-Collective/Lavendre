@@ -28,7 +28,7 @@
 		state = "Game Starting..."
 		largeImageKey = ["mclogo"]
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		smallImageKey = ["lavendre_icon"]
+		smallImageKey = ["lavendre_release_icon"]
 		smallImageText = "{{game.mods}} mods installed"
 		streamingActivityUrl = "https://twitch.tv/twitch"
 		buttons = []
@@ -43,7 +43,7 @@
 		type = "PLAYING"
 		description = "{{player.name}} is currently lazy"
 		state = "Chilling in the menu"
-		largeImageKey = ["lavendre_icon"]
+		largeImageKey = ["lavendre_release_icon"]
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		smallImageKey = ["{{images.player}}"]
 		smallImageText = "{{player.name}}"
@@ -94,7 +94,7 @@
 		type = "PLAYING"
 		description = "{{player.name}} is joining a game"
 		state = "Joining Game"
-		largeImageKey = ["lavendre_icon"]
+		largeImageKey = ["lavendre_release_icon"]
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		smallImageKey = ["{{images.player}}"]
 		smallImageText = "{{player.name}}"
@@ -111,7 +111,7 @@
 		type = "PLAYING"
 		description = "Currently In {{world.name}}"
 		state = "Playing lonely mode"
-		largeImageKey = ["lavendre_icon"]
+		largeImageKey = ["lavendre_release_icon"]
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		smallImageKey = ["{{images.player}}"]
 		smallImageText = "{{player.name}}"
@@ -128,7 +128,7 @@
 		type = "PLAYING"
 		description = "Playing on {{server.name}} with {{server.players.count}} players"
 		state = "Playing online"
-		largeImageKey = ["lavendre_icon"]
+		largeImageKey = ["lavendre_release_icon"]
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		smallImageKey = ["{{images.player}}"]
 		smallImageText = "{{player.name}}"
@@ -165,7 +165,7 @@
 		type = "PLAYING"
 		description = "In the Pause Menu"
 		state = "Game Paused"
-		largeImageKey = ["lavendre_icon"]
+		largeImageKey = ["lavendre_release_icon"]
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		smallImageKey = ["{{images.player}}"]
 		smallImageText = "{{player.name}}"
@@ -180,7 +180,7 @@
 		type = "PLAYING"
 		description = "Playing Minecraft"
 		state = ""
-		largeImageKey = ["lavendre_icon"]
+		largeImageKey = ["lavendre_release_icon"]
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
 		smallImageKey = ["mclogo"]
 		smallImageText = "{{game.mods}} mods installed"
@@ -207,7 +207,7 @@
 			type = "PLAYING"
 			description = "{{player.name}} is in The Overworld"
 			state = ""
-			largeImageKey = ["lavendre_icon"]
+			largeImageKey = ["lavendre_release_icon"]
 			largeImageText = "In the Overworld"
 			smallImageKey = ["overworld"]
 			smallImageText = "{{game.mods}} mods installed"
@@ -221,7 +221,7 @@
 			type = "PLAYING"
 			description = "{{player.name}} is in The Nether"
 			state = ""
-			largeImageKey = ["lavendre_icon"]
+			largeImageKey = ["lavendre_release_icon"]
 			largeImageText = "In the Nether"
 			smallImageKey = ["nether"]
 			smallImageText = "{{game.mods}} mods installed"
@@ -235,7 +235,7 @@
 			type = "PLAYING"
 			description = "{{player.name}} is in The End"
 			state = ""
-			largeImageKey = ["lavendre_icon"]
+			largeImageKey = ["lavendre_release_icon"]
 			largeImageText = "In the End"
 			smallImageKey = ["the_end"]
 			smallImageText = "{{game.mods}} mods installed"
