@@ -1,32 +1,100 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/accessories.json5"
+file = "config/defaultoptions/extra/config/accessories.json5"
 hash = "ff022e02369fe7d87db4eda00e38ea723e9867b200cb2f56bc25cec5db1d58c7"
 
 [[files]]
-file = "config/betterf3.json"
+file = "config/defaultoptions/extra/config/betterf3.json"
 hash = "043b9631fdc4f7346874e134bc5a679440738ac2719910d54d57be1d799bee15"
 
 [[files]]
-file = "config/chatpatches.json"
+file = "config/defaultoptions/extra/config/blur.json"
+hash = "ba1f1b6a7b68be8818bbad0346bf8dceae7276864dc12bf41011d13ca2fb76c7"
+
+[[files]]
+file = "config/defaultoptions/extra/config/chatpatches.json"
 hash = "5e82fc9245505808fbb4dbd2af7d808237c5fd62323fa14bdde4c98ac158f13c"
 
 [[files]]
-file = "config/clienttweaks-common.toml"
+file = "config/defaultoptions/extra/config/clienttweaks-common.toml"
 hash = "80c604690f625a670e8c57f15f47888695d8c4eb5f7bb8b7ae9bec162d0cf925"
 
 [[files]]
-file = "config/crash_assistant/config.toml"
+file = "config/defaultoptions/extra/config/cozytips.json"
+hash = "06cbf90cedcca132a1b77441ee60516e58380689bfc9ad160f7824a1a34c7235"
+
+[[files]]
+file = "config/defaultoptions/extra/config/crash_assistant/config.toml"
 hash = "c513273c79ceccfe5894b744f7565f648d752dd17b71db85139e3caa696318d4"
 
 [[files]]
+file = "config/defaultoptions/extra/config/isxander-main-menu-credits.json"
+hash = "04b8a3c63a1410b65a0926bc28737a428f9a17f2403bb71317505538401dfd7a"
+
+[[files]]
+file = "config/defaultoptions/extra/config/jei/jei-client.ini"
+hash = "0b1376f99930c8c129ddf90dc2c76c5936833d68a59db41390499b8a8a01c920"
+
+[[files]]
+file = "config/defaultoptions/extra/config/presencefootsteps/userconfig.json"
+hash = "50f20ad1933bf7fa13d6f7fc985556f7406625941d63fd2d7d7471bb8652c8c9"
+
+[[files]]
+file = "config/defaultoptions/extra/config/simple-rpc/server-entries.toml"
+hash = "c0f805a22438339d68aacf46339f6f9d47cd9737ab0a6e4c8af3b772f7028849"
+
+[[files]]
+file = "config/defaultoptions/extra/config/simple-rpc/simple-rpc.toml"
+hash = "62ff3164619e01857ca65d1bf48c10166ce6a81dd636edc96544505d89c683ed"
+
+[[files]]
+file = "config/defaultoptions/extra/config/smooth_steps.json"
+hash = "96566ac5e35092d08674483dd393b5cfefee594e5cbc1b68d40e1c80bfb17795"
+
+[[files]]
+file = "config/defaultoptions/extra/config/smoothgui.json"
+hash = "eba897511b34cf939777efd22071d3fb4be77728ca6c3211f646816a42fc7590"
+
+[[files]]
+file = "config/defaultoptions/extra/config/sounds/chat.json"
+hash = "b270e53b80852fbf3daf3f451e285f4aebf62fadf29751dc75e25fa17844be39"
+
+[[files]]
+file = "config/defaultoptions/extra/config/sounds/event.json"
+hash = "0d4ff749fa807115a05d71f2bb2aeb416810f3259bf28c0d264ab635adcf1ba8"
+
+[[files]]
+file = "config/defaultoptions/extra/config/sounds/mod_utils.json"
+hash = "8430925ec12d7546e2b6426a5eb7e1f3ca2f617602cfe291e396fefcc4d493a7"
+
+[[files]]
+file = "config/defaultoptions/extra/config/sounds/ui.json"
+hash = "187cd0705282dd8a1d9b7593e900d0054afa4b35216c91e1870593f4bf8103ba"
+
+[[files]]
+file = "config/defaultoptions/extra/config/sounds/world.json"
+hash = "d475eab1cea4ad0691dfe60089ac665f9176e48e55031d9c57ad4ae4faa5037f"
+
+[[files]]
+file = "config/defaultoptions/extra/config/xaero/minimap/profiles/default.cfg"
+hash = "49dc91a2f5431883217a413993c565d6a50e718f88078b132bed1199f5051e3b"
+
+[[files]]
+file = "config/defaultoptions/extra/config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
+hash = "b36f743aa750e11b0e7f851437f9c936214cbbd616c399e640ed3b2dafc7ae93"
+
+[[files]]
+file = "config/defaultoptions/extra/config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
+hash = "a111c2462196e282dca42d59ba7fc93ba74a1996a6e17f7ef0795a6473672875"
+
+[[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "bc4536b207934ba9ec62bc99329b4b41ac8717fecac41c687d17136c6b0eb0a2"
+hash = "0d2a1cdedaec03547fe7b9c7897f4f75257322751ab1ff7c5343802b1d183705"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "decdab1a9fd72468df3aa1f361eda4f14582fee6665bd1f58c8677a82c2a46dd"
+hash = "4eee248296b034a14efbda6aff55b2b620d0deef6fac5a5add0a93d50042c957"
 
 [[files]]
 file = "config/fancymenu/assets/aerhazu.png"
@@ -78,7 +146,7 @@ hash = "88b9a5852caa85ec172d20eb1a323d0d766307f4fdeb81fb81f4f0cd5e8e8a09"
 
 [[files]]
 file = "config/fancymenu/assets/order.jpg"
-hash = "e2bb9743711c5435cc3d1307b79c9e7ceb5d6157d8121ef5325e57383f8b5d8c"
+hash = "da621d57d64e1780d660aa6294db746642da225b11f67dd749621f3a3a693c8b"
 
 [[files]]
 file = "config/fancymenu/assets/pack_icon.icns"
@@ -106,7 +174,7 @@ hash = "74554f7b79f3f52e082373ae56fbf34ccc475841fc5c543369f810784b641794"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "9fc78807faa6eba843b96e5d3f8b12ab592e0be863172a39b056cc73963ccff5"
+hash = "b0ac9465287f0364d5665426fe1af7f4e40ca9dc43dd3037036bde386a7d0311"
 
 [[files]]
 file = "config/fancymenu/customization/about_lavedre_layout.txt"
@@ -122,7 +190,7 @@ hash = "f4afbcb0d600c87698ee164d18566bb4e1071626796de08ca0a59d6633f9dab1"
 
 [[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
-hash = "a4afd6e1f41ee9e56fd46e2e211da351bdf13ee44b471f25a18f0b4dcf88ac6a"
+hash = "9f4e88fadaaa1e45c724d23d3117f499d22fe79a8e01ed9e303223afdbed174e"
 
 [[files]]
 file = "config/fancymenu/customization/io.github.aerhazu.lavendre.credits_layout.txt"
@@ -130,7 +198,7 @@ hash = "aab1372c3c38c771d1755182967fbbd211491cde8e5bb3738f4c1bf534eb0a64"
 
 [[files]]
 file = "config/fancymenu/customization/io.github.aerhazu.lavendre.packorder_layout.txt"
-hash = "0868c16df6d38dc6135c99f417da6ee2ee8498daec49f35a19b1886ea35ce337"
+hash = "7cb9f2ae39392a37ce20dfd7b183a0128c5884c00d5009200db12a02bde090b1"
 
 [[files]]
 file = "config/fancymenu/customization/lavendre_options_screen_layout.txt"
@@ -138,11 +206,11 @@ hash = "077858aa61e153d9b79f4b7654a4bd54397fcf9535615c833f99a8055c90e6ce"
 
 [[files]]
 file = "config/fancymenu/customization/lavendre_pack_selection_screen_layout.txt"
-hash = "391f957ddc2c0aad45ccf0a06127f3fb0ef1c5b3c6e6746fadddd570b7c9c423"
+hash = "fa32c9a4fc16331064712dd652168d5080fd086693cc030b2d1a6e1edf290787"
 
 [[files]]
 file = "config/fancymenu/customization/lavendre_pause_screen_layout.txt"
-hash = "a4d77b908c88c5f274495a69b0ddeadd6d93fe2a10e69d46c8d066c0d5add513"
+hash = "a6409c83b6a6a0dd38ecd186477fb7f19efa258ffaf9d61cc79d324622e35ab0"
 
 [[files]]
 file = "config/fancymenu/customization/lavendre_title_screen_layout.txt"
@@ -150,7 +218,7 @@ hash = "c670bab59b948a815db2acab16f8c298ab6d061766deb4e2b291ae29bc087cc5"
 
 [[files]]
 file = "config/fancymenu/customization/lc.cit.list.texturelistscreen_layout.txt"
-hash = "bf0c315a40ffb2681981fafa4200867a1a1de74ef6cf8af333acf739a3e28dac"
+hash = "e1d7af2213c02759b5c5989646e30144778d3948503ce905a03bc42f5bea89d8"
 
 [[files]]
 file = "config/fancymenu/customization/missing_title_screen_layout.txt"
@@ -158,7 +226,7 @@ hash = "1f45957566bf58a6625db2ac17e3d42707ce7d8dbc0d7381e0e2a7e26ccaaa07"
 
 [[files]]
 file = "config/fancymenu/customization/mizuno_title_screen_layout.txt"
-hash = "9ccb644893b58a194985fd73fec761e8b2829f1ac0db2e01cd6c544aa2a48f25"
+hash = "df50669960cae676e31132bc863d03b334295cc0bc631a9b3340324703344a6c"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -243,62 +311,6 @@ hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
 [[files]]
 file = "config/fancymenu/user_variables.db"
 hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
-
-[[files]]
-file = "config/isxander-main-menu-credits.json"
-hash = "04b8a3c63a1410b65a0926bc28737a428f9a17f2403bb71317505538401dfd7a"
-
-[[files]]
-file = "config/jei/jei-client.ini"
-hash = "e1f59916d7b27cc354b9d9a5d50a1003f17325a78e85a8787101f38c45291d01"
-
-[[files]]
-file = "config/presencefootsteps/userconfig.json"
-hash = "50f20ad1933bf7fa13d6f7fc985556f7406625941d63fd2d7d7471bb8652c8c9"
-
-[[files]]
-file = "config/simple-rpc/server-entries.toml"
-hash = "c0f805a22438339d68aacf46339f6f9d47cd9737ab0a6e4c8af3b772f7028849"
-
-[[files]]
-file = "config/simple-rpc/simple-rpc.toml"
-hash = "62ff3164619e01857ca65d1bf48c10166ce6a81dd636edc96544505d89c683ed"
-
-[[files]]
-file = "config/smooth_steps.json"
-hash = "96566ac5e35092d08674483dd393b5cfefee594e5cbc1b68d40e1c80bfb17795"
-
-[[files]]
-file = "config/sounds/chat.json"
-hash = "b270e53b80852fbf3daf3f451e285f4aebf62fadf29751dc75e25fa17844be39"
-
-[[files]]
-file = "config/sounds/event.json"
-hash = "0d4ff749fa807115a05d71f2bb2aeb416810f3259bf28c0d264ab635adcf1ba8"
-
-[[files]]
-file = "config/sounds/mod_utils.json"
-hash = "8430925ec12d7546e2b6426a5eb7e1f3ca2f617602cfe291e396fefcc4d493a7"
-
-[[files]]
-file = "config/sounds/ui.json"
-hash = "187cd0705282dd8a1d9b7593e900d0054afa4b35216c91e1870593f4bf8103ba"
-
-[[files]]
-file = "config/sounds/world.json"
-hash = "d475eab1cea4ad0691dfe60089ac665f9176e48e55031d9c57ad4ae4faa5037f"
-
-[[files]]
-file = "config/xaero/minimap/profiles/default.cfg"
-hash = "49dc91a2f5431883217a413993c565d6a50e718f88078b132bed1199f5051e3b"
-
-[[files]]
-file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
-hash = "b36f743aa750e11b0e7f851437f9c936214cbbd616c399e640ed3b2dafc7ae93"
-
-[[files]]
-file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
-hash = "a111c2462196e282dca42d59ba7fc93ba74a1996a6e17f7ef0795a6473672875"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
