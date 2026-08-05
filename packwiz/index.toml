@@ -1,16 +1,36 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/accessories.json5"
+hash = "ff022e02369fe7d87db4eda00e38ea723e9867b200cb2f56bc25cec5db1d58c7"
+
+[[files]]
 file = "config/betterf3.json"
-hash = "443de85794cc99fc3d431cb599b82b2e6b460817ffbcb3f77dab20a2dde5615b"
+hash = "043b9631fdc4f7346874e134bc5a679440738ac2719910d54d57be1d799bee15"
 
 [[files]]
 file = "config/chatpatches.json"
 hash = "5e82fc9245505808fbb4dbd2af7d808237c5fd62323fa14bdde4c98ac158f13c"
 
 [[files]]
+file = "config/clienttweaks-common.toml"
+hash = "80c604690f625a670e8c57f15f47888695d8c4eb5f7bb8b7ae9bec162d0cf925"
+
+[[files]]
 file = "config/crash_assistant/config.toml"
 hash = "c513273c79ceccfe5894b744f7565f648d752dd17b71db85139e3caa696318d4"
+
+[[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "bc4536b207934ba9ec62bc99329b4b41ac8717fecac41c687d17136c6b0eb0a2"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+hash = "decdab1a9fd72468df3aa1f361eda4f14582fee6665bd1f58c8677a82c2a46dd"
+
+[[files]]
+file = "config/fancymenu/assets/aerhazu.png"
+hash = "3913e9d9d17ce83f19173d4de21c3cf27d46b8c8c712617b812e28c0b7753f75"
 
 [[files]]
 file = "config/fancymenu/assets/apple_inc.png"
@@ -86,7 +106,7 @@ hash = "74554f7b79f3f52e082373ae56fbf34ccc475841fc5c543369f810784b641794"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "77f8b9d993dcc591daffb461649fc0e74f4ccf43c385ebe839b955887a2c56a7"
+hash = "9fc78807faa6eba843b96e5d3f8b12ab592e0be863172a39b056cc73963ccff5"
 
 [[files]]
 file = "config/fancymenu/customization/about_lavedre_layout.txt"
@@ -94,7 +114,7 @@ hash = "0714890fa55d49c9a8aba75276acddac34c8e926fa42d24b0446595808b5ee64"
 
 [[files]]
 file = "config/fancymenu/customization/about_layout.txt"
-hash = "716c8bf232cac8985a6e7a37a2bd8866cc1401193aff952d6c974867ad364e1c"
+hash = "10fe4b84b147a7e8594e682cee5ab65fdad34fb33ebe747cb695e62ffc1a8db9"
 
 [[files]]
 file = "config/fancymenu/customization/credits_and_attribution_screen_layout.txt"
@@ -110,7 +130,7 @@ hash = "aab1372c3c38c771d1755182967fbbd211491cde8e5bb3738f4c1bf534eb0a64"
 
 [[files]]
 file = "config/fancymenu/customization/io.github.aerhazu.lavendre.packorder_layout.txt"
-hash = "1f386a64fa748df44422dfb15882948fa82ff3ef6fee84784e39ce3294452ceb"
+hash = "0868c16df6d38dc6135c99f417da6ee2ee8498daec49f35a19b1886ea35ce337"
 
 [[files]]
 file = "config/fancymenu/customization/lavendre_options_screen_layout.txt"
@@ -118,23 +138,27 @@ hash = "077858aa61e153d9b79f4b7654a4bd54397fcf9535615c833f99a8055c90e6ce"
 
 [[files]]
 file = "config/fancymenu/customization/lavendre_pack_selection_screen_layout.txt"
-hash = "13cdf3bf70cfa52d64ae1c5d39f0d69862bba470648d5a82d3375c6be41c2f7e"
+hash = "391f957ddc2c0aad45ccf0a06127f3fb0ef1c5b3c6e6746fadddd570b7c9c423"
 
 [[files]]
 file = "config/fancymenu/customization/lavendre_pause_screen_layout.txt"
-hash = "6a7f5afead1fb1fa75650beee6d6c8baff97750fe0f45e975bad312279eed9f6"
+hash = "a4d77b908c88c5f274495a69b0ddeadd6d93fe2a10e69d46c8d066c0d5add513"
 
 [[files]]
 file = "config/fancymenu/customization/lavendre_title_screen_layout.txt"
-hash = "9edc02bff77b6f3654ce1183cbbdd676874fdabd7804708ec3ed5828d10c3401"
+hash = "c670bab59b948a815db2acab16f8c298ab6d061766deb4e2b291ae29bc087cc5"
+
+[[files]]
+file = "config/fancymenu/customization/lc.cit.list.texturelistscreen_layout.txt"
+hash = "bf0c315a40ffb2681981fafa4200867a1a1de74ef6cf8af333acf739a3e28dac"
 
 [[files]]
 file = "config/fancymenu/customization/missing_title_screen_layout.txt"
-hash = "c64de65f557cdd3e4c3c47b3c237079e958f4c23789c0779e57ab837bb570662"
+hash = "1f45957566bf58a6625db2ac17e3d42707ce7d8dbc0d7381e0e2a7e26ccaaa07"
 
 [[files]]
 file = "config/fancymenu/customization/mizuno_title_screen_layout.txt"
-hash = "eeaa4bb9b97f7ad71b6242907a367e3c6a8a5f71058c699ed62614cf886c5b86"
+hash = "9ccb644893b58a194985fd73fec761e8b2829f1ac0db2e01cd6c544aa2a48f25"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -150,7 +174,7 @@ hash = "4851b9a66d7c10a423430a935fed54793eda06790038782519b25a628d104ed0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "a85b01fe3db8d174009ab223884ddbd2997474a305d074f46311b2faa30bdfd4"
+hash = "5fd8458914efad737f5fdf51d414c99bbd17b5a0b26fe702c3ffa3ebc012ca76"
 
 [[files]]
 file = "config/fancymenu/panoramas/Lavendre Panorama/panorama/panorama_0.png"
@@ -238,7 +262,7 @@ hash = "c0f805a22438339d68aacf46339f6f9d47cd9737ab0a6e4c8af3b772f7028849"
 
 [[files]]
 file = "config/simple-rpc/simple-rpc.toml"
-hash = "58df0b4489b96c98a1fe752f7bf94fe63b1b6ebc13bc1fe19841c3d053d578ba"
+hash = "62ff3164619e01857ca65d1bf48c10166ce6a81dd636edc96544505d89c683ed"
 
 [[files]]
 file = "config/smooth_steps.json"
@@ -307,6 +331,11 @@ hash = "5b9618476350398ad0d25b5bf3a41521dd015baa22e4bfe8db685625a3a2c697"
 metafile = true
 
 [[files]]
+file = "mods/autohud.pw.toml"
+hash = "3d270afb5b08a65045bf8ace7ecd6acb458c33feab210b4829c719d45fdf85dc"
+metafile = true
+
+[[files]]
 file = "mods/axiom.pw.toml"
 hash = "32c2c966fe45ddc29f6c7b170a2a698e27d94df3013f56716f912a8d0bd43202"
 metafile = true
@@ -342,6 +371,11 @@ hash = "d51656043a844f54aebf1d52cac5d4597e2de563e828c99065503acce39adbbe"
 metafile = true
 
 [[files]]
+file = "mods/blur-plus.pw.toml"
+hash = "8e4e965d925ec5074a480e3d02ac522cd9b11fe72372a80654a65454128e9f6b"
+metafile = true
+
+[[files]]
 file = "mods/bridging-mod.pw.toml"
 hash = "171c5337cc5ecd1cd2ff7fecb0d21c8c5d1b550d2135db79096636b7252a8646"
 metafile = true
@@ -367,6 +401,16 @@ hash = "2554b0373a22a81fcc4b195d569130035dda531879480f016db3b2daf41de509"
 metafile = true
 
 [[files]]
+file = "mods/cherished-worlds.pw.toml"
+hash = "8f534cf725f8fc338c29453a25bbff94c5adba4f4b1815863f5d0f073b8f42e3"
+metafile = true
+
+[[files]]
+file = "mods/chunky.pw.toml"
+hash = "7fe287ca1bed0ad67f37e62a5816da7b7ae59486102c5e4b7532f0a999444527"
+metafile = true
+
+[[files]]
 file = "mods/cit-manager.pw.toml"
 hash = "0d103e90fb5943bb293864aab5f72ae071e7f40fcadfddc5ead306bc9df1b1ce"
 metafile = true
@@ -379,6 +423,11 @@ metafile = true
 [[files]]
 file = "mods/citx.pw.toml"
 hash = "da233d4b65e67ba5e4b25416ebd07667e5eb02f11e248774f16d711b77238a61"
+metafile = true
+
+[[files]]
+file = "mods/client-tweaks.pw.toml"
+hash = "c5958a670fa63e70465acc02b2a4f7edf834d1aa6946b5d39f14965759922873"
 metafile = true
 
 [[files]]
@@ -427,6 +476,11 @@ hash = "adc02cab0e4adfa83e1f89fa1f35b82973f0fb14ad24409f1d4d34aff2fef451"
 metafile = true
 
 [[files]]
+file = "mods/cozytips.pw.toml"
+hash = "51c687e832ab0b354892af41877a76d1af5933bd4fd563821f35e4061b827571"
+metafile = true
+
+[[files]]
 file = "mods/crash-assistant.pw.toml"
 hash = "5865b87a0691290aeda1cadf899b6b965a92453497d62c2e2534d33020b66f76"
 metafile = true
@@ -467,6 +521,11 @@ hash = "e3dbc76d36c6fdca359b48d56d179da8399dc928dd1ff4d265041eae0d89c480"
 metafile = true
 
 [[files]]
+file = "mods/default-options.pw.toml"
+hash = "dd17d79aae1c76edd58a5c8e51951da43acd431872a9c7c8fde82f327f0865a4"
+metafile = true
+
+[[files]]
 file = "mods/diagonal-fences.pw.toml"
 hash = "06212971373a06913512abb76b71d6b5aacf4d5c766fbdf3ecd37c5a1f09fd0b"
 metafile = true
@@ -479,6 +538,11 @@ metafile = true
 [[files]]
 file = "mods/diagonal-windows.pw.toml"
 hash = "6ccc12e9bcb9d8e2deebf27937d7e96ab7a34f9c05bc31de3f2b185617036bcd"
+metafile = true
+
+[[files]]
+file = "mods/draggable-lists.pw.toml"
+hash = "50de1919e6cc3104a4a2557b0644c15f5a56722cf76a19b194ec6ecf61bcae13"
 metafile = true
 
 [[files]]
@@ -499,11 +563,6 @@ metafile = true
 [[files]]
 file = "mods/dynamiccrosshaircompat.pw.toml"
 hash = "9c0a21e43a41cf4ececdc135ad6cd76664e9c61a579767daf086d0341257b96a"
-metafile = true
-
-[[files]]
-file = "mods/ebe.pw.toml"
-hash = "36d26044eeb09dc7a9cfc9be1970f4e2fdca97a8d9e51dc211bb026d4b63aa6a"
 metafile = true
 
 [[files]]
@@ -612,8 +671,18 @@ hash = "0083b336134ff78320076c4900874d4d1a48c96e1658a6b1259878b7d449aa91"
 metafile = true
 
 [[files]]
+file = "mods/immersive-hotbar.pw.toml"
+hash = "3febee460dc66c95501b3781886a9d987aacdf0e14587e8a1c7706234240f5b5"
+metafile = true
+
+[[files]]
 file = "mods/immersive-optimization.pw.toml"
 hash = "c91398720ed6dd88c4067b813ed41d543be127a6068f37b52d6ce96ba8c036d6"
+metafile = true
+
+[[files]]
+file = "mods/immersive-ui.pw.toml"
+hash = "8e54aa67b2e446ba49f4c0a877a87b9e22a72f61e30e5d9b650f97b5c0f335a4"
 metafile = true
 
 [[files]]
@@ -629,6 +698,11 @@ metafile = true
 [[files]]
 file = "mods/item-frame-tweaks.pw.toml"
 hash = "1fdaade8362b5e702b479fb19c9a3e38eef2b6f0ab686cb8efd7c62225273e89"
+metafile = true
+
+[[files]]
+file = "mods/ixeris.pw.toml"
+hash = "e5d035987cbb9668547b33c62953f0453450f3cf9bee25ea04a7cd9c5e9315ad"
 metafile = true
 
 [[files]]
@@ -772,6 +846,11 @@ hash = "94955e954f19a00a7018470ac6eca3446ee68795b8e9dc771d53558d2791cf6d"
 metafile = true
 
 [[files]]
+file = "mods/obe.pw.toml"
+hash = "72bd241bbf5fe9b9610be8c8dbe396c6924d51e3ab92a36381d77befc6bfb21e"
+metafile = true
+
+[[files]]
 file = "mods/optigui.pw.toml"
 hash = "8dda202fcda3dcb6bf921ab742ac401a2114b437baca959c0e7b5cbcd4e60903"
 metafile = true
@@ -824,6 +903,11 @@ metafile = true
 [[files]]
 file = "mods/presence-footsteps.pw.toml"
 hash = "cf808f674e3ba48fb3f6790f1bc99bb8fa6d660d2072ef3b622067fad264403f"
+metafile = true
+
+[[files]]
+file = "mods/puddles-floods.pw.toml"
+hash = "d83b0dd8a5f3a21024ad7716beb18b973590380ec10134a0991bdfc52c3f0e8c"
 metafile = true
 
 [[files]]
@@ -882,6 +966,16 @@ hash = "cdb533f92155e5a0100929af96966bc9451a3f79f87c196165250ec604994dab"
 metafile = true
 
 [[files]]
+file = "mods/smooth-gui.pw.toml"
+hash = "ff6fa08fbfbd1b0ee20027cea301e2732e1fe501de4e61f5288d566c92eac39d"
+metafile = true
+
+[[files]]
+file = "mods/smooth-hover.pw.toml"
+hash = "d913b5f006d9d93e315ac433ec1dca761128708192ae089ff82cfd36f7fe1f52"
+metafile = true
+
+[[files]]
 file = "mods/smooth-scroll.pw.toml"
 hash = "467bf8229ddf430402b91f433eb977b45e4a009502951209f67552922f8f1ddf"
 metafile = true
@@ -889,6 +983,16 @@ metafile = true
 [[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "d4fbf4c1f80718e5abd32a168a118458ebeeadbc09c5379f8db871ee654cbd86"
+metafile = true
+
+[[files]]
+file = "mods/sodium-options-api.pw.toml"
+hash = "461adc31ce2b89cafc5ad2e846b482c68529231ac1d907e39ec62458b22e6b3e"
+metafile = true
+
+[[files]]
+file = "mods/sodium-options-mod-compat.pw.toml"
+hash = "d622be16aaa231293a6378d8535b7fc69d628b465e18edd756c97df38dbe0025"
 metafile = true
 
 [[files]]
@@ -922,6 +1026,11 @@ hash = "c0b6ba7d21d79b3b129a7f6b505ffd651c7e8491ee4a5c1c6365b51af1f4b7cc"
 metafile = true
 
 [[files]]
+file = "mods/txnilib.pw.toml"
+hash = "7d47e3d8bee4711ab37491e5e91bad186b6606ba560ab8a1dec753c157cf1151"
+metafile = true
+
+[[files]]
 file = "mods/vanillabackport.pw.toml"
 hash = "950d615dd596fc47525bc658d4aadd6ee90a6521a26d525c6ad2336bbcca38a7"
 metafile = true
@@ -929,6 +1038,11 @@ metafile = true
 [[files]]
 file = "mods/visualkeys.pw.toml"
 hash = "ec2fb5fc5387cf8a878f26db586305f862f9a4af5df3da5a0e96124b5184475b"
+metafile = true
+
+[[files]]
+file = "mods/wavey-capes.pw.toml"
+hash = "4468feed50244b4fc7f292d8cf996285273a4df340cefb8810f068cb3056649e"
 metafile = true
 
 [[files]]
@@ -969,6 +1083,11 @@ metafile = true
 [[files]]
 file = "mods/zoomify.pw.toml"
 hash = "9e5d4b32b206ef94869774283572d7d44fc5736a68c459eae1d1c6d3eb3ada29"
+metafile = true
+
+[[files]]
+file = "resourcepacks/aers-timber-framed-cit.pw.toml"
+hash = "7712872155c2e5af86ef142e89c62fe96ac178149bed397a2eb9779cfcf20cee"
 metafile = true
 
 [[files]]
@@ -1064,6 +1183,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/hananacraft-cit.pw.toml"
 hash = "3892d152645c2b4005c63346106d3faaf7057fe6d7a5582693214a32e1fb3a6e"
+metafile = true
+
+[[files]]
+file = "resourcepacks/hyper-punchy.pw.toml"
+hash = "c1a500647c961f03e2e7b52364e1deefc860f56a6fe340355a04d7b04d05e111"
 metafile = true
 
 [[files]]
