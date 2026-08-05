@@ -32,7 +32,7 @@ Welcome to cottagecore Minecraft. Built upon Mizuno's 16 Craft, Lavendre blends 
       <a href="https://modrinth.com/modpack/lavendre/">Install ↗</a>
     </td>
     <td align="center">
-      <a href="BUILD.md">Build from Source ↗</a>
+      <a href="https://github.com/aerhazu/Lavendre/blob/master/BUILD.md">Build from Source ↗</a>
     </td>
     <td align="center">
       <a href="https://github.com/aerhazu/Lavendre/issues">GitHub Issues ↗</a>
