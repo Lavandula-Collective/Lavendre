@@ -1,8 +1,0 @@
-name = "Ghoulcraft CIT - Garden"
-filename = "[Garden] Ghoulcraft 07-17-26.zip"
-side = "client"
-
-[download]
-url = "https://raw.githubusercontent.com/aerhazu/CIT-Repository/main/minecraft/CITs/Ghoulcraft%20Collection/%5BGarden%5D%20Ghoulcraft%2007-17-26.zip"
-hash-format = "sha512"
-hash = "43ce1fb16f76aeee9fc92492a816b263669f95af06e4508a52270bbf081eb4f8fbc5fca129bd297d7ae4526371d66c69ae581658598008591f690969eebafe64"

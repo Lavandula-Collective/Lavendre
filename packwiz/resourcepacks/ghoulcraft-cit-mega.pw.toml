@@ -1,8 +1,0 @@
-name = "Ghoulcraft CIT - MEGA"
-filename = "[MEGA] Ghoulcraft 2.1.zip"
-side = "client"
-
-[download]
-url = "https://raw.githubusercontent.com/aerhazu/CIT-Repository/main/minecraft/CITs/Ghoulcraft%20Collection/%5BMEGA%5D%20Ghoulcraft%202.1.zip"
-hash-format = "sha512"
-hash = "33b58fbdf675fe119857aa8707a8808ef20e5afe1a17a88779354a54fb48304023ff353303838ca31645a037621fe320fef67e32e58f227968c853b2fae47669"

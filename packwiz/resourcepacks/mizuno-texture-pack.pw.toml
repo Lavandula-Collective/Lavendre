@@ -1,8 +1,0 @@
-name = "Mizuno's 16 Craft"
-filename = "Mizunos 16 Craft JE_1.20.4-1.0_230105.zip"
-side = "client"
-
-[download]
-url = "https://raw.githubusercontent.com/aerhazu/CIT-Repository/main/minecraft/ResourcePack/Mizunos%2016%20Craft%20JE_1.20.4-1.0_230105.zip"
-hash-format = "sha512"
-hash = "d12a5d4259aac386326944c45e1d743fb0564a0476825168e15dbf21e7d4b3709b5deecc3e6a2232a7eec578b779adadc3c4a777aa4f5f799579261dc81c9700"

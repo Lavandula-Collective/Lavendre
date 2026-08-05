@@ -1,8 +1,0 @@
-name = "Ghoulcraft CIT - Pets"
-filename = "[Pets] Ghoulcraft 10-20-20.zip"
-side = "client"
-
-[download]
-url = "https://raw.githubusercontent.com/aerhazu/CIT-Repository/main/minecraft/CITs/Ghoulcraft%20Collection/%5BPets%5D%20Ghoulcraft%2010-20-20.zip"
-hash-format = "sha512"
-hash = "dd3f0ab0360fcab10d566361d597f7c84f56a3783708a297aacac60b3d3b884ae8932e2c53115bf05b5cc95c9281c0b0805b43d9b282ebddd2f9dfe148893158"
