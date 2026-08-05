@@ -9,7 +9,13 @@
 ###       #                     Starts a comment line          # API keys below
 
 ### Pakku ###
-!.pakku/**
+.pakku/*
+!.pakku/client-overrides/
+!.pakku/client-overrides/**
+!.pakku/overrides/
+!.pakku/overrides/**
+!.pakku/server-overrides/
+!.pakku/server-overrides/**
 
 ### Minecraft ###
 ### Folders ###
