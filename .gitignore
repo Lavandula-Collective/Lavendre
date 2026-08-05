@@ -9,7 +9,7 @@
 ###       #                     Starts a comment line          # API keys below
 
 ### Pakku ###
-!.pakku/*
+!.pakku/**
 
 ### Minecraft ###
 ### Folders ###
