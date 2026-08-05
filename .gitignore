@@ -13,7 +13,6 @@ run/*
 !run/config/
 run/config/*
 !run/packwiz-installer.jar
-!run/options.txt
 
 ### Mod Configs ###
 
@@ -24,6 +23,12 @@ run/config/*
 !run/config/sounds
 !run/client/simple-rpc
 !run/config/smooth_steps.json
+!run/config/accessories.json5
+!run/config/defaultoptions/
+!run/config/clienttweaks-common.toml
+!run/config/smoothgui.json
+!run/config/cozytips.json
+!run/config/blur.json
 ### Presence Footsteps ###
 !run/config/presencefootsteps/
 run/config/presencefootsteps/*
