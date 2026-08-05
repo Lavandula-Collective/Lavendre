@@ -122,12 +122,18 @@ tasks.register("syncConfigs") {
                 include("chatpatches.json")
                 include("isxander-main-menu-credits.json")
                 include("smooth_steps.json")
+                include("accessories.json5")
+                include("clienttweaks-common.toml")
+                include("smoothgui.json")
+                include("cozytips.json")
+                include("blur.json")
 
                 // Folders
                 include("fancymenu/**")
                 include("sounds/**")
                 include("xaero/minimap/profiles/**")
                 include("simple-rpc/**")
+                include("defaultoptions/**")
             }
 
             into("packwiz/config")
@@ -182,6 +188,4 @@ tasks.register("pack", Zip) {
         into("kubejs")
     }
 
-    // Optional files
-    from("run/options.txt")
 }
