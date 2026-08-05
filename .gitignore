@@ -9,56 +9,45 @@
 ###       #                     Starts a comment line          # API keys below
 
 ### Minecraft ###
-run/*
-!run/config/
-run/config/*
-!run/packwiz-installer.jar
+### Folders ###
+.cache
+.fabric
+.mixin.out
+backups/
+cache/
+config/
+crash-reports/
+data/
+datapacks/
+defaultconfigs/
+downloads/
+fancymenu_data
+flashback/
+local/
+logs/
+moddata/
+mods/
+resourcepacks/
+saves/
+screenshots/
+server-resource-packs/
+shaderpacks/
+xaero/
+### Files ###
+command_history.txt
+options.txt
+usercache.json
+usernamecache.json
 
-### Mod Configs ###
-
-!run/config/fancymenu/
-!run/config/defaultoptions/extra/config/isxander-main-menu-credits.json
-!run/config/defaultoptions/extra/config/betterf3.json
-!run/config/defaultoptions/extra/config/chatpatches.json
-!run/config/defaultoptions/extra/config/sounds
-!run/client/simple-rpc
-!run/config/defaultoptions/extra/config/smooth_steps.json
-!run/config/defaultoptions/extra/config/accessories.json5
-!run/config/defaultoptions/
-!run/config/defaultoptions/extra/config/clienttweaks-common.toml
-!run/config/defaultoptions/extra/config/smoothgui.json
-!run/config/defaultoptions/extra/config/cozytips.json
-!run/config/defaultoptions/extra/config/blur.json
-### Presence Footsteps ###
-!run/config/defaultoptions/extra/config/presencefootsteps/
-run/config/defaultoptions/extra/config/presencefootsteps/*
-!run/config/defaultoptions/extra/config/presencefootsteps/userconfig.json
-### Xaero ###
-!run/config/defaultoptions/extra/config/xaero/
-run/config/defaultoptions/extra/config/xaero/*
-!run/config/defaultoptions/extra/config/xaero/minimap/
-run/config/defaultoptions/extra/config/xaero/minimap/*
-!run/config/defaultoptions/extra/config/xaero/minimap/profiles/
-### Crash Assistant ###
-!run/config/defaultoptions/extra/config/crash_assistant/
-run/config/defaultoptions/extra/config/crash_assistant/*
-!run/config/defaultoptions/extra/config/crash_assistant/config.toml
-### JEI ###
-!run/config/defaultoptions/extra/config/jei/
-run/config/defaultoptions/extra/config/jei/*
-!run/config/defaultoptions/extra/config/jei/jei-client.ini
+### KubeJS ###
+/kubejs/probe/
+/kubejs/config/probejs.json
+/kubejs/config/probe-settings.json
+/kubejs/*/jsconfig.json
 
 ### Others ###
 CIT Catalog/
 .bak
-
-### gradle ####
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
-.kotlin
 
 ### IntelliJ IDEA ###
 .idea/
@@ -93,3 +82,18 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Desktop.ini
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+.fuse_hidden*
+.directory
+.Trash-*
+*~
