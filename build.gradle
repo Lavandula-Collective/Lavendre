@@ -115,24 +115,9 @@ tasks.register("syncConfigs") {
         copy {
             from("run/config") {
                 // Files
-                include("crash_assistant/config.toml")
-                include("presencefootsteps/userconfig.json")
-                include("jei/jei-client.ini")
-                include("betterf3.json")
-                include("chatpatches.json")
-                include("isxander-main-menu-credits.json")
-                include("smooth_steps.json")
-                include("accessories.json5")
-                include("clienttweaks-common.toml")
-                include("smoothgui.json")
-                include("cozytips.json")
-                include("blur.json")
 
                 // Folders
                 include("fancymenu/**")
-                include("sounds/**")
-                include("xaero/minimap/profiles/**")
-                include("simple-rpc/**")
                 include("defaultoptions/**")
             }
 
