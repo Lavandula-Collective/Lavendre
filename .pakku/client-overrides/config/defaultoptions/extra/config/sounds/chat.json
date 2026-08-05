@@ -1,0 +1,41 @@
+{
+	"typingSoundEffect": {
+		"shouldPlay": true,
+		"pitch": 1.6,
+		"volume": 0.1,
+		"id": "typing",
+		"soundEvent": "minecraft:block.note_block.hat"
+	},
+	"messageSoundEffect": {
+		"shouldPlay": true,
+		"pitch": 2.0,
+		"volume": 0.4,
+		"id": "message",
+		"soundEvent": "minecraft:block.note_block.hat"
+	},
+	"mentionSoundEffect": {
+		"shouldPlay": true,
+		"pitch": 1.8,
+		"volume": 0.9,
+		"id": "mention",
+		"soundEvent": "minecraft:block.note_block.chime"
+	},
+	"mentionKeywords": [
+		"@Player510",
+		"@Player199",
+		"@Player901",
+		"@Player789",
+		"@Player219",
+		"@Player977",
+		"@Player140",
+		"@Player368",
+		"@Player529",
+		"@Player700",
+		"@Player304",
+		"@Player946",
+		"@Player918"
+	],
+	"ignoreSystemChats": false,
+	"enableChatSoundCooldown": false,
+	"chatSoundCooldown": 0.5
+}
