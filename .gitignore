@@ -17,36 +17,36 @@ run/config/*
 ### Mod Configs ###
 
 !run/config/fancymenu/
-!run/config/isxander-main-menu-credits.json
-!run/config/betterf3.json
-!run/config/chatpatches.json
-!run/config/sounds
+!run/config/defaultoptions/extra/config/isxander-main-menu-credits.json
+!run/config/defaultoptions/extra/config/betterf3.json
+!run/config/defaultoptions/extra/config/chatpatches.json
+!run/config/defaultoptions/extra/config/sounds
 !run/client/simple-rpc
-!run/config/smooth_steps.json
-!run/config/accessories.json5
+!run/config/defaultoptions/extra/config/smooth_steps.json
+!run/config/defaultoptions/extra/config/accessories.json5
 !run/config/defaultoptions/
-!run/config/clienttweaks-common.toml
-!run/config/smoothgui.json
-!run/config/cozytips.json
-!run/config/blur.json
+!run/config/defaultoptions/extra/config/clienttweaks-common.toml
+!run/config/defaultoptions/extra/config/smoothgui.json
+!run/config/defaultoptions/extra/config/cozytips.json
+!run/config/defaultoptions/extra/config/blur.json
 ### Presence Footsteps ###
-!run/config/presencefootsteps/
-run/config/presencefootsteps/*
-!run/config/presencefootsteps/userconfig.json
+!run/config/defaultoptions/extra/config/presencefootsteps/
+run/config/defaultoptions/extra/config/presencefootsteps/*
+!run/config/defaultoptions/extra/config/presencefootsteps/userconfig.json
 ### Xaero ###
-!run/config/xaero/
-run/config/xaero/*
-!run/config/xaero/minimap/
-run/config/xaero/minimap/*
-!run/config/xaero/minimap/profiles/
+!run/config/defaultoptions/extra/config/xaero/
+run/config/defaultoptions/extra/config/xaero/*
+!run/config/defaultoptions/extra/config/xaero/minimap/
+run/config/defaultoptions/extra/config/xaero/minimap/*
+!run/config/defaultoptions/extra/config/xaero/minimap/profiles/
 ### Crash Assistant ###
-!run/config/crash_assistant/
-run/config/crash_assistant/*
-!run/config/crash_assistant/config.toml
+!run/config/defaultoptions/extra/config/crash_assistant/
+run/config/defaultoptions/extra/config/crash_assistant/*
+!run/config/defaultoptions/extra/config/crash_assistant/config.toml
 ### JEI ###
-!run/config/jei/
-run/config/jei/*
-!run/config/jei/jei-client.ini
+!run/config/defaultoptions/extra/config/jei/
+run/config/defaultoptions/extra/config/jei/*
+!run/config/defaultoptions/extra/config/jei/jei-client.ini
 
 ### Others ###
 CIT Catalog/
