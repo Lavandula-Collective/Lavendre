@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = about
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1785796103448
+  last_edited_time = 1785855856688
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:0089b0a1-981c-4f79-b5bb-7ce8a7565756-1785796094908] = [groups:][instances:]
+  [loading_requirement_container_meta:59d8efa5-ece0-41cb-aa94-0f6ebea29df7-1785855768851] = [groups:][instances:]
 }
 
 customization {
@@ -356,10 +356,10 @@ layout_action_executable_blocks {
 element {
   copy_client_player = false
   playername = Aerhazu
-  auto_skin = true
+  auto_skin = false
   auto_cape = false
   slim = true
-  skin_source = Aerhazu
+  skin_source = [source:local]/config/fancymenu/assets/aerhazu.png
   parrot = false
   parrot_left_shoulder = false
   is_baby = false

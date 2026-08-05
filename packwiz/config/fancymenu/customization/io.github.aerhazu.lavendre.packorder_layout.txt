@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = io.github.aerhazu.lavendre.packorder
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1785566602499
+  last_edited_time = 1785869881020
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:960f0522-e34c-4085-87a8-5ee2ac8cd0aa-1785566593359] = [groups:][instances:]
+  [loading_requirement_container_meta:3da687b4-6be0-4413-a898-75ba420a21e3-1785869876881] = [groups:][instances:]
 }
 
 customization {
@@ -366,9 +366,9 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = -185
-  y = -130
+  y = -161
   width = 369
-  height = 277
+  height = 308
   stay_on_screen = true
   element_loading_requirement_container_identifier = abfd4930-9e3e-40f7-ae4e-8a887aa9b182-1784707378965
   [loading_requirement_container_meta:abfd4930-9e3e-40f7-ae4e-8a887aa9b182-1784707378965] = [groups:][instances:]
@@ -413,10 +413,10 @@ element {
 
 element {
   interactable = true
-  source = To ensure all CITs work correctly, please follow the recommended resource pack order.%n%%n%Minecraft loads resource packs from %#FFFF00%BOTTOM%#% to %#FFFF00%TOP%#%, meaning the bottom-most pack is the base, while packs above it override those below.%n%%n%Arrange your resource packs as follows (%#FFFF00%TOP%#% → %#FFFF00%BOTTOM%#%) :%n%%n%%#FFFF00%|—%#%[Other CIT Packs] %n%%#FFFF00%|—%#%[Ghoulcraft CITs]%n%%#FFFF00%|—%#%"Mizuno's 16 Craft CIT" %n%%#FFFF00%|—%#%[Misc. Packs]%n%%#FFFF00%|—%#%"Invisible Item Frames"%n%%#FFFF00%|—%#%"Mizuno BOP Addon"%n%%#FFFF00%|—%#%[Mizuno FA Addons]%n%%#FFFF00%|—%#%[FA Addons]%n%%#FFFF00%|—%#%"Fresh Animations"%n%%#FFFF00%|—%#%[Mizuno Addons]%n%%#FFFF00%|—%#%"Tinker"%n%%#FFFF00%|—%#%"Modern Mizunos"%n%%#FFFF00%|—%#%"Mizuno's 16 Craft JE Texture Pack"
+  source = To ensure all CITs work correctly, please follow the recommended resource pack order.%n%%n%Minecraft loads resource packs from %#FFFF00%BOTTOM%#% to %#FFFF00%TOP%#%, meaning the bottom-most pack is the base, while packs above it override those below.%n%%n%Arrange your resource packs as follows (%#FFFF00%TOP%#% → %#FFFF00%BOTTOM%#%) :%n%%n%%#FFFF00%|—%#%[Other CIT Packs] %n%%#FFFF00%|—%#%[Ghoulcraft CITs]%n%%#FFFF00%|—%#%"Mizuno's 16 Craft CIT" %n%%#FFFF00%|—%#%[Misc. Packs]%n%%#FFFF00%|—%#%"Invisible Item Frames"%n%%#FFFF00%|—%#%"Mizuno BOP Addon"%n%%#FFFF00%|—%#%[Mizuno FA Addons]%n%%#FFFF00%|—%#%[FA Addons]%n%%#FFFF00%|—%#%"Fresh Animations"%n%%#FFFF00%|—%#%[Mizuno Addons]%n%%#FFFF00%|—%#%"Tinker"%n%%#FFFF00%|—%#%"Modern Mizunos"%n%%#FFFF00%|—%#%"Mizuno's 16 Craft JE Texture Pack"%n%%n%%#FFFF00%**You can hold and drag to change resource packs order instead of clicking!**%#%
   source_mode = direct
   shadow = true
-  enable_scrolling = true
+  enable_scrolling = false
   auto_line_wrapping = true
   remove_html_breaks = true
   code_block_single_color = #737373FF
@@ -448,9 +448,9 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = -170
-  y = -117
+  y = -146
   width = 338
-  height = 251
+  height = 280
   stay_on_screen = true
   element_loading_requirement_container_identifier = 2d98db9b-818a-4c79-87ef-9111845d5f9b-1784707241650
   [loading_requirement_container_meta:2d98db9b-818a-4c79-87ef-9111845d5f9b-1784707241650] = [groups:][instances:]
@@ -498,8 +498,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 3f1656a5-c2d7-4a71-b0c9-dd59ea9b4b09-1784707531046
-  [executable_action_instance:34475c41-9f65-478e-a0cd-a17c75de3c98-1784708606036][action_type:back_to_last_screen] = 
-  [executable_block:3f1656a5-c2d7-4a71-b0c9-dd59ea9b4b09-1784707531046][type:generic] = [executables:34475c41-9f65-478e-a0cd-a17c75de3c98-1784708606036;]
+  [executable_action_instance:4548bcc5-29ea-40e8-a7e5-9c2ec4ad90c1-1785866929681][action_type:back_to_last_screen] = 
+  [executable_block:3f1656a5-c2d7-4a71-b0c9-dd59ea9b4b09-1784707531046][type:generic] = [executables:4548bcc5-29ea-40e8-a7e5-9c2ec4ad90c1-1785866929681;]
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -530,8 +530,8 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 22fefc8f-da24-4673-9fba-054231b733e0-1784707241650
-  x = 139
-  y = 286
+  x = 137
+  y = 306
   width = 63
   height = 20
   stay_on_screen = true
@@ -588,8 +588,8 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 2d077d19-e721-4482-bf80-fca81e0e2f7f-1784707378966
-  x = 401
-  y = -119
+  x = 410
+  y = -87
   width = 104
   height = 496
   stay_on_screen = true
