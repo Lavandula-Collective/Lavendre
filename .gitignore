@@ -8,6 +8,9 @@
 ###      /**/                   Matches nested folders              **/logs/
 ###       #                     Starts a comment line          # API keys below
 
+### Pakku ###
+!.pakku/
+
 ### Minecraft ###
 ### Folders ###
 .cache
