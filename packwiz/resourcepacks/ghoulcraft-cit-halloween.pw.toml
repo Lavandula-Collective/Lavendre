@@ -1,8 +1,0 @@
-name = "Ghoulcraft CIT - Halloween"
-filename = "[Halloween] Ghoulcraft 10-22-20.zip"
-side = "client"
-
-[download]
-url = "https://raw.githubusercontent.com/aerhazu/CIT-Repository/main/minecraft/CITs/Ghoulcraft%20Collection/%5BHalloween%5D%20Ghoulcraft%2010-22-20.zip"
-hash-format = "sha512"
-hash = "d718112d671b6e4281b5091007b344401ef1661e42b55d1f34b9ca34fafeaabed6a1ab1e4281d1a6519b5ceb7b8adf71c5ad2fb25cbdf89744e5ac0ec9b42c3a"

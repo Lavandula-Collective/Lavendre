@@ -1,8 +1,0 @@
-name = "Ghoulcraft CIT - Winter"
-filename = "[Winter] Ghoulcraft 12-15-20.zip"
-side = "client"
-
-[download]
-url = "https://raw.githubusercontent.com/aerhazu/CIT-Repository/main/minecraft/CITs/Ghoulcraft%20Collection/%5BWinter%5D%20Ghoulcraft%2012-15-20.zip"
-hash-format = "sha512"
-hash = "d7cb99f1b57d956a6a7725f0d94456dbf2cb90a5d280a069aca1e426c5dbd3629423eadc578813e8346c1199bc6cbee269d060936ec52e2f55688283e1f18dce"
