@@ -1,7 +1,7 @@
 <div align="center">
 <img src="https://github.com/aerhazu/Lavendre/blob/master/assets/pack_icon.png"> 
 
-# Lavendre 
+# Lavendre
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/lavendre?style=for-the-badge&logo=modrinth&logoColor=lightgreen&label=)](https://modrinth.com/modpack/lavendre)
 [![Version](https://img.shields.io/modrinth/v/lavendre?style=for-the-badge&logo=modrinth&logoColor=lightgreen)](https://modrinth.com/modpack/lavendre)
 [![Minecraft](https://img.shields.io/modrinth/game-versions/lavendre?style=for-the-badge&logo=minecraft&label=MC)](https://modrinth.com/modpack/lavendre)
@@ -32,7 +32,7 @@ Welcome to cottagecore Minecraft. Built upon Mizuno's 16 Craft, Lavendre blends 
       <a href="https://modrinth.com/modpack/lavendre/">Install ↗</a>
     </td>
     <td align="center">
-      <a href="https://github.com/aerhazu/Lavendre/blob/master/BUILD.md">Build from Source ↗</a>
+      <a href="https://github.com/aerhazu/Lavendre/wiki">Build from Source ↗</a>
     </td>
     <td align="center">
       <a href="https://github.com/aerhazu/Lavendre/issues">GitHub Issues ↗</a>
