@@ -44,7 +44,7 @@
 /xaero/
 /XaeroWaypoints_*/
 command_history.txt
-options.txt
+/options.txt
 usercache.json
 usernamecache.json
 
