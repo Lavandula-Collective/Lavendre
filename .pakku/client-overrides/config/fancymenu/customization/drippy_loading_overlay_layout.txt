@@ -584,7 +584,7 @@ element {
 
 element {
   interactable = true
-  source = ^^^%n%**%#ffff00%macOS is not officially supported. Some features may not work as intended.**%#%%n%^^^
+  source = ^^^%n%**%#ffff00%S is not fully supported. Some features may not work as intended.**%#%%n%^^^
   source_mode = direct
   shadow = true
   enable_scrolling = true
