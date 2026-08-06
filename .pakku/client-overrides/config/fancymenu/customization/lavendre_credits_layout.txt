@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = io.github.aerhazu.lavendre.credits
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1784583291205
+  last_edited_time = 1786049617115
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:e9bccdcc-35f9-42a1-a311-46a167f6bdfa-1784583196084] = [groups:][instances:]
+  [loading_requirement_container_meta:36c46a0a-267a-4a54-a5de-70a3fed342b2-1786049600342] = [groups:][instances:]
 }
 
 menu_background {
@@ -350,10 +350,10 @@ layout_action_executable_blocks {
 
 element {
   interactable = true
-  source = # Credits%n%%n%### Included CIT Packs%n%%n%Lavendre CIT includes content based on the following community-made CIT packs:%n%%n%- **Mizuno's 16 Craft CIT**%n%- **Ghoulcraft CIT Series**%n%- **Erstwhile CIT**%n%- **Hananacraft**%n%%n%## Attribution & Licensing%n%%n%Each of the packs listed above is the intellectual property of its respective creator(s) and remains subject to its own license and terms of use. Please respect the original licensing and usage requirements of each pack.%n%%n%**Lavendre CIT does not claim ownership of any assets originating from these packs.** Assets have only been adapted, patched, or modified where necessary to improve compatibility with modern Minecraft versions and to provide a more consistent experience within this project.%n%%n%All original textures, models, artwork, and creative content belong to their respective creators. Full credit goes to the talented artists and developers whose work made this project possible. Lavendre CIT exists to preserve and support these amazing resource packs for newer Minecraft versions—not to redistribute or present them as our own work.%n%%n%Thank you to all of the original creators for their dedication and contributions to the Minecraft community.
+  source = ## Attribution & Licensing%n%%n%Each of the packs listed above is the intellectual property of its respective creator(s) and remains subject to its own license and terms of use. Please respect the original licensing and usage requirements of each pack.%n%%n%**Lavendre CIT does not claim ownership of any assets originating from these packs.** Assets have only been adapted, patched, or modified where necessary to improve compatibility with modern Minecraft versions and to provide a more consistent experience within this project.%n%%n%All original textures, models, artwork, and creative content belong to their respective creators. Full credit goes to the talented artists and developers whose work made this project possible. Lavendre CIT exists to preserve and support these amazing resource packs for newer Minecraft versions—not to redistribute or present them as our own work.%n%%n%Thank you to all of the original creators for their dedication and contributions to the Minecraft community.
   source_mode = direct
   shadow = true
-  enable_scrolling = true
+  enable_scrolling = false
   auto_line_wrapping = true
   remove_html_breaks = true
   code_block_single_color = #565653FF
@@ -384,10 +384,10 @@ element {
   auto_sizing_base_screen_height = 1080
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -220
-  y = -179
+  x = -221
+  y = -115
   width = 441
-  height = 355
+  height = 229
   stay_on_screen = true
   element_loading_requirement_container_identifier = a420481d-7882-485f-83bc-9472ef767f89-1784308620126
   [loading_requirement_container_meta:a420481d-7882-485f-83bc-9472ef767f89-1784308620126] = [groups:][instances:]
@@ -423,7 +423,7 @@ element {
   advanced_horizontal_tilt_degrees = 0.0
   base_color = #FFFFFFFF
   scale = 1.0
-  text_border = 2
+  text_border = 6
   line_spacing = 2
   quote_indent = 8
   bullet_list_indent = 8
