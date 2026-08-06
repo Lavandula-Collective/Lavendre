@@ -1,12 +1,15 @@
 <div align="center">
 <img src="https://github.com/aerhazu/Lavendre/blob/master/assets/pack_icon.png"> 
 
-# Lavendre 
-[![Modrinth Downloads](https://img.shields.io/modrinth/dt/lavendre?style=for-the-badge&logo=modrinth&logoColor=lightgreen&label=)](https://modrinth.com/modpack/lavendre)
-[![Version](https://img.shields.io/modrinth/v/lavendre?style=for-the-badge&logo=modrinth&logoColor=lightgreen)](https://modrinth.com/modpack/lavendre)
-[![Minecraft](https://img.shields.io/modrinth/game-versions/lavendre?style=for-the-badge&logo=minecraft&label=MC)](https://modrinth.com/modpack/lavendre)
-![Fabric](https://img.shields.io/badge/Requires%20-Fabric%20API-%23dbd0b4?style=for-the-badge)
+# Lavendre
+[![Modrinth Downloads](https://img.shields.io/modrinth/dt/homestead?style=for-the-badge&logo=modrinth&logoColor=lightgreen)](https://modrinth.com/modpack/homestead)
+[![Version](https://img.shields.io/modrinth/v/homestead?style=for-the-badge)](https://modrinth.com/modpack/homestead)
+[![Minecraft](https://img.shields.io/modrinth/game-versions/homestead?style=for-the-badge&logo=minecraft&label=MC)](https://modrinth.com/modpack/homestead)
 [![License](https://img.shields.io/badge/License-ARR-D8BFD8?style=for-the-badge)](LICENSE.md)
+
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20me-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/aerhazuwu)
+[![Discord](https://img.shields.io/discord/1386271322648088616?style=for-the-badge&logo=discord&logoColor=white&label=Discord&color=5865F2)](https://discord.gg/DXFpzAn2fh)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Lavendre-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aerhazu/Lavendre)
 
 </div>
 <div align="center">
