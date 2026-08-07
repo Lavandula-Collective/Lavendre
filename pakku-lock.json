@@ -1,5 +1,5 @@
 {
-    "target": "modrinth",
+    "target": "multiplatform",
     "mc_versions": [
         "1.21.1"
     ],
@@ -1204,6 +1204,50 @@
                     ],
                     "size": 71502,
                     "date_published": "2024-06-14T07:53:35.905476Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Od5ZB396XPh5KgFE",
+            "pakku_links": [
+                "gk7SqwElaRKovhhf"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "appleskin"
+            },
+            "name": {
+                "modrinth": "AppleSkin"
+            },
+            "id": {
+                "modrinth": "EsAfCjCV"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "appleskin-fabric-mc1.21-3.0.6.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/b5ZiCjAr/appleskin-fabric-mc1.21-3.0.6.jar",
+                    "id": "b5ZiCjAr",
+                    "parent_id": "EsAfCjCV",
+                    "hashes": {
+                        "sha512": "accbb36b863bdeaaeb001f7552534f3bdf0f27556795cf8e813f9b32e7732450ec5133da5e0ec9b92dc22588c48ffb61577c375f596dc351f15c15ce6a6f4228",
+                        "sha1": "97452cfadfde1f8f8c67838643019eabafa58fbb"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 1082585,
+                    "date_published": "2024-11-01T06:22:22.888816Z"
                 }
             ]
         },
@@ -5175,6 +5219,65 @@
             ]
         },
         {
+            "pakku_id": "xnVfCeKKMDfWEvP7",
+            "pakku_links": [
+                "qvNt96hsH2NfiAA2"
+            ],
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "mbs-moogs-bountiful-structures"
+            },
+            "name": {
+                "modrinth": "MBS - Moog's Bountiful Structures"
+            },
+            "id": {
+                "modrinth": "Qnb1HbfK"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "MoogsBountifulStructures-1.21-1.0.10.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11",
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2",
+                        "26.2"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Qnb1HbfK/versions/MlvqecgF/MoogsBountifulStructures-1.21-1.0.10.jar",
+                    "id": "MlvqecgF",
+                    "parent_id": "Qnb1HbfK",
+                    "hashes": {
+                        "sha512": "9e94def52f6a5c943f2a55314613ee6ba65875a722b48c4753b4b012fb82628ce02faeaa7a0b9d98df5dcec02b1a46c5cd4b0f942c25313cd90f6a6ac5b68396",
+                        "sha1": "e5b63c19e78be484a1dffb6d170addf8672caf6c"
+                    },
+                    "required_dependencies": [
+                        "1oUDhxuy"
+                    ],
+                    "size": 698606,
+                    "date_published": "2026-07-16T17:06:36.590368Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "zIeZb3JYwgtkM1FM",
             "pakku_links": [
                 "gk7SqwElaRKovhhf"
@@ -6377,6 +6480,44 @@
                     "required_dependencies": [],
                     "size": 471258,
                     "date_published": "2025-11-08T20:04:53.013703Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "qvNt96hsH2NfiAA2",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "moogs-structure-lib"
+            },
+            "name": {
+                "modrinth": "Moog's Structure Lib (moogs_structures)"
+            },
+            "id": {
+                "modrinth": "1oUDhxuy"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "moogs_structures-fabric-1.21.1-3.0.3.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/1oUDhxuy/versions/6YYQZweF/moogs_structures-fabric-1.21.1-3.0.3.jar",
+                    "id": "6YYQZweF",
+                    "parent_id": "1oUDhxuy",
+                    "hashes": {
+                        "sha512": "b6ccf6b8010110ee7b168549bfe62582c17aff90eb26ccc6be5f911264d2ec7f32da3f211f9642e32d5fd2a438a7f1850d5412b10c5d8add8f573fa902759afb",
+                        "sha1": "00c9efe34c2b1548d3f48885a82d650b2930f118"
+                    },
+                    "required_dependencies": [],
+                    "size": 334991,
+                    "date_published": "2026-07-19T09:45:27.881816Z"
                 }
             ]
         },
