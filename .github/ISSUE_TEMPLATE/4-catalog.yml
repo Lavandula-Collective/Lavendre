@@ -1,49 +1,56 @@
 name: Catalog
-description: Something is wrong with the mod list, wiki, or pack documentation itself (not an in-game bug)
+description: Report mistakes, missing entries, or contribute to the Lavendre CIT master catalog
 title: "[Catalog]: "
 labels: [ "Catalog 📙" ]
 body:
   - type: markdown
     attributes:
       value: |-
-        ### Use this for problems with the catalog or docs, not gameplay bugs.
-        Wrong mod versions listed, dead links, missing entries, outdated wiki pages, incorrect Pakku lockfile info, that kind of thing. If it's something breaking in-game, use the Client or Server bug report instead.
+        ### This template is only for the Lavendre CIT master catalog, not general bugs or wiki pages.
+        Use this to report errors, missing entries, or to contribute new entries to the catalog. Search the [open catalog issues](https://github.com/aerhazu/Lavendre/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22Catalog%20%F0%9F%93%99%22) first, someone may have already flagged it.
 
   - type: dropdown
-    id: area
+    id: type
     attributes:
-      label: Where's the issue?
+      label: What kind of catalog issue is this?
       options:
-        - Mod list / catalog page
-        - GitHub Wiki page
-        - Pakku lockfile / pack metadata
-        - README or install instructions
+        - Reporting an error (wrong info on an existing entry)
+        - Missing entry (item/texture not in the catalog at all)
+        - Contributing a new entry or addition
         - Something else
     validations:
       required: true
 
   - type: input
-    id: location_link
+    id: item_affected
     attributes:
-      label: Link to the affected page
-      description: Direct link to the wiki page, catalog entry, or file that has the problem.
-      placeholder: https://github.com/aerhazu/Lavendre/wiki/...
+      label: Item / Texture Affected
+      description: Name of the item, block, or CIT entry this is about.
+      placeholder: e.g. Enchanted Diamond Sword, Cherry Door
+    validations:
+      required: true
+
+  - type: input
+    id: catalog_link
+    attributes:
+      label: Link to the catalog entry
+      description: Direct link to the entry if it already exists in the catalog. Leave blank if this is a missing entry or new contribution.
     validations:
       required: false
 
   - type: textarea
     id: description
     attributes:
-      label: What's wrong
-      description: Describe what's incorrect, missing, or outdated. If it's a wrong mod version or dead link, include what it currently says versus what it should say.
+      label: What's wrong or what you're adding
+      description: If reporting an error, describe what's currently listed versus what it should be. If contributing, describe the entry you're adding and where it comes from.
     validations:
       required: true
 
   - type: textarea
-    id: suggested_fix
+    id: source
     attributes:
-      label: Suggested fix
-      description: If you already know the correct info (right version, working link, etc.), drop it here so it's a quick fix.
+      label: Source / Reference
+      description: Where this info comes from. Resource pack name, mod source, screenshots, or links that back this up.
     validations:
       required: false
 
