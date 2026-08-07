@@ -34,6 +34,7 @@ server-resource-packs/
 shaderpacks/
 xaero/
 XaeroWaypoints_*/
+particular_cache/
 ### Files ###
 command_history.txt
 options.txt
