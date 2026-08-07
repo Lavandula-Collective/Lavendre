@@ -1,0 +1,85 @@
+name: Client Bug Report
+description: Something broke or crashed on your end while playing Lavendre
+title: "[Client Bug]: "
+labels: [ "Client 👤" ]
+body:
+  - type: markdown
+    attributes:
+      value: |-
+        ### Search the [open client bugs](https://github.com/aerhazu/Lavendre/issues?q=is%3Aissue%20state%3Aopen%20label%3Aclient) before posting a new one.
+        Reports without enough detail to reproduce the issue will be closed.
+
+  - type: input
+    id: pack_version
+    attributes:
+      label: Lavendre Version
+      description: Which version of the pack were you running when this happened?
+      placeholder: e.g. 1.4.2
+    validations:
+      required: true
+
+  - type: dropdown
+    id: launcher
+    attributes:
+      label: Launcher
+      options:
+        - Modrinth App
+        - Prism Launcher
+        - Other (mention it in Miscellaneous below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What went wrong
+      description: Describe the bug in your own words. What did you expect to happen instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce it
+      description: Walk through the exact steps that trigger the bug. If it's inconsistent, say so and describe what you were doing when it happened.
+      value: |-
+        1. 
+        2. 
+        3. 
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |-
+        ### Logs
+        If you're reporting a crash, the crash log is required, not optional. Upload to [mclo.gs](https://mclo.gs) and paste the link below.
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Link your latest.log and (if applicable) crash-report log from mclo.gs
+      placeholder: https://mclo.gs/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: system_info
+    attributes:
+      label: System Info
+      value: |-
+        OS: 
+        CPU: 
+        GPU: 
+        RAM: 
+    validations:
+      required: true
+
+  - type: textarea
+    id: misc
+    attributes:
+      label: Miscellaneous
+      description: Related issues, recent changes to your setup, shaders/resource packs in use, etc.
+    validations:
+      required: false

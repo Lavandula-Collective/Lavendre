@@ -1,0 +1,67 @@
+name: Feature Request
+description: Suggest a mod/lavendre addition or a change to how Lavendre works
+title: "[Feature Request]: "
+labels: [ "Feature Request 💡" ]
+body:
+  - type: markdown
+    attributes:
+      value: |-
+        ### Search the [open suggestions](https://github.com/aerhazu/Lavendre/issues?q=is%3Aissue%20state%3Aopen%20label%3Asuggestion) first, someone may have already asked.
+        Vague requests get closed. Tell me what it does and why it belongs in Lavendre specifically.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: What kind of suggestion is this?
+      options:
+        - New mod addition
+        - Config / balance change to an existing mod
+        - Pack structure or workflow change
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: The pitch
+      description: What is it, what does it do, and why does it fit Lavendre's vibe? If this is a mod suggestion, explain what gap it fills or what it adds on top of what's already in the pack.
+    validations:
+      required: true
+
+  - type: input
+    id: modrinth_link
+    attributes:
+      label: Modrinth Link
+      description: If you're suggesting a mod, link its Modrinth page here. No Modrinth page, no mod, this pack is managed through Pakku and unlisted mods can't be pulled in automatically.
+      placeholder: https://modrinth.com/mod/...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: verify
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked that this mod has an active Modrinth page.
+          required: false
+        - label: I ran this alongside the current Lavendre mod list and hit no compatibility issues.
+          required: false
+        - label: I checked that this is built for Fabric 1.21.1 (or has a compatible version).
+          required: false
+
+  - type: textarea
+    id: contact
+    attributes:
+      label: Contact Info
+      description: Discord username or another way to reach you if I want to follow up.
+    validations:
+      required: false
+
+  - type: textarea
+    id: misc
+    attributes:
+      label: Miscellaneous
+      description: Anything else that adds context.
+    validations:
+      required: false

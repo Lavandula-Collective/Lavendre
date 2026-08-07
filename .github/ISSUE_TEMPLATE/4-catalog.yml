@@ -1,0 +1,56 @@
+name: Catalog
+description: Something is wrong with the mod list, wiki, or pack documentation itself (not an in-game bug)
+title: "[Catalog]: "
+labels: [ "Catalog 📙" ]
+body:
+  - type: markdown
+    attributes:
+      value: |-
+        ### Use this for problems with the catalog or docs, not gameplay bugs.
+        Wrong mod versions listed, dead links, missing entries, outdated wiki pages, incorrect Pakku lockfile info, that kind of thing. If it's something breaking in-game, use the Client or Server bug report instead.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where's the issue?
+      options:
+        - Mod list / catalog page
+        - GitHub Wiki page
+        - Pakku lockfile / pack metadata
+        - README or install instructions
+        - Something else
+    validations:
+      required: true
+
+  - type: input
+    id: location_link
+    attributes:
+      label: Link to the affected page
+      description: Direct link to the wiki page, catalog entry, or file that has the problem.
+      placeholder: https://github.com/aerhazu/Lavendre/wiki/...
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What's wrong
+      description: Describe what's incorrect, missing, or outdated. If it's a wrong mod version or dead link, include what it currently says versus what it should say.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested_fix
+    attributes:
+      label: Suggested fix
+      description: If you already know the correct info (right version, working link, etc.), drop it here so it's a quick fix.
+    validations:
+      required: false
+
+  - type: textarea
+    id: misc
+    attributes:
+      label: Miscellaneous
+      description: Anything else worth mentioning.
+    validations:
+      required: false

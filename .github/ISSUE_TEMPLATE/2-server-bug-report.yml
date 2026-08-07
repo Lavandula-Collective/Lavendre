@@ -1,0 +1,97 @@
+name: Server Bug Report
+description: Something broke on a server running Lavendre (crashes, TPS issues, sync problems, etc.)
+title: "[Server Bug]: "
+labels: [ "Server 👥" ]
+body:
+  - type: markdown
+    attributes:
+      value: |-
+        ### Search the [open server bugs](https://github.com/aerhazu/Lavendre/issues?q=is%3Aissue%20state%3Aopen%20label%3Aserver) before posting a new one.
+        Server-side issues are harder to pin down without logs, so please be thorough.
+
+  - type: input
+    id: pack_version
+    attributes:
+      label: Lavendre Version
+      description: Which version of the pack is the server running?
+      placeholder: e.g. 1.4.2
+    validations:
+      required: true
+
+  - type: dropdown
+    id: host_type
+    attributes:
+      label: Hosting Type
+      options:
+        - Self-hosted (own hardware)
+        - Rented host (e.g. Bisect, Shockbyte, etc.)
+        - Realms or similar managed service
+        - Other (mention it in Miscellaneous below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What went wrong
+      description: Describe the bug. Is this affecting all players, one player, or only under specific conditions?
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce it
+      description: Steps to trigger the issue on a server. Note if it also happens in singleplayer, that narrows things down a lot.
+      value: |-
+        1. 
+        2. 
+        3. 
+    validations:
+      required: true
+
+  - type: dropdown
+    id: crash_type
+    attributes:
+      label: Did the server crash?
+      options:
+        - "Yes, full server crash"
+        - "No, but performance/TPS dropped badly"
+        - "No, it's a desync or behavior issue with no crash"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |-
+        ### Logs
+        Server-side reports need the actual server logs, not just what a player saw client-side. Upload to [mclo.gs](https://mclo.gs) and paste the link below.
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Server Logs
+      description: Link your server's latest.log and crash-report (if applicable) from mclo.gs. Include a client log too if a specific player is affected.
+      placeholder: https://mclo.gs/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: system_info
+    attributes:
+      label: Server Info
+      value: |-
+        Server Software: [e.g. Fabric server, dedicated host panel]
+        CPU: 
+        RAM Allocated: 
+        Player Count at Time of Issue: 
+    validations:
+      required: true
+
+  - type: textarea
+    id: misc
+    attributes:
+      label: Miscellaneous
+      description: Any server-side mods/plugins not part of the pack, recent config changes, or other relevant context.
+    validations:
+      required: false
