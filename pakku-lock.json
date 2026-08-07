@@ -1,5 +1,5 @@
 {
-    "target": "multiplatform",
+    "target": "modrinth",
     "mc_versions": [
         "1.21.1"
     ],
