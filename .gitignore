@@ -43,6 +43,7 @@
 /shaderpacks/
 /xaero/
 /XaeroWaypoints_*/
+/particular_cache/
 command_history.txt
 /options.txt
 usercache.json
