@@ -1,5 +1,5 @@
 {
-    "target": "modrinth",
+    "target": "multiplatform",
     "mc_versions": [
         "1.21.1"
     ],
@@ -2056,6 +2056,42 @@
             ]
         },
         {
+            "pakku_id": "pCYek0qOGclI1QcU",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "catalogue"
+            },
+            "name": {
+                "curseforge": "Catalogue"
+            },
+            "id": {
+                "curseforge": "459701"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "catalogue-fabric-1.21.1-1.11.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6926/812/catalogue-fabric-1.21.1-1.11.2.jar",
+                    "id": "6926812",
+                    "parent_id": "459701",
+                    "hashes": {
+                        "sha1": "0e537a28c892fc0acc9f2a984dcf3c0990211001",
+                        "md5": "4e7febae0a6ed4511c966641e7183a03"
+                    },
+                    "required_dependencies": [],
+                    "size": 306933,
+                    "date_published": "2025-08-25T14:03:35.323Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "wKWx5Is9cjU7kez7",
             "type": "MOD",
             "side": "CLIENT",
@@ -2451,6 +2487,42 @@
                     "required_dependencies": [],
                     "size": 1061931,
                     "date_published": "2026-06-29T16:27:28.583455Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "JsJMpq1z2bCfLj79",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "configured"
+            },
+            "name": {
+                "curseforge": "Configured"
+            },
+            "id": {
+                "curseforge": "457570"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "configured-fabric-1.21.1-2.6.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7276/575/configured-fabric-1.21.1-2.6.3.jar",
+                    "id": "7276575",
+                    "parent_id": "457570",
+                    "hashes": {
+                        "sha1": "7d1f43eb143c528e2431d8dcaf2e3007837ddf08",
+                        "md5": "b8f52c50212c6db4485535c6a9d5af9a"
+                    },
+                    "required_dependencies": [],
+                    "size": 400642,
+                    "date_published": "2025-11-30T02:20:55.313Z"
                 }
             ]
         },
@@ -4092,6 +4164,42 @@
             ]
         },
         {
+            "pakku_id": "8j08bgrYwW0g8gcR",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "framework"
+            },
+            "name": {
+                "curseforge": "Framework"
+            },
+            "id": {
+                "curseforge": "549225"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "framework-fabric-1.21.1-0.13.11.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7530/359/framework-fabric-1.21.1-0.13.11.jar",
+                    "id": "7530359",
+                    "parent_id": "549225",
+                    "hashes": {
+                        "sha1": "87ce6c5c312da043e823e9407a04d307b5974d06",
+                        "md5": "dd84f69d6773a1c48394149039154539"
+                    },
+                    "required_dependencies": [],
+                    "size": 1647903,
+                    "date_published": "2026-01-26T14:04:16.583Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "xSBuszyQXsRZyuRw",
             "type": "RESOURCE_PACK",
             "side": "CLIENT",
@@ -5499,6 +5607,44 @@
                     ],
                     "size": 188035,
                     "date_published": "2024-06-15T08:11:26.157766Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "dA79vcTs2CAi48eQ",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "menulogue"
+            },
+            "name": {
+                "curseforge": "Menulogue"
+            },
+            "id": {
+                "curseforge": "682371"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "menulogue-fabric-1.21.1-1.0.6.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5705/587/menulogue-fabric-1.21.1-1.0.6.jar",
+                    "id": "5705587",
+                    "parent_id": "682371",
+                    "hashes": {
+                        "sha1": "69dcc4bab970f5ce064ac022cbc3ca0d4d2cd056",
+                        "md5": "db2a234ada5e6363cb0ca9f3fa4e738f"
+                    },
+                    "required_dependencies": [
+                        "459701"
+                    ],
+                    "size": 24449,
+                    "date_published": "2024-09-09T03:00:27.140Z"
                 }
             ]
         },
@@ -8223,6 +8369,78 @@
                     ],
                     "size": 8137802,
                     "date_published": "2025-12-12T18:32:55.371335Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Uz9I6Csjfc4DpS3C",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "streams-reflowing"
+            },
+            "name": {
+                "curseforge": "Streams Reflowing"
+            },
+            "id": {
+                "curseforge": "1581408"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "StreamsReflowing-1.21.1-fabric-2.11.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8586/255/StreamsReflowing-1.21.1-fabric-2.11.0.jar",
+                    "id": "8586255",
+                    "parent_id": "1581408",
+                    "hashes": {
+                        "sha1": "4ca68506180101e26f831e40b1e4b28260804dca",
+                        "md5": "7cd7bacefc177ea52180f956b245c8f9"
+                    },
+                    "required_dependencies": [],
+                    "size": 539786,
+                    "date_published": "2026-08-06T02:54:59.237Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "RS1S0HR8CWvfNNPd",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "structureoverlapless"
+            },
+            "name": {
+                "curseforge": "StructureOverlapless"
+            },
+            "id": {
+                "curseforge": "1451998"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "overlapless-1.21.1-1.2.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7722/840/overlapless-1.21.1-1.2.0.jar",
+                    "id": "7722840",
+                    "parent_id": "1451998",
+                    "hashes": {
+                        "sha1": "c740fe23b64f637be4bc8e61d23dbd2b16732250",
+                        "md5": "ba5d0e8b405fcb531a4106b7df2c86df"
+                    },
+                    "required_dependencies": [],
+                    "size": 20008,
+                    "date_published": "2026-03-07T05:29:52.883Z"
                 }
             ]
         },
