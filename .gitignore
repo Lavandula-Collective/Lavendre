@@ -8,6 +8,10 @@
 ###      /**/                   Matches nested folders              **/logs/
 ###       #                     Starts a comment line          # API keys below
 
+### Pakku ###
+build/
+.pakku/
+
 ### Minecraft ###
 ### Folders ###
 .cache
@@ -35,6 +39,7 @@ shaderpacks/
 xaero/
 XaeroWaypoints_*/
 particular_cache/
+dashloader-cache/
 ### Files ###
 command_history.txt
 options.txt
