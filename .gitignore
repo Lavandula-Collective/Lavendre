@@ -16,6 +16,8 @@
 !.pakku/overrides/**
 !.pakku/server-overrides/
 !.pakku/server-overrides/**
+!.pakku/update-push/
+!.pakku/update-push/**
 
 ### Minecraft ###
 ### Folders ###
