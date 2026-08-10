@@ -4366,6 +4366,44 @@
             ]
         },
         {
+            "pakku_id": "bzChYU1ADSQJkvmX",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "eating-animation"
+            },
+            "name": {
+                "modrinth": "Eating Animation"
+            },
+            "id": {
+                "modrinth": "rUgZvGzi"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "eating-animation-1.21+1.9.72.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/rUgZvGzi/versions/KWZCioh0/eating-animation-1.21+1.9.72.jar",
+                    "id": "KWZCioh0",
+                    "parent_id": "rUgZvGzi",
+                    "hashes": {
+                        "sha512": "6513938ddbbbf32602982b50296c0261ce5f1bc33838675bc4574b0ec710bc9a5622f838ab5adbdc5b9c01f7e2696443c3bc377f1cc1f1b8376539004e5a871c",
+                        "sha1": "d89ecd0ac342697e0d1c3aaff1daa6c81bebe2f6"
+                    },
+                    "required_dependencies": [],
+                    "size": 1060520,
+                    "date_published": "2024-06-25T17:48:29.642304Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "wZn5S3MA93YaTQv4",
             "pakku_links": [
                 "xFWOiZPSiPnndqB3",
@@ -8221,6 +8259,90 @@
                     ],
                     "size": 573033,
                     "date_published": "2026-06-17T04:18:09.843360Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "ypJmqhF2f3d4hkTW",
+            "pakku_links": [
+                "pkTBLHmZv9U03FlF",
+                "bzChYU1ADSQJkvmX"
+            ],
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "mizuno-eating-animation",
+                "modrinth": "mizuno-eating-animation"
+            },
+            "name": {
+                "curseforge": "Mizuno Eating Animation",
+                "modrinth": "Mizuno Eating Animation"
+            },
+            "id": {
+                "curseforge": "1170466",
+                "modrinth": "oWTgPt6N"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Mizuno Eating Animation.zip",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.3",
+                        "1.21.2"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7808/859/Mizuno Eating Animation.zip",
+                    "id": "7808859",
+                    "parent_id": "1170466",
+                    "hashes": {
+                        "sha1": "1118274aec2c3c901dfa7d004ce3a14b93060933",
+                        "md5": "dfbd85f29c3cad4ffc83e4fb0b0afa32"
+                    },
+                    "required_dependencies": [
+                        "527023"
+                    ],
+                    "size": 144451,
+                    "date_published": "2026-03-25T02:12:36.483Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "Mizuno Eating Animation.zip",
+                    "mc_versions": [
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3"
+                    ],
+                    "loaders": [
+                        "minecraft"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/oWTgPt6N/versions/Yr2PNrjG/Mizuno Eating Animation.zip",
+                    "id": "Yr2PNrjG",
+                    "parent_id": "oWTgPt6N",
+                    "hashes": {
+                        "sha512": "d4d965eba5a0c6a547aa1c1c188483d7a5c14954371363440d82bbb910ae354067de07933b3a834c90d74528bd9d5226f4565b15bf51f3e367874a592cad5768",
+                        "sha1": "2b10601e3b078cb831629db49fc2a50e817fdb69"
+                    },
+                    "required_dependencies": [
+                        "rUgZvGzi"
+                    ],
+                    "size": 144414,
+                    "date_published": "2026-03-25T01:21:00.816339Z"
                 }
             ]
         },
