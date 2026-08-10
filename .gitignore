@@ -16,8 +16,6 @@
 !.pakku/overrides/**
 !.pakku/server-overrides/
 !.pakku/server-overrides/**
-!.pakku/update-push/
-!.pakku/update-push/**
 
 ### Minecraft ###
 ### Folders ###
@@ -46,6 +44,7 @@
 /xaero/
 /XaeroWaypoints_*/
 /particular_cache/
+/dashloader-cache/
 command_history.txt
 /options.txt
 usercache.json
