@@ -6,20 +6,12 @@
       {
         "clickEvent" : {
           "action" : "open_url",
-          "value" : "https:\/\/modrinth.com\/project\/lavendre\/"
+          "value" : "https:\/\/discord.gg\/DXFpzAn2fh\/"
         },
-        "text" : "Lavendre 1.0.0"
+        "text" : "Need help? Join our §9Discord§r!"
       }
     ],
-    "bottom_right": [
-      {
-        "text": "Based on Fabulously Optimized 6.5.0",
-        "clickEvent": {
-          "action": "open_url",
-          "value": "https://fabulously-optimized.github.io/"
-        }
-      }
-    ],
+    "bottom_right": [],
     "mod_blacklist": []
   },
   "pause_menu": {
@@ -29,9 +21,9 @@
       {
         "clickEvent" : {
           "action" : "open_url",
-          "value" : "https:\/\/modrinth.com\/project\/lavendre\/"
+          "value" : "https:\/\/discord.gg\/DXFpzAn2fh\/"
         },
-        "text" : "Lavendre 1.0.0"
+        "text" : "Need help? Join our §9Discord§r!"
       }
     ],
     "bottom_right" : [
@@ -40,7 +32,7 @@
           "action" : "open_url",
           "value" : "https:\/\/bit.ly\/LavendreMasterCatalog\/"
         },
-        "text" : "Open Lavendre CIT Master Catalog here."
+        "text" : "Open Lavendre CIT Master Catalog."
       }
     ],
     "mod_blacklist": []
