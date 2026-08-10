@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = io.github.aerhazu.lavendre.packorder
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1786049702818
+  last_edited_time = 1786326005690
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:3caa4950-1999-4c77-a804-4f9e624e1829-1786049682762] = [groups:][instances:]
+  [loading_requirement_container_meta:165423c6-7b20-4a76-a0a8-b31685357b25-1786325963122] = [groups:][instances:]
 }
 
 customization {
@@ -362,13 +362,13 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_height = 1080
   sticky_anchor = false
   anchor_point = mid-centered
   x = -185
   y = -161
   width = 369
-  height = 308
+  height = 285
   stay_on_screen = true
   element_loading_requirement_container_identifier = abfd4930-9e3e-40f7-ae4e-8a887aa9b182-1784707378965
   [loading_requirement_container_meta:abfd4930-9e3e-40f7-ae4e-8a887aa9b182-1784707378965] = [groups:][instances:]
@@ -413,7 +413,7 @@ element {
 
 element {
   interactable = true
-  source = To ensure all CITs work correctly, please follow the recommended resource pack order.%n%%n%Minecraft loads resource packs from %#FFFF00%BOTTOM%#% to %#FFFF00%TOP%#%, meaning the bottom-most pack is the base, while packs above it override those below.%n%%n%Arrange your resource packs as follows (%#FFFF00%TOP%#% → %#FFFF00%BOTTOM%#%) :%n%%n%%#FFFF00%|—%#%[Other CIT Packs] %n%%#FFFF00%|—%#%[Ghoulcraft CITs]%n%%#FFFF00%|—%#%"Mizuno's 16 Craft CIT" %n%%#FFFF00%|—%#%[Misc. Packs]%n%%#FFFF00%|—%#%"Invisible Item Frames"%n%%#FFFF00%|—%#%"Mizuno BOP Addon"%n%%#FFFF00%|—%#%[Mizuno FA Addons]%n%%#FFFF00%|—%#%[FA Addons]%n%%#FFFF00%|—%#%"Fresh Animations"%n%%#FFFF00%|—%#%[Mizuno Addons]%n%%#FFFF00%|—%#%"Tinker"%n%%#FFFF00%|—%#%"Modern Mizunos"%n%%#FFFF00%|—%#%"Mizuno's 16 Craft JE Texture Pack"%n%%n%%#FFFF00%**You can hold and drag to change resource packs order instead of clicking!**%#%
+  source = To ensure all CITs display correctly, please follow the recommended resource pack order.%n%%n%Minecraft loads resource packs from **bottom to top**, meaning the bottom-most pack acts as the base, while packs above it override the packs below.%n%%n%Arrange your resource packs in the following order (**TOP → BOTTOM**):%n%%n%%#FFFF00%|—%#% [CITs]%n%%#FFFF00%|—%#% [Other Packs]%n%%#FFFF00%|—%#% [Mizuno Addons & FA]%n%%#FFFF00%|—%#% "Mizuno's 16 Craft JE CIT"%n%%#FFFF00%|—%#% "Mizuno's 16 Craft JE Texture Pack"%n%%n%Simply press and hold %#FFFF00%Control/Command + T%#% to automatically reset your resource packs to the recommended order.%n%(This will remove any resource packs that are not part of the default configuration.)%n%%n%%#FFFF00%You can also click and drag resource packs to change their order instead of clicking the arrows!%#%%n%
   source_mode = direct
   shadow = true
   enable_scrolling = false
@@ -444,7 +444,7 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_height = 1080
   sticky_anchor = false
   anchor_point = mid-centered
   x = -170
@@ -531,7 +531,7 @@ element {
   anchor_point = element
   anchor_point_element = 22fefc8f-da24-4673-9fba-054231b733e0-1784707241650
   x = 137
-  y = 306
+  y = 287
   width = 63
   height = 20
   stay_on_screen = true
@@ -590,7 +590,7 @@ element {
   anchor_point_element = 2d077d19-e721-4482-bf80-fca81e0e2f7f-1784707378966
   x = 410
   y = -87
-  width = 104
+  width = 99
   height = 496
   stay_on_screen = true
   element_loading_requirement_container_identifier = d49143c0-dc68-4d43-bd3e-d544c6818fa1-1784709848640
