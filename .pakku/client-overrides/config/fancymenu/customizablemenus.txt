@@ -27,3 +27,6 @@ net.minecraft.class_5375 {
 net.minecraft.class_481 {
 }
 
+net.minecraft.class_500 {
+}
+
