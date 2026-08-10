@@ -58,12 +58,14 @@ key_flashback.keybind.create_marker_1:key.keyboard.unknown:
 key_flashback.keybind.create_marker_2:key.keyboard.unknown:
 key_flashback.keybind.create_marker_3:key.keyboard.unknown:
 key_flashback.keybind.create_marker_4:key.keyboard.unknown:
+key_legendarytooltips.key.scrollTooltips:key.keyboard.left.shift:
 key_accessories.key.open_accessories_screen:key.keyboard.h:
 key_net.clayborn.accurateblockplacement.togglevanillaplacement:key.keyboard.unknown:
 key_net.clayborn.accurateblockplacement.togglefastbreaking:key.keyboard.unknown:
 key_key.autohud.toggle-hud:key.keyboard.f4:
 key_key.autohud.peek-hud:key.keyboard.unknown:
 key_key.bridgingmod.toggle_bridging:key.keyboard.comma:
+key_key.carry.desc:key.keyboard.unknown:
 key_key.cit-manager.openlist:key.keyboard.g:
 key_key.clientsort.edit:key.keyboard.unknown:
 key_key.clientsort.cancelAuto:key.keyboard.unknown:
@@ -82,6 +84,7 @@ key_key.entityculling.toggle:key.keyboard.unknown:
 key_key.fabricskyboxes.toggle:key.keyboard.unknown:
 key_key.fabricskyboxes.toggle.debug_hud:key.keyboard.unknown:
 key_key.flash.clear:key.keyboard.unknown:
+key_text.HorseBuff.keybinding.horsePlayerInventory:key.keyboard.left.alt:
 key_key.inventoryessentials.sort_inventory:key.keyboard.unknown:
 key_key.inventoryessentials.restock_container:key.keyboard.unknown:
 key_key.inventoryessentials.restock_inventory:key.keyboard.unknown:
@@ -140,6 +143,8 @@ key_key.punchy.open_main_menu:key.keyboard.f8:
 key_key.punchy.inspect:key.keyboard.i:
 key_key.raised.options:key.keyboard.grave.accent:
 key_key.screenshot_viewer.open_screenshots_screen:key.keyboard.unknown:
+key_key.showmeyourskin.open_settings:key.keyboard.k:
+key_key.showmeyourskin.global_toggle:key.keyboard.j:
 key_key.skinshuffle.preset_1:key.keyboard.unknown:
 key_key.skinshuffle.preset_2:key.keyboard.unknown:
 key_key.skinshuffle.preset_3:key.keyboard.unknown:

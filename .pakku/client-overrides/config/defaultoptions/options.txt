@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","file/Mizunos 16 Craft JE_1.20.4-1.0_230105.zip","file/Modern Mizunos v0.5.2.zip","file/Tinker_1.21.1-1.0.zip","file/Mizuno Connected Texture 2.6.zip","file/Mizuno\u0027s Connected Glass 1.4.zip","file/Mizuno\u0027s Better Crops 1.1.zip","file/Universal Bushy Leaves.zip","file/FreshAnimations_v1.10.4.zip","file/FA+Player-v1.1.zip","file/Mizuno x Fresh Animations 4.5.zip","file/Mizuno\u0027s Allay Variants 1.3.zip","file/Mizuno\u0027s Cow Variant x FA 2.2.zip","file/Mizuno\u0027s Fox Variant\u0027s.zip","file/Mizuno\u0027s Chicken Variant x FA.zip","file/Mizuno\u0027s Pig Variant x FA 2.2.zip","file/BOP - Mizuno\u0027s Style 1.21.1.zip","file/Invisible-Item-Frames-V6.zip","punchy:punchy","file/HyperPunchy-v2.5+.zip","file/Mizunos 16 Craft JE CIT_1.21.1-1.1_170726.zip","file/[MEGA] Ghoulcraft 2.1.zip","file/Erstwhile_CIT_v1.0.zip","file/Hananacraft v1.3.4.zip","file/Aer\u0027s Timber Framed v1.1.zip","file/Serified Font v1.2.zip"]
+resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -89,7 +89,7 @@ telemetryOptInExtra:false
 onboardAccessibility:false
 menuBackgroundBlurriness:5
 soundCategory_master:1.0
-soundCategory_music:0.05633802830018628
+soundCategory_music:0.056338028169014086
 soundCategory_record:0.7077464788732394
 soundCategory_weather:0.8063380281690141
 soundCategory_block:0.5
