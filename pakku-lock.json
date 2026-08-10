@@ -13464,6 +13464,111 @@
             ]
         },
         {
+            "pakku_id": "8tRV1YYybMsODWSl",
+            "pakku_links": [
+                "Od5ZB396XPh5KgFE"
+            ],
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "appleskin-for-mizunos"
+            },
+            "name": {
+                "modrinth": "appleskin for mizunos"
+            },
+            "id": {
+                "modrinth": "StwlQNpL"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "appleskin for mizunos.zip",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1",
+                        "23w31a",
+                        "23w32a",
+                        "23w33a",
+                        "23w35a",
+                        "1.20.2-pre1",
+                        "1.20.2",
+                        "23w42a",
+                        "23w43a",
+                        "23w43b",
+                        "23w44a",
+                        "23w45a",
+                        "23w46a",
+                        "1.20.3",
+                        "1.20.4",
+                        "24w03a",
+                        "24w03b",
+                        "24w04a",
+                        "24w05a",
+                        "24w05b",
+                        "24w06a",
+                        "24w07a",
+                        "24w09a",
+                        "24w10a",
+                        "24w11a",
+                        "24w12a",
+                        "24w13a",
+                        "24w14potato",
+                        "24w14a",
+                        "1.20.5-pre1",
+                        "1.20.5-pre2",
+                        "1.20.5-pre3",
+                        "1.20.5",
+                        "1.20.6",
+                        "24w18a",
+                        "24w19a",
+                        "24w19b",
+                        "24w20a",
+                        "1.21",
+                        "1.21.1",
+                        "24w33a",
+                        "24w34a",
+                        "24w35a",
+                        "24w36a",
+                        "24w37a",
+                        "24w38a",
+                        "24w39a",
+                        "24w40a",
+                        "1.21.2-pre1",
+                        "1.21.2-pre2",
+                        "1.21.2",
+                        "1.21.3",
+                        "24w44a",
+                        "24w45a",
+                        "24w46a",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "minecraft"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/StwlQNpL/versions/Dbdk6Ybc/appleskin for mizunos.zip",
+                    "id": "Dbdk6Ybc",
+                    "parent_id": "StwlQNpL",
+                    "hashes": {
+                        "sha512": "b62b7a20cc65a5ed067166f173d8e6751bc5baf4268fc27947e0bd1f2603f61e59ce92c70bd9420923a399eede8e5122b7543682908748d05b1cb36007977dcc",
+                        "sha1": "6dc2fdc6060096cc1bbed0be02c18fa89726f70e"
+                    },
+                    "required_dependencies": [
+                        "EsAfCjCV"
+                    ],
+                    "size": 2650,
+                    "date_published": "2026-04-15T22:18:30.622827Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "sLQt3OwSIdvw1jzy",
             "pakku_links": [
                 "gk7SqwElaRKovhhf"
