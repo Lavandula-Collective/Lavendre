@@ -70,7 +70,7 @@
 #The Realms Screen event
 [realms_list]
 	#Enable/Disable the Realms Screen Event
-	enabled = true
+	enabled = false
 
 	#List of RPCs that will be displayed at random
 	[[realms_list.presence]]
@@ -135,13 +135,13 @@
 		streamingActivityUrl = "https://twitch.tv/twitch"
 
 		[[multi_player.presence.buttons]]
-			label = "Join The Pond"
-			url = "https://discord.gg/TGv7VyZmPn"
+			label = "Join Lavandula Collective"
+			url = "https://discord.gg/DXFpzAn2fh"
 
 #The Realms Game Event
 [realms]
 	#Enable/Disable the Realms Game Event
-	enabled = true
+	enabled = false
 
 	#List of RPCs that will be displayed at random
 	[[realms.presence]]
