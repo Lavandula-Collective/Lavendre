@@ -1,5 +1,5 @@
 {
-    "target": "multiplatform",
+    "target": "modrinth",
     "mc_versions": [
         "1.21.1"
     ],
@@ -2073,6 +2073,44 @@
                     ],
                     "size": 88596,
                     "date_published": "2026-06-17T00:44:13.222320Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "ljbCIk51pUePciA2",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "biolith"
+            },
+            "name": {
+                "modrinth": "Biolith"
+            },
+            "id": {
+                "modrinth": "iGEl6Crx"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "biolith-fabric-3.0.14.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/iGEl6Crx/versions/aBinwigO/biolith-fabric-3.0.14.jar",
+                    "id": "aBinwigO",
+                    "parent_id": "iGEl6Crx",
+                    "hashes": {
+                        "sha512": "3d0f05a9ae4b001f33437cfb789b1fd9d5a90dde1075197f9ea97fe9b5b01505c2936baf748df641b4476cb1bb30ad229926c3afc310800e7bef076186d8fd81",
+                        "sha1": "804f41e18b368222b74295911f8487579d83e3e0"
+                    },
+                    "required_dependencies": [],
+                    "size": 218094,
+                    "date_published": "2026-07-15T04:48:32.618530Z"
                 }
             ]
         },
@@ -5613,6 +5651,104 @@
             ]
         },
         {
+            "pakku_id": "zCFY6h81QfFOk29D",
+            "pakku_links": [
+                "ljbCIk51pUePciA2",
+                "UZJ5IX43wiXJCmmo",
+                "FrjtpljtPfSzUAfY",
+                "BS9qU9YAP3rLvY4Z",
+                "399eelPn0EcUdH06",
+                "gk7SqwElaRKovhhf"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "hybrid-aquatic"
+            },
+            "name": {
+                "modrinth": "Hybrid Aquatic"
+            },
+            "id": {
+                "modrinth": "HH4FjUqN"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "[1.21.1-Fabric] Hybrid Aquatic 1.6.9.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/HH4FjUqN/versions/F5POkJG0/[1.21.1-Fabric] Hybrid Aquatic 1.6.9.jar",
+                    "id": "F5POkJG0",
+                    "parent_id": "HH4FjUqN",
+                    "hashes": {
+                        "sha512": "5dc6a76776f71ccd19a2913fb56ae128350285fe7e6b140472f6194ef3ef4f020f04f60e233f76309912a1e33fd14d046e4cb629569f8f9507b342a7fc1d7d63",
+                        "sha1": "dc35d183dfabfeb104209a44f37c5987f009640e"
+                    },
+                    "required_dependencies": [
+                        "iGEl6Crx",
+                        "8BmcQJ2H",
+                        "Ha28R6CL",
+                        "5aaWibi9",
+                        "XaDC71GB",
+                        "P7dR8mSH"
+                    ],
+                    "size": 6465349,
+                    "date_published": "2026-08-07T11:09:52.182227Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "XimIaMDGZpkav0Ya",
+            "pakku_links": [
+                "FrjtpljtPfSzUAfY",
+                "zCFY6h81QfFOk29D",
+                "gk7SqwElaRKovhhf"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "hybrid-delights"
+            },
+            "name": {
+                "modrinth": "Hybrid Delights"
+            },
+            "id": {
+                "modrinth": "WR49BBCu"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "[1.21.1-Fabric] Hybrid Delights 1.2.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/WR49BBCu/versions/KGUIAsfn/[1.21.1-Fabric] Hybrid Delights 1.2.1.jar",
+                    "id": "KGUIAsfn",
+                    "parent_id": "WR49BBCu",
+                    "hashes": {
+                        "sha512": "81870469e7bf243ed6710b65c6acab0cee67f43dd46b5f990514d9eaf42465c24f78cb5923c66106cb460816e7e2b04f4fa91d76ff5c60309de6474279abfb4c",
+                        "sha1": "15395b00411ae463afe47f0fba0624fa56650b71"
+                    },
+                    "required_dependencies": [
+                        "Ha28R6CL",
+                        "HH4FjUqN",
+                        "P7dR8mSH"
+                    ],
+                    "size": 404993,
+                    "date_published": "2026-08-07T20:27:01.138135Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "PsQOY4KdEQWYW5XC",
             "pakku_links": [
                 "rvOiV7U4zfs1y6fF"
@@ -6941,6 +7077,48 @@
                     "required_dependencies": [],
                     "size": 797454,
                     "date_published": "2026-06-27T17:11:51.297165Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "399eelPn0EcUdH06",
+            "pakku_links": [
+                "gk7SqwElaRKovhhf"
+            ],
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "lithostitched"
+            },
+            "name": {
+                "modrinth": "Lithostitched"
+            },
+            "id": {
+                "modrinth": "XaDC71GB"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "lithostitched-1.7.13-fabric-21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/XaDC71GB/versions/JWtSqSeY/lithostitched-1.7.13-fabric-21.1.jar",
+                    "id": "JWtSqSeY",
+                    "parent_id": "XaDC71GB",
+                    "hashes": {
+                        "sha512": "895052dbfdbe65541eb3a0dc12950d803dcfd702872723dcb2c1d842cb12370f18e79b3543ad9e447e6c66caa2d99569329fec412c5645545c6698923f25f5ad",
+                        "sha1": "cc4494359564dc71e149df7b981d9c4d4f3260a7"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 827470,
+                    "date_published": "2026-07-06T00:40:05.857484Z"
                 }
             ]
         },
@@ -12749,6 +12927,44 @@
             ]
         },
         {
+            "pakku_id": "BS9qU9YAP3rLvY4Z",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "trinkets"
+            },
+            "name": {
+                "modrinth": "Trinkets"
+            },
+            "id": {
+                "modrinth": "5aaWibi9"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "trinkets-3.10.0.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/5aaWibi9/versions/JagCscwi/trinkets-3.10.0.jar",
+                    "id": "JagCscwi",
+                    "parent_id": "5aaWibi9",
+                    "hashes": {
+                        "sha512": "3ea846c945a0559696501ff65b373c8ee8fd9b394604e9910b4ed710c3e07cadc674a615a2c3b385951a42253a418201975df951b3100053ed39afadc70221c9",
+                        "sha1": "f54756f938c7c273713b9f97d4a987eec551e892"
+                    },
+                    "required_dependencies": [],
+                    "size": 272944,
+                    "date_published": "2024-07-15T11:03:14.206207Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "lJX2oBXp1KRTElaO",
             "pakku_links": [
                 "gk7SqwElaRKovhhf",
@@ -12791,6 +13007,48 @@
                     ],
                     "size": 14748,
                     "date_published": "2024-06-14T12:47:16.919151Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "TBYDEQzKIvDwV0V5",
+            "pakku_links": [
+                "Zu1Zv7mcUjSP1Oj9"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "tweaks-delight"
+            },
+            "name": {
+                "modrinth": "Tweaks Delight"
+            },
+            "id": {
+                "modrinth": "k4B832GB"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "tweaksdelight-26.04.09-1.21-fabric.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/k4B832GB/versions/8XtXBh1x/tweaksdelight-26.04.09-1.21-fabric.jar",
+                    "id": "8XtXBh1x",
+                    "parent_id": "k4B832GB",
+                    "hashes": {
+                        "sha512": "299f728e0eca4bc0821b095e248b628b25b7a37b986d22afc25f415c9b93f0604b3758de5e0fc5eba513941ed5506101e29ba08d3fcca1fdc78b8bb06fa33f75",
+                        "sha1": "0abe623903c76c44c412bad536bbd3dbb250bd03"
+                    },
+                    "required_dependencies": [
+                        "7vxePowz"
+                    ],
+                    "size": 31865,
+                    "date_published": "2026-04-09T03:40:24.113033Z"
                 }
             ]
         },
