@@ -1622,6 +1622,49 @@
             ]
         },
         {
+            "pakku_id": "WThJPlPUKnIjZoh9",
+            "pakku_links": [
+                "Zu1Zv7mcUjSP1Oj9"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "autochefs-delight"
+            },
+            "name": {
+                "modrinth": "Autochef's Delight"
+            },
+            "id": {
+                "modrinth": "HY0PMpa3"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "AutochefsDelight-1.21.1-Fabric-2.1.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/HY0PMpa3/versions/dRdTDJSJ/AutochefsDelight-1.21.1-Fabric-2.1.1.jar",
+                    "id": "dRdTDJSJ",
+                    "parent_id": "HY0PMpa3",
+                    "hashes": {
+                        "sha512": "0930d7623344b55662476d95f1bbb68b782f399360187b10805bdfa1a273c7eb2cdc74f0742fff920ea79361a4d162f1286bc892553c4d860daec5a7fa9f9d34",
+                        "sha1": "092d23d21a97a6903d5cbffcd80311cd0acec4a3"
+                    },
+                    "required_dependencies": [
+                        "7vxePowz"
+                    ],
+                    "size": 17175,
+                    "date_published": "2026-04-30T08:22:16.389301Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "YnLfCE11f78GyFyc",
             "pakku_links": [
                 "gk7SqwElaRKovhhf"
@@ -2282,6 +2325,43 @@
                     ],
                     "size": 208104,
                     "date_published": "2026-06-29T09:52:20.760461Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "M1fsyeYKCwu8wbca",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "brewin-and-chewin"
+            },
+            "name": {
+                "modrinth": "Brewin' And Chewin'"
+            },
+            "id": {
+                "modrinth": "hIu9KJTT"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "BrewinAndChewin-fabric-4.5.0+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/hIu9KJTT/versions/O3PobqCR/BrewinAndChewin-fabric-4.5.0+1.21.1.jar",
+                    "id": "O3PobqCR",
+                    "parent_id": "hIu9KJTT",
+                    "hashes": {
+                        "sha512": "f3d204198c633bd6865dc57dbc59ab122cda57647049026172852a1e81f72370fb4875e4bc7aac55e5873786494ef4acefe607e6ccd92392933449f850c8d2ec",
+                        "sha1": "0bf2abd87489dbe4d2ace27fbb3fe72510febe8f"
+                    },
+                    "required_dependencies": [],
+                    "size": 1548542,
+                    "date_published": "2026-06-24T00:01:22.368890Z"
                 }
             ]
         },
@@ -3160,6 +3240,49 @@
                     "required_dependencies": [],
                     "size": 1061931,
                     "date_published": "2026-06-29T16:27:28.583455Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "TyM4VdKxziUKGv8Z",
+            "pakku_links": [
+                "gk7SqwElaRKovhhf"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "comforts"
+            },
+            "name": {
+                "modrinth": "Comforts"
+            },
+            "id": {
+                "modrinth": "SaCpeal4"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "comforts-fabric-9.0.5+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/SaCpeal4/versions/LUPOTXbk/comforts-fabric-9.0.5+1.21.1.jar",
+                    "id": "LUPOTXbk",
+                    "parent_id": "SaCpeal4",
+                    "hashes": {
+                        "sha512": "617711d65c0ac1ddb8069ed46051c7da5fd7f4a19adbefc1c6d417621d32a4a4929dd60bd76f204045537a151d29f5e518aa7d18d604012ef1f9b62de707530d",
+                        "sha1": "e47d6c2f0213abed8865dfa51ee05dea86c1baa9"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 914494,
+                    "date_published": "2026-01-24T04:53:16.028317Z"
                 }
             ]
         },
@@ -4188,6 +4311,43 @@
             ]
         },
         {
+            "pakku_id": "jtk5nWAPBkIt5iJf",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "display-delight-fabric"
+            },
+            "name": {
+                "modrinth": "Display Delight Fabric"
+            },
+            "id": {
+                "modrinth": "jK2xMxSG"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "display-delight-1.6.1-mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/jK2xMxSG/versions/10ODL2xQ/display-delight-1.6.1-mc1.21.1.jar",
+                    "id": "10ODL2xQ",
+                    "parent_id": "jK2xMxSG",
+                    "hashes": {
+                        "sha512": "61d9dddb321c040b54b992e4c7229aedf3d124e562336045708d164b6e547670f41daa6ebb8c0db35bb258410c22c28199c9d69c5a7e09b03775ccf4c9c17b20",
+                        "sha1": "70d7fe785ffafffbbfee818a8d14c3cfa9f09cfa"
+                    },
+                    "required_dependencies": [],
+                    "size": 1030507,
+                    "date_published": "2026-02-13T23:52:48.629478Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "dqo9yvghSwXnCyQm",
             "type": "MOD",
             "side": "CLIENT",
@@ -4889,6 +5049,53 @@
                     "required_dependencies": [],
                     "size": 3240212,
                     "date_published": "2026-05-14T17:34:23.901245Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "9MBDVdQQCW4xyeMX",
+            "pakku_links": [
+                "gk7SqwElaRKovhhf",
+                "B3EZrETvFbQIBhE7",
+                "Zu1Zv7mcUjSP1Oj9"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "farmers-knives"
+            },
+            "name": {
+                "modrinth": "Farmer's Knives"
+            },
+            "id": {
+                "modrinth": "uc3VdfLM"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "farmersknives-fabric-1.21.1-4.2.0.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/uc3VdfLM/versions/JwAgXOvz/farmersknives-fabric-1.21.1-4.2.0.jar",
+                    "id": "JwAgXOvz",
+                    "parent_id": "uc3VdfLM",
+                    "hashes": {
+                        "sha512": "bdc04134e422ee7c76e4c8bc01ddfcb21b4b8a411f0a754b91c2541bcb16a7230d3f5712b6933ec571a1e331179bba94dab591b8b86ea8b2fd8e4fcd03e88742",
+                        "sha1": "c3af17c5a8f0519250921de00f907e211efb27a3"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH",
+                        "lhGA9TYQ",
+                        "7vxePowz"
+                    ],
+                    "size": 92019,
+                    "date_published": "2026-04-16T02:44:16.323087Z"
                 }
             ]
         },
@@ -8903,6 +9110,51 @@
             ]
         },
         {
+            "pakku_id": "noG9rm4NChaeaQrN",
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "mizunos-dark-mode"
+            },
+            "name": {
+                "modrinth": "Mizuno's Dark Mode"
+            },
+            "id": {
+                "modrinth": "mAfYDrOW"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Mizuno's Dark Mode 1.21-1.21.3 1.0.zip",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3"
+                    ],
+                    "loaders": [
+                        "minecraft"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/mAfYDrOW/versions/5JkuocRH/Mizuno's Dark Mode 1.21-1.21.3 1.0.zip",
+                    "id": "5JkuocRH",
+                    "parent_id": "mAfYDrOW",
+                    "hashes": {
+                        "sha512": "6b50cacacfb9696193c9faf4efd04e40ad0844bbb0995f102f4289c491ba9503e57e18f0a03bf3d4c3f29ec5d80811e308817d5c59d52912ad423c96889fc087",
+                        "sha1": "02919d9e44b49aeedae7fc9ae55d7e569457763a"
+                    },
+                    "required_dependencies": [],
+                    "size": 6297037,
+                    "date_published": "2025-10-03T07:14:03.298191Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "L7YQLe5Z9wktSpNm",
             "type": "RESOURCE_PACK",
             "side": "CLIENT",
@@ -9020,6 +9272,365 @@
                     ],
                     "size": 1044430,
                     "date_published": "2026-03-05T17:51:55.308845Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "jyraz3dEOoihIhcV",
+            "pakku_links": [
+                "M1fsyeYKCwu8wbca"
+            ],
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "mizunos-x-brewin-and-chewin"
+            },
+            "name": {
+                "modrinth": "Mizuno's x Brewin' And Chewin'"
+            },
+            "id": {
+                "modrinth": "E7mJVTzp"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Mizuno's x Brewin' And Chewin'.zip",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "minecraft"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/E7mJVTzp/versions/Z7yCq5qX/Mizuno's x Brewin' And Chewin'.zip",
+                    "id": "Z7yCq5qX",
+                    "parent_id": "E7mJVTzp",
+                    "hashes": {
+                        "sha512": "09e6a6ef60bcab922a2ec31c793abce52a817b9094f9d449933be82193a54f8c38725256b7fe310ad76f33f43cd5734cf2ea38adda1f945b3bc01ef3de5cabb1",
+                        "sha1": "0d515e1f1656ba2714a11848398e30a1df7e6463"
+                    },
+                    "required_dependencies": [
+                        "hIu9KJTT"
+                    ],
+                    "size": 46354,
+                    "date_published": "2026-01-21T11:48:32.287195Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "VJJZWMY6diQ5EUY1",
+            "pakku_links": [
+                "TyM4VdKxziUKGv8Z"
+            ],
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "mizunos-x-comforts"
+            },
+            "name": {
+                "modrinth": "Mizuno's x Comforts"
+            },
+            "id": {
+                "modrinth": "VT8umF6l"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Mizuno's x Comforts 1.1.zip",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11",
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2",
+                        "26.2"
+                    ],
+                    "loaders": [
+                        "minecraft"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/VT8umF6l/versions/LKMFFuBx/Mizuno's x Comforts 1.1.zip",
+                    "id": "LKMFFuBx",
+                    "parent_id": "VT8umF6l",
+                    "hashes": {
+                        "sha512": "9bcd84266610ad14634ed6d2e7e218aa7e75164c18fcfc1a8b67ac43ea7ab9046abf09ac13a4be677b9c9a617a7dfbf72654d4f5cd4f028cab9c749888e423dd",
+                        "sha1": "5098b66183dad85d5c5a0e1e6a06b88b68b88836"
+                    },
+                    "required_dependencies": [
+                        "SaCpeal4"
+                    ],
+                    "size": 87618,
+                    "date_published": "2026-06-26T11:51:24.382253Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Uut9G90mJ1nSWqsN",
+            "pakku_links": [
+                "jtk5nWAPBkIt5iJf"
+            ],
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "mizunos-x-display-delight"
+            },
+            "name": {
+                "modrinth": "Mizuno's x Display Delight"
+            },
+            "id": {
+                "modrinth": "tv7Eidua"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Mizuno's x Display Delight.zip",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "minecraft"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/tv7Eidua/versions/Oujn5rJj/Mizuno's x Display Delight.zip",
+                    "id": "Oujn5rJj",
+                    "parent_id": "tv7Eidua",
+                    "hashes": {
+                        "sha512": "0d935440ca26d3136e8fb04ceadf70be71919570a8b00ed57e933430ffef28ee9840c6dfc1df92511304a950e48126a3a24af42cd28db0668e83ebc8a61ee499",
+                        "sha1": "6573ba5ea8b04280dcf2b7a5fc2f5514ee2853e5"
+                    },
+                    "required_dependencies": [
+                        "jK2xMxSG"
+                    ],
+                    "size": 39474,
+                    "date_published": "2026-02-05T09:42:11.115236Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "rTfq8uwQA3ghxxfi",
+            "pakku_links": [
+                "Zu1Zv7mcUjSP1Oj9"
+            ],
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "mizunos-x-farmers-delight"
+            },
+            "name": {
+                "modrinth": "Mizuno's x Farmer's Delight"
+            },
+            "id": {
+                "modrinth": "XTtnGD6z"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Mizuno's x Farmer's Delight 1.5.zip",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11",
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2",
+                        "26.2"
+                    ],
+                    "loaders": [
+                        "minecraft"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/XTtnGD6z/versions/Q9eE8AAQ/Mizuno's x Farmer's Delight 1.5.zip",
+                    "id": "Q9eE8AAQ",
+                    "parent_id": "XTtnGD6z",
+                    "hashes": {
+                        "sha512": "a8089ad5d4a94a7a9c5d267584adb21f05cdab5baa00c992fd84a2519c94770480f61da8ecc31a54604f493ced571de0c54cbfac86ab2ad0d674d09ac523788c",
+                        "sha1": "3d50862c09a0f368053ff16348494742bff48069"
+                    },
+                    "required_dependencies": [
+                        "7vxePowz"
+                    ],
+                    "size": 189054,
+                    "date_published": "2026-06-26T11:43:22.132967Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "nt7XNEXocI6nA7H7",
+            "pakku_links": [
+                "o2U1veQHMdETMleI"
+            ],
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "mizunos-x-rustic-delight"
+            },
+            "name": {
+                "modrinth": "Mizuno's x Rustic Delight"
+            },
+            "id": {
+                "modrinth": "jQnXlbq5"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Mizuno's x Rustic Delight 1.2.zip",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11",
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2",
+                        "26.2"
+                    ],
+                    "loaders": [
+                        "minecraft"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/jQnXlbq5/versions/bT20nNVC/Mizuno's x Rustic Delight 1.2.zip",
+                    "id": "bT20nNVC",
+                    "parent_id": "jQnXlbq5",
+                    "hashes": {
+                        "sha512": "b1d4ffe38f447fcc3d9ec0f319fbd3992f9eaf3260154777c4adae5e997dd6fe7b182a04997e3be983d8af9823eefaa7743b1f53397d7c76ab4beaab5bd95283",
+                        "sha1": "e21e8aad229a10c0d278808afb0ad67c67b99879"
+                    },
+                    "required_dependencies": [
+                        "foa4fGIH"
+                    ],
+                    "size": 29024,
+                    "date_published": "2026-06-26T12:09:38.147084Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "bxMdgnKpwkekDeRb",
+            "pakku_links": [
+                "eT5qmts7BrseNjNm"
+            ],
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "mizunos-x-ubes-delight"
+            },
+            "name": {
+                "modrinth": "Mizuno's x Ube's Delight"
+            },
+            "id": {
+                "modrinth": "y5jGVXet"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Mizuno's x Ube's Delight 1.1.zip",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11",
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2",
+                        "26.2"
+                    ],
+                    "loaders": [
+                        "minecraft"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/y5jGVXet/versions/9RUE33PR/Mizuno's x Ube's Delight 1.1.zip",
+                    "id": "9RUE33PR",
+                    "parent_id": "y5jGVXet",
+                    "hashes": {
+                        "sha512": "aceee57858f2cc4f75aae3b09c3da630d72e7b9b55e5b16823dead63a85c2336fee38b5ee7306b6e8a9dabd78b6da656cdcabcda2f1bb1bbe3af38dcb6ea350e",
+                        "sha1": "20c75ae365ab0962260497ec3fb39d23fdb5740f"
+                    },
+                    "required_dependencies": [
+                        "PYjpoAys"
+                    ],
+                    "size": 35975,
+                    "date_published": "2026-06-26T12:12:54.667482Z"
                 }
             ]
         },
@@ -11210,6 +11821,53 @@
             ]
         },
         {
+            "pakku_id": "o2U1veQHMdETMleI",
+            "pakku_links": [
+                "gk7SqwElaRKovhhf",
+                "Zu1Zv7mcUjSP1Oj9",
+                "Dc7C4K1ZMdwkBJCm"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "rustic-delight"
+            },
+            "name": {
+                "modrinth": "Rustic Delight"
+            },
+            "id": {
+                "modrinth": "foa4fGIH"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "rusticdelight-fabric-1.21.1-1.7.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/foa4fGIH/versions/VAEiChba/rusticdelight-fabric-1.21.1-1.7.1.jar",
+                    "id": "VAEiChba",
+                    "parent_id": "foa4fGIH",
+                    "hashes": {
+                        "sha512": "8b39abad7f2c3f43784ef0f97d4b93dce68d2f3b1faf55f74d58fd0d919185613b85133241e6023e330716da6832bfd67adcd0c3ff12d7c7620dea37cd6b8a75",
+                        "sha1": "ba071c28fc3827590725921a2a0380d23bf22b95"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH",
+                        "7vxePowz",
+                        "9s6osm5g"
+                    ],
+                    "size": 1007182,
+                    "date_published": "2026-07-31T15:59:24.288167Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "ARPkpiN7fVLKWPrD",
             "type": "MOD",
             "side": "CLIENT",
@@ -13091,6 +13749,51 @@
                     ],
                     "size": 1303092,
                     "date_published": "2025-05-15T21:54:11.652825Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "eT5qmts7BrseNjNm",
+            "pakku_links": [
+                "Zu1Zv7mcUjSP1Oj9",
+                "gk7SqwElaRKovhhf"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "ubes-delight"
+            },
+            "name": {
+                "modrinth": "Ube's Delight"
+            },
+            "id": {
+                "modrinth": "PYjpoAys"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "ubesdelight-fabric-1.21.1-0.4.14-3.0.0+refab.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/PYjpoAys/versions/nTtwab1i/ubesdelight-fabric-1.21.1-0.4.14-3.0.0+refab.jar",
+                    "id": "nTtwab1i",
+                    "parent_id": "PYjpoAys",
+                    "hashes": {
+                        "sha512": "549403ee697b3fac3529dbc9aadd406ffbe08f808cc3d7cd56a34ddfbc4b6161e3b07003deaf58b91c71c2d74b9b5a31a35242c42e57f8ca7e1ba49eda572938",
+                        "sha1": "85e7a5c80fe3b97b36b250181aeea16fc6da78c9"
+                    },
+                    "required_dependencies": [
+                        "7vxePowz",
+                        "P7dR8mSH"
+                    ],
+                    "size": 1154713,
+                    "date_published": "2026-06-20T15:36:07.991225Z"
                 }
             ]
         },
