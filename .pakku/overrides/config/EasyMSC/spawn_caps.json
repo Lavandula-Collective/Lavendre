@@ -1,0 +1,19 @@
+{
+  "hybrid_aquatic:cephalopod": 4,
+  "hybrid_aquatic:crustacean": 4,
+  "underground_water_creature": 5,
+  "ambient": 5,
+  "hybrid_aquatic:river_fish": 6,
+  "axolotls": 5,
+  "monster": 50,
+  "hybrid_aquatic:minion": 8,
+  "hybrid_aquatic:shark": 4,
+  "hybrid_aquatic:fish": 10,
+  "water_creature": 5,
+  "hybrid_aquatic:critter": 4,
+  "hybrid_aquatic:mammal": 2,
+  "hybrid_aquatic:jelly": 4,
+  "creature": 10,
+  "water_ambient": 10,
+  "hybrid_aquatic:miniboss": 4
+}
