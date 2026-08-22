@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = drippy_loading_overlay
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1786226275622
+  last_edited_time = 1787237564255
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:eed24ce8-7a66-46cb-bbcf-c63afcc947b1-1786226189965] = [groups:][instances:]
+  [loading_requirement_container_meta:02c395a0-12b4-4b01-85c8-708de4e5d1da-1787237471416] = [groups:][instances:]
 }
 
 menu_background {
@@ -498,7 +498,7 @@ element {
 
 element {
   interactable = true
-  source = ^^^%n%It is recommended to allocate at least **%#e3abff%4096**%#%MB of RAM!%n%^^^
+  source = ^^^%n%It is recommended to allocate at least **%#e3abff%6000**%#%MB of RAM!%n%^^^
   source_mode = direct
   shadow = true
   enable_scrolling = false
