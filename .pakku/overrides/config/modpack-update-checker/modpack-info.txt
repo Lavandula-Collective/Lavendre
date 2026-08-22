@@ -1,40 +1,8 @@
-# <color=#E3ABFF>🌿 Lavendre</color>
-
 ![Lavendre](https://raw.githubusercontent.com/Lavandula-Collective/Lavendre/ca113bd45f1dd15a957216783fb578cf1cc0dd76/assets/pack_icon.png)
 
-{#7E74A8}A cozy, cottagecore-focused Minecraft modpack.{}
-{red}This is red{}
-§§5Dark Purple§§r
-§§dLight Purple§§r
-§§aGreen§§r
-§§eYellow§§r
-§§fWhite§§r
+# {#E3ABFF}Lavendre{}
+### By Lavandula Collective
 
-**Lavendre** is a cozy, cottagecore-focused Minecraft modpack centered around exploration, farming, decoration, and custom item textures.
-
-> 🪻 **A little more cozy. A little more you.**
-
-Lavendre features a carefully curated collection of **CITs and resource packs**, alongside quality-of-life improvements, performance enhancements, and gameplay additions designed to complement the vanilla Minecraft experience.
-
-### ✦ What's Included
-
-* 🌸 Extensive **CIT collection** for custom items and decorations
-* 🌿 Cottagecore-inspired **resource packs and visuals**
-* 🧺 Farming, cooking, and cozy gameplay features
-* ⚙️ Quality-of-life improvements
-* 🚀 Performance-focused configuration
-* 🏡 Carefully curated vanilla-friendly gameplay
-
-### 📦 Staying Updated
-
-Lavendre is actively developed, so new versions may include configuration changes, bug fixes, compatibility improvements, and new content.
-
-**Keep your modpack updated to ensure you have the latest fixes and features.**
-
-### 🔗 Links
-
-[**Modrinth**](https://modrinth.com/modpack/lavendre) · [**GitHub**](https://github.com/Lavandula-Collective/Lavendre) · [**Issues & Feedback**](https://github.com/Lavandula-Collective/Lavendre/issues)
-
+Welcome to cottagecore vanilla+ Minecraft. Built around Mizuno's 16 Craft, Lavendre combines curated CIT packs, beautiful visuals, and thoughtful enhancements. Build, explore, decorate, and feel at home!
 ---
-
-*Thank you for playing Lavendre. 🌷*
+#### **[Modrinth](https://modrinth.com/modpack/lavendre) · [Discord](https://discord.gg/DXFpzAn2fh) · [GitHub](https://github.com/Lavandula-Collective/Lavendre) · [Issues](https://github.com/Lavandula-Collective/Lavendre/issues)**
