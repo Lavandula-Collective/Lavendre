@@ -1,0 +1,61 @@
+## Lavendre v0.2.0-alpha
+
+### Added
+
+- Autochef's Delight
+- Better Combat
+- Biolith
+- Brewin' And Chewin'
+- Comforts
+- Common Network
+- Countered's Smooth F5
+- Display Delight Fabric
+- Easy Mob Spawn Control - spawn rate, mob cap, disable bad mobs
+- Eating Animation
+- Enchant Display: Roman numerals
+- Equipment Compare
+- Essential Warning Screen
+- Farmer's Delight Refabricated
+- Farmer's Knives
+- Fragmentum
+- Hybrid Aquatic
+- Hybrid Delights
+- Icon Xaero's
+- Iris & Oculus Search
+- LibJF
+- Lithostitched
+- Loot Beams: Refork
+- Mizuno Eating Animation
+- Mizuno's Dark Mode
+- Mizuno's x Brewin' And Chewin'
+- Mizuno's x Comforts
+- Mizuno's x Display Delight
+- Mizuno's x Farmer's Delight
+- Mizuno's x Rustic Delight
+- Mizuno's x Ube's Delight
+- Multi Key Bindings
+- Nirvana Library
+- Peasy Mode
+- Respackopts
+- Rustic Delight
+- Shoulder Surfing Reloaded
+- Stardew Fishing Fabric
+- Trinkets
+- Tweaks Delight
+- Ube's Delight
+- appleskin for mizunos
+- playerAnimator
+
+### Removed
+
+- Auto HUD
+- Cut Through
+- Fragmentum [Fabric Edition]
+- Leawind's Third Person
+- Legendary Tooltips [Neo/Forge]
+- Very Many Players (Fabric)
+
+### Updated
+
+- Hardcore Revival
+- Obscure Tooltips
