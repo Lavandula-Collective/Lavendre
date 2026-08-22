@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "hotfixesFormat": null,
+  "versions": [
+    {
+      "id": "0.0.1-beta",
+      "releasedAt": 1785059400000,
+      "promotions": {
+        "downloads": {
+          "modrinth": "https://modrinth.com/modpack/lavendre/version/0.0.1-beta",
+          "generic": "https://github.com/Lavandula-Collective/Lavendre"
+        }
+      },
+      "updateType": "incompatible"
+    },
+    {
+      "id": "0.1.0-alpha",
+      "releasedAt": 1786333080000,
+      "promotions": {
+        "downloads": {
+          "generic": "https://github.com/Lavandula-Collective/Lavendre/tree/0.1.0-alpha"
+        }
+      },
+      "updateType": "incompatible"
+    },
+    {
+      "id": "0.2.0-alpha",
+      "releasedAt": 1787421864000,
+      "promotions": {
+        "downloads": {
+          "generic": "https://github.com/Lavandula-Collective/Lavendre/tree/0.2.0-alpha"
+        }
+      },
+      "updateType": "incompatible"
+    }
+  ]
+}

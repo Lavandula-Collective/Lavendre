@@ -1,0 +1,40 @@
+{
+  "options": {
+    "CACHE_ATLASES": true,
+    "CACHE_FONT": true,
+    "CACHE_MODEL_LOADER": true,
+    "CACHE_SHADER": true,
+    "CACHE_SPLASH_TEXT": true,
+    "CACHE_SPRITE_CONTENT": true,
+    "CACHE_SPRITE_STITCHING": true,
+    "FAST_MODEL_IDENTIFIER_EQUALS": true,
+    "FAST_WALL_BLOCK": true,
+    "UNSAFE_MIPMAP_GENERATION": true
+  },
+  "compression": 4,
+  "maxCaches": 5,
+  "customSplashLines": [
+    "Gathering wildflowers...",
+    "Making Minecraft feel like home...",
+    "Setting the table...",
+    "Lighting the lanterns...",
+    "Sorting the CITs...",
+    "One more flower won\u0027t hurt.",
+    "Definitely enough flowers. Probably.",
+    "Your cottage misses you.",
+    "Almost ready to explore...",
+    "Loading cached resources...",
+    "Restoring your cached resources...",
+    "Preparing resources for faster loading...",
+    "Putting the cache to work...",
+    "Caching the cozy bits...",
+    "The cache remembers...",
+    "Making the next launch faster...",
+    "Letting the cache do the heavy lifting.",
+    "Saving you a little loading time...",
+    "Making loading a little cozier."
+  ],
+  "addDefaultSplashLines": false,
+  "singleThreadedReading": false,
+  "showCachingToast": true
+}

@@ -1,0 +1,8 @@
+![Lavendre](https://raw.githubusercontent.com/Lavandula-Collective/Lavendre/ca113bd45f1dd15a957216783fb578cf1cc0dd76/assets/pack_icon.png)
+
+# {#E3ABFF}Lavendre{}
+### By Lavandula Collective
+
+Welcome to cottagecore vanilla+ Minecraft. Built around Mizuno's 16 Craft, Lavendre combines curated CIT packs, beautiful visuals, and thoughtful enhancements. Build, explore, decorate, and feel at home!
+---
+#### **[Modrinth](https://modrinth.com/modpack/lavendre) · [Discord](https://discord.gg/DXFpzAn2fh) · [GitHub](https://github.com/Lavandula-Collective/Lavendre) · [Issues](https://github.com/Lavandula-Collective/Lavendre/issues)**

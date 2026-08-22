@@ -1,0 +1,34 @@
+## Lavendre v0.0.1-beta
+
+Welcome to the **first public beta** of Lavendre!
+
+Built upon **Mizuno's 16 Craft**, Lavendre is a cozy Fabric modpack that modernizes the classic OptiFine CIT experience for modern Minecraft. Featuring curated CIT packs, beautiful visuals, and carefully selected quality-of-life enhancements, it's designed to make every world feel warm, immersive, and full of life.
+
+### What's Included
+
+- Modern Minecraft 1.21.1 support
+- Mizuno's 16 Craft with community add-ons
+- Thousands of curated CIT models
+- Beautiful visuals and immersive enhancements
+- Optimized Fabric performance
+- Builder-friendly tools and quality-of-life features
+
+### Before You Play
+
+Some required resource packs cannot be included with the modpack due to their respective licenses.
+
+After launching Lavendre, simply follow the in-game prompts to download the required packs and apply the recommended resource pack order.
+
+### Known Issues
+
+- This is a **beta** release. Bugs and incomplete features may still be present.
+- Some third-party resource packs must be downloaded separately.
+- Minor balancing, visual, and compatibility issues may still exist.
+
+### Feedback
+
+Found a bug or have a suggestion? We'd love to hear from you!
+
+Please report issues or share feedback on the GitHub Issues page to help improve future releases.
+
+Thank you for trying Lavendre. We hope you enjoy building a cozy world!

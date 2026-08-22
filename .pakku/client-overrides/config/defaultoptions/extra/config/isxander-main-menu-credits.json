@@ -1,0 +1,40 @@
+{
+  "main_menu": {
+    "top_left": [],
+    "top_right": [],
+    "bottom_left": [
+      {
+        "clickEvent" : {
+          "action" : "open_url",
+          "value" : "https:\/\/discord.gg\/DXFpzAn2fh\/"
+        },
+        "text" : "Need help? Join our §9Discord§r!"
+      }
+    ],
+    "bottom_right": [],
+    "mod_blacklist": []
+  },
+  "pause_menu": {
+    "top_left": [],
+    "top_right": [],
+    "bottom_left": [
+      {
+        "clickEvent" : {
+          "action" : "open_url",
+          "value" : "https:\/\/discord.gg\/DXFpzAn2fh\/"
+        },
+        "text" : "Need help? Join our §9Discord§r!"
+      }
+    ],
+    "bottom_right" : [
+      {
+        "clickEvent" : {
+          "action" : "open_url",
+          "value" : "https:\/\/bit.ly\/LavendreMasterCatalog\/"
+        },
+        "text" : "Open Lavendre CIT Master Catalog."
+      }
+    ],
+    "mod_blacklist": []
+  }
+}

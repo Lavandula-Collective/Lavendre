@@ -1,0 +1,8 @@
+{
+  "animationPackSelections": {
+    "kind:fishing_rod": "pack:punchy:punchy",
+    "kind:mace": "pack:punchy:punchy"
+  },
+  "animationPackTypeSelections": {},
+  "mixSpecificForceOverride": {}
+}

@@ -1,0 +1,31 @@
+{
+  "configVersion": 3,
+  "blurContainers": true,
+  "blurBooks": true,
+  "blurSigns": true,
+  "blurCommandBlocks": true,
+  "blurDeathScreen": false,
+  "blurTitleScreen": false,
+  "darkenTitleScreen": false,
+  "reduceInGameBlur": true,
+  "showScreenID": false,
+  "forceEnabledScreens": [
+    "dev.emi.emi.screen.RecipeScreen",
+    "mezz.jei.gui.recipes.RecipesGui",
+    "me.shedaniel.rei.impl.client.gui.screen.DefaultDisplayViewingScreen"
+  ],
+  "forceDisabledScreens": [
+    "net.irisshaders.iris.gui.screen.ShaderPackScreen"
+  ],
+  "useGradient": true,
+  "gradientStart": "#120714",
+  "gradientStartAlpha": 75,
+  "gradientEnd": "#120714",
+  "gradientEndAlpha": 75,
+  "gradientRotation": 0,
+  "rainbowMode": false,
+  "fadeTimeMillis": 226,
+  "fadeOutTimeMillis": 226,
+  "blurAnimationCurve": "SINE",
+  "backgroundAnimationCurve": "SINE"
+}
