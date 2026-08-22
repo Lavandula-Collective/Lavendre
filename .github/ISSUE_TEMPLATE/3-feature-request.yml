@@ -1,0 +1,67 @@
+name: Feature Request
+description: Suggest a mod/lavendre addition or a change to how Lavendre works
+title: "[Feature Request]: "
+labels: [ "Feature Request 💡" ]
+body:
+  - type: markdown
+    attributes:
+      value: |-
+        ### Search the [open suggestions](https://github.com/aerhazu/Lavendre/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22Feature%20Request%20%F0%9F%92%A1%22) first, someone may have already asked.
+        Vague requests get closed. Tell me what it does and why it belongs in Lavendre specifically.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: What kind of suggestion is this?
+      options:
+        - New mod addition
+        - Config / balance change to an existing mod
+        - Pack structure or workflow change
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: The pitch
+      description: What is it, what does it do, and why does it fit Lavendre's vibe? If this is a mod suggestion, explain what gap it fills or what it adds on top of what's already in the pack. Modrinth-hosted mods are preferred, CurseForge-hosted ones can be requested but may be turned down depending on license and file size.
+    validations:
+      required: true
+
+  - type: input
+    id: mod_link
+    attributes:
+      label: Mod Page Link
+      description: Link the mod's page here. Modrinth is highly recommended since this pack is managed through Pakku and Modrinth pulls in cleanest. CurseForge-hosted mods can be requested too, but acceptance depends on the mod's license and file size, so Modrinth is the safer bet if the mod is on both.
+      placeholder: https://modrinth.com/mod/... or https://www.curseforge.com/minecraft/mc-mods/...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: verify
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked that this mod has an active page on Modrinth or CurseForge.
+          required: false
+        - label: I ran this alongside the current Lavendre mod list and hit no compatibility issues.
+          required: false
+        - label: I checked that this is built for Fabric 1.21.1 (or has a compatible version).
+          required: false
+
+  - type: textarea
+    id: contact
+    attributes:
+      label: Contact Info
+      description: Discord username or another way to reach you if I want to follow up.
+    validations:
+      required: false
+
+  - type: textarea
+    id: misc
+    attributes:
+      label: Miscellaneous
+      description: Anything else that adds context.
+    validations:
+      required: false

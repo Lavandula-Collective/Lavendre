@@ -12,6 +12,10 @@
 [![Built with Pakku](https://raw.githubusercontent.com/juraj-hrivnak/Pakku/297bdece3b97e8277bb3a8671aaa41e7b3e44f9e/docs/images/cozy_vector.svg)](https://github.com/juraj-hrivnak/Pakku)
 [![modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg)](https://modrinth.com/modpack/lavendre)
 
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20me-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/aerhazuwu)
+[![Discord](https://img.shields.io/discord/1386271322648088616?style=for-the-badge&logo=discord&logoColor=white&label=Discord&color=5865F2)](https://discord.gg/DXFpzAn2fh)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Lavendre-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aerhazu/Lavendre)
+
 </div>
 <div align="center">
 
