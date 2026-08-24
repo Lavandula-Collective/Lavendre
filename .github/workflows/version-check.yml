@@ -33,13 +33,14 @@ jobs:
           # Get master version
           # --------------------------------------------------
 
-          MASTER_VERSION=$(git show "origin/master:${VERSION_FILE}" | python3 -c '
+          MASTER_JSON=$(git show "origin/master:${VERSION_FILE}")
+
+          MASTER_VERSION=$(python3 -c '
           import json
           import sys
 
-          data = json.load(sys.stdin)
-          print(data["version"])
-          ')
+          print(json.loads(sys.argv[1])["version"])
+          ' "$MASTER_JSON")
 
           if [[ -z "$MASTER_VERSION" ]]; then
             echo "::error file=$VERSION_FILE::Could not determine the version from master."
@@ -50,14 +51,13 @@ jobs:
           # Get PR version
           # --------------------------------------------------
 
-          PR_VERSION=$(python3 -c '
+          PR_VERSION=$(python3 <<'PY'
           import json
 
           with open("pakku.json", "r") as f:
-              data = json.load(f)
-
-          print(data["version"])
-          ')
+              print(json.load(f)["version"])
+          PY
+          )
 
           if [[ -z "$PR_VERSION" ]]; then
             echo "::error file=$VERSION_FILE::Could not determine the version from the PR."
@@ -95,7 +95,7 @@ jobs:
           echo
 
           # --------------------------------------------------
-          # Check required version markers
+          # Check version markers
           # --------------------------------------------------
 
           echo "Version markers"
@@ -103,13 +103,17 @@ jobs:
 
           FAILED=0
 
-          # pakku.json
-          PAKKU_VERSION=$(python3 -c '
+          # --------------------------------------------------
+          # Check pakku.json
+          # --------------------------------------------------
+
+          PAKKU_VERSION=$(python3 <<'PY'
           import json
 
           with open("pakku.json", "r") as f:
               print(json.load(f)["version"])
-          ')
+          PY
+          )
 
           if [[ "$PAKKU_VERSION" == "$PR_VERSION" ]]; then
             echo "✓ pakku.json → $PAKKU_VERSION"
@@ -121,19 +125,23 @@ jobs:
             FAILED=1
           fi
 
-          # Modpack Update Checker
+          # --------------------------------------------------
+          # Check Modpack Update Checker
+          # --------------------------------------------------
+
           if [[ ! -f "$UPDATE_CHECKER_FILE" ]]; then
             echo "✗ $UPDATE_CHECKER_FILE"
             echo "  Required file is missing."
             echo "::error file=$UPDATE_CHECKER_FILE::Required version file is missing."
             FAILED=1
           else
-            UPDATE_CHECKER_VERSION=$(python3 -c '
-            import json
+            UPDATE_CHECKER_VERSION=$(python3 <<'PY'
+          import json
 
-            with open(".pakku/overrides/config/modpack-update-checker/config.json", "r") as f:
-                print(json.load(f)["currentVersion"])
-            ')
+          with open(".pakku/overrides/config/modpack-update-checker/config.json", "r") as f:
+              print(json.load(f)["currentVersion"])
+          PY
+            )
 
             if [[ "$UPDATE_CHECKER_VERSION" == "$PR_VERSION" ]]; then
               echo "✓ $UPDATE_CHECKER_FILE → $UPDATE_CHECKER_VERSION"
@@ -149,7 +157,7 @@ jobs:
           echo
 
           # --------------------------------------------------
-          # Stop if required markers are incorrect
+          # Required marker result
           # --------------------------------------------------
 
           if [[ "$FAILED" -ne 0 ]]; then
