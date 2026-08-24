@@ -1,0 +1,206 @@
+name: Version Check
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  version-check:
+    name: Version Consistency
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Check version
+        shell: bash
+        run: |
+          set -e
+
+          VERSION_FILE="pakku.json"
+          UPDATE_CHECKER_FILE=".pakku/overrides/config/modpack-update-checker/config.json"
+
+          echo "========================================"
+          echo "        Lavendre Version Check"
+          echo "========================================"
+          echo
+
+          # --------------------------------------------------
+          # Get master version
+          # --------------------------------------------------
+
+          MASTER_JSON=$(git show "origin/master:${VERSION_FILE}")
+
+          MASTER_VERSION=$(python3 -c '
+          import json
+          import sys
+
+          print(json.loads(sys.argv[1])["version"])
+          ' "$MASTER_JSON")
+
+          if [[ -z "$MASTER_VERSION" ]]; then
+            echo "::error file=$VERSION_FILE::Could not determine the version from master."
+            exit 1
+          fi
+
+          # --------------------------------------------------
+          # Get PR version
+          # --------------------------------------------------
+
+          PR_VERSION=$(python3 <<'PY'
+          import json
+
+          with open("pakku.json", "r") as f:
+              print(json.load(f)["version"])
+          PY
+          )
+
+          if [[ -z "$PR_VERSION" ]]; then
+            echo "::error file=$VERSION_FILE::Could not determine the version from the PR."
+            exit 1
+          fi
+
+          echo "Modpack version"
+          echo "────────────────────────────────────────"
+          echo "Master: $MASTER_VERSION"
+          echo "PR:     $PR_VERSION"
+          echo
+
+          # --------------------------------------------------
+          # Check version bump
+          # --------------------------------------------------
+
+          if [[ "$PR_VERSION" == "$MASTER_VERSION" ]]; then
+            echo "❌ VERSION BUMP REQUIRED"
+            echo
+            echo "The modpack version has not changed."
+            echo
+            echo "Current version:"
+            echo "  $MASTER_VERSION"
+            echo
+            echo "Every PR targeting master must bump the modpack version."
+            echo
+            echo "Please update the version in:"
+            echo "  $VERSION_FILE"
+            echo
+            echo "::error file=$VERSION_FILE::Version was not bumped from $MASTER_VERSION."
+            exit 1
+          fi
+
+          echo "✓ Version bump: $MASTER_VERSION → $PR_VERSION"
+          echo
+
+          # --------------------------------------------------
+          # Check version markers
+          # --------------------------------------------------
+
+          echo "Version markers"
+          echo "────────────────────────────────────────"
+
+          FAILED=0
+
+          # --------------------------------------------------
+          # Check pakku.json
+          # --------------------------------------------------
+
+          PAKKU_VERSION=$(python3 <<'PY'
+          import json
+
+          with open("pakku.json", "r") as f:
+              print(json.load(f)["version"])
+          PY
+          )
+
+          if [[ "$PAKKU_VERSION" == "$PR_VERSION" ]]; then
+            echo "✓ pakku.json → $PAKKU_VERSION"
+          else
+            echo "✗ pakku.json"
+            echo "  Expected: $PR_VERSION"
+            echo "  Found:    $PAKKU_VERSION"
+            echo "::error file=pakku.json::Expected version $PR_VERSION, found $PAKKU_VERSION."
+            FAILED=1
+          fi
+
+          # --------------------------------------------------
+          # Check Modpack Update Checker
+          # --------------------------------------------------
+
+          if [[ ! -f "$UPDATE_CHECKER_FILE" ]]; then
+            echo "✗ $UPDATE_CHECKER_FILE"
+            echo "  Required file is missing."
+            echo "::error file=$UPDATE_CHECKER_FILE::Required version file is missing."
+            FAILED=1
+          else
+            UPDATE_CHECKER_VERSION=$(python3 <<'PY'
+          import json
+
+          with open(".pakku/overrides/config/modpack-update-checker/config.json", "r") as f:
+              print(json.load(f)["currentVersion"])
+          PY
+            )
+
+            if [[ "$UPDATE_CHECKER_VERSION" == "$PR_VERSION" ]]; then
+              echo "✓ $UPDATE_CHECKER_FILE → $UPDATE_CHECKER_VERSION"
+            else
+              echo "✗ $UPDATE_CHECKER_FILE"
+              echo "  Expected: $PR_VERSION"
+              echo "  Found:    $UPDATE_CHECKER_VERSION"
+              echo "::error file=$UPDATE_CHECKER_FILE::Expected version $PR_VERSION, found $UPDATE_CHECKER_VERSION."
+              FAILED=1
+            fi
+          fi
+
+          echo
+
+          # --------------------------------------------------
+          # Required marker result
+          # --------------------------------------------------
+
+          if [[ "$FAILED" -ne 0 ]]; then
+            echo "========================================"
+            echo "        ❌ VERSION CHECK FAILED"
+            echo "========================================"
+            echo
+            echo "One or more required version markers do not"
+            echo "match the new modpack version: $PR_VERSION"
+            echo
+            echo "Please update the files listed above before"
+            echo "merging this pull request."
+            exit 1
+          fi
+
+          echo "✓ All required version markers match $PR_VERSION"
+          echo
+
+          # --------------------------------------------------
+          # Scan update metadata
+          # --------------------------------------------------
+
+          echo "Update metadata"
+          echo "────────────────────────────────────────"
+
+          if [[ ! -d "update" ]]; then
+            echo "ℹ Update metadata is unchanged."
+            echo "  No update/ directory was found."
+          elif grep -R -F -q --exclude-dir=".git" "$PR_VERSION" "update/"; then
+            echo "ℹ Update metadata has been defined."
+            echo "  Version $PR_VERSION was found inside update/."
+            echo
+            echo "  Please note: update metadata requires"
+            echo "  validation from the repository owner."
+          else
+            echo "ℹ Update metadata is unchanged."
+            echo "  No reference to $PR_VERSION was found inside update/."
+          fi
+
+          echo
+          echo "========================================"
+          echo "        ✓ VERSION CHECK PASSED"
+          echo "========================================"
+          echo
+          echo "All required version markers match:"
+          echo "  $PR_VERSION"
