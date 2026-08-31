@@ -3584,6 +3584,50 @@
             ]
         },
         {
+            "pakku_id": "xUwFWaxzNwbPW3uW",
+            "pakku_links": [
+                "gk7SqwElaRKovhhf",
+                "6xctjdSI0KBBXB9s"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "crafttweaker"
+            },
+            "name": {
+                "modrinth": "CraftTweaker"
+            },
+            "id": {
+                "modrinth": "Xg35A4rS"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "CraftTweaker-fabric-1.21.1-21.0.38.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Xg35A4rS/versions/TvJixPvk/CraftTweaker-fabric-1.21.1-21.0.38.jar",
+                    "id": "TvJixPvk",
+                    "parent_id": "Xg35A4rS",
+                    "hashes": {
+                        "sha512": "944784b4f574ab2ec1539ca0ddce50c1eab943210ed32a050468e1f283f45f928b0608476b621afc5582176566814624e6aa4f6a15d7bdf7bb4c3048455f4b96",
+                        "sha1": "5ae830c68919a115d2aba97c4ee2bea6600234b3"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH",
+                        "E7ZFR7qk"
+                    ],
+                    "size": 4178419,
+                    "date_published": "2026-03-17T18:29:50.154697Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "6wqNXwVoPcd1MmKr",
             "type": "MOD",
             "side": "CLIENT",
@@ -5625,6 +5669,48 @@
                     ],
                     "size": 58822,
                     "date_published": "2024-05-02T13:40:15.413678Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "6xctjdSI0KBBXB9s",
+            "pakku_links": [
+                "gk7SqwElaRKovhhf"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "faux-custom-entity-data"
+            },
+            "name": {
+                "modrinth": "Faux Custom Entity Data"
+            },
+            "id": {
+                "modrinth": "E7ZFR7qk"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "FauxCustomEntityData-fabric-1.21.1-13.0.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/E7ZFR7qk/versions/XvAeY9KZ/FauxCustomEntityData-fabric-1.21.1-13.0.1.jar",
+                    "id": "XvAeY9KZ",
+                    "parent_id": "E7ZFR7qk",
+                    "hashes": {
+                        "sha512": "0c84e36d68f9576f494b7acb69339da5e948f38ce263be6fe75588bfffc6b95522a11e2a597c8181241f4a30897225eb5d5470d984e809ff1d4e9d754a84841b",
+                        "sha1": "bd2e38ab563d889675f138f0eaeb63f0bb7fbb79"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 15966,
+                    "date_published": "2024-08-13T08:31:05.502364Z"
                 }
             ]
         },
