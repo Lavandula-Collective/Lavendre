@@ -12,9 +12,6 @@ net.minecraft.class_429 {
 net.minecraft.class_433 {
 }
 
-lc.cit.list.TextureListScreen {
-}
-
 net.minecraft.class_442 {
 }
 
@@ -28,5 +25,11 @@ net.minecraft.class_500 {
 }
 
 net.minecraft.class_525 {
+}
+
+aerhazu.client.cit.strap.CITLScreen {
+}
+
+net.minecraft.class_490 {
 }
 
