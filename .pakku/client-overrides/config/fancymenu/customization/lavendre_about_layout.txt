@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = io.github.aerhazu.lavendre.about
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1787344625135
+  last_edited_time = 1787867083439
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:8959d3ef-ee22-4f5f-b71d-b6398c28d170-1787344611003] = [groups:][instances:]
+  [loading_requirement_container_meta:e394230c-dc26-439f-877f-72062067ae20-1787867056177] = [groups:][instances:]
 }
 
 customization {
@@ -765,7 +765,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 40ee0400-c96d-4f0c-8161-d6ffe7c4a71e-1785791330021
-  [executable_action_instance:529a670d-d5a3-4371-aa08-cb8d9a5c753e-1785791340606][action_type:openlink] = https://lavandula-collective.github.io/docs/license
+  [executable_action_instance:529a670d-d5a3-4371-aa08-cb8d9a5c753e-1785791340606][action_type:openlink] = https://lavandula-collective.gitbook.io/site/license
   [executable_block:40ee0400-c96d-4f0c-8161-d6ffe7c4a71e-1785791330021][type:generic] = [executables:529a670d-d5a3-4371-aa08-cb8d9a5c753e-1785791340606;]
   underline_label_on_hover = false
   transparent_background = false
@@ -793,12 +793,12 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_height = 1080
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 5abcdddf-5c79-47ec-b66c-348d07446caf-1785793781460
-  x = 231
-  y = 179
+  x = 232
+  y = 178
   width = 80
   height = 18
   stay_on_screen = true
@@ -872,7 +872,7 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_screen_height = 1080
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 5abcdddf-5c79-47ec-b66c-348d07446caf-1785793781460
