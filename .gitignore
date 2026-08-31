@@ -47,10 +47,13 @@
 /particular_cache/
 /dashloader-cache/
 /schematics/
-command_history.txt
 /options.txt
+/ami-icon-cache
+command_history.txt
 usercache.json
 usernamecache.json
+cherishedworlds-favorites.dat
+emi.json
 
 ### KubeJS ###
 /kubejs/probe/
