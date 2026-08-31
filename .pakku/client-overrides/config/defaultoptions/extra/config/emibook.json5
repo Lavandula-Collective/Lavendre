@@ -1,0 +1,6 @@
+{
+	// Shifts screen in the right direction when EMI is opened (simulates a recipe book behaviour): true/false.
+	"screenShift": false,
+	// Closes EMI every time a screen is opened (simulates a recipe book behaviour): true/false.
+	"disableEmiOnScreenOpening": false
+}
