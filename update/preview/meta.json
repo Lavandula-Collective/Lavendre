@@ -11,7 +11,7 @@
           "generic": "https://github.com/Lavandula-Collective/Lavendre"
         }
       },
-      "updateType": "incompatible"
+      "updateType": "major"
     },
     {
       "id": "0.1.0-alpha",
@@ -21,7 +21,7 @@
           "generic": "https://github.com/Lavandula-Collective/Lavendre/tree/0.1.0-alpha"
         }
       },
-      "updateType": "incompatible"
+      "updateType": "major"
     },
     {
       "id": "0.2.0-alpha",
@@ -31,7 +31,7 @@
           "generic": "https://github.com/Lavandula-Collective/Lavendre/tree/0.2.0-alpha"
         }
       },
-      "updateType": "incompatible"
+      "updateType": "major"
     }
   ]
 }
