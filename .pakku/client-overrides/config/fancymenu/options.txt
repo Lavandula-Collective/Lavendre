@@ -72,7 +72,7 @@ B:seamless_world_loading = 'false';
 B:global_slider_background_transparent = 'false';
 S:global_slider_handle_normal = '';
 I:global_slider_background_nine_slice_border_right = '5';
-S:global_background_panorama = 'Lavendre Panorama';
+S:global_background_panorama = '';
 I:global_slider_handle_nine_slice_border_left = '5';
 S:global_menu_background_texture = '';
 
