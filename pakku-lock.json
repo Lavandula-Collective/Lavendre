@@ -4801,6 +4801,45 @@
             ]
         },
         {
+            "pakku_id": "a46usr6lf6Uf5T5o",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "easegui"
+            },
+            "name": {
+                "modrinth": "EaseGUI"
+            },
+            "id": {
+                "modrinth": "zS8uflwP"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "easegui-fabric-0.6.0+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/zS8uflwP/versions/Xr8TCfLF/easegui-fabric-0.6.0+1.21.1.jar",
+                    "id": "Xr8TCfLF",
+                    "parent_id": "zS8uflwP",
+                    "hashes": {
+                        "sha512": "6f45024c5194e5c68e1cb1a769276f786ffa8a1420c9aa4eec3b040cf90170ae1e829bc8488e316d1370680f8822af60fda296d44d04e1360015f29df118f229",
+                        "sha1": "803b73948f1370e9465dcd13ec4794cdb47aa831"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 261594,
+                    "date_published": "2026-08-11T14:26:36.538210Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "bR63fgKQGNFbQV3N",
             "type": "MOD",
             "side": "SERVER",
@@ -10000,51 +10039,6 @@
             ]
         },
         {
-            "pakku_id": "noG9rm4NChaeaQrN",
-            "type": "RESOURCE_PACK",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "mizunos-dark-mode"
-            },
-            "name": {
-                "modrinth": "Mizuno's Dark Mode"
-            },
-            "id": {
-                "modrinth": "mAfYDrOW"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "Mizuno's Dark Mode 1.21-1.21.3 1.0.zip",
-                    "mc_versions": [
-                        "1.20.2",
-                        "1.20.3",
-                        "1.20.4",
-                        "1.20.5",
-                        "1.20.6",
-                        "1.21",
-                        "1.21.1",
-                        "1.21.2",
-                        "1.21.3"
-                    ],
-                    "loaders": [
-                        "minecraft"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/mAfYDrOW/versions/5JkuocRH/Mizuno's Dark Mode 1.21-1.21.3 1.0.zip",
-                    "id": "5JkuocRH",
-                    "parent_id": "mAfYDrOW",
-                    "hashes": {
-                        "sha512": "6b50cacacfb9696193c9faf4efd04e40ad0844bbb0995f102f4289c491ba9503e57e18f0a03bf3d4c3f29ec5d80811e308817d5c59d52912ad423c96889fc087",
-                        "sha1": "02919d9e44b49aeedae7fc9ae55d7e569457763a"
-                    },
-                    "required_dependencies": [],
-                    "size": 6297037,
-                    "date_published": "2025-10-03T07:14:03.298191Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "L7YQLe5Z9wktSpNm",
             "type": "RESOURCE_PACK",
             "side": "CLIENT",
@@ -13471,45 +13465,6 @@
                     ],
                     "size": 5054375,
                     "date_published": "2025-05-04T17:40:30.783894Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "vnR9naYqK2FlmbnT",
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "smooth-gui"
-            },
-            "name": {
-                "modrinth": "Smooth Gui"
-            },
-            "id": {
-                "modrinth": "j6yrZogB"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "smoothgui-fabric-2.0.1+mc1.21.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "quilt"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/j6yrZogB/versions/McWRnpTs/smoothgui-fabric-2.0.1+mc1.21.jar",
-                    "id": "McWRnpTs",
-                    "parent_id": "j6yrZogB",
-                    "hashes": {
-                        "sha512": "34e9116c536166503a25074bc9b37fd41d16503b0ff5ae0c3e16c887fe53d40db06cde2ab8db360b801df66dbd487717aab3a654cffaf4d345280aa53db9da35",
-                        "sha1": "efe715fdc293a098fb96519b8bede9c75175c9f3"
-                    },
-                    "required_dependencies": [],
-                    "size": 61303,
-                    "date_published": "2026-07-05T19:03:46.898804Z"
                 }
             ]
         },
