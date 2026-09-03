@@ -1,0 +1,28 @@
+#Client-side PvP Flag rendering configuration
+[hud]
+	#Horizontal offset of the skull icon on the HUD, relative to the crosshair center
+	# Default: 95
+	# Range: -10000 ~ 10000
+	hudSkullXOffset = -8
+	#Vertical offset of the skull icon on the HUD, relative to the bottom of the screen
+	# Default: 19
+	# Range: 0 ~ 10000
+	hudSkullYOffset = 90
+
+[above_player]
+	#Horizontal offset of the skull icon rendered above other players
+	# Default: 0
+	# Range: -10000 ~ 10000
+	abovePlayerSkullX = 0
+	#Vertical offset added to the name tag Y position for the skull above players
+	# Default: -5
+	# Range: -10000 ~ 10000
+	abovePlayerSkullYOffset = -5
+	#Size (width and height) of the skull icon rendered above players
+	# Default: 8
+	# Range: 1 ~ 64
+	abovePlayerSkullSize = 8
+	#Maximum distance (in blocks) at which the skull icon is rendered above players
+	# Default: 64
+	# Range: 1 ~ 256
+	abovePlayerMaxDistance = 64
