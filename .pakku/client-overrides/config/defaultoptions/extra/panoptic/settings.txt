@@ -1,0 +1,11 @@
+map_min_zoom=0.015625
+map_max_zoom=8.0
+struct_min_zoom=0.0625
+log_max_lines=20000.0
+wheel_hold_ms=60.0
+wheel_particles=1.0
+ui_sounds=1.0
+height_map=0.0
+theme_r=177.0
+theme_g=140.0
+theme_b=217.0
