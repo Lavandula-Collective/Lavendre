@@ -7163,7 +7163,7 @@
             ]
         },
         {
-            "pakku_id": "uaAkeVsQOKu5ZVFG",
+            "pakku_id": "go1875uBrsD9Bm5T",
             "type": "MOD",
             "side": "SERVER",
             "slug": {
@@ -7264,7 +7264,8 @@
                         "26.3-snapshot-7",
                         "26.3-snapshot-8",
                         "26.3-snapshot-9",
-                        "26.3-snapshot-10"
+                        "26.3-snapshot-10",
+                        "26.3-pre-1"
                     ],
                     "loaders": [
                         "fabric",
@@ -8043,6 +8044,50 @@
                     "required_dependencies": [],
                     "size": 917606,
                     "date_published": "2025-11-01T23:32:15.738448Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "o5ZxOAiuCD6ee0Oa",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "lukis-woodland-mansions"
+            },
+            "name": {
+                "modrinth": "Luki's Woodland Mansions"
+            },
+            "id": {
+                "modrinth": "RZN5D3zs"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "lukis-woodland-mansions-v1.0.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/RZN5D3zs/versions/1fEmTmPi/lukis-woodland-mansions-v1.0.jar",
+                    "id": "1fEmTmPi",
+                    "parent_id": "RZN5D3zs",
+                    "hashes": {
+                        "sha512": "9c51dbd4c6d62ea35d8c5e575f1e86283f11ee96cb505f03960aee076c95ca08c0b2cea3bf2320772bcce7c36d80451d42663b7918efea69711b67e777f2dd66",
+                        "sha1": "10b592fd66a2d347448e9a0e0df48df6f6a1a209"
+                    },
+                    "required_dependencies": [],
+                    "size": 1512532,
+                    "date_published": "2025-11-16T07:37:58.229636Z"
                 }
             ]
         },
@@ -11660,6 +11705,45 @@
             ]
         },
         {
+            "pakku_id": "IS7JJCoYyiW09XVG",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "panoptic"
+            },
+            "name": {
+                "modrinth": "Panoptic"
+            },
+            "id": {
+                "modrinth": "kLz9tNkz"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Panoptic-1.08a-Fabric-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/kLz9tNkz/versions/gVU1voek/Panoptic-1.08a-Fabric-1.21.1.jar",
+                    "id": "gVU1voek",
+                    "parent_id": "kLz9tNkz",
+                    "hashes": {
+                        "sha512": "4ce600b3cd185d805bd0cc0d516c9c19ead0b0c2a1ad1311c07cc33a62a40961fb796a4e484c18259df088ff16c2e18adcb8afe99877fbf6b26773f04baf417e",
+                        "sha1": "8155b3bb23ac75f1a6ed48e92b51a396fc83b52a"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 735262,
+                    "date_published": "2026-08-11T09:00:45.396475Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "0dWlUA5SbE9HIwyy",
             "pakku_links": [
                 "FrjtpljtPfSzUAfY",
@@ -14674,6 +14758,67 @@
                     ],
                     "size": 72807,
                     "date_published": "2025-06-17T17:50:56.955744Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "oU2HB3rbK98yE4BS",
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "vvi"
+            },
+            "name": {
+                "modrinth": "Vocal Villagers"
+            },
+            "id": {
+                "modrinth": "SEt2q8cl"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "§a§lVocal Villagers §r§71.4.zip",
+                    "mc_versions": [
+                        "1.10",
+                        "1.10.1",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11",
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2",
+                        "26.2"
+                    ],
+                    "loaders": [
+                        "minecraft"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/SEt2q8cl/versions/B0ExDjpO/§a§lVocal Villagers §r§71.4.zip",
+                    "id": "B0ExDjpO",
+                    "parent_id": "SEt2q8cl",
+                    "hashes": {
+                        "sha512": "eae2c0f3875d6402c3e60afb85a9dccec972a6709c94d4ee55ffea2912b1a6505a7a902bbbaa1c59631256aca9135a04aea853f9030901126ba434ee0c882e73",
+                        "sha1": "a80f9bf96570575cae80b55b30b34b9e9406436d"
+                    },
+                    "required_dependencies": [],
+                    "size": 1148298,
+                    "date_published": "2026-06-15T04:17:56.128795Z"
                 }
             ]
         },
