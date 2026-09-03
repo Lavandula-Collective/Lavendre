@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = io.github.aerhazu.lavendre.about
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1787867083439
+  last_edited_time = 1788468093954
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:e394230c-dc26-439f-877f-72062067ae20-1787867056177] = [groups:][instances:]
+  [loading_requirement_container_meta:8e577ac0-f60c-462f-bb2d-58184d398991-1788467424835] = [groups:][instances:]
 }
 
 customization {
