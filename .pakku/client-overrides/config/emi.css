@@ -46,7 +46,7 @@
 	/**
 	 * Which action should be performed when clicking the recipe book.
 	 */
-	recipe-book-action: toggle-visibility;
+	recipe-book-action: default;
 
 	/**
 	 * Where to display status effects in the inventory.
@@ -93,12 +93,12 @@
 	/**
 	 * Which sidebar type to switch to when searching.
 	 */
-	search-sidebar-focus: none;
+	search-sidebar-focus: index;
 
 	/**
 	 * Which sidebar type to focus when the search is empty.
 	 */
-	empty-search-sidebar-focus: empty;
+	empty-search-sidebar-focus: none;
 
 	/**
 	 * Whether the EMI config button should be visible.
@@ -202,7 +202,7 @@
 	/**
 	 * The pages in the right sidebar
 	 */
-	right-sidebar-pages: index, lookup-history;
+	right-sidebar-pages: empty, index;
 
 	/**
 	 * The subpanels in the right sidebar
@@ -282,7 +282,7 @@
 	/**
 	 * How many columns and rows of ingredients to limit the bottom sidebar to
 	 */
-	bottom-sidebar-size: 9, 9;
+	bottom-sidebar-size: 9, 1;
 
 	/**
 	 * How much space to maintain between the bottom sidebar and obstructions, in
@@ -298,12 +298,12 @@
 	/**
 	 * Whether to render the header buttons and page count for the bottom sidebar
 	 */
-	bottom-sidebar-header: visible;
+	bottom-sidebar-header: invisible;
 
 	/**
 	 * Which theme to use for the bottom sidebar
 	 */
-	bottom-sidebar-theme: transparent;
+	bottom-sidebar-theme: vanilla;
 }
 
 #binds {
