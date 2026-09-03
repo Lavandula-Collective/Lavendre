@@ -54,6 +54,8 @@ usercache.json
 usernamecache.json
 cherishedworlds-favorites.dat
 emi.json
+panoptic/binds.txt
+diff.md
 
 ### KubeJS ###
 /kubejs/probe/
