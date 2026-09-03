@@ -33,3 +33,6 @@ aerhazu.client.cit.strap.CITLScreen {
 net.minecraft.class_490 {
 }
 
+net.mokich.panoptic.screen.WheelScreen {
+}
+
