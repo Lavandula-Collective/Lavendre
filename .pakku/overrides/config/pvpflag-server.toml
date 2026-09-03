@@ -1,0 +1,13 @@
+#PvP Flag configuration
+[general]
+	#How the PvP flag affects combat:
+	#MUTUAL - PvP only if BOTH players have their flag enabled
+	#PERMISSIVE - PvP blocked only if BOTH players have their flag disabled
+	#Allowed Values: MUTUAL, PERMISSIVE
+	flagLogic = "MUTUAL"
+	#Timeout in seconds before the PvP flag is actually disabled.
+	#During this time, taking or dealing PvP damage cancels pending disable.
+	#Set to 0 to disable instantly.
+	# Default: 5.0
+	# Range: 0.0 ~ 60.0
+	disableTimeoutSeconds = 3.0
