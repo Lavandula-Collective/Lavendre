@@ -49,6 +49,7 @@
 /schematics/
 /options.txt
 /ami-icon-cache
+/panoptic/
 command_history.txt
 usercache.json
 usernamecache.json
@@ -66,6 +67,7 @@ diff.md
 ### Others ###
 CIT Catalog/
 .bak
+.log
 
 ### IntelliJ IDEA ###
 .idea/
