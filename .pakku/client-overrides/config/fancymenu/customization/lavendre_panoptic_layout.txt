@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = net.mokich.panoptic.screen.WheelScreen
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1788447820077
+  last_edited_time = 1788639583852
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:4d85ef39-6ecd-4b61-8925-7425025f3cb8-1788447807022] = [groups:][instances:]
+  [loading_requirement_container_meta:12539668-6192-46b6-b3e9-6c9022ce77ab-1788639578998] = [groups:][instances:]
 }
 
 menu_background {
@@ -353,7 +353,7 @@ element {
   source = %#B191D9%Lavendre Developer Console (Panoptic)%#%
   source_mode = direct
   shadow = true
-  enable_scrolling = true
+  enable_scrolling = false
   auto_line_wrapping = true
   remove_html_breaks = true
   code_block_single_color = #737373FF
@@ -384,9 +384,9 @@ element {
   auto_sizing_base_screen_height = 1082
   sticky_anchor = false
   anchor_point = top-centered
-  x = -105
-  y = 31
-  width = 208
+  x = -157
+  y = 29
+  width = 314
   height = 34
   stay_on_screen = true
   element_loading_requirement_container_identifier = e1aefe79-5ab8-4e57-91ad-49f1749f6764-1788444335099
@@ -422,8 +422,8 @@ element {
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
   base_color = #FFFFFFFF
-  scale = 1.0
-  text_border = 2
+  scale = 1.5
+  text_border = 4
   line_spacing = 2
   quote_indent = 8
   bullet_list_indent = 8
