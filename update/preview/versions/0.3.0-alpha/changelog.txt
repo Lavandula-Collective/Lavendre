@@ -1,0 +1,173 @@
+## Lavendre v0.3.0-alpha
+
+### Added
+
+- Advancement Plaques
+- Autochef's Delight
+- Bathymetry
+- Better Combat
+- Biolith
+- Brewin' And Chewin'
+- Chunks fade in
+- Comforts
+- Common Network
+- Complex Leaf Culling
+- Countered's Smooth F5
+- CraftTweaker
+- Display Delight Fabric
+- EMI
+- EMI Addon: Extra Mod Integrations
+- EMI Book
+- EMI Enchanting
+- EMI Loot
+- EMIffect
+- Easy Mob Spawn Control - spawn rate, mob cap, disable bad mobs
+- Eating Animation
+- Enchant Display: Roman numerals
+- Essential Warning Screen
+- Farmer's Delight Refabricated
+- Farmer's Knives
+- Faux Custom Entity Data
+- Firefly to Fairy
+- First-person Model
+- Fragmentum
+- Gravestones
+- Hybrid Aquatic
+- Hybrid Delights
+- Iceberg
+- Icon Xaero's
+- Iridium
+- Iris & Oculus Search
+- Item Highlighter
+- JEI / REI / EMI WorldGen
+- Ji AFK Cinematic
+- LibJF
+- Lithostitched
+- Loot Beams: Refork
+- Lootr
+- Luki's Ancient Cities
+- Luki's Crazy Chambers
+- Luki's Grand Capitals
+- Luki's Strongholds
+- Luki's Woodland Mansions
+- MMR - Moog's Mineshafts Reimagined
+- MMV - Moog's Missing Villages
+- MNS - Moog's Nether Structures
+- MTR - Moog's Temples Reimagined
+- MVS - Moog's Voyager Structures
+- Mizuno Eating Animation
+- Mizuno's x Brewin' And Chewin'
+- Mizuno's x Comforts
+- Mizuno's x Display Delight
+- Mizuno's x Farmer's Delight
+- Mizuno's x Rustic Delight
+- Mizuno's x Ube's Delight
+- Moog's Glow Up
+- MossyLib
+- Multi Key Bindings
+- NiftyCarts
+- Nirvana Library
+- No Creative Menu
+- Not Enough Animations
+- Optimized Block Entities [OBE]
+- Overflowing Bars
+- Panoptic
+- Peasy Mode
+- PneumonoCore
+- Polymorph
+- Prism
+- PvP Flag
+- Reliable EMI (REMI)
+- Respackopts
+- Rustic Delight
+- Scribble
+- Shoulder Surfing Reloaded
+- Sign Edit Lite
+- Sitting+
+- Stardew Fishing Fabric
+- Sunken Spires
+- Trinkets
+- Tweaks Delight
+- Ube's Delight
+- Vocal Villagers
+- Wet Backapacks
+- appleskin for mizunos
+- bad packets
+- playerAnimator
+
+### Removed
+
+- Accessories
+- Advancement Plaques [Neo/Forge]
+- Auto HUD
+- CIT Manager
+- Cull Leaves
+- Cut Through
+- Fragmentum [Fabric Edition]
+- Iceberg [Neo/Forge]
+- Just Enough Items (JEI)
+- Leawind's Third Person
+- Legendary Tooltips [Neo/Forge]
+- Lootr (Forge & NeoForge)
+- Optimized Block Entities
+- Polymorph (Fabric/Forge/Quilt)
+- Prism [Neo/Forge]
+- Sodium Options API
+- Sodium Options Mod Compat
+- Very Many Players (Fabric)
+- oωo (owo-lib)
+
+### Updated
+
+- Accurate Block Placement Reborn
+- Architectury API
+- Async Logger
+- Axiom
+- BSL Shaders
+- Balm
+- CITX (CIT Extension)
+- Chat Heads
+- Client Tweaks
+- Crash Assistant
+- Critters and Companions
+- DBTools for Axiom
+- Drippy Loading Screen
+- Fabric API
+- Fabric Language Kotlin
+- Fancy Entity Renderer
+- FancyMenu
+- Flashback
+- Hardcore Revival
+- ImmediatelyFast
+- Immersive Hotbar
+- Immersive Optimization
+- Inventory Essentials
+- Iris Shaders
+- Ixeris
+- Jade 🔍
+- LambDynamicLights - Dynamic Lights
+- Lootr
+- MRU
+- MakeUp - Ultra Fast
+- Moog's Structure Lib (moogs_structures)
+- More Culling
+- Naturalist
+- Nuit
+- Nuit Interop
+- Obscure Tooltips
+- Optimized Block Entities [OBE]
+- PandaLib
+- Particle Rain
+- Particular ✨ Reforged
+- Polytone
+- Punchy!
+- Puzzles Lib
+- Reese's Sodium Options
+- Simple Discord RPC
+- Smooth Gui
+- Sodium
+- Sodium Extra
+- Translations for Sodium
+- Wavey Capes
+- Xaero's World Map
+- YUNG's API
