@@ -51,6 +51,7 @@
 /options.txt
 /ami-icon-cache
 /panoptic/
+/scripts/
 command_history.txt
 usercache.json
 usernamecache.json
