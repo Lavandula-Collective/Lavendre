@@ -21,7 +21,7 @@ mipmapLevels:4
 narrator:0
 particles:0
 reducedDebugInfo:false
-renderClouds:"false"
+renderClouds:"true"
 renderDistance:12
 simulationDistance:12
 screenEffectScale:1.0
@@ -89,7 +89,7 @@ telemetryOptInExtra:false
 onboardAccessibility:false
 menuBackgroundBlurriness:3
 soundCategory_master:1.0
-soundCategory_music:0.056338028169014086
+soundCategory_music:0.10211267605633803
 soundCategory_record:0.3591549295774648
 soundCategory_weather:0.5
 soundCategory_block:0.30633802816901406
