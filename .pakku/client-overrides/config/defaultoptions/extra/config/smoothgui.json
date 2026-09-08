@@ -1,8 +1,8 @@
 {
   "enableAnimation": true,
-  "animationTime": 220,
-  "animationScale": 1.25,
-  "animationStyle": "CIRC",
+  "animationTime": 250,
+  "animationScale": 1.2,
+  "animationStyle": "CUBIC",
   "animationDirection": "UP",
   "modifyBackground": false,
   "backgroundOpacity": 0.65,

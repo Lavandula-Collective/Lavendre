@@ -1,9 +1,0 @@
-type = panorama
-
-panorama-meta {
-  name = Lavendre Panorama
-  speed = 1.0
-  fov = 80.0
-  angle = 10.0
-  start_rotation = 0
-}

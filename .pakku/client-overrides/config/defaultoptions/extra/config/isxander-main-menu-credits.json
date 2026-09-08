@@ -1,7 +1,10 @@
 {
   "main_menu": {
     "top_left": [],
-    "top_right": [],
+    "top_right": [
+      {
+      "text" : "Modpack Mode: §4OFF§r"
+    }],
     "bottom_left": [
       {
         "clickEvent" : {
@@ -16,7 +19,11 @@
   },
   "pause_menu": {
     "top_left": [],
-    "top_right": [],
+    "top_right": [
+      {
+        "text" : "Modpack Mode: §4OFF§r"
+      }
+    ],
     "bottom_left": [
       {
         "clickEvent" : {

@@ -16,6 +16,7 @@
 !.pakku/overrides/**
 !.pakku/server-overrides/
 !.pakku/server-overrides/**
+!.pakku/curseforge_mods_credits.md
 /build/
 
 ### Minecraft ###
@@ -47,10 +48,17 @@
 /particular_cache/
 /dashloader-cache/
 /schematics/
-command_history.txt
 /options.txt
+/ami-icon-cache
+/panoptic/
+/scripts/
+command_history.txt
 usercache.json
 usernamecache.json
+cherishedworlds-favorites.dat
+emi.json
+panoptic/binds.txt
+diff.md
 
 ### KubeJS ###
 /kubejs/probe/
@@ -61,6 +69,7 @@ usernamecache.json
 ### Others ###
 CIT Catalog/
 .bak
+.log
 
 ### IntelliJ IDEA ###
 .idea/

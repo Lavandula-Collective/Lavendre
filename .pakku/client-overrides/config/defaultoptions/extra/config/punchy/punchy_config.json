@@ -19,6 +19,7 @@
   "enableClimbAnimation": true,
   "enableSwimAnimation": true,
   "enableElytraFlightAnimation": true,
+  "disableNewKeyframeMoves": true,
   "enableCustomWalk": true,
   "enableSprintArmSwing": true,
   "enableFallArmAnimation": true,

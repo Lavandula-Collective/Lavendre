@@ -1,0 +1,140 @@
+{
+  "itemSpecific": {
+    "minecraft:soul_lantern": {
+      "kind": "LANTERN",
+      "armKind": "LANTERN",
+      "physics": [
+        {
+          "name": "FULL_PENDULUM",
+          "limitDeg": 55.0,
+          "force": 0.1,
+          "speed": 1.0,
+          "cameraSens": 0.25,
+          "gravity": 25.0
+        }
+      ],
+      "transforms": {
+        "right": {
+          "scale": 1.01,
+          "offX": 0.0,
+          "offY": -0.49999976,
+          "offZ": 0.06999993,
+          "rotX": 0.3501892,
+          "rotY": 25.564194,
+          "rotZ": -91.05058,
+          "pivotX": -0.03891051,
+          "pivotY": 0.023346305,
+          "pivotZ": -0.060000002,
+          "physics": "FULL_PENDULUM"
+        },
+        "left": {
+          "scale": 1.01,
+          "offX": 0.0,
+          "offY": -0.49999976,
+          "offZ": 0.06999993,
+          "rotX": 0.3501892,
+          "rotY": -25.564194,
+          "rotZ": 91.0506,
+          "pivotX": 0.03891051,
+          "pivotY": 0.023346305,
+          "pivotZ": -0.060000002,
+          "physics": "FULL_PENDULUM"
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": -0.14396882,
+          "offZ": -0.100000024,
+          "rotX": -17.15953,
+          "rotY": -99.80545,
+          "rotZ": -1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": -0.14396882,
+          "offZ": -0.100000024,
+          "rotX": -17.15953,
+          "rotY": 99.80545,
+          "rotZ": 1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:lantern": {
+      "kind": "LANTERN",
+      "armKind": "LANTERN",
+      "physics": [
+        {
+          "name": "FULL_PENDULUM",
+          "limitDeg": 55.0,
+          "force": 0.1,
+          "speed": 1.0,
+          "cameraSens": 0.25,
+          "gravity": 25.0
+        }
+      ],
+      "transforms": {
+        "right": {
+          "scale": 1.01,
+          "offX": 0.0019454956,
+          "offY": -0.49999976,
+          "offZ": 0.06999993,
+          "rotX": 0.3501892,
+          "rotY": 25.564194,
+          "rotZ": -91.05058,
+          "pivotX": -0.03891051,
+          "pivotY": 0.023346305,
+          "pivotZ": -0.060000002,
+          "physics": "FULL_PENDULUM"
+        },
+        "left": {
+          "scale": 1.01,
+          "offX": 0.0,
+          "offY": -0.49999976,
+          "offZ": 0.06999993,
+          "rotX": 0.3501892,
+          "rotY": -25.564194,
+          "rotZ": 91.0506,
+          "pivotX": 0.03891051,
+          "pivotY": 0.023346305,
+          "pivotZ": -0.060000002,
+          "physics": "FULL_PENDULUM"
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": -0.14396882,
+          "offZ": -0.100000024,
+          "rotX": -17.15953,
+          "rotY": -99.80545,
+          "rotZ": -1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": -0.14396882,
+          "offZ": -0.100000024,
+          "rotX": -17.15953,
+          "rotY": 99.80545,
+          "rotZ": 1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    }
+  }
+}

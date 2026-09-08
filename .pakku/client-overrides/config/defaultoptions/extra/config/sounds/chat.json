@@ -20,21 +20,7 @@
 		"id": "mention",
 		"soundEvent": "minecraft:block.note_block.chime"
 	},
-	"mentionKeywords": [
-		"@Player510",
-		"@Player199",
-		"@Player901",
-		"@Player789",
-		"@Player219",
-		"@Player977",
-		"@Player140",
-		"@Player368",
-		"@Player529",
-		"@Player700",
-		"@Player304",
-		"@Player946",
-		"@Player918"
-	],
+	"mentionKeywords": [],
 	"ignoreSystemChats": false,
 	"enableChatSoundCooldown": false,
 	"chatSoundCooldown": 0.5

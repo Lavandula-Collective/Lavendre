@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = io.github.aerhazu.lavendre.about
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1787344625135
+  last_edited_time = 1788872384231
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:8959d3ef-ee22-4f5f-b71d-b6398c28d170-1787344611003] = [groups:][instances:]
+  [loading_requirement_container_meta:4b88078a-e236-47e9-bb57-a970336cd3c4-1788872328875] = [groups:][instances:]
 }
 
 customization {
@@ -64,8 +64,8 @@ menu_background {
 }
 
 menu_background {
-  instance_identifier = bfadd8d0-f150-4407-9c50-4773af90bce5-1785789731164
-  background_type = video_mcef
+  instance_identifier = 74b143dd-241c-4318-8e40-dce3f15aec29-1788780767659
+  background_type = video_rinku
   show_background = false
   loop = false
   volume = 1.0
@@ -131,13 +131,6 @@ menu_background {
   mouse_position_requires_hold = false
   opacity_multiplier = 1.0
   show_compile_errors = true
-}
-
-menu_background {
-  instance_identifier = ad663334-ceb2-477b-8139-c2cb0eb297e9-1785789731164
-  background_type = drippy_color_background
-  show_background = false
-  color = #FD5757FF
 }
 
 decoration_overlay {
@@ -354,6 +347,72 @@ layout_action_executable_blocks {
 }
 
 element {
+  element_type = image
+  instance_identifier = 3f96dd9d-d29c-47fe-86de-676b5b309fd1-1788867630272
+  custom_element_layer_name = BG
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 2
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 541
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -452
+  y = -255
+  width = 904
+  height = 512
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 2d624e0e-2140-4af3-9e45-a1a27aa24933-1788750953130
+  [loading_requirement_container_meta:2d624e0e-2140-4af3-9e45-a1a27aa24933-1788750953130] = [groups:][instances:]
+  enable_parallax = false
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  advanced_rotation_mode = false
+  advanced_vertical_tilt_mode = false
+  advanced_horizontal_tilt_mode = false
+  should_be_affected_by_decoration_overlays = false
+  in_editor_color = #FFC800FF
+  advanced_posx = -2147483648
+  advanced_posy = -2147483648
+  advanced_width = -2147483648
+  advanced_height = -2147483648
+  stretch_x = false
+  stretch_y = false
+  appearance_delay_seconds = 1.0
+  disappearance_delay_seconds = 1.0
+  fade_in_speed = 1.0
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
+  rotation_degrees = 0.0
+  advanced_rotation_degrees = 0.0
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_degrees = 0.0
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_degrees = 0.0
+  source = [source:local]/config/fancymenu/assets/gui.png
+  repeat_texture = false
+  nine_slice_texture = true
+  nine_slice_texture_border_x = 28
+  nine_slice_texture_border_y = 28
+  restart_animated_on_menu_load = false
+  image_tint = #FFFFFF
+  rounding_radius_top_left = 0.0
+  rounding_radius_top_right = 0.0
+  rounding_radius_bottom_right = 0.0
+  rounding_radius_bottom_left = 0.0
+}
+
+element {
   copy_client_player = false
   playername = Aerhazu
   auto_skin = false
@@ -404,6 +463,9 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
+  auto_sizing_base_gui_width = 0
+  auto_sizing_base_gui_height = 0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 5abcdddf-5c79-47ec-b66c-348d07446caf-1785793781460
@@ -478,10 +540,13 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 2
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 541
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 5abcdddf-5c79-47ec-b66c-348d07446caf-1785793781460
-  x = 146
+  x = 131
   y = 208
   width = 80
   height = 18
@@ -557,10 +622,13 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 2
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 541
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 5abcdddf-5c79-47ec-b66c-348d07446caf-1785793781460
-  x = 61
+  x = 46
   y = 179
   width = 80
   height = 18
@@ -636,10 +704,13 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 2
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 541
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 5abcdddf-5c79-47ec-b66c-348d07446caf-1785793781460
-  x = 146
+  x = 131
   y = 179
   width = 80
   height = 18
@@ -715,10 +786,13 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 2
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 541
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 5abcdddf-5c79-47ec-b66c-348d07446caf-1785793781460
-  x = 61
+  x = 46
   y = 208
   width = 80
   height = 18
@@ -765,7 +839,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 40ee0400-c96d-4f0c-8161-d6ffe7c4a71e-1785791330021
-  [executable_action_instance:529a670d-d5a3-4371-aa08-cb8d9a5c753e-1785791340606][action_type:openlink] = https://lavandula-collective.github.io/docs/license
+  [executable_action_instance:529a670d-d5a3-4371-aa08-cb8d9a5c753e-1785791340606][action_type:openlink] = https://lavandula-collective.gitbook.io/site/license
   [executable_block:40ee0400-c96d-4f0c-8161-d6ffe7c4a71e-1785791330021][type:generic] = [executables:529a670d-d5a3-4371-aa08-cb8d9a5c753e-1785791340606;]
   underline_label_on_hover = false
   transparent_background = false
@@ -794,10 +868,13 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 2
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 541
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 5abcdddf-5c79-47ec-b66c-348d07446caf-1785793781460
-  x = 231
+  x = 217
   y = 179
   width = 80
   height = 18
@@ -873,10 +950,13 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 2
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 541
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 5abcdddf-5c79-47ec-b66c-348d07446caf-1785793781460
-  x = 231
+  x = 217
   y = 208
   width = 80
   height = 18
@@ -952,11 +1032,14 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 2
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 541
   sticky_anchor = false
   anchor_point = bottom-centered
-  x = -161
-  y = -31
-  width = 321
+  x = 0
+  y = -74
+  width = 123
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = 4c33252f-65bf-4705-9090-aa0d009c9d94-1785793091961
@@ -1003,7 +1086,7 @@ element {
   interactable = true
   source = ^^^%n%Copyright © 2026 Lavandula Collective. All Rights Reserved.%n%^^^
   source_mode = direct
-  shadow = true
+  shadow = false
   enable_scrolling = false
   auto_line_wrapping = true
   remove_html_breaks = true
@@ -1032,14 +1115,17 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1080
+  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 2
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 541
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 5abcdddf-5c79-47ec-b66c-348d07446caf-1785793781460
-  x = 26
-  y = 271
+  x = 10
+  y = 250
   width = 323
-  height = 27
+  height = 14
   stay_on_screen = true
   element_loading_requirement_container_identifier = ca376d65-8e01-46a8-ae3d-428e4070d901-1785793215217
   [loading_requirement_container_meta:ca376d65-8e01-46a8-ae3d-428e4070d901-1785793215217] = [groups:][instances:]
@@ -1073,7 +1159,7 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
-  base_color = #FFFFFFFF
+  base_color = #4C4C4CFF
   scale = 0.9
   text_border = 2
   line_spacing = 2
@@ -1116,6 +1202,9 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
+  auto_sizing_base_gui_width = 0
+  auto_sizing_base_gui_height = 0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 21859d4a-f73e-4d5e-9418-441fc68ceb82-1785789776338
@@ -1166,9 +1255,9 @@ element {
 
 element {
   interactable = true
-  source = ^^^%n%### %#e3abff%Thank you for using Lavendre!%#%%n%%n%Lavendre was created to make Minecraft feel a little cozier through modern CITs, carefully curated mods, immersive visuals, and thoughtful quality-of-life improvements. Whether you're building your dream cottage, exploring peaceful landscapes, or simply enjoying the little details, we hope you've enjoyed your time with Lavendre!%n%%n%### %#e3abff%Project Resources%#%%n%%n%If you'd like to stay connected, report a bug, contribute to development, or read more about the project, its licenses, donate, and the creators behind it, simply use the buttons below.%n%^^^
+  source = ^^^%n%### %#6c4c90%Thank you for using Lavendre!%#%%n%%n%Lavendre was created to make Minecraft feel a little cozier through modern CITs, carefully curated mods, immersive visuals, and thoughtful quality-of-life improvements. Whether you're building your dream cottage, exploring peaceful landscapes, or simply enjoying the little details, we hope you've enjoyed your time with Lavendre!%n%%n%### %#6c4c90%Project Resources%#%%n%%n%If you'd like to stay connected, report a bug, contribute to development, or read more about the project, its licenses, donate, and the creators behind it, simply use the buttons below.%n%^^^
   source_mode = direct
-  shadow = true
+  shadow = false
   enable_scrolling = false
   auto_line_wrapping = true
   remove_html_breaks = true
@@ -1198,11 +1287,14 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 2
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 541
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -187
+  x = -174
   y = -93
-  width = 372
+  width = 343
   height = 163
   stay_on_screen = true
   element_loading_requirement_container_identifier = c6f1d29e-d75c-44be-8c32-aab0d6579f67-1785793781460
@@ -1237,7 +1329,7 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
-  base_color = #FFFFFFFF
+  base_color = #424242FF
   scale = 1.0
   text_border = 2
   line_spacing = 3
@@ -1282,11 +1374,14 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1080
+  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 2
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 541
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 5abcdddf-5c79-47ec-b66c-348d07446caf-1785793781460
-  x = 146
+  x = 134
   y = -107
   width = 80
   height = 80
@@ -1334,7 +1429,7 @@ element {
 element {
   source = click me!
   source_mode = direct
-  shadow = true
+  shadow = false
   refresh = false
   bouncing = true
   element_type = splash_text
@@ -1345,7 +1440,10 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1080
+  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 2
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 541
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 12a76ef7-c161-409b-8306-515939a5caa4-1786316534965
@@ -1388,6 +1486,93 @@ element {
   advanced_horizontal_tilt_degrees = 0.0
   scale = 0.8
   rotation = 20.0
-  base_color = #E4C8FFFF
+  base_color = #D1A8FFFF
+}
+
+element {
+  button_element_executable_block_identifier = 841dd216-d4cd-456c-9617-00a9bb421841-1788747284281
+  [executable_action_instance:0cf6dd9e-321b-4cb4-8bac-fcf03a5c1dfd-1788747419714][action_type:opengui] = io.github.aerhazu.lavendre.intro
+  [executable_action_instance:d9a578ff-be3b-4a22-9434-b68f3afb99f4-1788780615517][action_type:disable_layout] = lavendre_intro_layout_1
+  [executable_action_instance:f20e32aa-ead2-47f2-8aa1-d32e128b5c8a-1788780639771][action_type:disable_layout] = lavendre_intro_layout_2
+  [executable_action_instance:849511fc-e6aa-45b3-84ee-ce263a07b088-1788780646019][action_type:disable_layout] = lavendre_intro_layout_3
+  [executable_action_instance:6b8cb79f-01cb-4b59-8d68-cb3205dfe719-1788780651118][action_type:disable_layout] = lavendre_intro_layout_4
+  [executable_action_instance:9e64019c-576e-4f23-b3ae-28696e48d9e9-1788780679459][action_type:enable_layout] = lavendre_intro_layout
+  [executable_block:841dd216-d4cd-456c-9617-00a9bb421841-1788747284281][type:generic] = [executables:0cf6dd9e-321b-4cb4-8bac-fcf03a5c1dfd-1788747419714;d9a578ff-be3b-4a22-9434-b68f3afb99f4-1788780615517;f20e32aa-ead2-47f2-8aa1-d32e128b5c8a-1788780639771;849511fc-e6aa-45b3-84ee-ce263a07b088-1788780646019;6b8cb79f-01cb-4b59-8d68-cb3205dfe719-1788780651118;9e64019c-576e-4f23-b3ae-28696e48d9e9-1788780679459;]
+  underline_label_on_hover = false
+  transparent_background = false
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  label = Restart Introduction
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 76b54cd8-57e9-4a93-b06f-89602eaceda0-1788747284281
+  [loading_requirement_container_meta:76b54cd8-57e9-4a93-b06f-89602eaceda0-1788747284281] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  element_type = custom_button
+  instance_identifier = 25bca1f6-4d5e-4c05-ba1f-aff0b78c4ee8-1788872211496
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 2
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 541
+  sticky_anchor = false
+  anchor_point = element
+  anchor_point_element = mc_titlescreen_options_button
+  x = 352
+  y = 467
+  width = 122
+  height = 20
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 4f70f8a0-5d3d-4fc4-ab4b-f054582dfd91-1788747284281
+  [loading_requirement_container_meta:4f70f8a0-5d3d-4fc4-ab4b-f054582dfd91-1788747284281] = [groups:][instances:]
+  enable_parallax = false
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  advanced_rotation_mode = false
+  advanced_vertical_tilt_mode = false
+  advanced_horizontal_tilt_mode = false
+  should_be_affected_by_decoration_overlays = true
+  in_editor_color = #FFC800FF
+  advanced_posx = -2147483648
+  advanced_posy = -2147483648
+  advanced_width = -2147483648
+  advanced_height = -2147483648
+  stretch_x = false
+  stretch_y = false
+  appearance_delay_seconds = 1.0
+  disappearance_delay_seconds = 1.0
+  fade_in_speed = 1.0
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
+  rotation_degrees = 0.0
+  advanced_rotation_degrees = 0.0
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_degrees = 0.0
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_degrees = 0.0
+  label_scale = 1.0
+  label_shadow = true
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
 }
 

@@ -2,7 +2,7 @@
   "configVersion": 3,
   "blurContainers": true,
   "blurBooks": true,
-  "blurSigns": true,
+  "blurSigns": false,
   "blurCommandBlocks": true,
   "blurDeathScreen": false,
   "blurTitleScreen": false,
@@ -24,8 +24,8 @@
   "gradientEndAlpha": 75,
   "gradientRotation": 0,
   "rainbowMode": false,
-  "fadeTimeMillis": 226,
-  "fadeOutTimeMillis": 226,
+  "fadeTimeMillis": 250,
+  "fadeOutTimeMillis": 250,
   "blurAnimationCurve": "SINE",
   "backgroundAnimationCurve": "SINE"
 }

@@ -1,0 +1,20 @@
+{
+  "configVersion": 5,
+  "shotDurationSeconds": 10,
+  "afkThresholdSeconds": 60,
+  "maxCycles": 20,
+  "cameraSpeed": 0.28267717,
+  "characterShotPercentage": 70,
+  "persistentMode": "NORMAL",
+  "cameraRotationEnabled": true,
+  "damageAction": "CANCEL_CINEMATIC",
+  "extendedMusic": false,
+  "modEnabled": true,
+  "enableLetterbox": false,
+  "enableMusic": false,
+  "menuKey1": 296,
+  "menuKey2": 72,
+  "toggleKey1": 341,
+  "toggleKey2": 72,
+  "cinematicMusicVolume": 0.5
+}

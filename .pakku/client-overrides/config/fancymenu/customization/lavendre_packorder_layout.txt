@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = io.github.aerhazu.lavendre.packorder
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1786326005690
+  last_edited_time = 1788208322154
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:165423c6-7b20-4a76-a0a8-b31685357b25-1786325963122] = [groups:][instances:]
+  [loading_requirement_container_meta:e9554efc-801f-4d56-bc7a-3139858ce3ff-1788208217752] = [groups:][instances:]
 }
 
 customization {
@@ -590,7 +590,7 @@ element {
   anchor_point_element = 2d077d19-e721-4482-bf80-fca81e0e2f7f-1784707378966
   x = 410
   y = -87
-  width = 99
+  width = 103
   height = 496
   stay_on_screen = true
   element_loading_requirement_container_identifier = d49143c0-dc68-4d43-bd3e-d544c6818fa1-1784709848640

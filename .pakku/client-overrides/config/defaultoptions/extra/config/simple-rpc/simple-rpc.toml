@@ -8,7 +8,7 @@
 	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
 	debugging = false
 	#Enable the detection of certain compatible launchers, allowing you to use their name and icon in your config
-	launcherIntegration = false
+	launcherIntegration = true
 	#Allow using local image files, as RPC icons
 	rpcImageServer = false
 	#The URL of the RPC image server that will be used for local images. Restart required when changed
@@ -21,64 +21,81 @@
 	#Enable/Disable the Game Loading Event
 	enabled = true
 
-	#List of RPCs that will be displayed at random
 	[[init.presence]]
 		type = "PLAYING"
 		description = "Minecraft is loading"
 		state = "Game Starting..."
 		largeImageKey = ["mclogo"]
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		largeImageText = "It's Minecraft {{game.version}}, but cozily modded"
 		smallImageKey = ["lavendre_release_icon"]
 		smallImageText = "{{game.mods}} mods installed"
 		streamingActivityUrl = "https://twitch.tv/twitch"
-		buttons = []
+
+		[[init.presence.buttons]]
+			label = "Download Lavendre"
+			url = "https://modrinth.com/modpack/lavendre"
+
+		[[init.presence.buttons]]
+			label = "Join Discord"
+			url = "https://discord.gg/DXFpzAn2fh"
 
 #The Main Menu event
 [main_menu]
 	#Enable/Disable the Main Menu Event
 	enabled = true
 
-	#List of RPCs that will be displayed at random
 	[[main_menu.presence]]
 		type = "PLAYING"
 		description = "{{player.name}} is currently lazy"
 		state = "Chilling in the menu"
 		largeImageKey = ["lavendre_release_icon"]
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		largeImageText = "It's Minecraft {{game.version}}, but cozily modded"
 		smallImageKey = ["{{images.player}}"]
 		smallImageText = "{{player.name}}"
 		streamingActivityUrl = "https://twitch.tv/twitch"
-		buttons = []
+
+		[[main_menu.presence.buttons]]
+			label = "Download Lavendre"
+			url = "https://modrinth.com/modpack/lavendre"
+
+		[[main_menu.presence.buttons]]
+			label = "Join Discord"
+			url = "https://discord.gg/DXFpzAn2fh"
 
 #The Server List event
 [server_list]
 	#Enable/Disable the Server List Event
 	enabled = true
 
-	#List of RPCs that will be displayed at random
 	[[server_list.presence]]
 		type = "PLAYING"
 		description = "{{player.name}} is looking for a server"
 		state = "Searching for friends"
 		largeImageKey = ["mclogo"]
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		largeImageText = "It's Minecraft {{game.version}}, but cozily modded"
 		smallImageKey = ["{{images.player}}"]
 		smallImageText = "{{player.name}}"
 		streamingActivityUrl = "https://twitch.tv/twitch"
-		buttons = []
+
+		[[server_list.presence.buttons]]
+			label = "Download Lavendre"
+			url = "https://modrinth.com/modpack/lavendre"
+
+		[[server_list.presence.buttons]]
+			label = "Join Discord"
+			url = "https://discord.gg/DXFpzAn2fh"
 
 #The Realms Screen event
 [realms_list]
 	#Enable/Disable the Realms Screen Event
 	enabled = false
 
-	#List of RPCs that will be displayed at random
 	[[realms_list.presence]]
 		type = "PLAYING"
 		description = "{{player.name}} is looking for a Realm"
 		state = "Browsing Realms"
 		largeImageKey = ["mclogo"]
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		largeImageText = "It's Minecraft {{game.version}}, but cozily modded"
 		smallImageKey = ["{{images.player}}"]
 		smallImageText = "{{player.name}}"
 		streamingActivityUrl = "https://twitch.tv/twitch"
@@ -89,53 +106,68 @@
 	#Enable/Disable the Join Game Event
 	enabled = true
 
-	#List of RPCs that will be displayed at random
 	[[join_game.presence]]
 		type = "PLAYING"
 		description = "{{player.name}} is joining a game"
 		state = "Joining Game"
 		largeImageKey = ["lavendre_release_icon"]
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		largeImageText = "It's Minecraft {{game.version}}, but cozily modded"
 		smallImageKey = ["{{images.player}}"]
 		smallImageText = "{{player.name}}"
 		streamingActivityUrl = "https://twitch.tv/twitch"
-		buttons = []
+
+		[[join_game.presence.buttons]]
+			label = "Download Lavendre"
+			url = "https://modrinth.com/modpack/lavendre"
+
+		[[join_game.presence.buttons]]
+			label = "Join Discord"
+			url = "https://discord.gg/DXFpzAn2fh"
 
 #The Single Player Event
 [single_player]
 	#Enable/Disable the Single Player Event
 	enabled = true
 
-	#List of RPCs that will be displayed at random
 	[[single_player.presence]]
 		type = "PLAYING"
 		description = "Currently In {{world.name}}"
 		state = "Playing lonely mode"
 		largeImageKey = ["lavendre_release_icon"]
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		largeImageText = "It's Minecraft {{game.version}}, but cozily modded"
 		smallImageKey = ["{{images.player}}"]
 		smallImageText = "{{player.name}}"
 		streamingActivityUrl = "https://twitch.tv/twitch"
-		buttons = []
+
+		[[single_player.presence.buttons]]
+			label = "Download Lavendre"
+			url = "https://modrinth.com/modpack/lavendre"
+
+		[[single_player.presence.buttons]]
+			label = "Join Discord"
+			url = "https://discord.gg/DXFpzAn2fh"
 
 #The Multi Player Event
 [multi_player]
 	#Enable/Disable the Multi Player Event
 	enabled = true
 
-	#List of RPCs that will be displayed at random
 	[[multi_player.presence]]
 		type = "PLAYING"
 		description = "Playing on {{server.name}} with {{server.players.count}} players"
 		state = "Playing online"
 		largeImageKey = ["lavendre_release_icon"]
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		largeImageText = "It's Minecraft {{game.version}}, but cozily modded"
 		smallImageKey = ["{{images.player}}"]
 		smallImageText = "{{player.name}}"
 		streamingActivityUrl = "https://twitch.tv/twitch"
 
 		[[multi_player.presence.buttons]]
-			label = "Join Lavandula Collective"
+			label = "Download Lavendre"
+			url = "https://modrinth.com/modpack/lavendre"
+
+		[[multi_player.presence.buttons]]
+			label = "Join Discord"
 			url = "https://discord.gg/DXFpzAn2fh"
 
 #The Realms Game Event
@@ -143,13 +175,12 @@
 	#Enable/Disable the Realms Game Event
 	enabled = false
 
-	#List of RPCs that will be displayed at random
 	[[realms.presence]]
 		type = "PLAYING"
 		description = "Playing on {{realm.name}}"
 		state = "Playing on a Realm"
 		largeImageKey = ["mclogo"]
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		largeImageText = "It's Minecraft {{game.version}}, but cozily modded"
 		smallImageKey = ["{{images.player}}"]
 		smallImageText = "{{player.name}}"
 		streamingActivityUrl = "https://twitch.tv/twitch"
@@ -160,32 +191,44 @@
 	#Enable/Disable the Pause Event
 	enabled = true
 
-	#List of RPCs that will be displayed at random
 	[[paused.presence]]
 		type = "PLAYING"
 		description = "In the Pause Menu"
 		state = "Game Paused"
 		largeImageKey = ["lavendre_release_icon"]
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		largeImageText = "It's Minecraft {{game.version}}, but cozily modded"
 		smallImageKey = ["{{images.player}}"]
 		smallImageText = "{{player.name}}"
 		streamingActivityUrl = "https://twitch.tv/twitch"
-		buttons = []
+
+		[[paused.presence.buttons]]
+			label = "Download Lavendre"
+			url = "https://modrinth.com/modpack/lavendre"
+
+		[[paused.presence.buttons]]
+			label = "Join Discord"
+			url = "https://discord.gg/DXFpzAn2fh"
 
 #Fallback event for disabled events
 [generic]
 
-	#List of RPCs that will be displayed at random
 	[[generic.presence]]
 		type = "PLAYING"
 		description = "Playing Minecraft"
 		state = ""
 		largeImageKey = ["lavendre_release_icon"]
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		largeImageText = "It's Minecraft {{game.version}}, but cozily modded"
 		smallImageKey = ["mclogo"]
 		smallImageText = "{{game.mods}} mods installed"
 		streamingActivityUrl = "https://twitch.tv/twitch"
-		buttons = []
+
+		[[generic.presence.buttons]]
+			label = "Download Lavendre"
+			url = "https://modrinth.com/modpack/lavendre"
+
+		[[generic.presence.buttons]]
+			label = "Join Discord"
+			url = "https://discord.gg/DXFpzAn2fh"
 
 #Custom Config Variables that you can use
 [custom]
@@ -199,7 +242,6 @@
 	#Allows you to override the displayed values for dimensions
 	enabled = false
 
-	#The Dimensions to override
 	[[dimension_overrides.dimensions]]
 		name = "overworld"
 
