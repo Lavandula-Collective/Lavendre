@@ -16,6 +16,7 @@
 !.pakku/overrides/**
 !.pakku/server-overrides/
 !.pakku/server-overrides/**
+!.pakku/curseforge_mods_credits.md
 /build/
 
 ### Minecraft ###
