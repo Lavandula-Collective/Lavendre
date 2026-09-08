@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "enableStandardCulling": true,
+  "enableExtendedCulling": true,
+  "enablePassDemotion": true,
+  "mode": "BALANCED",
+  "interiorThreshold": 0,
+  "useExtendedLeafDetection": true
+}
