@@ -36,3 +36,6 @@ net.minecraft.class_490 {
 net.mokich.panoptic.screen.WheelScreen {
 }
 
+com.jab125.mpuc.client.gui.screen.changelog.NewChangelogScreen {
+}
+
