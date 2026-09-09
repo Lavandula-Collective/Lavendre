@@ -1,0 +1,82 @@
+{
+  "local.after_tea_party": {
+    "sounds": [
+      {
+        "stream": true,
+        "name": "ji_afk_cinematic_local:music/after_tea_party"
+      }
+    ]
+  },
+  "local.around_the_moon_in_eighty_worlds": {
+    "sounds": [
+      {
+        "stream": true,
+        "name": "ji_afk_cinematic_local:music/around_the_moon_in_eighty_worlds"
+      }
+    ]
+  },
+  "local.dream_of_birch_and_pellucid_water": {
+    "sounds": [
+      {
+        "stream": true,
+        "name": "ji_afk_cinematic_local:music/dream_of_birch_and_pellucid_water"
+      }
+    ]
+  },
+  "local.everlasting_dirge": {
+    "sounds": [
+      {
+        "stream": true,
+        "name": "ji_afk_cinematic_local:music/everlasting_dirge"
+      }
+    ]
+  },
+  "local.fairy_tales_from_our_village": {
+    "sounds": [
+      {
+        "stream": true,
+        "name": "ji_afk_cinematic_local:music/fairy_tales_from_our_village"
+      }
+    ]
+  },
+  "local.old_tales_inscribed_in_verse": {
+    "sounds": [
+      {
+        "stream": true,
+        "name": "ji_afk_cinematic_local:music/old_tales_inscribed_in_verse"
+      }
+    ]
+  },
+  "local.the_gleaming_thread": {
+    "sounds": [
+      {
+        "stream": true,
+        "name": "ji_afk_cinematic_local:music/the_gleaming_thread"
+      }
+    ]
+  },
+  "local.transient_tranquility": {
+    "sounds": [
+      {
+        "stream": true,
+        "name": "ji_afk_cinematic_local:music/transient_tranquility"
+      }
+    ]
+  },
+  "local.we_choose_the_moon": {
+    "sounds": [
+      {
+        "stream": true,
+        "name": "ji_afk_cinematic_local:music/we_choose_the_moon"
+      }
+    ]
+  },
+  "local.where_the_cricket_sings": {
+    "sounds": [
+      {
+        "stream": true,
+        "name": "ji_afk_cinematic_local:music/where_the_cricket_sings"
+      }
+    ]
+  }
+}
