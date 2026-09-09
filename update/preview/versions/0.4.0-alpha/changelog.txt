@@ -1,0 +1,62 @@
+## Lavendre v0.4.0-alpha
+
+### Added
+
+- Auto Reauth
+- Bountiful
+- Colorwheel
+- Envelope
+- Exposure
+- Exposure Catalog
+- Exposure: Expanded
+- Exposure: Polaroid
+- Exposure: Space
+- File Copier
+- Get It Together, Drops!
+- Handcrafted
+- Horseman
+- Kambrik
+- Let Them Talk (LTT)
+- Midnight Thoughts
+- Mizuno Emissive Ores
+- Mizuno's Hat Variants
+- Mizuno's x Handcrafted
+- Mizuno's x Letsdo Bakery
+- Mizuno's x Letsdo Farm and Charm
+- Mizuno's x [Let's Do] Vinery
+- NiftyCrats X Farmer's Delight
+- Questlog
+- Reliable Recipes
+- Reliable Remover
+- Resourceful Lib
+- Scholar
+- Simple Voice Chat
+- Simple Voice Chat Group Player Names
+- Smart Completion
+- Too Many Entities
+- Voice Chat Interaction
+- [Let's Do Addon] Compat
+- [Let's Do Addon] EMI Compat
+- [Let's Do] Bakery - Farm&Charm Compat
+- [Let's Do] Farm & Charm
+- [Let's Do] Hearth & Timber
+- [Let's Do] HerbalBrews
+- [Let's Do] Lili's Pottery
+- [Let's Do] Vinery
+
+### Removed
+
+- Auth Me
+- Catalogue (CurseForge pakku-lock code line only)
+- Configured (CurseForge pakku-lock code line only)
+- Framework (CurseForge pakku-lock code line only)
+- Horse Buff
+- Menulogue (CurseForge pakku-lock code line only)
+- Scribble
+- StructureOverlapless (CurseForge pakku-lock code line only)
+
+### Updated
+
+- Immersive Hotbar
+- Ji AFK Cinematic
+- Mizuno Eating Animation
