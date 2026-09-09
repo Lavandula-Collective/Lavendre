@@ -3,6 +3,6 @@
 # {#E3ABFF}Lavendre{}
 By Lavandula Collective
 
-Welcome to cottagecore vanilla+ Minecraft. Built around Mizuno's 16 Craft, Lavendre combines curated CIT packs, beautiful visuals, and thoughtful enhancements. Build, explore, decorate, and feel at home!
+Welcome to cottagecore vanilla+ Minecraft. Built around Mizuno's 16 Craft, Lavendre brings together curated CIT packs, cozy visuals, and thoughtful gameplay enhancements. Farm, explore, build, decorate, and make Minecraft feel like home!
 ---
 [Discord](https://discord.gg/DXFpzAn2fh) · [Issues](https://github.com/Lavandula-Collective/Lavendre/issues)**
