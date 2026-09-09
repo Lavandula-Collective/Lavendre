@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = io.github.aerhazu.lavendre.about
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1788872384231
+  last_edited_time = 1788873376934
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:4b88078a-e236-47e9-bb57-a970336cd3c4-1788872328875] = [groups:][instances:]
+  [loading_requirement_container_meta:ded9048b-33b9-44a8-8359-ed9774c4404f-1788873372468] = [groups:][instances:]
 }
 
 customization {
@@ -1036,9 +1036,10 @@ element {
   auto_sizing_base_gui_width = 960
   auto_sizing_base_gui_height = 541
   sticky_anchor = false
-  anchor_point = bottom-centered
-  x = 0
-  y = -74
+  anchor_point = element
+  anchor_point_element = 3f96dd9d-d29c-47fe-86de-676b5b309fd1-1788867630272
+  x = 452
+  y = 452
   width = 123
   height = 20
   stay_on_screen = true
@@ -1530,9 +1531,9 @@ element {
   auto_sizing_base_gui_height = 541
   sticky_anchor = false
   anchor_point = element
-  anchor_point_element = mc_titlescreen_options_button
-  x = 352
-  y = 467
+  anchor_point_element = 3f96dd9d-d29c-47fe-86de-676b5b309fd1-1788867630272
+  x = 324
+  y = 452
   width = 122
   height = 20
   stay_on_screen = true
