@@ -1,0 +1,9 @@
+{
+    "gui": {
+        "scaling": {
+            "type": "stretch",
+            "width": 176,
+            "height": 95
+        }
+    }
+}
