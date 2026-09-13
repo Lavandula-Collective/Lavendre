@@ -4,8 +4,7 @@
   "default_packs": [
     "vanilla",
     "fabric",
-    "file/Mizunos 16 Craft JE_1.20.4-1.0_230105.zip",
-    "file/Mizunos 16 Craft JE CIT_1.21.1-1.1_170726.zip",
+    "file/Mizuno's 16 Craft JE+CIT 1.21.1-1.0-LC.zip",
     "file/Tinker_1.21.1-1.0.zip",
     "file/Modern Mizunos v0.5.2.zip",
     "file/Lavendre Core",
@@ -28,6 +27,11 @@
     "file/Mizuno's x Brewin' And Chewin'.zip",
     "file/Mizuno Eating Animation.zip",
     "file/Mizuno's x Comforts 1.1.zip",
+    "file/Mizuno's x [Let's Do] Vinery.zip",
+    "file/Mizuno's x Letsdo Farm and Charm 1.1.zip",
+    "file/Mizuno's x Letsdo Bakery 1.1.zip",
+    "file/Mizuno's x Handcrafted.zip",
+    "file/Mizuno Emissive Ores.zip",
     "file/appleskin for mizunos.zip",
     "minecraft:supporteatinganimation",
     "minecraft:udsupporteatinganimation",
@@ -43,8 +47,11 @@
     "file/HyperPunchy-v2.5+.zip",
     "file/Serified Font v1.2.zip",
     "file/[MEGA] Ghoulcraft 2.1.zip",
+    "file/Mizuno's Hat Variants 1.2.zip",
     "file/Aer's Timber Framed v1.1.zip",
-    "file/Hananacraft v1.3.4.zip"
+    "file/Hananacraft v1.3.4.zip",
+    "scholar:colored_books",
+    "scholar:chiseled_bookshelf_colored_books"
   ],
   "pack_overrides": {
     "orderless": [
@@ -55,6 +62,11 @@
       "file/Mizuno's x Brewin' And Chewin'.zip",
       "file/Mizuno Eating Animation.zip",
       "file/Mizuno's x Comforts 1.1.zip",
+      "file/Mizuno's x [Let's Do] Vinery.zip",
+      "file/Mizuno's x Letsdo Farm and Charm 1.1.zip",
+      "file/Mizuno's x Letsdo Bakery 1.1.zip",
+      "file/Mizuno's x Handcrafted.zip",
+      "file/Mizuno Emissive Ores.zip",
       "file/appleskin for mizunos.zip",
       "minecraft:supporteatinganimation",
       "minecraft:udsupporteatinganimation",
@@ -64,7 +76,9 @@
       "file/Enchant Display v.1.8.zip",
       "file/§a§lVocal Villagers §r§71.4.zip",
       "file/Firefly to Fairy.zip",
-      "generated/fragmentum_layer"
+      "generated/fragmentum_layer",
+      "scholar:colored_books",
+      "scholar:chiseled_bookshelf_colored_books"
     ],
     "$$orderless": {
       "hidden": true,
