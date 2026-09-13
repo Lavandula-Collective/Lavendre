@@ -1,0 +1,7 @@
+{
+  "id": "lavendre:coral",
+  "type": "remi:regex",
+  "name": "Corals",
+  "regex": ".*:.*(coral_(fan|block)|_coral|coralstone).*",
+  "enabled": true
+}

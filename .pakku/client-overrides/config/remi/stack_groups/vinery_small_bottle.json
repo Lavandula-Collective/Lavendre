@@ -1,0 +1,7 @@
+{
+  "type": "remi:tag",
+  "id": "vinery:small_bottle",
+  "tag": "vinery:small_bottle",
+  "registry": "minecraft:item",
+  "enabled": true
+}
