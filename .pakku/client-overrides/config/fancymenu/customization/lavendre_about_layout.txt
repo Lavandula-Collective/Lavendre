@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = io.github.aerhazu.lavendre.about
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1788873376934
+  last_edited_time = 1789152587587
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:ded9048b-33b9-44a8-8359-ed9774c4404f-1788873372468] = [groups:][instances:]
+  [loading_requirement_container_meta:fd6a8dd3-0258-48e9-9122-a01c23208f21-1789152584186] = [groups:][instances:]
 }
 
 customization {
@@ -463,16 +463,16 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
-  auto_sizing_base_gui_scale = 0
-  auto_sizing_base_gui_width = 0
-  auto_sizing_base_gui_height = 0
+  auto_sizing_base_gui_scale = 2
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 541
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 5abcdddf-5c79-47ec-b66c-348d07446caf-1785793781460
   x = -167
-  y = -10
-  width = 80
-  height = 177
+  y = -7
+  width = 78
+  height = 174
   stay_on_screen = true
   element_loading_requirement_container_identifier = 076d1524-ff75-42fd-ad95-123bbdfa75ea-1785789776338
   [loading_requirement_container_meta:076d1524-ff75-42fd-ad95-123bbdfa75ea-1785789776338] = [groups:][instances:]
@@ -513,6 +513,8 @@ element {
   button_element_executable_block_identifier = 40ee0400-c96d-4f0c-8161-d6ffe7c4a71e-1785791330021
   [executable_action_instance:529a670d-d5a3-4371-aa08-cb8d9a5c753e-1785791340606][action_type:openlink] = https://discord.gg/DXFpzAn2fh
   [executable_block:40ee0400-c96d-4f0c-8161-d6ffe7c4a71e-1785791330021][type:generic] = [executables:529a670d-d5a3-4371-aa08-cb8d9a5c753e-1785791340606;]
+  backgroundnormal = [source:local]/config/fancymenu/assets/widget/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/widget/button_highlighted.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -595,6 +597,8 @@ element {
   button_element_executable_block_identifier = 40ee0400-c96d-4f0c-8161-d6ffe7c4a71e-1785791330021
   [executable_action_instance:529a670d-d5a3-4371-aa08-cb8d9a5c753e-1785791340606][action_type:openlink] = https://modrinth.com/modpack/lavendre
   [executable_block:40ee0400-c96d-4f0c-8161-d6ffe7c4a71e-1785791330021][type:generic] = [executables:529a670d-d5a3-4371-aa08-cb8d9a5c753e-1785791340606;]
+  backgroundnormal = [source:local]/config/fancymenu/assets/widget/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/widget/button_highlighted.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -677,6 +681,8 @@ element {
   button_element_executable_block_identifier = 40ee0400-c96d-4f0c-8161-d6ffe7c4a71e-1785791330021
   [executable_action_instance:529a670d-d5a3-4371-aa08-cb8d9a5c753e-1785791340606][action_type:openlink] = https://github.com/aerhazu/Lavendre
   [executable_block:40ee0400-c96d-4f0c-8161-d6ffe7c4a71e-1785791330021][type:generic] = [executables:529a670d-d5a3-4371-aa08-cb8d9a5c753e-1785791340606;]
+  backgroundnormal = [source:local]/config/fancymenu/assets/widget/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/widget/button_highlighted.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -759,6 +765,8 @@ element {
   button_element_executable_block_identifier = 40ee0400-c96d-4f0c-8161-d6ffe7c4a71e-1785791330021
   [executable_action_instance:529a670d-d5a3-4371-aa08-cb8d9a5c753e-1785791340606][action_type:openlink] = https://github.com/aerhazu/Lavendre/issues
   [executable_block:40ee0400-c96d-4f0c-8161-d6ffe7c4a71e-1785791330021][type:generic] = [executables:529a670d-d5a3-4371-aa08-cb8d9a5c753e-1785791340606;]
+  backgroundnormal = [source:local]/config/fancymenu/assets/widget/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/widget/button_highlighted.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -841,6 +849,8 @@ element {
   button_element_executable_block_identifier = 40ee0400-c96d-4f0c-8161-d6ffe7c4a71e-1785791330021
   [executable_action_instance:529a670d-d5a3-4371-aa08-cb8d9a5c753e-1785791340606][action_type:openlink] = https://lavandula-collective.gitbook.io/site/license
   [executable_block:40ee0400-c96d-4f0c-8161-d6ffe7c4a71e-1785791330021][type:generic] = [executables:529a670d-d5a3-4371-aa08-cb8d9a5c753e-1785791340606;]
+  backgroundnormal = [source:local]/config/fancymenu/assets/widget/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/widget/button_highlighted.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -923,6 +933,8 @@ element {
   button_element_executable_block_identifier = 40ee0400-c96d-4f0c-8161-d6ffe7c4a71e-1785791330021
   [executable_action_instance:529a670d-d5a3-4371-aa08-cb8d9a5c753e-1785791340606][action_type:openlink] = https://ko-fi.com/aerhazuwu
   [executable_block:40ee0400-c96d-4f0c-8161-d6ffe7c4a71e-1785791330021][type:generic] = [executables:529a670d-d5a3-4371-aa08-cb8d9a5c753e-1785791340606;]
+  backgroundnormal = [source:local]/config/fancymenu/assets/widget/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/widget/button_highlighted.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -1005,6 +1017,8 @@ element {
   button_element_executable_block_identifier = be16e3fe-ce33-4009-afc5-af8751d4d035-1785793091961
   [executable_action_instance:21c5bca6-cf1d-4637-a237-4b55111b7ff6-1786314938427][action_type:back_to_last_screen] = 
   [executable_block:be16e3fe-ce33-4009-afc5-af8751d4d035-1785793091961][type:generic] = [executables:21c5bca6-cf1d-4637-a237-4b55111b7ff6-1786314938427;]
+  backgroundnormal = [source:local]/config/fancymenu/assets/widget/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/widget/button_highlighted.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -1161,7 +1175,7 @@ element {
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
   base_color = #4C4C4CFF
-  scale = 0.9
+  scale = 1.0
   text_border = 2
   line_spacing = 2
   quote_indent = 8
@@ -1176,6 +1190,8 @@ element {
   button_element_executable_block_identifier = 40ee0400-c96d-4f0c-8161-d6ffe7c4a71e-1785791330021
   [executable_action_instance:529a670d-d5a3-4371-aa08-cb8d9a5c753e-1785791340606][action_type:openlink] = https://linktr.ee/aerhazu
   [executable_block:40ee0400-c96d-4f0c-8161-d6ffe7c4a71e-1785791330021][type:generic] = [executables:529a670d-d5a3-4371-aa08-cb8d9a5c753e-1785791340606;]
+  backgroundnormal = [source:local]/config/fancymenu/assets/widget/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/widget/button_highlighted.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -1203,9 +1219,9 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
-  auto_sizing_base_gui_scale = 0
-  auto_sizing_base_gui_width = 0
-  auto_sizing_base_gui_height = 0
+  auto_sizing_base_gui_scale = 2
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 541
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 21859d4a-f73e-4d5e-9418-441fc68ceb82-1785789776338
@@ -1499,6 +1515,8 @@ element {
   [executable_action_instance:6b8cb79f-01cb-4b59-8d68-cb3205dfe719-1788780651118][action_type:disable_layout] = lavendre_intro_layout_4
   [executable_action_instance:9e64019c-576e-4f23-b3ae-28696e48d9e9-1788780679459][action_type:enable_layout] = lavendre_intro_layout
   [executable_block:841dd216-d4cd-456c-9617-00a9bb421841-1788747284281][type:generic] = [executables:0cf6dd9e-321b-4cb4-8bac-fcf03a5c1dfd-1788747419714;d9a578ff-be3b-4a22-9434-b68f3afb99f4-1788780615517;f20e32aa-ead2-47f2-8aa1-d32e128b5c8a-1788780639771;849511fc-e6aa-45b3-84ee-ce263a07b088-1788780646019;6b8cb79f-01cb-4b59-8d68-cb3205dfe719-1788780651118;9e64019c-576e-4f23-b3ae-28696e48d9e9-1788780679459;]
+  backgroundnormal = [source:local]/config/fancymenu/assets/widget/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/widget/button_highlighted.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
