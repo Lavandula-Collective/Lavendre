@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = io.github.aerhazu.lavendre.intro
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1788870743462
+  last_edited_time = 1789152741979
   is_enabled = false
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:078fcb83-152a-4be5-8d94-d54000d0fac1-1788884607899] = [groups:][instances:]
+  [loading_requirement_container_meta:984f693a-f158-4ce3-a6b0-248659985659-1789152821975] = [groups:][instances:]
 }
 
 customization {
@@ -617,7 +617,8 @@ element {
   [folder_executable_block_name:b3b33c43-9769-457e-95a0-3b8baf99a735-1788693182185] = New Folder
   [folder_executable_block_collapsed:b3b33c43-9769-457e-95a0-3b8baf99a735-1788693182185] = false
   [executable_block:365e1847-e993-4733-87ed-3636e8f694a6-1788692933806][type:generic] = [executables:b3b33c43-9769-457e-95a0-3b8baf99a735-1788693182185;]
-  backgroundnormal = [source:local]/config/fancymenu/assets/button.png
+  backgroundnormal = [source:local]/config/fancymenu/assets/widget/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/widget/button_highlighted.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -689,7 +690,7 @@ element {
   advanced_horizontal_tilt_degrees = 0.0
   label_scale = 1.0
   label_shadow = true
-  nine_slice_border_x = 61
+  nine_slice_border_x = 1
   nine_slice_border_y = 5
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
@@ -703,7 +704,8 @@ element {
   [folder_executable_block_name:b3b33c43-9769-457e-95a0-3b8baf99a735-1788693182185] = New Folder
   [folder_executable_block_collapsed:b3b33c43-9769-457e-95a0-3b8baf99a735-1788693182185] = false
   [executable_block:365e1847-e993-4733-87ed-3636e8f694a6-1788692933806][type:generic] = [executables:b3b33c43-9769-457e-95a0-3b8baf99a735-1788693182185;]
-  backgroundnormal = [source:local]/config/fancymenu/assets/button.png
+  backgroundnormal = [source:local]/config/fancymenu/assets/widget/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/widget/button_highlighted.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -775,7 +777,7 @@ element {
   advanced_horizontal_tilt_degrees = 0.0
   label_scale = 1.0
   label_shadow = true
-  nine_slice_border_x = 61
+  nine_slice_border_x = 1
   nine_slice_border_y = 5
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
