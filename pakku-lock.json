@@ -1202,6 +1202,87 @@
             ]
         },
         {
+            "pakku_id": "wBOqrIGiNosPnpq8",
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "angels-font"
+            },
+            "name": {
+                "modrinth": "Angel's Font"
+            },
+            "id": {
+                "modrinth": "UuvUPWUV"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Angel's_Font_v0.8.zip",
+                    "mc_versions": [
+                        "1.14",
+                        "1.14.1",
+                        "1.14.2",
+                        "1.14.3",
+                        "1.14.4",
+                        "1.15",
+                        "1.15.1",
+                        "1.15.2",
+                        "1.16",
+                        "1.16.1",
+                        "1.16.2",
+                        "1.16.3",
+                        "1.16.4",
+                        "1.16.5",
+                        "1.17",
+                        "1.17.1",
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "minecraft"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/UuvUPWUV/versions/Lx6xKhmA/Angel's_Font_v0.8.zip",
+                    "id": "Lx6xKhmA",
+                    "parent_id": "UuvUPWUV",
+                    "hashes": {
+                        "sha512": "d455c8b5ffbacd2c3b324780fd27df707fe558c470c0d2190acaf898f561d98a61fd0f7c854010deab2bb42f49770cf4da02b943a6816c2369253b8bae73aa9a",
+                        "sha1": "a24124ed37b77457ad816e4382ba27948a12df2e"
+                    },
+                    "required_dependencies": [
+                        "TiF5QWZY"
+                    ],
+                    "size": 762694,
+                    "date_published": "2025-12-28T06:52:28.369345Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "go97HElWYtGhijBn",
             "pakku_links": [
                 "gk7SqwElaRKovhhf"
@@ -4072,6 +4153,50 @@
             ]
         },
         {
+            "pakku_id": "73gKBRfTeTy0kWX6",
+            "pakku_links": [
+                "JSeg00kw6TBYKsSn",
+                "RoNccXaSuiMSD0fM"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "distraction-free-recipes"
+            },
+            "name": {
+                "modrinth": "Distraction Free Recipes (EMI / REI / JEI)"
+            },
+            "id": {
+                "modrinth": "gbJLUhZP"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "distraction_free_recipes-fabric-1.2.1-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/gbJLUhZP/versions/OJV9Q68B/distraction_free_recipes-fabric-1.2.1-1.21.1.jar",
+                    "id": "OJV9Q68B",
+                    "parent_id": "gbJLUhZP",
+                    "hashes": {
+                        "sha512": "f41212e19f3b4af06f62049c62735a5badacf23859d04fafafc93fc8e75ec50ec658a946945a8ddbf33a843a5a356b94680660ea389bf19e1669634362c40e8d",
+                        "sha1": "df28f25c6e555581e27022f38ec2d754171fe60c"
+                    },
+                    "required_dependencies": [
+                        "vBbPDuOs",
+                        "P7dR8mSH"
+                    ],
+                    "size": 659626,
+                    "date_published": "2025-01-21T15:35:59.112601Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "dqo9yvghSwXnCyQm",
             "type": "MOD",
             "side": "CLIENT",
@@ -4364,49 +4489,6 @@
                     ],
                     "size": 162042,
                     "date_published": "2025-08-29T02:42:33.494393Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "SVhxh1QXiWnclbiB",
-            "pakku_links": [
-                "IISI7mKXZYEh1E3T"
-            ],
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "emi-book"
-            },
-            "name": {
-                "modrinth": "EMI Book"
-            },
-            "id": {
-                "modrinth": "nGu9f1L6"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "emibook-fabric-1.21.1-1.0.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "fabric"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/nGu9f1L6/versions/GsHX0ijX/emibook-fabric-1.21.1-1.0.1.jar",
-                    "id": "GsHX0ijX",
-                    "parent_id": "nGu9f1L6",
-                    "hashes": {
-                        "sha512": "ddcc87919579e0f925f851875caa1aa5d48f880693d3ec00dc5929aa40a8ded0f8fbdd575109a3c86d0e0cb73b8fa96b131052d3939cab9e3074b855111afd91",
-                        "sha1": "9b735efd0e0cc74a3b209f09d05b5c456c45fa89"
-                    },
-                    "required_dependencies": [
-                        "fRiHVvU7",
-                        "9s6osm5g"
-                    ],
-                    "size": 20482,
-                    "date_published": "2026-05-09T14:15:18.705639Z"
                 }
             ]
         },
@@ -7667,7 +7749,7 @@
             ]
         },
         {
-            "pakku_id": "zDZgsRDYKeD7b0xD",
+            "pakku_id": "lIVLI668Ob6Fqi62",
             "type": "MOD",
             "side": "SERVER",
             "slug": {
@@ -7770,7 +7852,10 @@
                         "26.3-snapshot-9",
                         "26.3-snapshot-10",
                         "26.3-pre-1",
-                        "26.3-pre-2"
+                        "26.3-pre-2",
+                        "26.3-pre-3",
+                        "26.3-rc-1",
+                        "26.3-rc-2"
                     ],
                     "loaders": [
                         "fabric",
@@ -8010,45 +8095,6 @@
                     ],
                     "size": 14791,
                     "date_published": "2025-03-16T11:42:17.594793Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "E8UWgTOdALarrRmw",
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "let-them-talk"
-            },
-            "name": {
-                "modrinth": "Let Them Talk (LTT)"
-            },
-            "id": {
-                "modrinth": "SZ1DDiij"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "let-them-talk-1.0.1+1.21.1+fabric.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "fabric"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/SZ1DDiij/versions/IGJl1K6i/let-them-talk-1.0.1+1.21.1+fabric.jar",
-                    "id": "IGJl1K6i",
-                    "parent_id": "SZ1DDiij",
-                    "hashes": {
-                        "sha512": "6d2c9e40cdd05f43bd538ea1e8390ad698d6d2431cb44fc6ed4a93afff162568ae1369729a2ed28a0c5c2dad6a4f30fd115df3d8daeb7391187320efdba3a9dd",
-                        "sha1": "104c9502482001593a2e0ddac8a935b7faa139ed"
-                    },
-                    "required_dependencies": [
-                        "P7dR8mSH"
-                    ],
-                    "size": 395299,
-                    "date_published": "2026-07-15T20:35:03.546537Z"
                 }
             ]
         },
@@ -12774,6 +12820,48 @@
             ]
         },
         {
+            "pakku_id": "MzH5YlswfVF8hrNL",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "paxi"
+            },
+            "name": {
+                "modrinth": "Paxi"
+            },
+            "id": {
+                "modrinth": "CU0PAyzb"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Paxi-1.21.1-Fabric-5.1.3.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/CU0PAyzb/versions/FfXyVbds/Paxi-1.21.1-Fabric-5.1.3.jar",
+                    "id": "FfXyVbds",
+                    "parent_id": "CU0PAyzb",
+                    "hashes": {
+                        "sha512": "731250638cb764affc83b589ee3ee9ab233a80a64ca2dfdebce0772c174e62554e6622ceccc693a0ae8bc4a24537c16584161cbcb84a6877c7cb97e575a03f17",
+                        "sha1": "e91042c9cc9f358776afe3b69af73e6e38038cdd"
+                    },
+                    "required_dependencies": [
+                        "Ua7DFN59",
+                        "9s6osm5g",
+                        "P7dR8mSH"
+                    ],
+                    "size": 230652,
+                    "date_published": "2025-05-01T22:51:35.238378Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "D63uRYfa9z1BOEJb",
             "type": "MOD",
             "side": "SERVER",
@@ -13460,6 +13548,43 @@
             ]
         },
         {
+            "pakku_id": "Mg1soTJCG4Mb9KvH",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "recreative"
+            },
+            "name": {
+                "modrinth": "Recreative"
+            },
+            "id": {
+                "modrinth": "EBWdtRFr"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "recreative-fabric-1.21.1-2.2.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/EBWdtRFr/versions/ClCxY80R/recreative-fabric-1.21.1-2.2.2.jar",
+                    "id": "ClCxY80R",
+                    "parent_id": "EBWdtRFr",
+                    "hashes": {
+                        "sha512": "d4c7760de78e2d1419e4fd833625efaeda3a5162c0822fb5a57b2940ef603fc8200086d3a33d160cf4e704d4424a8cc0a19e5f47801de451346372493e102620",
+                        "sha1": "e791e091f525cbab424a2c459af1b6f88ca75d06"
+                    },
+                    "required_dependencies": [],
+                    "size": 199619,
+                    "date_published": "2026-09-03T08:31:39.282799Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "9RDtqwdZV24TCoG4",
             "type": "MOD",
             "side": "BOTH",
@@ -13554,7 +13679,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "remi-fabric-1.21.1-4.6.9.jar",
+                    "file_name": "remi-fabric-1.21.1-4.7.0.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -13562,19 +13687,19 @@
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/N9WucjHL/versions/SgvMSM9M/remi-fabric-1.21.1-4.6.9.jar",
-                    "id": "SgvMSM9M",
+                    "url": "https://cdn.modrinth.com/data/N9WucjHL/versions/SeluiFxv/remi-fabric-1.21.1-4.7.0.jar",
+                    "id": "SeluiFxv",
                     "parent_id": "N9WucjHL",
                     "hashes": {
-                        "sha512": "90b20ffd44ebb38514b1b7eec5cd1e96373d999cce0cfbd4d28b0a86747d8f709537ccaccf782d64c482f359441d5fd3eb85619ca81873a5fef2d870d41c94dd",
-                        "sha1": "7f1d3f27d2d4833dfdfe3361acca239874e318dd"
+                        "sha512": "bea7f1889306bcad8973aee15ebef4e09872fe8b27a72c92dd1669181c47a9f4efc060ee74b189da3494f2e2fd7d3ff1ea5931b26686cbd032348905328775e2",
+                        "sha1": "2d0b25380e0714047bf29b14ef6ce6f2ec7117cc"
                     },
                     "required_dependencies": [
-                        "1eAoo2KR",
-                        "fRiHVvU7"
+                        "fRiHVvU7",
+                        "1eAoo2KR"
                     ],
-                    "size": 308494,
-                    "date_published": "2026-09-07T07:02:47.149161Z"
+                    "size": 312915,
+                    "date_published": "2026-09-10T05:56:56.311314Z"
                 }
             ]
         },
