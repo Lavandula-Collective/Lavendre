@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = inventory_screen
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1788206592826
+  last_edited_time = 1789159976269
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:a73998ce-3938-4501-8e38-0631a3e70236-1788206579122] = [groups:][instances:]
+  [loading_requirement_container_meta:b78e3311-cc25-4536-bf7b-49800bec95f0-1789159984217] = [groups:][instances:]
 }
 
 menu_background {
@@ -59,8 +59,8 @@ menu_background {
 }
 
 menu_background {
-  instance_identifier = 5cdae741-8ac1-4886-a681-1a74becc88a9-1787950756073
-  background_type = video_mcef
+  instance_identifier = 27ef11fc-9f56-4c2e-ac92-35d1e36c0597-1789054939101
+  background_type = video_rinku
   show_background = false
   loop = false
   volume = 1.0
@@ -126,13 +126,6 @@ menu_background {
   mouse_position_requires_hold = false
   opacity_multiplier = 1.0
   show_compile_errors = true
-}
-
-menu_background {
-  instance_identifier = e67c5691-05f5-40c3-ae8a-b3b981826f9e-1787950756074
-  background_type = drippy_color_background
-  show_background = false
-  color = #FD5757FF
 }
 
 decoration_overlay {
@@ -348,16 +341,20 @@ scroll_list_customization {
 layout_action_executable_blocks {
 }
 
-vanilla_button {
-  button_element_executable_block_identifier = a4394b49-0e1b-405d-9daf-e61bac811d8a-1787950756077
-  [executable_block:a4394b49-0e1b-405d-9daf-e61bac811d8a-1787950756077][type:generic] = [executables:]
+element {
+  button_element_executable_block_identifier = 2bd321d3-9d78-4542-9d5d-685d0106fd98-1789155686495
+  [executable_action_instance:f1b4b55e-7b17-4c96-8c1f-f51d64dd8fc2-1789156160451][action_type:disable_layout] = lavender_tip_on_inventory_screen_layout
+  [executable_action_instance:2a8df7ed-cfa8-4a5a-93db-3b97758f1c7a-1789156169026][action_type:enable_layout] = lavender_tip_off_inventory_screen_layout
+  [executable_block:2bd321d3-9d78-4542-9d5d-685d0106fd98-1789155686495][type:generic] = [executables:f1b4b55e-7b17-4c96-8c1f-f51d64dd8fc2-1789156160451;2a8df7ed-cfa8-4a5a-93db-3b97758f1c7a-1789156169026;]
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
+  description = Toggle recipe book hover tip OFF
+  label = Toggle Tip: &eON
   navigatable = true
-  widget_active_state_requirement_container_identifier = 75e192bf-f0f5-482e-9083-a0b91bef5daf-1787950756077
-  [loading_requirement_container_meta:75e192bf-f0f5-482e-9083-a0b91bef5daf-1787950756077] = [groups:][instances:]
+  widget_active_state_requirement_container_identifier = fd334eeb-6865-44a9-97c5-f4996b576f1a-1789155686495
+  [loading_requirement_container_meta:fd334eeb-6865-44a9-97c5-f4996b576f1a-1789155686495] = [groups:][instances:]
   is_template = false
   template_apply_width = false
   template_apply_height = false
@@ -368,24 +365,27 @@ vanilla_button {
   template_apply_label = false
   template_share_with = buttons
   nine_slice_slider_handle = false
-  element_type = vanilla_button
-  instance_identifier = inventory_screen_book_button
+  element_type = custom_button
+  instance_identifier = f8690958-3cad-4058-b816-b7f080940f7a-1789155686495
   appearance_delay = no_delay
   disappearance_delay = no_delay
   fade_in_v2 = no_fading
   fade_out = no_fading
   auto_sizing = false
-  auto_sizing_base_screen_width = 0
-  auto_sizing_base_screen_height = 0
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  auto_sizing_base_gui_scale = 2
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 540
   sticky_anchor = false
-  anchor_point = vanilla
-  x = 496
-  y = 248
-  width = 20
-  height = 18
+  anchor_point = bottom-right
+  x = -87
+  y = -22
+  width = 85
+  height = 20
   stay_on_screen = true
-  element_loading_requirement_container_identifier = 7610c848-2293-4a8e-b848-cbc37e3bdc5c-1787950756077
-  [loading_requirement_container_meta:7610c848-2293-4a8e-b848-cbc37e3bdc5c-1787950756077] = [groups:][instances:]
+  element_loading_requirement_container_identifier = 6f9b6b36-ed74-4571-b625-c8c009f55cb3-1789155686495
+  [loading_requirement_container_meta:6f9b6b36-ed74-4571-b625-c8c009f55cb3-1789155686495] = [groups:][instances:]
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -422,22 +422,190 @@ vanilla_button {
   nine_slice_border_y = 5
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
-  automated_button_clicks = 0
-  is_hidden = false
 }
 
-vanilla_button {
-  button_element_executable_block_identifier = ee12f975-cf1b-42b5-a40f-0806996f9ef8-1787950756077
-  [executable_block:ee12f975-cf1b-42b5-a40f-0806996f9ef8-1787950756077][type:generic] = [executables:]
+element {
+  button_element_executable_block_identifier = 83e38ede-b87d-44dd-ba7a-205e6dc69542-1789159633798
+  [executable_action_instance:86fcf4a8-0ecc-4543-b785-f5846e0f9a28-1789159640060][action_type:opengui] = com.evandev.recreative.client.gui.CreativeTabEditorScreen
+  [executable_block:83e38ede-b87d-44dd-ba7a-205e6dc69542-1789159633798][type:generic] = [executables:86fcf4a8-0ecc-4543-b785-f5846e0f9a28-1789159640060;]
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
-  description = Using the legacy creative menu may cause lag and is not recommended!
-  label = Legacy Menu
+  label = &e[DEV] Edit Creative Inventory
   navigatable = true
-  widget_active_state_requirement_container_identifier = 2c37c958-6e72-4bb9-b46d-6687bb530b8a-1787950756077
-  [loading_requirement_container_meta:2c37c958-6e72-4bb9-b46d-6687bb530b8a-1787950756077] = [groups:][instances:]
+  widget_active_state_requirement_container_identifier = cc88f6b7-78d5-4fae-8e56-b4f035499ffe-1789159633798
+  [loading_requirement_container_meta:cc88f6b7-78d5-4fae-8e56-b4f035499ffe-1789159633798] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  element_type = custom_button
+  instance_identifier = 5abb3f67-7a6a-469d-bf5c-a6605d905000-1789159677069
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  auto_sizing_base_gui_scale = 2
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 540
+  sticky_anchor = false
+  anchor_point = bottom-centered
+  x = -81
+  y = -22
+  width = 162
+  height = 20
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 214383a0-f009-4a05-82f6-2d91ba7ca6fa-1789159633798
+  [loading_requirement_container_meta:214383a0-f009-4a05-82f6-2d91ba7ca6fa-1789159633798] = [groups:][instances:14e1ab9a-cdd3-408f-847a-a638f1d12a77-1789159759791;]
+  [loading_requirement:is_modpack_mode_enabled][requirement_mode:if_not][req_id:14e1ab9a-cdd3-408f-847a-a638f1d12a77-1789159759791] = 
+  enable_parallax = false
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  advanced_rotation_mode = false
+  advanced_vertical_tilt_mode = false
+  advanced_horizontal_tilt_mode = false
+  should_be_affected_by_decoration_overlays = true
+  in_editor_color = #FFC800FF
+  advanced_posx = -2147483648
+  advanced_posy = -2147483648
+  advanced_width = -2147483648
+  advanced_height = -2147483648
+  stretch_x = false
+  stretch_y = false
+  appearance_delay_seconds = 1.0
+  disappearance_delay_seconds = 1.0
+  fade_in_speed = 1.0
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
+  rotation_degrees = 0.0
+  advanced_rotation_degrees = 0.0
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_degrees = 0.0
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_degrees = 0.0
+  label_scale = 1.0
+  label_shadow = true
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+element {
+  interactable = true
+  source = &eModpack Mode: &r&4OFF%n%&eDEVELOPER GUI ENABLED%n%
+  source_mode = direct
+  shadow = true
+  enable_scrolling = true
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  click_event_color = #0771FCFF
+  hover_event_color = #0771FCFF
+  quote_color = #818181FF
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  parse_markdown = true
+  table_show_header = true
+  table_alternate_row_colors = true
+  table_line_color = #787878FF
+  table_header_background_color = #323232FF
+  table_row_background_color = #282828FF
+  table_alternate_row_color = #3C3C3CFF
+  element_type = text_v2
+  instance_identifier = 72c3d582-49bc-4509-9bcc-e2e9296f88b7-1789159831952
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  auto_sizing_base_gui_scale = 2
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 540
+  sticky_anchor = false
+  anchor_point = top-left
+  x = -1
+  y = -3
+  width = 200
+  height = 40
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 8e4f95e8-b572-4397-8bce-e8506c85d8fb-1789159831952
+  [loading_requirement_container_meta:8e4f95e8-b572-4397-8bce-e8506c85d8fb-1789159831952] = [groups:][instances:d5435772-63a2-4cd3-8922-62fb5a6244fb-1789159958691;]
+  [loading_requirement:is_modpack_mode_enabled][requirement_mode:if_not][req_id:d5435772-63a2-4cd3-8922-62fb5a6244fb-1789159958691] = 
+  enable_parallax = false
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  advanced_rotation_mode = false
+  advanced_vertical_tilt_mode = false
+  advanced_horizontal_tilt_mode = false
+  should_be_affected_by_decoration_overlays = false
+  in_editor_color = #FFC800FF
+  advanced_posx = -2147483648
+  advanced_posy = -2147483648
+  advanced_width = -2147483648
+  advanced_height = -2147483648
+  stretch_x = false
+  stretch_y = false
+  appearance_delay_seconds = 1.0
+  disappearance_delay_seconds = 1.0
+  fade_in_speed = 1.0
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
+  rotation_degrees = 0.0
+  advanced_rotation_degrees = 0.0
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_degrees = 0.0
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_degrees = 0.0
+  base_color = #FFFFFFFF
+  scale = 1.0
+  text_border = 2
+  line_spacing = 2
+  quote_indent = 8
+  bullet_list_indent = 8
+  bullet_list_spacing = 3
+  table_line_thickness = 1.0
+  table_cell_padding = 8.0
+  table_margin = 4.0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = a4394b49-0e1b-405d-9daf-e61bac811d8a-1787950756077
+  [executable_block:a4394b49-0e1b-405d-9daf-e61bac811d8a-1787950756077][type:generic] = [executables:]
+  underline_label_on_hover = false
+  transparent_background = false
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  description = &e★ Tips!&r%n%%n%Toggle Favorites/Craftables - &eClick Recipe Book&r%n%%n%Cheat One to Inv. - &eCtrl + LB&r%n%Cheat Stack to Inv. - &eCtrl + RB&r%n%Cheat One to Cur. - &eCtrl + MB&r%n%Cheat Stack to Cur. - &eCtrl + Shift + MB&r%n%%n%Craft One - &eLB&r%n%Craft One to Inv. - &eShift + RB&r%n%Craft All to Inv. - &eShift + LB&r%n%Show Craft - &eLeft Shift&r%n%%n%Toggle Visibility - &eCtrl + E&r%n%Focus Search - &eCtrl + F&r%n%Clear Search - &eCtrl + D&r%n%View Recipes - &eLB / R&r%n%View Uses - &eRB / U&r%n%Favorite - &eF&r%n%View Item Tree - &eT&r%n%Back - &eBackspace&r
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 75e192bf-f0f5-482e-9083-a0b91bef5daf-1787950756077
+  [loading_requirement_container_meta:75e192bf-f0f5-482e-9083-a0b91bef5daf-1787950756077] = [groups:][instances:]
   is_template = false
   template_apply_width = false
   template_apply_height = false
@@ -449,23 +617,26 @@ vanilla_button {
   template_share_with = buttons
   nine_slice_slider_handle = false
   element_type = vanilla_button
-  instance_identifier = 430975
+  instance_identifier = inventory_screen_book_button
   appearance_delay = no_delay
   disappearance_delay = no_delay
   fade_in_v2 = no_fading
   fade_out = no_fading
   auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1080
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  auto_sizing_base_gui_scale = 0
+  auto_sizing_base_gui_width = 0
+  auto_sizing_base_gui_height = 0
   sticky_anchor = false
-  anchor_point = bottom-left
-  x = 46
-  y = -18
-  width = 85
-  height = 20
+  anchor_point = vanilla
+  x = 496
+  y = 248
+  width = 20
+  height = 18
   stay_on_screen = true
-  element_loading_requirement_container_identifier = 890c9ced-917d-47a9-a4bb-bd9492eee690-1787950756077
-  [loading_requirement_container_meta:890c9ced-917d-47a9-a4bb-bd9492eee690-1787950756077] = [groups:][instances:]
+  element_loading_requirement_container_identifier = 7610c848-2293-4a8e-b848-cbc37e3bdc5c-1787950756077
+  [loading_requirement_container_meta:7610c848-2293-4a8e-b848-cbc37e3bdc5c-1787950756077] = [groups:][instances:]
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
