@@ -1,0 +1,43 @@
+[
+  {
+    "action": "remove_from_tag",
+    "tag": "c:enchantables",
+    "id": "ubesdelight:rolling_pin_wood"
+  },
+  {
+    "action": "remove_from_tag",
+    "tag": "minecraft:enchantable/mining_loot",
+    "id": "ubesdelight:rolling_pin_wood"
+  },
+  {
+    "action": "remove_from_tag",
+    "tag": "minecraft:enchantable/vanishing",
+    "id": "ubesdelight:rolling_pin_wood"
+  },
+  {
+    "action": "remove_from_tag",
+    "tag": "minecraft:enchantable/durability",
+    "id": "ubesdelight:rolling_pin_wood"
+  },
+  {
+    "action": "remove_from_tag",
+    "tag": "minecraft:breaks_decorated_pots",
+    "id": "ubesdelight:rolling_pin_wood"
+  },
+  {
+    "action": "replace_input",
+    "output": "ubesdelight:rolling_pin_wood",
+    "target": "#minecraft:fences",
+    "replacement": [
+      "#minecraft:planks"
+    ]
+  },
+  {
+    "action": "replace_input",
+    "output": "bakery:rolling_pin",
+    "target": "#minecraft:wooden_slabs",
+    "replacement": [
+      "minecraft:bamboo"
+    ]
+  }
+]
