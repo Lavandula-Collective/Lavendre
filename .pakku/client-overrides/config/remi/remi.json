@@ -20,7 +20,11 @@
   "stackGroupsCraftables": true,
   "stackGroupsWorkstation": false,
   "stackGroupsFavorites": false,
-  "disabledStackGroups": [],
+  "disabledStackGroups": [
+    "vinery:white_wine",
+    "c:seeds",
+    "lavendre:corals"
+  ],
   "stackGroupItemOrder": {},
   "emiOnlyInRecipeBook": false,
   "emiOnlyInRecipeBookState": false,

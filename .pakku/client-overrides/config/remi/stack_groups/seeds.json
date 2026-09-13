@@ -1,0 +1,14 @@
+{
+  "id": "lavendre:seeds",
+  "type": "remi:group",
+  "name": "Seeds",
+  "contents": [
+    "#c:seeds",
+    "#farm_and_charm:seeds",
+    "#bakery:seeds"
+  ],
+  "regexes": [
+    ".*grape_seeds.*"
+  ],
+  "enabled": true
+}
