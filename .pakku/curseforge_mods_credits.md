@@ -14,3 +14,4 @@
 - [Framework](https://mrcrayfish.com/mods/framework) by [MrCrayfish](https://mrcrayfish.com/#)
 - [Menulogue](https://mrcrayfish.com/mods/menulogue) by [MrCrayfish](https://mrcrayfish.com/#)
 - [Olaf's Relative Blocks](www.curseforge.com/minecraft/mc-mods/olafs-relatively-placed-blocks) by [Lukeolafp](https://www.curseforge.com/members/lukeolafp)
+- [Paxi Extra](https://www.curseforge.com/minecraft/mc-mods/paxi-extra) by [aspctt](https://www.curseforge.com/members/aspctt) (Port of [Paxi Plus](https://modrinth.com/mod/paxiplus) by [Lancet_](https://modrinth.com/user/Lancet_). Original by [YUNGNICKYOUNG](https://modrinth.com/user/YUNGNICKYOUNG) & [Fyoncle](https://modrinth.com/user/Fyoncle))
