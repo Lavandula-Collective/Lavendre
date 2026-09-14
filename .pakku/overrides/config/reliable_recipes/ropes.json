@@ -1,7 +1,0 @@
-[
-  {
-    "action": "replace_input",
-    "target": "farm_and_charm:tomato",
-    "replacement": "farmersdelight:tomato"
-  }
-]
