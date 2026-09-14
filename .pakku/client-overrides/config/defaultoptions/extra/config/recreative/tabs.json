@@ -5442,16 +5442,8 @@
         "after": "minecraft:blast_furnace"
       },
       {
-        "item": "herbalbrews:stove",
-        "after": "bakery:baker_station"
-      },
-      {
-        "item": "farmersdelight:stove",
-        "after": "herbalbrews:stove"
-      },
-      {
         "item": "farm_and_charm:stove",
-        "after": "farmersdelight:stove"
+        "after": "bakery:baker_station"
       },
       {
         "item": "ubesdelight:kalan",
@@ -5518,8 +5510,16 @@
         "after": "vinery:cherry_lattice"
       },
       {
-        "item": "farm_and_charm:chicken_coop",
+        "item": "farm_and_charm:silo_wood",
         "after": "vinery:dark_cherry_lattice"
+      },
+      {
+        "item": "farm_and_charm:silo_copper",
+        "after": "farm_and_charm:silo_wood"
+      },
+      {
+        "item": "farm_and_charm:chicken_coop",
+        "after": "farm_and_charm:silo_copper"
       },
       {
         "item": "farm_and_charm:cattlegrid",
@@ -5562,12 +5562,8 @@
         "after": "farm_and_charm:cooking_pot"
       },
       {
-        "item": "bakery:small_cooking_pot",
-        "after": "farmersdelight:cooking_pot"
-      },
-      {
         "item": "farmersdelight:skillet",
-        "after": "bakery:small_cooking_pot"
+        "after": "farmersdelight:cooking_pot"
       },
       {
         "item": "farm_and_charm:roaster",
