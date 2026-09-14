@@ -193,6 +193,15 @@
     "ubesdelight:rolling_pin_iron",
     "ubesdelight:rolling_pin_gold",
     "ubesdelight:rolling_pin_diamond",
-    "ubesdelight:rolling_pin_netherite"
+    "ubesdelight:rolling_pin_netherite",
+    "farmersdelight:wild_onions",
+    "farmersdelight:wild_tomatoes",
+    "farm_and_charm:onion",
+    "farm_and_charm:tomato",
+    "farm_and_charm:rotten_tomato",
+    "farm_and_charm:tomato_seeds",
+    "farmersdelight:wild_beetroots",
+    "farmersdelight:wild_carrots",
+    "farmersdelight:wild_potatoes"
   ]
 }
