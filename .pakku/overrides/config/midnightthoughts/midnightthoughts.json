@@ -1,0 +1,148 @@
+{
+  "sleepOverlay": {
+    "minSlideDisplayTimeMs": 6000,
+    "maxSlideDisplayTimeMs": 8000,
+    "fadeInDurationMs": 300,
+    "fadeOutDurationMs": 300,
+    "overlayOpacity": 0.4,
+    "textOpacity": 1.0,
+    "imageOpacity": 0.6,
+    "specialSlideChance": 0.05,
+    "enableStarDust": true,
+    "showSlideProgress": true,
+    "enableOverlay": true,
+    "enableImage": true,
+    "enableDailySummaryScreen": true,
+    "useFactsApi": false,
+    "userContentReplaces": false,
+    "hideChatWhenSleeping": true
+  },
+  "wellRested": {
+    "enabled": false,
+    "levels": {
+      "level5": {
+        "durationMinutes": 15,
+        "speedPhase1": 0.25,
+        "speedPhase2": 0.15,
+        "speedPhase3": 0.08,
+        "strengthPhase1": 1.5,
+        "strengthPhase2": 1.0,
+        "strengthPhase3": 0.5,
+        "hastePhase1": 0.25,
+        "hastePhase2": 0.14,
+        "hastePhase3": 0.07,
+        "attackSpeedPhase1": 0.07,
+        "attackSpeedPhase2": 0.04,
+        "attackSpeedPhase3": 0.02,
+        "healthBonus": 10.0,
+        "regenBonus": 0.05
+      },
+      "level4": {
+        "durationMinutes": 10,
+        "speedPhase1": 0.2,
+        "speedPhase2": 0.12,
+        "speedPhase3": 0.06,
+        "strengthPhase1": 1.0,
+        "strengthPhase2": 0.75,
+        "strengthPhase3": 0.5,
+        "hastePhase1": 0.2,
+        "hastePhase2": 0.11,
+        "hastePhase3": 0.06,
+        "attackSpeedPhase1": 0.06,
+        "attackSpeedPhase2": 0.03,
+        "attackSpeedPhase3": 0.02,
+        "healthBonus": 8.0,
+        "regenBonus": 0.04
+      },
+      "level1": {
+        "durationMinutes": 3,
+        "speedPhase1": 0.08,
+        "speedPhase2": 0.04,
+        "speedPhase3": 0.02,
+        "strengthPhase1": 0.25,
+        "strengthPhase2": 0.25,
+        "strengthPhase3": 0.25,
+        "hastePhase1": 0.07,
+        "hastePhase2": 0.04,
+        "hastePhase3": 0.02,
+        "attackSpeedPhase1": 0.02,
+        "attackSpeedPhase2": 0.01,
+        "attackSpeedPhase3": 0.01,
+        "healthBonus": 2.0,
+        "regenBonus": 0.01
+      },
+      "level3": {
+        "durationMinutes": 7,
+        "speedPhase1": 0.16,
+        "speedPhase2": 0.09,
+        "speedPhase3": 0.04,
+        "strengthPhase1": 0.75,
+        "strengthPhase2": 0.5,
+        "strengthPhase3": 0.25,
+        "hastePhase1": 0.15,
+        "hastePhase2": 0.08,
+        "hastePhase3": 0.04,
+        "attackSpeedPhase1": 0.05,
+        "attackSpeedPhase2": 0.03,
+        "attackSpeedPhase3": 0.01,
+        "healthBonus": 6.0,
+        "regenBonus": 0.03
+      },
+      "level2": {
+        "durationMinutes": 5,
+        "speedPhase1": 0.12,
+        "speedPhase2": 0.06,
+        "speedPhase3": 0.03,
+        "strengthPhase1": 0.5,
+        "strengthPhase2": 0.25,
+        "strengthPhase3": 0.25,
+        "hastePhase1": 0.11,
+        "hastePhase2": 0.06,
+        "hastePhase3": 0.03,
+        "attackSpeedPhase1": 0.04,
+        "attackSpeedPhase2": 0.02,
+        "attackSpeedPhase3": 0.01,
+        "healthBonus": 4.0,
+        "regenBonus": 0.02
+      }
+    }
+  },
+  "mvp": {
+    "enabled": true,
+    "minScoreRequired": 10,
+    "pointsPerDistance100": 2,
+    "pointsPerBlock": 3,
+    "pointsPerMob": 15,
+    "pointsPerJump10": 1,
+    "penaltyPerDeath": 30,
+    "mvpWellRestedDurationMinutes": 21
+  },
+  "comfort": {
+    "enabled": true,
+    "scanRadius": 5,
+    "weights": {
+      "lighting": 1,
+      "carpet": 1,
+      "furniture": 1,
+      "decoration": 1,
+      "structure": 1,
+      "macabre": -1,
+      "hostile": -1,
+      "dark": -1
+    },
+    "nightmareThreshold": -1,
+    "sleepBlockThreshold": -2,
+    "nightmareEnabled": true,
+    "sleepBlockEnabled": true
+  },
+  "server": {
+    "resetPhantomTimerForNonSleepers": true
+  },
+  "ui": {
+    "theme": "classic",
+    "wellRestedHudPosition": "bar",
+    "hideWellRestedHud": false,
+    "hideSleepingPlayersHud": false,
+    "hideThemeSwitchButton": true
+  }
+}
