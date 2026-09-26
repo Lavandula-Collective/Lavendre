@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:wine_racks",
+  "type": "remi:regex",
+  "regex": "vinery:.*wine_rack_mid$"
+}

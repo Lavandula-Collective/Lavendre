@@ -1,0 +1,9 @@
+{
+  "id": "lavendre:pillars",
+  "type": "remi:regex",
+  "regex": ".*:.*pillar.*",
+  "exclusions": [
+    "minecraft:purpur_pillar",
+    "minecraft:quartz_pillar"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "remi:group",
+  "id": "lavendre:fences",
+  "name": "Fences",
+  "contents": [
+    "#c:fences",
+    "#minecraft:fences",
+    "farm_and_charm:iron_divider",
+    "farm_and_charm:chicken_fence"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,6 @@
+{
+  "id": "lavendre:bundles",
+  "type": "remi:regex",
+  "regex": ".*:.*bundle.*",
+  "name": "Bundles"
+}

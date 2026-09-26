@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:cabinets",
+  "type": "remi:regex",
+  "regex": "(farmersdelight|vinery):.*cabinet.*"
+}

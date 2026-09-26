@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:small_wine_bottle_storage",
+  "type": "remi:regex",
+  "regex": ".*:.*wine_rack_small$"
+}

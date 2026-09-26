@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:fishing_baits",
+  "type": "remi:regex",
+  "regex": ".*:.*bait.*"
+}

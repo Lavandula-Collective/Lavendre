@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:helmets",
+  "type": "remi:regex",
+  "regex": ".*:.*(helmet|hat).*"
+}

@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:desks",
+  "type": "remi:regex",
+  "regex": ".*:.*desk.*"
+}

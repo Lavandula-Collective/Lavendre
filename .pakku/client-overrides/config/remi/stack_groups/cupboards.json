@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:cupboards",
+  "type": "remi:regex",
+  "regex": "handcrafted:.*cupboard.*"
+}

@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:lattices",
+  "type": "remi:regex",
+  "regex": ".*:.*lattice.*"
+}

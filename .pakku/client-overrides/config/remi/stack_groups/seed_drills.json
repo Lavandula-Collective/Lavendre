@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:seed_drills",
+  "type": "remi:regex",
+  "regex": ".*:.*seed_drill.*"
+}

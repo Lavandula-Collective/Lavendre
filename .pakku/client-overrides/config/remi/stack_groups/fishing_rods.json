@@ -1,0 +1,6 @@
+{
+  "id": "lavendre:fishing_rods",
+  "type": "remi:regex",
+  "regex": ".*:.*fishing_rod.*",
+  "name": "Fishing Rods"
+}

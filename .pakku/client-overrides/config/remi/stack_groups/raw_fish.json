@@ -1,0 +1,17 @@
+{
+  "type": "remi:group",
+  "id": "lavendre:raw_fish",
+  "name": "Raw Fishes",
+  "contents": [
+    "#c:foods/raw_fish",
+    "#c:foods/raw_fishes",
+    "#tide:fish"
+  ],
+  "exclusions": [
+    "farmersdelight:cod_slice",
+    "farmersdelight:salmon_slice",
+    "tide:fish_slice",
+    "rusticdelight:calamari_slice"
+  ],
+  "enabled": true
+}

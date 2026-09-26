@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:pigeonholes",
+  "type": "remi:regex",
+  "regex": ".*:.*pigeonhole.*"
+}

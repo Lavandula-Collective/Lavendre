@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:chestplates",
+  "type": "remi:regex",
+  "regex": ".*:.*(chestplate|apron).*"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "lavendre:bobbers",
+  "type": "remi:regex",
+  "regex": ".*:.*bobber.*",
+  "name": "Bobbers"
+}

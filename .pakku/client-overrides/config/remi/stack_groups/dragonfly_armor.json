@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:dragonfly_armors",
+  "type": "remi:regex",
+  "regex": ".*:.*dragonfly_armor.*"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "lavendre:buckets",
+  "type": "remi:regex",
+  "regex": ".*:.*bucket.*",
+  "name": "Other Buckets",
+  "exclusions": [
+    "minecraft:bucket",
+    "minecraft:water_bucket",
+    "minecraft:lava_bucket",
+    "minecraft:powder_snow_bucket"
+  ]
+}

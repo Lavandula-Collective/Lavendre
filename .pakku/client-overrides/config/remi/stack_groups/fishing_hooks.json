@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:fishing_hooks",
+  "type": "remi:regex",
+  "regex": ".*:.*hook.*"
+}

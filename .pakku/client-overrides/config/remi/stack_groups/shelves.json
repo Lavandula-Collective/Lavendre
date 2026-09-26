@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:shelves",
+  "type": "remi:regex",
+  "regex": "handcrafted:.*shelf.*"
+}

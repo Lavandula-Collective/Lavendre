@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:fishing_lines",
+  "type": "remi:regex",
+  "regex": ".*:.*line.*"
+}

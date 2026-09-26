@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:sleeping_bags",
+  "type": "remi:regex",
+  "regex": ".*:.*sleeping_bag.*"
+}

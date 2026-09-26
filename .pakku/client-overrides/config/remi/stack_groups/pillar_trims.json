@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:pillar_trims",
+  "type": "remi:regex",
+  "regex": ".*:.*pillar_trim.*"
+}
