@@ -5,7 +5,8 @@
   "contents": [
     "#c:seeds",
     "#farm_and_charm:seeds",
-    "#bakery:seeds"
+    "#bakery:seeds",
+    "minecraft:cocoa_beans"
   ],
   "regexes": [
     ".*grape_seeds.*"
