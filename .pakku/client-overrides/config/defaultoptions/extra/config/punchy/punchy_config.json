@@ -1,6 +1,6 @@
 {
   "renderArmorArmsFP": true,
-  "interactiveStuffCompat": false,
+  "interactiveStuffCompat": true,
   "bettercombatCompat": true,
   "swordBlockingCompat": false,
   "animationSpeed": 5.5,
@@ -33,13 +33,40 @@
   "enableParticles": true,
   "enableModelPartsGlow": true,
   "enableBlurGlowAtDark": false,
-  "firstPersonModelHideEnabled": true,
+  "firstPersonModelHideEnabled": false,
   "firstPersonModelHidePitch": 60.0,
-  "itemBlacklist": [],
-  "blacklistApplyDualHanded": {},
+  "itemBlacklist": [
+    "tide:blazing_fishing_rod",
+    "tide:crystal_fishing_rod",
+    "tide:diamond_fishing_rod",
+    "minecraft:fishing_rod",
+    "tide:midas_fishing_rod",
+    "tide:stone_fishing_rod",
+    "tide:golden_fishing_rod",
+    "tide:iron_fishing_rod",
+    "tide:netherite_fishing_rod",
+    "tide:prismarine_fishing_rod"
+  ],
+  "blacklistApplyDualHanded": {
+    "tide:blazing_fishing_rod": true,
+    "tide:crystal_fishing_rod": true,
+    "tide:diamond_fishing_rod": true,
+    "minecraft:fishing_rod": true,
+    "tide:midas_fishing_rod": true,
+    "tide:stone_fishing_rod": true,
+    "tide:golden_fishing_rod": true,
+    "tide:iron_fishing_rod": true,
+    "tide:netherite_fishing_rod": true,
+    "tide:prismarine_fishing_rod": true
+  },
   "animationPackSelections": {
     "kind:fishing_rod": "pack:punchy:punchy",
-    "kind:mace": "pack:punchy:punchy"
+    "kind:mace": "pack:file/movethosehands!-1.2.3.zip",
+    "kind:spear": "pack:punchy:punchy",
+    "kind:flint": "pack:punchy:punchy",
+    "kind:full_block": "pack:punchy:punchy",
+    "kind:block": "pack:punchy:punchy",
+    "kind:bucket": "pack:file/movethosehands!-1.2.3.zip"
   },
   "animationPackTypeSelections": {},
   "mixSpecificForceOverride": {}
