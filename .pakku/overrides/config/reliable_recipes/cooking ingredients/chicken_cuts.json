@@ -1,0 +1,12 @@
+[
+  {
+    "action": "replace_input",
+    "target": "farm_and_charm:chicken_parts",
+    "replacement": "farmersdelight:chicken_cuts"
+  },
+  {
+    "action": "replace_output",
+    "target": "farm_and_charm:chicken_parts",
+    "replacement": "farmersdelight:chicken_cuts"
+  }
+]
