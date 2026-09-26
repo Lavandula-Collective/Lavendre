@@ -1,0 +1,29 @@
+{
+  "type": "herbalbrews:kettle_brewing",
+  "experience": 1.0,
+  "crafting_duration": 425,
+  "fluid_amount": 10,
+  "heat_amount": 25,
+  "ingredients": [
+    {
+      "item": "rusticdelight:roasted_coffee_beans"
+    },
+    {
+      "item": "rusticdelight:roasted_coffee_beans"
+    },
+    {
+      "tag": "c:drinks/milk"
+    },
+    {
+      "tag": "rusticdelight:cherry_blossom_ingredients"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "id": "rusticdelight:cherry_blossom_coffee"
+  },
+  "effect": "herbalbrews:deeprush",
+  "effect_duration": 6600
+}
