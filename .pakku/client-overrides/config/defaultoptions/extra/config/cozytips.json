@@ -4,7 +4,7 @@
   "title": "Tip:",
   "titleColor": "#E3ABFF",
   "textColor": "#FFFFFF",
-  "yOffset": -50,
+  "yOffset": 30,
   "tips": [
     "Press G to open the CIT Manager and browse every available CITs.",
     "Use /citx to rename or append held items and unlock thousands of decorative CITs.",
