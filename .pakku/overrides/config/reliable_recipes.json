@@ -1,5 +1,5 @@
 {
-  "enableEmiRemoval": true,
+  "enableEmiRemoval": false,
   "showToast": true,
   "showChatMessages": true,
   "reloadEmi": false,
