@@ -1,0 +1,20 @@
+[
+  {
+    "action": "replace_input",
+    "target": "farm_and_charm:rope",
+    "replacement": "farmersdelight:rope"
+  },
+  {
+    "action": "replace_output",
+    "target": "farm_and_charm:rope",
+    "replacement": "farmersdelight:rope"
+  },
+  {
+    "action": "remove_recipe",
+    "id": [
+      "comforts:rope_and_nail",
+      "farm_and_charm:rope"
+      ],
+    "type": "minecraft:crafting"
+  }
+]
