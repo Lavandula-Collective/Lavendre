@@ -1,0 +1,22 @@
+[
+  {
+    "action": "replace_input",
+    "target": "herbalbrews:coffee_beans",
+    "replacement": "rusticdelight:coffee_beans"
+  },
+  {
+    "action": "replace_output",
+    "target": "herbalbrews:coffee_beans",
+    "replacement": "rusticdelight:coffee_beans"
+  },
+  {
+    "action": "replace_input",
+    "target": "herbalbrews:coffee",
+    "replacement": "rusticdelight:coffee_beans",
+    "id": "herbalbrews:kettle_brewing/milk_coffee_kettle"
+  },
+  {
+    "action": "remove_recipe",
+    "id": "herbalbrews:kettle_brewing/milk_coffee"
+  }
+]
