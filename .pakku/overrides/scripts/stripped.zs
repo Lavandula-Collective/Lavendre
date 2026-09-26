@@ -23,7 +23,6 @@ stoneCutter.addRecipe("stripped_magic_log", <item:biomesoplenty:stripped_magic_l
 stoneCutter.addRecipe("stripped_umbran_log", <item:biomesoplenty:stripped_umbran_log>, <item:biomesoplenty:umbran_log>);
 stoneCutter.addRecipe("stripped_hellbark_log", <item:biomesoplenty:stripped_hellbark_log>, <item:biomesoplenty:hellbark_log>);
 stoneCutter.addRecipe("stripped_empyreal_log", <item:biomesoplenty:stripped_empyreal_log>, <item:biomesoplenty:empyreal_log>);
-stoneCutter.addRecipe("stripped_driftwood_log", <item:hybrid_aquatic:stripped_driftwood_log>, <item:hybrid_aquatic:driftwood_log>);
 stoneCutter.addRecipe("stripped_dark_cherry_log", <item:vinery:stripped_dark_cherry_log>, <item:vinery:dark_cherry_log>);
 
 // Stripped Wood
@@ -51,5 +50,4 @@ stoneCutter.addRecipe("stripped_magic_wood", <item:biomesoplenty:stripped_magic_
 stoneCutter.addRecipe("stripped_umbran_wood", <item:biomesoplenty:stripped_umbran_wood>, <item:biomesoplenty:umbran_wood>);
 stoneCutter.addRecipe("stripped_hellbark_wood", <item:biomesoplenty:stripped_hellbark_wood>, <item:biomesoplenty:hellbark_wood>);
 stoneCutter.addRecipe("stripped_empyreal_wood", <item:biomesoplenty:stripped_empyreal_wood>, <item:biomesoplenty:empyreal_wood>);
-stoneCutter.addRecipe("stripped_driftwood_wood", <item:hybrid_aquatic:stripped_driftwood_wood>, <item:hybrid_aquatic:driftwood_wood>);
 stoneCutter.addRecipe("stripped_dark_cherry_wood", <item:vinery:stripped_dark_cherry_wood>, <item:vinery:dark_cherry_wood>);
