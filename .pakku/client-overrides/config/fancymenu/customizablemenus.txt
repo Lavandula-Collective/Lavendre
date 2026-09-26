@@ -39,3 +39,6 @@ net.minecraft.class_433 {
 net.minecraft.class_490 {
 }
 
+dev.emi.emi.screen.RecipeScreen {
+}
+
