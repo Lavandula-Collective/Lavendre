@@ -27,10 +27,10 @@ foodItems = [ "supplementaries:lunch_basket" ]
 
 # Blocks that should be protected in the prevent accidental mining tweak.
 fragileBlocks = [ 
-    "minecraft:large_amethyst_bud", 
-    "minecraft:budding_amethyst", 
     "minecraft:small_amethyst_bud", 
-    "minecraft:medium_amethyst_bud"
+    "minecraft:medium_amethyst_bud", 
+    "minecraft:budding_amethyst", 
+    "minecraft:large_amethyst_bud"
 ]
 
 # Additional items that count as shields for the offhand-shield hiding tweak options.
@@ -82,7 +82,7 @@ noOffhandUseWithFood = false
 [mining]
 
 # This prevents the last durability from being used up.
-doNotUseLastMending = false
+doNotUseLastMending = true
 
 # Prevents accidental mining of certain fragile blocks like budding amethysts.
 preventAccidentalMining = false
@@ -135,7 +135,7 @@ hideShieldUnlessHoldingWeapon = true
 [torches]
 
 # This prevents the last torch in the offhand from being placed.
-doNotUseLastTorch = false
+doNotUseLastTorch = true
 
 # This prevents torches from being placed from your offhand at all.
 noOffhandTorchAtAll = false
