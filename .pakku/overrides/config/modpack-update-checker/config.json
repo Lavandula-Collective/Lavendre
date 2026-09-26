@@ -1,12 +1,12 @@
 {
   "schemaVersion": 9,
-  "currentVersion": "0.4.0-alpha",
-  "modpackName": "Lavendre",
+  "currentVersion": "",
+  "modpackName": "",
   "modpackAuthor": "Lavandula Collective",
   "modpackReleaseType": "alpha",
   "updateCheckerId": "https://raw.githubusercontent.com/Lavandula-Collective/Lavendre/master/update/preview/",
   "advanced": {
-    "bccEnabled": false,
+    "bccEnabled": true,
     "expandButton": false,
     "updateCheckerType": 2,
     "retroWarning": false,
