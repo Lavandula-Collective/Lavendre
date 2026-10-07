@@ -41,17 +41,18 @@
     "file/Enchant Display v.1.8.zip",
     "file/§a§lVocal Villagers §r§71.4.zip",
     "file/Firefly to Fairy.zip",
-    "file/Better-Leaves-9.5.zip",
+    "file/Better-Leaves-9.6.zip",
     "file/Invisible-Item-Frames-V6.zip",
     "punchy:punchy",
-    "file/HyperPunchy-v2.5+.zip",
+    "file/MoveThoseHands!-1.2.3.zip",
     "file/Serified Font v1.2.zip",
     "file/[MEGA] Ghoulcraft 2.1.zip",
     "file/Mizuno's Hat Variants 1.2.zip",
     "file/Aer's Timber Framed v1.1.zip",
     "file/Hananacraft v1.3.4.zip",
     "scholar:colored_books",
-    "scholar:chiseled_bookshelf_colored_books"
+    "scholar:chiseled_bookshelf_colored_books",
+    "moonlight:merged_pack"
   ],
   "pack_overrides": {
     "orderless": [
@@ -78,7 +79,8 @@
       "file/Firefly to Fairy.zip",
       "generated/fragmentum_layer",
       "scholar:colored_books",
-      "scholar:chiseled_bookshelf_colored_books"
+      "scholar:chiseled_bookshelf_colored_books",
+      "moonlight:merged_pack"
     ],
     "$$orderless": {
       "hidden": true,
