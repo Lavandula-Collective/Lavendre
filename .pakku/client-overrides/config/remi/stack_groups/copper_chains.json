@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:copper_chains",
+  "type": "remi:regex",
+  "regex": ".*:.*copper_chain.*"
+}

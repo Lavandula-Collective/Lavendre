@@ -11,5 +11,9 @@
   "regexes": [
     ".*grape_seeds.*"
   ],
+  "exclusions": [
+    "minecraft:carrot",
+    "minecraft:potato"
+  ],
   "enabled": true
 }

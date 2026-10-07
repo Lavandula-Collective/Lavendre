@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:copper_golem_statues",
+  "type": "remi:regex",
+  "regex": ".*:.*copper_golem_statue.*"
+}
