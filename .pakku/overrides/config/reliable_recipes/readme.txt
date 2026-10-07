@@ -11,7 +11,7 @@ You may modify these files to suit your own preferences or personal server confi
 /items
 - fc_pot_cooking.json - Removes the LD:FC Cooking Pot recipe type from all recipes that use it, effectively removing the workstation from those recipes.
 - hide.json - Adds CraftTweaker defined #lavendre:leather_alt item tag to leather alternatives.
-- rolling_pins.json - Removes multiple tags from UD rolling pins and replaces selected crafting inputs for LD:B and UD rolling pins.
+- rolling_pins.json - Replaces selected crafting inputs for LD:B rolling pin.
 - ropes.json - Replaces the rope input and output from LD:FC with the equivalent FD items. Removes the Comforts alternative rope recipe and the LD:FC rope recipe.
 
 /plants
