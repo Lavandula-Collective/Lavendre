@@ -3,7 +3,7 @@
   "showHandSwingMessage": true,
   "showRemovalMessage": true,
   "removeItemsFromCreativeTabs": true,
-  "removeItemsFromEmi": true,
+  "removeItemsFromRecipeViewers": true,
   "removeItemsFromInventories": true,
   "removeItemsOnInventoryOpen": true,
   "removeDroppedItems": true,
@@ -11,8 +11,12 @@
   "removeItemsFromStorage": true,
   "removeItemsFromInfoTabs": true,
   "removeItemsFromTrades": true,
+  "removeRecipes": true,
   "removeMobEquipment": true,
   "removeCnmChildren": true,
+  "enableRrvRemoval": false,
+  "showRrvToast": true,
+  "showRrvChatMessages": true,
   "enableEmiRemoval": false,
   "showEmiToast": true,
   "showEmiChatMessages": true,
@@ -219,6 +223,8 @@
     "vinery:dark_cherry_cabinet",
     "bakery:cabinet",
     "bakery:drawer",
-    "bakery:wall_cabinet"
+    "bakery:wall_cabinet",
+    "handcrafted:oven",
+    "ubesdelight:rolling_pin_wood"
   ]
 }
