@@ -1,0 +1,6 @@
+{
+  "parent": "ubesdelight:item/template_rolling_pin_3d",
+  "textures": {
+    "content": "ubesdelight:item/rolling_pin_wood_3d"
+  }
+}
