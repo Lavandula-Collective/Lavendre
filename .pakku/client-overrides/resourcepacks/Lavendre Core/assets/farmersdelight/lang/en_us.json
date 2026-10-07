@@ -1,3 +1,4 @@
 {
-  "block.farmersdelight.stove": "Continuous Cooking Stove"
+  "block.farmersdelight.stove": "Cooking Stove",
+  "lore.farmersdelight.stove": "A continuously heated stove for cooking pots, roasters, kettles, and other cookware."
 }
