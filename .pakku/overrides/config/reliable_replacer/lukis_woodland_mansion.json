@@ -1,0 +1,11 @@
+{
+  "inputs": [
+    "minecraft:vault",
+    "minecraft:trial_spawner"
+  ],
+  "output": "minecraft:air",
+  "structures": ["minecraft:mansion"],
+  "structure_radius": 15,
+  "retrogen": true,
+  "player_blocks": false
+}
