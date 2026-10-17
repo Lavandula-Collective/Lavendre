@@ -1,22 +1,57 @@
 ## Lavendre v0.4.0-alpha
 
+## Loaders
+
+### Updated
+
+- Fabric 0.19.3 > 0.19.5
+
+## Projects
+
 ### Added
 
 - Auto Reauth
-- Bountiful
-- Colorwheel
+- Better Compatibility Checker
+- Better Days
+- Bibliophilia | Enchanted Books
+- Bushier Flowers
+- Celestia: Shooting Stars
+- Compose Multiplatform
+- Continents
+- Copper Age Backport
+- Copper Age Backport Durability Fix
+- CorgiLib
+- Data Anchor
+- Datapack/Gamerule Menus
+- Double Doors
+- DropConfirm
+- EMF Compat: Exposure
+- EMF Compat: Gliders
+- EMF Compat: WATUT
+- Easy Mob Spawn Control
+- Enchanted Bookshelves
+- Enhanced Celestials 2: Core
+- Enhanced Celestials 2: Shader Support
 - Envelope
 - Exposure
 - Exposure Catalog
 - Exposure: Expanded
 - Exposure: Polaroid
 - Exposure: Space
+- Field Guide
 - File Copier
+- Freecam (Fair Play)
 - Get It Together, Drops!
 - Handcrafted
 - Horseman
+- Hovering Hotbar
+- Immersive Armor HUD
+- Immersive Overlays
+- Item Descriptions
 - Kambrik
-- Let Them Talk (LTT)
+- Loot Journal: Pickup Notifier
+- Menderman
+- MezzConfig
 - Midnight Thoughts
 - Mizuno Emissive Ores
 - Mizuno's Hat Variants
@@ -24,17 +59,38 @@
 - Mizuno's x Letsdo Bakery
 - Mizuno's x Letsdo Farm and Charm
 - Mizuno's x [Let's Do] Vinery
+- Mod Descriptions
+- Modulation
+- Moonlight Lib
+- Move Those Hands! - Punchy Animation Addon
 - NiftyCrats X Farmer's Delight
+- No Chat Restrictions
+- Outline N' Stuff - Enchantments
+- Paxi
+- Penchant
+- Purpura Skies: Xaero's Minimap Frame
 - Questlog
+- Quick Skin
+- Recreative
+- Refield
+- Reliable Gliders
 - Reliable Recipes
 - Reliable Remover
+- Reliable Replacer
+- Resourceful Config
 - Resourceful Lib
+- Sawmill
 - Scholar
 - Simple Voice Chat
-- Simple Voice Chat Group Player Names
 - Smart Completion
+- Structure Layout Optimizer
+- Stylish Effects
+- Tide 2
+- Tide Extra Compatibility
 - Too Many Entities
+- Villager Names
 - Voice Chat Interaction
+- XXL Packets
 - [Let's Do Addon] Compat
 - [Let's Do Addon] EMI Compat
 - [Let's Do] Bakery - Farm&Charm Compat
@@ -43,20 +99,95 @@
 - [Let's Do] HerbalBrews
 - [Let's Do] Lili's Pottery
 - [Let's Do] Vinery
+- kennytvs-epic-force-close-loading-screen-mod-for-fabric
+- quick pack
 
 ### Removed
 
 - Auth Me
-- Catalogue (CurseForge pakku-lock code line only)
-- Configured (CurseForge pakku-lock code line only)
-- Framework (CurseForge pakku-lock code line only)
+- Catalogue
+- Configured
+- EMI Book
+- Easy Mob Spawn Control - spawn rate, mob cap, disable bad mobs
+- First-person Model
+- Framework
 - Horse Buff
-- Menulogue (CurseForge pakku-lock code line only)
+- Hybrid Aquatic
+- Hybrid Delights
+- Hyper Punchy
+- Litematica
+- Loot Journal: Pickup Notifier [Forge Edition]
+- Menulogue
+- No Creative Menu
+- Raised
 - Scribble
-- StructureOverlapless (CurseForge pakku-lock code line only)
+- Skin Shuffle
+- Stardew Fishing Fabric
+- StructureOverlapless
 
 ### Updated
 
+- AmbientSounds
+- Async Logger
+- Axiom
+- BSL Shaders
+- Balm
+- Bathymetry
+- Chat Patches
+- Collective
+- Cozy Tips
+- CraterLib
+- CreativeCore
+- DBTools for Axiom
+- Debugify
+- Easy Mob Spawn Control
+- Effectual
+- Entity Culling
+- FancyMenu
+- Flashback
+- Fragmentum
+- Fzzy Config
+- Geckolib
+- ImmediatelyFast
 - Immersive Hotbar
+- Inventory Essentials
+- Iris & Oculus Search
+- Ixeris
+- JEI / REI / EMI WorldGen
 - Ji AFK Cinematic
+- Ksyxis
+- Lithostitched
+- Loot Journal: Pickup Notifier
+- Lootr
+- MMR - Moog's Mineshafts Reimagined
+- MMV - Moog's Missing Villages
+- MNS - Moog's Nether Structures
+- MVS - Moog's Voyager Structures
+- MacOS Input Fixes
+- MakeUp - Ultra Fast
+- MidnightLib
 - Mizuno Eating Animation
+- Moog's Glow Up
+- Moog's Structure Lib (moogs_structures)
+- Motschen's Better Leaves
+- Naturalist
+- Not Enough Animations
+- Obscure Tooltips
+- Optimized Block Entities [OBE]
+- Particle Rain
+- Persistent Inventory Search
+- Puddles & Floods
+- Punchy!
+- Raise Sound Limit Simplified
+- Reese's Sodium Options
+- Reliable EMI (REMI)
+- Shoulder Surfing Reloaded
+- Smooth Gui
+- Sodium Extra
+- Ube's Delight
+- Wavey Capes
+- Xaero's Minimap
+- Xaero's World Map
+- YUNG's API
+- [EMF] Entity Model Features
+- [ETF] Entity Texture Features
