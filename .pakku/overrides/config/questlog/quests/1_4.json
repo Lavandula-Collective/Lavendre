@@ -1,0 +1,74 @@
+{
+  "title": "The First Seeds",
+  "description": "The earth gives freely to those willing to tend it.\n\nGather a few seeds and give them a place beneath the sun. What begins as a handful of plants may one day become a field.",
+  "icon": {
+    "item": "minecraft:wheat_seeds"
+  },
+  "chapter": "1_of_heart_and_harvest",
+  "sort_order": 5,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "name": "Obtain 3 different or same type of seeds/crops",
+      "icon": {
+        "item": "minecraft:wheat_seeds"
+      },
+      "item": "#c:seeds",
+      "required_amount": 3
+    },
+    {
+      "type": "questlog:block_mine",
+      "name": "Harvest 8x fully grown crops",
+      "icon": {
+        "item": "minecraft:stone_hoe"
+      },
+      "block": "#minecraft:crops",
+      "required_amount": 8
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "name": "Barley Seeds 4x",
+      "icon": {
+        "item": "farm_and_charm:barley_seeds"
+      },
+      "item": "farm_and_charm:barley_seeds",
+      "count": 4
+    },
+    {
+      "type": "questlog:item",
+      "name": "Carrot 4x",
+      "icon": {
+        "item": "minecraft:carrot"
+      },
+      "item": "minecraft:carrot",
+      "count": 4
+    },
+    {
+      "type": "questlog:item",
+      "name": "Potato 4x",
+      "icon": {
+        "item": "minecraft:potato"
+      },
+      "item": "minecraft:potato",
+      "count": 4
+    },
+    {
+      "type": "questlog:experience",
+      "name": "Experience Points 25x",
+      "icon": {
+        "item": "minecraft:experience_bottle"
+      },
+      "experience": 25,
+      "levels": false
+    }
+  ],
+  "right_panel_width": 190,
+  "panel_height": 200,
+  "details_open_by_default": true,
+  "translatable": true,
+  "completed_sound": "minecraft:entity.player.levelup",
+  "left_panel_width": 250
+}

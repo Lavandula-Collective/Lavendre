@@ -1,0 +1,9 @@
+{
+  "name": "§4Chapter VII:§r Beyond the Veil of Embers",
+  "icon": {
+    "item": "minecraft:fire_charge"
+  },
+  "order": 7,
+  "default_chapter": false,
+  "hidden": true
+}

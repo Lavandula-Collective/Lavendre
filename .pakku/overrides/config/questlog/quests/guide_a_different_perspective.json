@@ -1,0 +1,29 @@
+{
+  "title": "A Different Perspective",
+  "description": "See the world from a new angle. Press §3F5§r three times to enter the third-person camera mode, giving you a more flexible view of your character and surroundings.\n\nPress §3Tab§r to cycle between §3right§r, §3left§r, and §3overhead§r perspectives. Use the §3Arrow Keys§r to adjust the camera's height and panning to find the view that suits you best.",
+  "icon": {
+    "item": "exposure:camera"
+  },
+  "chapter": "main",
+  "sort_order": 2,
+  "translatable": true,
+  "show_popup_on_unlock": true,
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 10,
+      "levels": false
+    }
+  ],
+  "completed_sound": "scholar:ui.book_signed",
+  "left_panel_width": 250,
+  "panel_height": 170,
+  "disable_details_button": true
+}

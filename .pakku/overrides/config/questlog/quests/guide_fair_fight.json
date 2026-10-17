@@ -1,0 +1,29 @@
+{
+  "title": "Fair Fight",
+  "description": "Not every battle needs to be forced. §3Press K§r to enable PvP and allow yourself to fight other players who have also enabled it.\n\nWhen PvP is active, a §3skull§r will appear below your screen as a reminder. Press §3K§r again to disable it. The keybind can be changed at any time through Minecraft's §3Key Binds§r settings.",
+  "icon": {
+    "item": "minecraft:copper_sword"
+  },
+  "chapter": "main",
+  "sort_order": 5,
+  "translatable": true,
+  "show_popup_on_unlock": true,
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 10,
+      "levels": false
+    }
+  ],
+  "completed_sound": "scholar:ui.book_signed",
+  "left_panel_width": 300,
+  "panel_height": 150,
+  "disable_details_button": true
+}

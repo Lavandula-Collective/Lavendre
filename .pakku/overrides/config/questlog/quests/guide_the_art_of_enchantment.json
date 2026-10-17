@@ -1,0 +1,41 @@
+{
+  "title": "The Art of Enchantment",
+  "description": "An Enchanting Table gives form to knowledge that would otherwise remain hidden. Yet its possibilities are not revealed all at once.\n\nEnchantments can be selected directly when you have enough experience and Lapis Lazuli, but the enchantments available to you depend on the knowledge surrounding the table. Bookshelves placed around the table increase what can be discovered, and some enchantments may require further study before they appear.\n\nTake your time to build your enchanting setup. The more knowledge you gather, the more possibilities the table can reveal.",
+  "icon": {
+    "item": "minecraft:enchanting_table"
+  },
+  "chapter": "main",
+  "sort_order": 4,
+  "translatable": true,
+  "show_popup_on_unlock": true,
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "objectives": [
+        {
+          "type": "questlog:item_obtain",
+          "item": "minecraft:enchanting_table",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_craft",
+          "item": "minecraft:enchanting_table",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:block_interact",
+          "block": "minecraft:enchanting_table",
+          "required_amount": 1
+        }
+      ],
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [],
+  "completed_sound": "scholar:ui.book_signed",
+  "left_panel_width": 300,
+  "panel_height": 215,
+  "disable_details_button": true,
+  "collected_text": "Discovered"
+}

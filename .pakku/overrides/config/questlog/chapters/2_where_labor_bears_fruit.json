@@ -1,0 +1,9 @@
+{
+  "name": "§eChapter II:§r Where Labor Bears Fruit",
+  "icon": {
+    "item": "brewinandchewin:flaxen_cheese_wheel"
+  },
+  "order": 2,
+  "default_chapter": false,
+  "hidden": true
+}

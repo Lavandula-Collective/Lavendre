@@ -1,0 +1,91 @@
+{
+  "title": "A Stranger Beneath an Open Sky",
+  "description": "There is no road behind you, nor any familiar roof ahead. Only the wilderness stretches beyond the horizon.\n\nBefore anything else, you will need the simplest of things: wood, stone, and a few tools with which to begin.",
+  "icon": {
+    "item": "minecraft:stone_axe"
+  },
+  "chapter": "1_of_heart_and_harvest",
+  "sort_order": 0,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "name": "Obtain 8x Logs",
+      "icon": {
+        "item": "minecraft:oak_log"
+      },
+      "item": "#minecraft:logs",
+      "required_amount": 8
+    },
+    {
+      "type": "questlog:item_obtain",
+      "name": "Obtain 8x Cobblestone",
+      "icon": {
+        "item": "minecraft:cobblestone"
+      },
+      "item": "minecraft:cobblestone",
+      "required_amount": 8
+    },
+    {
+      "type": "questlog:item_craft",
+      "name": "Craft a Wooden Pickaxe",
+      "icon": {
+        "item": "minecraft:wooden_pickaxe"
+      },
+      "item": "minecraft:wooden_pickaxe",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:item_craft",
+      "name": "Craft a Stone Axe",
+      "icon": {
+        "item": "minecraft:stone_axe"
+      },
+      "item": "minecraft:stone_axe",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:item_craft",
+      "name": "Craft a Crafting Table",
+      "icon": {
+        "item": "minecraft:crafting_table"
+      },
+      "item": "minecraft:crafting_table",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "name": "Bread 8x",
+      "icon": {
+        "item": "bakery:bread"
+      },
+      "item": "bakery:bread",
+      "count": 8
+    },
+    {
+      "type": "questlog:item",
+      "name": "Torch 4x",
+      "icon": {
+        "item": "minecraft:torch"
+      },
+      "item": "minecraft:torch",
+      "count": 4
+    },
+    {
+      "type": "questlog:experience",
+      "name": "Experience Points 25x",
+      "icon": {
+        "item": "minecraft:experience_bottle"
+      },
+      "experience": 25,
+      "levels": false
+    }
+  ],
+  "right_panel_width": 200,
+  "panel_height": 200,
+  "details_open_by_default": true,
+  "translatable": true,
+  "completed_sound": "minecraft:entity.player.levelup"
+}

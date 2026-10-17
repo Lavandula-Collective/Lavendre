@@ -1,0 +1,61 @@
+{
+  "title": "The Shape of the Land",
+  "description": "Before you can decide where you belong, you must first see what lies beyond the place where you arrived.\n\nFollow the river. Cross the hills. Wander beneath the trees. The world is larger than the first patch of earth beneath your feet.",
+  "icon": {
+    "item": "minecraft:podzol"
+  },
+  "chapter": "1_of_heart_and_harvest",
+  "sort_order": 6,
+  "objectives": [
+    {
+      "type": "questlog:stat",
+      "name": "Travel 500 blocks from your starting area",
+      "stat": "minecraft:walk_one_cm",
+      "required_amount": 50000
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "name": "Compass",
+      "icon": {
+        "item": "minecraft:compass"
+      },
+      "item": "minecraft:compass",
+      "count": 1
+    },
+    {
+      "type": "questlog:item",
+      "name": "Empty Map 3x",
+      "icon": {
+        "item": "minecraft:map"
+      },
+      "item": "minecraft:map",
+      "count": 3
+    },
+    {
+      "type": "questlog:item",
+      "name": "Saddle",
+      "icon": {
+        "item": "minecraft:saddle"
+      },
+      "item": "minecraft:saddle",
+      "count": 1
+    },
+    {
+      "type": "questlog:experience",
+      "name": "Experience Points 25x",
+      "icon": {
+        "item": "minecraft:experience_bottle"
+      },
+      "experience": 25,
+      "levels": false
+    }
+  ],
+  "right_panel_width": 200,
+  "panel_height": 200,
+  "details_open_by_default": true,
+  "translatable": true,
+  "completed_sound": "minecraft:entity.player.levelup"
+}

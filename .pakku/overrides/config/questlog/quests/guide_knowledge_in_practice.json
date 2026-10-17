@@ -1,0 +1,35 @@
+{
+  "title": "Knowledge in Practice",
+  "description": "An enchantment is not mastered the moment it is placed upon an item. Its power grows through continued use.\n\nEnchanted tools, weapons, and armor gain enchantment experience as you use them. As that experience accumulates, their enchantments can increase in level and become more powerful.\n\nYou can check an item's progress at any time by holding Left Ctrl while viewing it. A newly enchanted item may only hold the first steps of its potential. Keep using it, and its enchantments will grow with you.",
+  "icon": {
+    "item": "minecraft:golden_pickaxe"
+  },
+  "chapter": "main",
+  "sort_order": 5,
+  "translatable": true,
+  "show_popup_on_unlock": true,
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "objectives": [
+        {
+          "type": "questlog:enchant",
+          "required_amount": 1
+        }
+      ],
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 10,
+      "levels": false
+    }
+  ],
+  "completed_sound": "scholar:ui.book_signed",
+  "left_panel_width": 300,
+  "panel_height": 200,
+  "disable_details_button": true
+}

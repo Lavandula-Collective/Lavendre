@@ -1,0 +1,29 @@
+{
+  "title": "Take a Sit",
+  "description": "There is always time to rest after a long journey. Press §3X§r to sit down and take a moment to rest wherever you are.\n\nThe keybind can be changed at any time through Minecraft's §3Key Binds§r settings.",
+  "icon": {
+    "item": "handcrafted:birch_chair"
+  },
+  "chapter": "main",
+  "sort_order": 1,
+  "translatable": true,
+  "show_popup_on_unlock": true,
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 10,
+      "levels": false
+    }
+  ],
+  "completed_sound": "scholar:ui.book_signed",
+  "left_panel_width": 300,
+  "panel_height": 200,
+  "disable_details_button": true
+}

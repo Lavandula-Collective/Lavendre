@@ -1,0 +1,9 @@
+{
+  "name": "§eAdventurer's Handbook",
+  "icon": {
+    "item": "minecraft:writable_book"
+  },
+  "order": 0,
+  "default_chapter": true,
+  "hidden": false
+}

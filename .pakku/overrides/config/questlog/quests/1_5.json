@@ -1,0 +1,89 @@
+{
+  "title": "A Meal Worth Making",
+  "description": "Food is more than something to keep hunger away. A warm meal, prepared from what you have gathered yourself, is the first small comfort of a new home.",
+  "icon": {
+    "item": "farmersdelight:steak_and_potatoes"
+  },
+  "chapter": "1_of_heart_and_harvest",
+  "sort_order": 4,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "name": "Obtain 3 different food ingredients",
+      "item": [
+        "#c:foods/raw_meats",
+        "#c:foods/raw_fish",
+        "#c:crops",
+        "#c:tea_ingredients"
+      ],
+      "required_amount": 3
+    },
+    {
+      "type": "questlog:item_craft",
+      "name": "Cook or prepare a food item",
+      "item": [
+        "#c:foods/cooked_fish",
+        "#c:foods/cooked_fishes",
+        "#c:foods/cooked_meats",
+        "#c:foods/breads"
+      ],
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:item_use",
+      "name": "Eat a cooked/prepared meal",
+      "item": [
+        "#c:foods/cooked_fish",
+        "#c:foods/cooked_fishes",
+        "#c:foods/cooked_meats",
+        "#c:foods/breads"
+      ],
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "name": "Fried Rice 12x",
+      "icon": {
+        "item": "farmersdelight:fried_rice"
+      },
+      "item": "farmersdelight:fried_rice",
+      "count": 12
+    },
+    {
+      "type": "questlog:item",
+      "name": "Baker's Bread 3x",
+      "icon": {
+        "item": "bakery:bread"
+      },
+      "item": "bakery:bread",
+      "count": 6
+    },
+    {
+      "type": "questlog:item",
+      "name": "Sweetberry Glazed Cookie 3x",
+      "icon": {
+        "item": "bakery:sweetberry_glazed_cookie"
+      },
+      "item": "bakery:sweetberry_glazed_cookie",
+      "count": 3
+    },
+    {
+      "type": "questlog:experience",
+      "name": "Experience Points 25x",
+      "icon": {
+        "item": "minecraft:experience_bottle"
+      },
+      "experience": 25,
+      "levels": false
+    }
+  ],
+  "right_panel_width": 190,
+  "panel_height": 200,
+  "details_open_by_default": true,
+  "translatable": true,
+  "completed_sound": "minecraft:entity.player.levelup",
+  "left_panel_width": 250
+}
