@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = io.github.aerhazu.lavendre.packorder
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1788208322154
+  last_edited_time = 1789152511849
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:e9554efc-801f-4d56-bc7a-3139858ce3ff-1788208217752] = [groups:][instances:]
+  [loading_requirement_container_meta:025e9547-4cc5-4fc2-bd88-82d7a5868cb8-1789152413305] = [groups:][instances:]
 }
 
 customization {
@@ -64,8 +64,8 @@ menu_background {
 }
 
 menu_background {
-  instance_identifier = d0d7eff4-eeb8-4dd2-a206-b843e0c9ad9f-1784707230764
-  background_type = video_mcef
+  instance_identifier = 887cd81e-8b16-4474-b27c-8410a24a9a6a-1789145897827
+  background_type = video_rinku
   show_background = false
   loop = false
   volume = 1.0
@@ -131,13 +131,6 @@ menu_background {
   mouse_position_requires_hold = false
   opacity_multiplier = 1.0
   show_compile_errors = true
-}
-
-menu_background {
-  instance_identifier = 530d68f0-4897-4606-a3b2-a2085199fd76-1784707230764
-  background_type = drippy_color_background
-  show_background = false
-  color = #FD5757FF
 }
 
 decoration_overlay {
@@ -354,24 +347,28 @@ layout_action_executable_blocks {
 }
 
 element {
-  element_type = shape
-  instance_identifier = 2d077d19-e721-4482-bf80-fca81e0e2f7f-1784707378966
+  element_type = image
+  instance_identifier = 3e945896-d9e6-40e2-b4bc-baba25c3c85e-1789146105012
+  custom_element_layer_name = BG
   appearance_delay = no_delay
   disappearance_delay = no_delay
   fade_in_v2 = no_fading
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1080
+  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 2
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 541
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -185
-  y = -161
-  width = 369
-  height = 285
+  x = -248
+  y = -255
+  width = 495
+  height = 512
   stay_on_screen = true
-  element_loading_requirement_container_identifier = abfd4930-9e3e-40f7-ae4e-8a887aa9b182-1784707378965
-  [loading_requirement_container_meta:abfd4930-9e3e-40f7-ae4e-8a887aa9b182-1784707378965] = [groups:][instances:]
+  element_loading_requirement_container_identifier = 2d624e0e-2140-4af3-9e45-a1a27aa24933-1788750953130
+  [loading_requirement_container_meta:2d624e0e-2140-4af3-9e45-a1a27aa24933-1788750953130] = [groups:][instances:]
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -402,20 +399,24 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
-  color = #000000B3
-  blur_enabled = false
-  blur_radius = 3.0
-  corner_radius_top_left = 5.0
-  corner_radius_top_right = 5.0
-  corner_radius_bottom_right = 5.0
-  corner_radius_bottom_left = 5.0
+  source = [source:local]/config/fancymenu/assets/gui.png
+  repeat_texture = false
+  nine_slice_texture = true
+  nine_slice_texture_border_x = 28
+  nine_slice_texture_border_y = 28
+  restart_animated_on_menu_load = false
+  image_tint = #FFFFFF
+  rounding_radius_top_left = 0.0
+  rounding_radius_top_right = 0.0
+  rounding_radius_bottom_right = 0.0
+  rounding_radius_bottom_left = 0.0
 }
 
 element {
   interactable = true
-  source = To ensure all CITs display correctly, please follow the recommended resource pack order.%n%%n%Minecraft loads resource packs from **bottom to top**, meaning the bottom-most pack acts as the base, while packs above it override the packs below.%n%%n%Arrange your resource packs in the following order (**TOP → BOTTOM**):%n%%n%%#FFFF00%|—%#% [CITs]%n%%#FFFF00%|—%#% [Other Packs]%n%%#FFFF00%|—%#% [Mizuno Addons & FA]%n%%#FFFF00%|—%#% "Mizuno's 16 Craft JE CIT"%n%%#FFFF00%|—%#% "Mizuno's 16 Craft JE Texture Pack"%n%%n%Simply press and hold %#FFFF00%Control/Command + T%#% to automatically reset your resource packs to the recommended order.%n%(This will remove any resource packs that are not part of the default configuration.)%n%%n%%#FFFF00%You can also click and drag resource packs to change their order instead of clicking the arrows!%#%%n%
+  source = ### %#6c4c90%⏵ Required Load Order%#%%n%%n%To ensure all CITs display correctly, use the recommended resource pack order below.%n%Arrange your resource packs in this order (TOP → BOTTOM):%n%%n%%#6c4c90%|—%#% [CITs]%n%%#6c4c90%|—%#% [Other Packs]%n%%#6c4c90%|—%#% [Mizuno Addons & FA]%n%%#6c4c90%|—%#% "Mizuno's 16 Craft JE CIT"%n%%#6c4c90%|—%#% "Mizuno's 16 Craft JE Texture Pack"%n%%n%Press and hold %#6c4c90%Control/Command + T%#% to automatically reset your resource packs to the recommended order.%n%%n%Warning: This will remove any resource packs that are not part of the default configuration.%n%%n%%#6c4c90%You can also click and drag resource packs to change their order instead of using the arrows.%#%%n%%n%%n%### %#6c4c90%⏵ Performance%#%%n%%n%If you have low RAM, it is highly recommended to restart the game after enabling or disabling resource packs, as repeated resource pack reloads can gradually increase memory usage.%n%%n%If you frequently edit or change resource packs and mods, clear your DashLoader cache regularly. The cache can accumulate over time and take up a significant amount of storage, especially when making frequent changes.
   source_mode = direct
-  shadow = true
+  shadow = false
   enable_scrolling = false
   auto_line_wrapping = true
   remove_html_breaks = true
@@ -444,13 +445,16 @@ element {
   fade_out = no_fading
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1080
+  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 2
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 541
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -170
-  y = -146
-  width = 338
-  height = 280
+  x = -205
+  y = -183
+  width = 303
+  height = 371
   stay_on_screen = true
   element_loading_requirement_container_identifier = 2d98db9b-818a-4c79-87ef-9111845d5f9b-1784707241650
   [loading_requirement_container_meta:2d98db9b-818a-4c79-87ef-9111845d5f9b-1784707241650] = [groups:][instances:]
@@ -484,10 +488,10 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
-  base_color = #FFFFFFFF
+  base_color = #2B2B2BFF
   scale = 1.0
   text_border = 2
-  line_spacing = 2
+  line_spacing = 1
   quote_indent = 8
   bullet_list_indent = 8
   bullet_list_spacing = 3
@@ -500,6 +504,8 @@ element {
   button_element_executable_block_identifier = 3f1656a5-c2d7-4a71-b0c9-dd59ea9b4b09-1784707531046
   [executable_action_instance:4548bcc5-29ea-40e8-a7e5-9c2ec4ad90c1-1785866929681][action_type:back_to_last_screen] = 
   [executable_block:3f1656a5-c2d7-4a71-b0c9-dd59ea9b4b09-1784707531046][type:generic] = [executables:4548bcc5-29ea-40e8-a7e5-9c2ec4ad90c1-1785866929681;]
+  backgroundnormal = [source:local]/config/fancymenu/assets/widget/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/widget/button_highlighted.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -527,12 +533,14 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 2
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 541
   sticky_anchor = false
-  anchor_point = element
-  anchor_point_element = 22fefc8f-da24-4673-9fba-054231b733e0-1784707241650
-  x = 137
-  y = 287
-  width = 63
+  anchor_point = mid-centered
+  x = -45
+  y = 193
+  width = 153
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = d6459724-4cde-4ddc-8b37-8d53330b2ab0-1784707531046
@@ -585,13 +593,15 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 2
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 541
   sticky_anchor = false
-  anchor_point = element
-  anchor_point_element = 2d077d19-e721-4482-bf80-fca81e0e2f7f-1784707378966
-  x = 410
-  y = -87
-  width = 103
-  height = 496
+  anchor_point = mid-centered
+  x = 119
+  y = -210
+  width = 88
+  height = 423
   stay_on_screen = true
   element_loading_requirement_container_identifier = d49143c0-dc68-4d43-bd3e-d544c6818fa1-1784709848640
   [loading_requirement_container_meta:d49143c0-dc68-4d43-bd3e-d544c6818fa1-1784709848640] = [groups:][instances:]
@@ -636,5 +646,176 @@ element {
   rounding_radius_top_right = 0.0
   rounding_radius_bottom_right = 0.0
   rounding_radius_bottom_left = 0.0
+}
+
+element {
+  interactable = true
+  source = %#6c4c90%Resource Pack Order Guide%#%
+  source_mode = direct
+  shadow = false
+  enable_scrolling = false
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  click_event_color = #0771FCFF
+  hover_event_color = #0771FCFF
+  quote_color = #818181FF
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  parse_markdown = true
+  table_show_header = true
+  table_alternate_row_colors = true
+  table_line_color = #787878FF
+  table_header_background_color = #323232FF
+  table_row_background_color = #282828FF
+  table_alternate_row_color = #3C3C3CFF
+  element_type = text_v2
+  instance_identifier = 5e7b56a3-5476-4701-ba7e-e33333135fff-1789146477026
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 2
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 541
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -205
+  y = -212
+  width = 303
+  height = 23
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 2d98db9b-818a-4c79-87ef-9111845d5f9b-1784707241650
+  [loading_requirement_container_meta:2d98db9b-818a-4c79-87ef-9111845d5f9b-1784707241650] = [groups:][instances:]
+  enable_parallax = false
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  advanced_rotation_mode = false
+  advanced_vertical_tilt_mode = false
+  advanced_horizontal_tilt_mode = false
+  should_be_affected_by_decoration_overlays = false
+  in_editor_color = #FFC800FF
+  advanced_posx = -2147483648
+  advanced_posy = -2147483648
+  advanced_width = -2147483648
+  advanced_height = -2147483648
+  stretch_x = false
+  stretch_y = false
+  appearance_delay_seconds = 1.0
+  disappearance_delay_seconds = 1.0
+  fade_in_speed = 1.0
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
+  rotation_degrees = 0.0
+  advanced_rotation_degrees = 0.0
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_degrees = 0.0
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_degrees = 0.0
+  base_color = #2B2B2BFF
+  scale = 1.5
+  text_border = 2
+  line_spacing = 2
+  quote_indent = 8
+  bullet_list_indent = 8
+  bullet_list_spacing = 3
+  table_line_thickness = 1.0
+  table_cell_padding = 8.0
+  table_margin = 4.0
+}
+
+element {
+  button_element_executable_block_identifier = 3f1656a5-c2d7-4a71-b0c9-dd59ea9b4b09-1784707531046
+  [executable_action_instance:b1d22baa-a215-4f9b-a524-3b89341ad635-1789147294225][action_type:open_file_folder_in_game_dir] = /dashloader-cache
+  [executable_block:3f1656a5-c2d7-4a71-b0c9-dd59ea9b4b09-1784707531046][type:generic] = [executables:b1d22baa-a215-4f9b-a524-3b89341ad635-1789147294225;]
+  backgroundnormal = [source:local]/config/fancymenu/assets/widget/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/widget/button_highlighted.png
+  underline_label_on_hover = false
+  transparent_background = false
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  label = Open DashLoader Cache Folder
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 0598ab96-6969-47d5-851a-ea2da424d113-1784707531046
+  [loading_requirement_container_meta:0598ab96-6969-47d5-851a-ea2da424d113-1784707531046] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  element_type = custom_button
+  instance_identifier = 48d6ae61-2748-43df-b236-d1e810cc0881-1789147172168
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 2
+  auto_sizing_base_gui_width = 960
+  auto_sizing_base_gui_height = 541
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -205
+  y = 193
+  width = 153
+  height = 20
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = d6459724-4cde-4ddc-8b37-8d53330b2ab0-1784707531046
+  [loading_requirement_container_meta:d6459724-4cde-4ddc-8b37-8d53330b2ab0-1784707531046] = [groups:][instances:]
+  enable_parallax = false
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  advanced_rotation_mode = false
+  advanced_vertical_tilt_mode = false
+  advanced_horizontal_tilt_mode = false
+  should_be_affected_by_decoration_overlays = true
+  in_editor_color = #FFC800FF
+  advanced_posx = -2147483648
+  advanced_posy = -2147483648
+  advanced_width = -2147483648
+  advanced_height = -2147483648
+  stretch_x = false
+  stretch_y = false
+  appearance_delay_seconds = 1.0
+  disappearance_delay_seconds = 1.0
+  fade_in_speed = 1.0
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
+  rotation_degrees = 0.0
+  advanced_rotation_degrees = 0.0
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_degrees = 0.0
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_degrees = 0.0
+  label_scale = 1.0
+  label_shadow = true
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
 }
 

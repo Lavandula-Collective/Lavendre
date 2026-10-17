@@ -1,0 +1,7 @@
+{
+  "type": "remi:tag",
+  "id": "minecraft:minecraft_block_mineable/axe",
+  "tag": "minecraft:mineable/axe",
+  "registry": "minecraft:block",
+  "enabled": false
+}

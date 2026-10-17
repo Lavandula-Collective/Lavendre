@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:reapers",
+  "type": "remi:regex",
+  "regex": ".*:.*reaper.*"
+}

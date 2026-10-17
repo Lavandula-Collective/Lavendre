@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:hand_carts",
+  "type": "remi:regex",
+  "regex": ".*:.*hand_cart.*"
+}

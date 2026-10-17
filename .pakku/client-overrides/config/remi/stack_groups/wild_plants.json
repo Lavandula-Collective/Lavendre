@@ -1,0 +1,46 @@
+{
+  "id": "lavendre:wild_plants",
+  "type": "remi:group",
+  "name": "Wild Plants",
+  "contents": [
+    "farm_and_charm:wild_nettle",
+    "farm_and_charm:wild_ribwort",
+    "farm_and_charm:wild_emmer",
+    "farm_and_charm:wild_beetroots",
+    "farm_and_charm:wild_potatoes",
+    "farm_and_charm:wild_carrots",
+    "farm_and_charm:wild_barley",
+    "farm_and_charm:wild_corn",
+    "farm_and_charm:wild_oat",
+    "farm_and_charm:wild_onions",
+    "farm_and_charm:wild_lettuce",
+    "farm_and_charm:wild_tomatoes",
+    "farm_and_charm:wild_strawberries",
+
+    "farmersdelight:wild_cabbages",
+    "farmersdelight:wild_onions",
+    "farmersdelight:wild_tomatoes",
+    "farmersdelight:wild_carrots",
+    "farmersdelight:wild_potatoes",
+    "farmersdelight:wild_beetroots",
+    "farmersdelight:wild_rice",
+
+    "herbalbrews:hibiscus",
+    "herbalbrews:lavender",
+    "herbalbrews:wild_coffee_plant",
+    "herbalbrews:wild_yerba_mate_plant",
+    "herbalbrews:wild_rooibos_plant",
+
+    "rusticdelight:wild_cotton",
+    "rusticdelight:wild_bell_peppers",
+    "rusticdelight:wild_pale_bell_peppers",
+    "rusticdelight:wild_dark_bell_peppers",
+    "rusticdelight:wild_coffee",
+
+    "ubesdelight:wild_ube",
+    "ubesdelight:wild_garlic",
+    "ubesdelight:wild_ginger",
+    "ubesdelight:wild_lemongrass"
+  ],
+  "enabled": true
+}

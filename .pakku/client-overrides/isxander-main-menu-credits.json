@@ -1,0 +1,71 @@
+{
+  "main_menu": {
+    "top_left": [
+      {
+        "text": "§eModpack Mode: §r§4OFF§r"
+      },
+      {
+        "text": "§eDEVELOPER GUI ENABLED"
+      }
+    ],
+    "top_right": [],
+    "bottom_left": [
+      {
+        "clickEvent": {
+          "action": "open_url",
+          "value": "https://discord.gg/DXFpzAn2fh"
+        },
+        "text": "Need help? Join our §9Discord§r!"
+      }
+    ],
+    "bottom_right": [
+      {
+        "text": "by Lavandula Collective",
+        "color": "#E3ABFF",
+        "clickEvent": {
+          "action": "open_url",
+          "value": "https://lavandula-collective.gitbook.io/site"
+        }
+      }
+    ],
+    "mod_blacklist": []
+  },
+  "pause_menu": {
+    "top_left": [
+      {
+        "text": "§eModpack Mode: §r§4OFF§r"
+      },
+      {
+        "text": "§eDEVELOPER GUI ENABLED"
+      }
+    ],
+    "top_right": [],
+    "bottom_left": [
+      {
+        "clickEvent": {
+          "action": "open_url",
+          "value": "https://bit.ly/LavendreMasterCatalog"
+        },
+        "text": "Open Lavendre CIT §9Master Catalog§r."
+      },
+      {
+        "clickEvent": {
+          "action": "open_url",
+          "value": "https://discord.gg/DXFpzAn2fh"
+        },
+        "text": "Need help? Join our §9Discord§r!"
+      }
+    ],
+    "bottom_right": [
+      {
+        "text": "by Lavandula Collective",
+        "color": "#E3ABFF",
+        "clickEvent": {
+          "action": "open_url",
+          "value": "https://lavandula-collective.gitbook.io/site"
+        }
+      }
+    ],
+    "mod_blacklist": []
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:sheets",
+  "type": "remi:regex",
+  "regex": ".*:.*sheet.*"
+}

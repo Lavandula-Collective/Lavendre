@@ -3,7 +3,7 @@
   "enableStandardCulling": true,
   "enableExtendedCulling": true,
   "enablePassDemotion": true,
-  "mode": "BALANCED",
+  "mode": "CONSERVATIVE",
   "interiorThreshold": 0,
   "useExtendedLeafDetection": true
 }

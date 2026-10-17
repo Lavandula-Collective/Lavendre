@@ -1,0 +1,7 @@
+#Move the experience level display above the experience bar.
+#Default Value: true
+move_experience_above_bar = true
+#Height offset for the hotbar from the screen bottom.
+# Default: 2
+# Range: > 0
+hotbar_offset = 5

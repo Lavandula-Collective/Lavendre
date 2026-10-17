@@ -1,0 +1,11 @@
+{
+  "id": "lavendre:shells",
+  "type": "remi:regex",
+  "regex": ".*:.*shell$",
+  "name": "Colored Shells",
+  "exclusions": [
+    "minecraft:nautilus_shell",
+    "minecraft:shulker_shell",
+    "displaydelight:crd_plated_stuffed_nautilus_shell"
+  ]
+}

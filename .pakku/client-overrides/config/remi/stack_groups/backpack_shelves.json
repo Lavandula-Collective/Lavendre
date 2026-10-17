@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:backpack_shelves",
+  "type": "remi:regex",
+  "regex": "backpacked:.*shelf.*"
+}

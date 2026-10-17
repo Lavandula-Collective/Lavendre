@@ -1,5 +1,5 @@
 {
-  "smoothingMode": "TRANSITION",
+  "smoothingMode": "ALWAYS",
   "enablePosSmoothing": true,
   "enableRotSmoothing": true,
   "posStiffness": 0.3,

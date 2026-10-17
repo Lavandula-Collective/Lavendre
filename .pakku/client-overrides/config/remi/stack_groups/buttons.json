@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:buttons",
+  "type": "remi:regex",
+  "regex": ".*:.*button.*"
+}

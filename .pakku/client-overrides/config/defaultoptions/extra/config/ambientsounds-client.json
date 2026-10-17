@@ -41,8 +41,8 @@
       "suspense.suspense": 1
     },
     "void_dark": {
-      "overall": 1,
-      "suspense.suspense": 1
+      "overall": 0,
+      "suspense.suspense": 0
     },
     "beach": {
       "overall": 1,
@@ -194,8 +194,8 @@
       "underwater-deep": 1
     },
     "underworld": {
-      "overall": 1,
-      "underworld": 1
+      "overall": 0,
+      "underworld": 0
     },
     "warden": {
       "overall": 1,
@@ -204,10 +204,10 @@
   },
   "categories": {
     "animal": {
-      "animal": 0.6489675641059875,
+      "animal": 0.699999988079071,
       "bird": {
-        "bird": 0.4984709620475769,
-        "bird_day": 0.4984709620475769,
+        "bird": 0.5987842082977295,
+        "bird_day": 0.5987842082977295,
         "bird_night": 0.40366971492767334
       },
       "cicadas": 0.5516223907470703,
@@ -218,9 +218,9 @@
       }
     },
     "cave": 0.4969879388809204,
-    "suspense": 0.4969879388809204,
+    "suspense": 0.504531741142273,
     "weather": 0.7048192620277405,
-    "wind": 0.6024096608161926
+    "wind": 0.504531741142273
   },
   "fade-volume": 0.005,
   "fade-pitch": 0.005,

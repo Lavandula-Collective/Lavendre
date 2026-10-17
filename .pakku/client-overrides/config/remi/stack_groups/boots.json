@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:boots",
+  "type": "remi:regex",
+  "regex": ".*:.*boots.*"
+}

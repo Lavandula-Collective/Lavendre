@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:leggings",
+  "type": "remi:regex",
+  "regex": ".*:.*(leggings|dungarees).*"
+}

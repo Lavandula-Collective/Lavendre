@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:dining_benches",
+  "type": "remi:regex",
+  "regex": ".*:.*dining_bench$"
+}

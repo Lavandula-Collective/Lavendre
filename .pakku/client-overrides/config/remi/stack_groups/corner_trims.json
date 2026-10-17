@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:corner_trims",
+  "type": "remi:regex",
+  "regex": ".*:.*corner_trim.*"
+}

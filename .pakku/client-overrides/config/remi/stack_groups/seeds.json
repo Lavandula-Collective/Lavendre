@@ -1,0 +1,19 @@
+{
+  "id": "lavendre:seeds",
+  "type": "remi:group",
+  "name": "Seeds",
+  "contents": [
+    "#c:seeds",
+    "#farm_and_charm:seeds",
+    "#bakery:seeds",
+    "minecraft:cocoa_beans"
+  ],
+  "regexes": [
+    ".*grape_seeds.*"
+  ],
+  "exclusions": [
+    "minecraft:carrot",
+    "minecraft:potato"
+  ],
+  "enabled": true
+}

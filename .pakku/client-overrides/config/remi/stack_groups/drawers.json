@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:drawers",
+  "type": "remi:regex",
+  "regex": "(handcrafted|vinery):.*drawer.*"
+}

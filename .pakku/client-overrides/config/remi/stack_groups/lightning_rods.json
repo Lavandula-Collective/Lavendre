@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:lightning_rods",
+  "type": "remi:regex",
+  "regex": ".*:.*lightning_rod.*"
+}

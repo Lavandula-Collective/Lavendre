@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:counters",
+  "type": "remi:regex",
+  "regex": "(handcrafted|bakery):.*counter.*"
+}

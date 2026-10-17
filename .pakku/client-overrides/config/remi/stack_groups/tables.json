@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:tables",
+  "type": "remi:regex",
+  "regex": "(handcrafted|vinery|bakery):.*_table.*"
+}

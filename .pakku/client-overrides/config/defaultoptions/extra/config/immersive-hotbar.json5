@@ -51,5 +51,14 @@
 	xpLevelUpParticleLevels: 5,
 	xpBarPulseEnabled: true,
 	xpBarPulseLevels: 1,
-	xpBarPulseColor: -171
+	xpBarPulseColor: -171,
+	xpGlowClampTail: true,
+	xpTextPulseScale: 2.0,
+	xpTextPulseSpeed: 1.5,
+	xpTextPulseReturnSpeed: 0.1,
+	xpLevelUpParticleAmount: 25,
+	xpLevelUpParticleSize: 2.5,
+	xpBarPulseSpeed: 0.08,
+	xpBarPulseSize: 8.0,
+	xpBarPulseLines: 3
 }

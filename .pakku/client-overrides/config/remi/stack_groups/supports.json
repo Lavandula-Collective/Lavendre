@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:supports",
+  "type": "remi:regex",
+  "regex": ".*:.*support.*"
+}

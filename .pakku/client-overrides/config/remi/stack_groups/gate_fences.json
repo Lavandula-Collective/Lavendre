@@ -1,0 +1,10 @@
+{
+  "type": "remi:group",
+  "id": "lavendre:gate_fences",
+  "name": "Fence Gates",
+  "contents": [
+    "#c:fence_gates",
+    "#minecraft:fence_gates"
+  ],
+  "enabled": true
+}

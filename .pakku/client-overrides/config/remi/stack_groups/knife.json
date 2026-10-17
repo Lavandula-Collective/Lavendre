@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:knives",
+  "type": "remi:regex",
+  "regex": ".*:.*knife.*"
+}

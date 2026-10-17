@@ -1,0 +1,13 @@
+{
+  "animationPackSelections": {
+    "kind:fishing_rod": "pack:punchy:punchy",
+    "kind:mace": "pack:file/movethosehands!-1.2.3.zip",
+    "kind:spear": "pack:punchy:punchy",
+    "kind:flint": "pack:punchy:punchy",
+    "kind:full_block": "pack:punchy:punchy",
+    "kind:block": "pack:punchy:punchy",
+    "kind:bucket": "pack:file/movethosehands!-1.2.3.zip"
+  },
+  "animationPackTypeSelections": {},
+  "mixSpecificForceOverride": {}
+}
