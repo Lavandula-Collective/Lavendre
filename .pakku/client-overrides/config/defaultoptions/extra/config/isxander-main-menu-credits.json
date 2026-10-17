@@ -1,45 +1,55 @@
 {
   "main_menu": {
     "top_left": [],
-    "top_right": [
-      {
-      "text" : "Modpack Mode: §4OFF§r"
-    }],
+    "top_right": [],
     "bottom_left": [
       {
-        "clickEvent" : {
-          "action" : "open_url",
-          "value" : "https:\/\/discord.gg\/DXFpzAn2fh\/"
+        "clickEvent": {
+          "action": "open_url",
+          "value": "https://discord.gg/DXFpzAn2fh"
         },
-        "text" : "Need help? Join our §9Discord§r!"
+        "text": "Need help? Join our §9Discord§r!"
       }
     ],
-    "bottom_right": [],
+    "bottom_right": [
+      {
+        "text": "by Lavandula Collective",
+        "color": "#E3ABFF",
+        "clickEvent": {
+          "action": "open_url",
+          "value": "https://lavandula-collective.gitbook.io/site"
+        }
+      }
+    ],
     "mod_blacklist": []
   },
   "pause_menu": {
     "top_left": [],
-    "top_right": [
-      {
-        "text" : "Modpack Mode: §4OFF§r"
-      }
-    ],
+    "top_right": [],
     "bottom_left": [
       {
-        "clickEvent" : {
-          "action" : "open_url",
-          "value" : "https:\/\/discord.gg\/DXFpzAn2fh\/"
+        "clickEvent": {
+          "action": "open_url",
+          "value": "https://bit.ly/LavendreMasterCatalog"
         },
-        "text" : "Need help? Join our §9Discord§r!"
+        "text": "Open Lavendre CIT §9Master Catalog§r."
+      },
+      {
+        "clickEvent": {
+          "action": "open_url",
+          "value": "https://discord.gg/DXFpzAn2fh"
+        },
+        "text": "Need help? Join our §9Discord§r!"
       }
     ],
-    "bottom_right" : [
+    "bottom_right": [
       {
-        "clickEvent" : {
-          "action" : "open_url",
-          "value" : "https:\/\/bit.ly\/LavendreMasterCatalog\/"
-        },
-        "text" : "Open Lavendre CIT Master Catalog."
+        "text": "by Lavandula Collective",
+        "color": "#E3ABFF",
+        "clickEvent": {
+          "action": "open_url",
+          "value": "https://lavandula-collective.gitbook.io/site"
+        }
       }
     ],
     "mod_blacklist": []
