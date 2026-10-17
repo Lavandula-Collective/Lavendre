@@ -42,3 +42,6 @@ net.minecraft.class_490 {
 dev.emi.emi.screen.RecipeScreen {
 }
 
+com.quickskin.mod.client.gui.screen.PlayerSkinMenuScreen {
+}
+
