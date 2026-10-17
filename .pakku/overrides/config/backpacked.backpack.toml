@@ -30,7 +30,7 @@
 		# ITEM, this will instead consume a specified item from the player's inventory (including anything
 		# placed in the backpack) to unlock new slots.
 		# Valid values: EXPERIENCE, ITEM
-		paymentType = "EXPERIENCE"
+		paymentType = "ITEM"
 		# Only applicable if paymentType is set to ITEM. This option will control the item used when paying
 		# to unlock new slots.
 		paymentItem = "minecraft:emerald"
@@ -55,7 +55,7 @@
 		# 
 		# Note: This property has no effect if useCustomCosts is set to true
 		# Valid range: 1 to 100 (inclusive)
-		minCost = 10
+		minCost = 1
 		# The maximum cost to unlock a backpack slot. This value would be the cost
 		# when unlocking the final slot in a backpack inventory. The cost to unlock
 		# prior slots are interpolated from the minCost to this value, and scaled
@@ -63,7 +63,7 @@
 		# 
 		# Note: This property has no effect if useCustomCosts is set to true
 		# Valid range: 1 to 100 (inclusive)
-		maxCost = 40
+		maxCost = 20
 		# If enabled, instead of using a cost that is calculated based on a minCost
 		# and maxCost, custom costs allow the cost to be specified manually using
 		# a list of values (see customCosts).
@@ -153,21 +153,38 @@
 	# large NBT data and potentially crash the server!
 	bannedItems = ["travelersbackpack:custom_travelers_backpack", "pinesbarrels:better_barrel", "quark:seed_pouch", "quark:backpack", "sophisticatedbackpacks:backpack", "sophisticatedbackpacks:iron_backpack", "sophisticatedbackpacks:gold_backpack", "sophisticatedbackpacks:diamond_backpack", "sophisticatedbackpacks:netherite_backpack", "improvedbackpacks:tiny_pocket", "improvedbackpacks:medium_pocket", "improvedbackpacks:large_pocket", "improvedbackpacks:white_backpack", "improvedbackpacks:orange_backpack", "improvedbackpacks:magenta_backpack", "improvedbackpacks:light_blue_backpack", "improvedbackpacks:yellow_backpack", "improvedbackpacks:lime_backpack", "improvedbackpacks:pink_backpack", "improvedbackpacks:gray_backpack", "improvedbackpacks:light_gray_backpack", "improvedbackpacks:cyan_backpack", "improvedbackpacks:purple_backpack", "improvedbackpacks:blue_backpack", "improvedbackpacks:brown_backpack", "improvedbackpacks:green_backpack", "improvedbackpacks:red_backpack", "improvedbackpacks:black_backpack", "immersiveengineering:toolbox", "immersiveengineering:crate", "immersiveengineering:reinforced_crate", "create:white_toolbox", "create:orange_toolbox", "create:magenta_toolbox", "create:light_blue_toolbox", "create:yellow_toolbox", "create:lime_toolbox", "create:pink_toolbox", "create:gray_toolbox", "create:light_gray_toolbox", "create:cyan_toolbox", "create:purple_toolbox", "create:blue_toolbox", "create:brown_toolbox", "create:green_toolbox", "create:red_toolbox", "create:black_toolbox", "mekanism:personal_chest", "supplementaries:sack"]
 
+	# Size related properties
+	[inventory.size]
+		# The amount of rows in the backpack inventory.
+		# WARNING: Larger than 6 rows will not fit on some resolutions when using auto GUI scale.
+		# If you make the size of the backpack smaller, items in the backpack that no
+		# longer fit will spawn into the world. Take care when changing this property on a
+		# running game/server since the changes will be automatically reloaded upon saving this file.
+		# Valid range: 1 to 11 (inclusive)
+		rows = 6
+		# The amount of columns in the backpack inventory.
+		# WARNING: Larger than 15 columns will start to cut off GUI elements when using auto GUI
+		# scale. If you make the size of the backpack smaller, items in the backpack that no
+		# longer fit will spawn into the world. Take care when changing this property on a
+		# running game/server since the changes will be automatically reloaded upon saving this file.
+		# Valid range: 1 to 23 (inclusive)
+		columns = 9
+
 	# Slots related properties
 	[inventory.slots]
-		# The number of slots that will automatically be unlocked by default and for free.
-		# Please note that the cost model will still factor these free slots into the calculation
-		# for unlocking the next locked slot. The slots also cannot be revoked once unlocked.
-		# Valid range: 0 to 253 (inclusive)
-		initialUnlockedSlots = 18
-		# If set to true, backpack slots may be unlocked using Unlock Tokens
-		# Valid values: true, false
-		allowUnlockingUsingUnlockToken = false
 		# If set to true, all backpacks slots will be unlocked by default.
 		# WARNING: Reverting the option from true to false will cause items to be dropped
 		# into the world if the slot they are in is now locked. You have been warned.
 		# Valid values: true, false
 		unlockAllSlots = false
+		# The number of slots that will automatically be unlocked by default and for free.
+		# Please note that the cost model will still factor these free slots into the calculation
+		# for unlocking the next locked slot. The slots also cannot be revoked once unlocked.
+		# Valid range: 0 to 253 (inclusive)
+		initialUnlockedSlots = 27
+		# If set to true, backpack slots may be unlocked using Unlock Tokens
+		# Valid values: true, false
+		allowUnlockingUsingUnlockToken = true
 
 		# Cost related properties for inventory slots
 		[inventory.slots.unlockCost]
@@ -269,23 +286,6 @@
 			# 
 			# Valid values: LINEAR_INTERPOLATION, INDEX_WITH_CLAMP
 			customCostsSelectionFunction = "LINEAR_INTERPOLATION"
-
-	# Size related properties
-	[inventory.size]
-		# The amount of columns in the backpack inventory.
-		# WARNING: Larger than 15 columns will start to cut off GUI elements when using auto GUI
-		# scale. If you make the size of the backpack smaller, items in the backpack that no
-		# longer fit will spawn into the world. Take care when changing this property on a
-		# running game/server since the changes will be automatically reloaded upon saving this file.
-		# Valid range: 1 to 23 (inclusive)
-		columns = 9
-		# The amount of rows in the backpack inventory.
-		# WARNING: Larger than 6 rows will not fit on some resolutions when using auto GUI scale.
-		# If you make the size of the backpack smaller, items in the backpack that no
-		# longer fit will spawn into the world. Take care when changing this property on a
-		# running game/server since the changes will be automatically reloaded upon saving this file.
-		# Valid range: 1 to 11 (inclusive)
-		rows = 5
 
 # Augment Bay related properties
 [augmentBays]
