@@ -78,8 +78,8 @@
     "analyzer": true
   },
   "item_descriptions": {
-    "block_descriptions": true,
-    "entity_descriptions": true
+    "block_descriptions": false,
+    "entity_descriptions": false
   },
   "balm": {
     "jade": true
