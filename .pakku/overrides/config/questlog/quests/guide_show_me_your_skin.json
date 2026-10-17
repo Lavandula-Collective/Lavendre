@@ -1,0 +1,29 @@
+{
+  "title": "Show Me Your Skin!",
+  "description": "Sometimes the best armor is the kind you choose to show. The §3Show Me Your Skin!§r menu lets you customize how armor, Elytra, shields, enchantment glint, and player name tags appear.\n\nPress §3J§r to open the customization screen. From there, you can adjust individual equipment pieces and other display options to suit your appearance. The keybind can be changed at any time through Minecraft's §3Key Binds§r settings.",
+  "icon": {
+    "item": "minecraft:painting"
+  },
+  "chapter": "main",
+  "sort_order": 1,
+  "translatable": true,
+  "show_popup_on_unlock": true,
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 10,
+      "levels": false
+    }
+  ],
+  "completed_sound": "scholar:ui.book_signed",
+  "left_panel_width": 300,
+  "panel_height": 200,
+  "disable_details_button": true
+}

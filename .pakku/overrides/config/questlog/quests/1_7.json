@@ -1,0 +1,111 @@
+{
+  "title": "A Safe Haven",
+  "description": "The first night was spent simply surviving. The next should be different.\n\nAdd a little light to your shelter, arrange your belongings, and make the place feel less like somewhere you happened to stop and more like somewhere you intend to stay.",
+  "icon": {
+    "item": "minecraft:torch"
+  },
+  "chapter": "1_of_heart_and_harvest",
+  "sort_order": 3,
+  "objectives": [
+    {
+      "type": "questlog:block_place",
+      "name": "Place 4x Torches",
+      "icon": {
+        "item": "minecraft:torch"
+      },
+      "block": "minecraft:torch",
+      "required_amount": 4
+    },
+    {
+      "type": "questlog:block_place",
+      "name": "Place a Magnum Torch",
+      "icon": {
+        "item": "magnumtorch:diamond_magnum_torch"
+      },
+      "block": "#magnumtorch:magnum_torches",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:block_place",
+      "name": "Place 2 Chests",
+      "icon": {
+        "item": "minecraft:chest"
+      },
+      "block": "minecraft:chest",
+      "required_amount": 2
+    },
+    {
+      "type": "questlog:block_place",
+      "name": "Place a Crafting Table",
+      "icon": {
+        "item": "minecraft:crafting_table"
+      },
+      "block": "minecraft:crafting_table",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:block_place",
+      "name": "Place a Door",
+      "icon": {
+        "item": "minecraft:oak_door"
+      },
+      "block": "#minecraft:doors",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:1_2",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:1_3",
+      "required_amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "name": "Lantern 8x",
+      "icon": {
+        "item": "minecraft:lantern"
+      },
+      "item": "minecraft:lantern",
+      "count": 8
+    },
+    {
+      "type": "questlog:item",
+      "name": "Iron Sword",
+      "icon": {
+        "item": "minecraft:iron_sword"
+      },
+      "item": "minecraft:iron_sword",
+      "count": 1
+    },
+    {
+      "type": "questlog:item",
+      "name": "Trowel",
+      "icon": {
+        "item": "trowel:trowel"
+      },
+      "item": "trowel:trowel",
+      "count": 1
+    },
+    {
+      "type": "questlog:experience",
+      "name": "Experience Points 50x",
+      "icon": {
+        "item": "minecraft:experience_bottle"
+      },
+      "experience": 50,
+      "levels": false
+    }
+  ],
+  "right_panel_width": 200,
+  "panel_height": 200,
+  "details_open_by_default": true,
+  "translatable": true,
+  "completed_sound": "minecraft:entity.player.levelup"
+}

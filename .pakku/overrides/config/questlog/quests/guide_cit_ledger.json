@@ -1,0 +1,29 @@
+{
+  "title": "CIT Ledger",
+  "description": "Some things are easier to find when every detail has its place. The §3CIT Ledger§r gathers the many appearances an item may take, letting you browse the textures hidden within your collection.\n\nPress §3G§r to open the ledger. Its keybind can be changed at any time through Minecraft's §3Key Binds§r settings.",
+  "icon": {
+    "item": "minecraft:book"
+  },
+  "chapter": "main",
+  "sort_order": 1,
+  "translatable": true,
+  "show_popup_on_unlock": true,
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 10,
+      "levels": false
+    }
+  ],
+  "completed_sound": "scholar:ui.book_signed",
+  "left_panel_width": 250,
+  "panel_height": 170,
+  "disable_details_button": true
+}

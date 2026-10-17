@@ -1,0 +1,51 @@
+{
+  "title": "Mending by Hand",
+  "description": "Tools and armor need not be discarded when wear begins to show. Damaged equipment can be repaired using the material it was made from, restoring its durability without the need for experience.\n\nBring the right material together with the damaged item to restore it. Wooden tools can be repaired with wood, iron equipment with iron, and so on.\n\nA little material is often enough to give a well-used tool another life.",
+  "icon": {
+    "item": "minecraft:anvil"
+  },
+  "chapter": "main",
+  "sort_order": 2,
+  "translatable": true,
+  "show_popup_on_unlock": true,
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "objectives": [
+        {
+          "type": "questlog:item_obtain",
+          "item": "#c:tools",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "#c:armors",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_craft",
+          "item": "#c:tools",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_craft",
+          "item": "#c:armors",
+          "required_amount": 1
+        }
+      ],
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 10,
+      "levels": false
+    }
+  ],
+  "completed_sound": "scholar:ui.book_signed",
+  "left_panel_width": 325,
+  "panel_height": 240,
+  "disable_details_button": true
+}

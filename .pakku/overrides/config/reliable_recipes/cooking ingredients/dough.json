@@ -1,0 +1,28 @@
+[
+  {
+    "action": "replace_input",
+    "target": "farm_and_charm:dough",
+    "replacement": "farmersdelight:wheat_dough"
+  },
+  {
+    "action": "replace_output",
+    "target": "farm_and_charm:dough",
+    "replacement": "farmersdelight:wheat_dough"
+  },
+  {
+    "action": "remove_recipe",
+    "id": [
+      "farmersdelight:wheat_dough_from_egg",
+      "farmersdelight:/crafting/wheat_dough_from_water"
+      ],
+    "type": "minecraft:crafting"
+  },
+  {
+    "action": "remove_recipe",
+    "id": [
+      "ubesdelight:baking_mat/wheat_dough_from_egg_from_baking_mat",
+      "ubesdelight:baking_mat/wheat_dough_from_water_bucket_from_baking_mat"
+      ],
+    "type": "ubesdelight:baking_mat"
+  }
+]

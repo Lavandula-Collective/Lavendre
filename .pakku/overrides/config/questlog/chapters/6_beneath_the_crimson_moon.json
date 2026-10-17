@@ -1,0 +1,9 @@
+{
+  "name": "§cChapter VI:§r Beneath The Waning Moon",
+  "icon": {
+    "item": "minecraft:echo_shard"
+  },
+  "order": 6,
+  "default_chapter": false,
+  "hidden": true
+}

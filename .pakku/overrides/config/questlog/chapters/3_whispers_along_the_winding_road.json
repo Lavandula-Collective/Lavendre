@@ -1,0 +1,9 @@
+{
+  "name": "§eChapter III:§r Whispers Along the Winding Road",
+  "icon": {
+    "item": "minecraft:wildflowers"
+  },
+  "order": 3,
+  "default_chapter": false,
+  "hidden": true
+}

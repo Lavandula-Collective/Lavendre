@@ -1,0 +1,31 @@
+{
+  "title": "A New Kind of Knowledge",
+  "description": "An enchanted book is more than a spell waiting to be bound. It contains knowledge that can be studied and returned to the Enchanting Table.\n\nEnchanted books cannot be applied to equipment through an anvil. Instead, place an enchanted book inside a bookshelf near an Enchanting Table. The knowledge within it will then become available to the table, allowing that enchantment to be selected when enchanting future equipment.\n\nKeep the books you discover. Even an enchantment you have no use for today may become valuable knowledge for another time.",
+  "icon": {
+    "item": "minecraft:enchanted_book"
+  },
+  "chapter": "main",
+  "sort_order": 3,
+  "translatable": true,
+  "show_popup_on_unlock": true,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:enchanted_book",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 10,
+      "levels": false
+    }
+  ],
+  "completed_sound": "scholar:ui.book_signed",
+  "disable_details_button": true,
+  "left_panel_width": 300,
+  "right_panel_width": 200,
+  "panel_height": 200
+}

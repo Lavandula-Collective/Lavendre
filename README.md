@@ -17,7 +17,7 @@
 
 *"A place where every cottage has a story, every garden blooms with life, and every corner feels like home."*
 
-Welcome to cottagecore Minecraft. Built upon Mizuno's 16 Craft, Lavendre blends curated CIT packs, beautiful visuals, and thoughtful enhancements. Build, decorate, and feel at home!
+Welcome to cottagecore vanilla+ Minecraft. Built around Mizuno's 16 Craft, Lavendre brings together curated CIT packs, cozy visuals, and thoughtful gameplay enhancements. Farm, explore, build, decorate, and make Minecraft feel like home!
 
 </div>
 

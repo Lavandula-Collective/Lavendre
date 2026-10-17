@@ -1,0 +1,42 @@
+{
+  "title": "Unbreaking Determination",
+  "description": "Some enchantments are not meant to make an item stronger, but to make its strength endure.\n\nUnbreaking now grows beyond its familiar limits. As the enchantment develops, each level greatly extends the life of the item it protects.\n\nAt Unbreaking V, an item's durability is preserved so completely that it can no longer be worn down through ordinary use.\n\nThere is no need to seek another enchantment to keep your favorite tools and equipment by your side. With enough time and use, Unbreaking itself can carry an item beyond the limits of its durability.\n\nPerhaps some knowledge is better learned through patience than found in a book.",
+  "icon": {
+    "item": "minecraft:netherite_pickaxe"
+  },
+  "chapter": "main",
+  "sort_order": 6,
+  "translatable": true,
+  "show_popup_on_unlock": true,
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "objectives": [
+        {
+          "type": "questlog:enchant",
+          "enchantment": "minecraft:unbreaking",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "components": "{\"minecraft:enchantments\":{\"levels\":(\"minecraft:unbreaking\"}}}",
+          "item": "#c:tools",
+          "required_amount": 1
+        }
+      ],
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 10,
+      "levels": false
+    }
+  ],
+  "completed_sound": "scholar:ui.book_signed",
+  "left_panel_width": 325,
+  "panel_height": 240,
+  "disable_details_button": true
+}

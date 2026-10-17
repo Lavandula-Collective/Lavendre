@@ -1,0 +1,26 @@
+{
+  "type": "herbalbrews:kettle_brewing",
+  "experience": 1.2,
+  "crafting_duration": 225,
+  "fluid_amount": 10,
+  "heat_amount": 10,
+  "ingredients": [
+    {
+      "item": "herbalbrews:coffee"
+    },
+    {
+      "item": "herbalbrews:coffee"
+    },
+    {
+      "tag": "c:drinks/milk"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "id": "herbalbrews:milk_coffee"
+  },
+  "effect": "herbalbrews:deeprush",
+  "effect_duration": 2600
+}

@@ -1,0 +1,8 @@
+{
+  "action": "replace_input",
+  "output": "bakery:rolling_pin",
+  "target": "#minecraft:wooden_slabs",
+  "replacement": [
+    "minecraft:stick"
+  ]
+}

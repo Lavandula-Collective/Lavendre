@@ -1,0 +1,9 @@
+{
+  "name": "§cChapter IV:§r Of Stone, Steel, and Flame",
+  "icon": {
+    "item": "minecraft:deepslate_gold_ore"
+  },
+  "order": 4,
+  "default_chapter": false,
+  "hidden": true
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "action": "replace_input",
+    "target": [
+      "naturalist:hide",
+      "minecraft:leather"
+    ],
+    "replacement": "#lavendre:leather_alt"
+  }
+]

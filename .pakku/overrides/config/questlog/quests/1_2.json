@@ -1,0 +1,71 @@
+{
+  "title": "The First Flame",
+  "description": "The day in this world seems longer than usual. Nevertheless, the sun will not wait forever.\n\nAs evening approaches, the wilderness changes, and what seemed peaceful beneath the daylight may become something else entirely.\n\nFind a way to make light, and learn to keep the darkness at bay.",
+  "icon": {
+    "item": "minecraft:campfire"
+  },
+  "chapter": "1_of_heart_and_harvest",
+  "sort_order": 1,
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "name": "Obtain 2x Coal or Charcoal",
+      "icon": {
+        "item": "minecraft:coal"
+      },
+      "item": "#minecraft:coals",
+      "required_amount": 2
+    },
+    {
+      "type": "questlog:item_craft",
+      "name": "Craft a Campfire",
+      "icon": {
+        "item": "minecraft:campfire"
+      },
+      "item": "minecraft:campfire",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:block_place",
+      "name": "Place a Furnace",
+      "icon": {
+        "item": "minecraft:furnace"
+      },
+      "block": "minecraft:furnace",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "name": "Torch 16x",
+      "icon": {
+        "item": "minecraft:torch"
+      },
+      "item": "minecraft:torch",
+      "count": 16
+    },
+    {
+      "type": "questlog:item",
+      "name": "Coal 6x",
+      "icon": {
+        "item": "minecraft:coal"
+      },
+      "item": "minecraft:coal",
+      "count": 6
+    },
+    {
+      "type": "questlog:experience",
+      "name": "Experience Points 25x",
+      "icon": {
+        "item": "minecraft:experience_bottle"
+      },
+      "experience": 25,
+      "levels": false
+    }
+  ],
+  "details_open_by_default": true,
+  "translatable": true,
+  "completed_sound": "minecraft:entity.player.levelup"
+}

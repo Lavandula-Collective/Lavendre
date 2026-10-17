@@ -1,0 +1,9 @@
+{
+  "name": "§eChapter I:§r Of Heart and Harvest",
+  "icon": {
+    "item": "farm_and_charm:barley"
+  },
+  "order": 1,
+  "default_chapter": false,
+  "hidden": false
+}

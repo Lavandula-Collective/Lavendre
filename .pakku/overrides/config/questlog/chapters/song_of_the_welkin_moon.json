@@ -1,0 +1,9 @@
+{
+  "name": "§9Song of the Welkin Moon:§r A New Moon Rises",
+  "icon": {
+    "item": "crittersandcompanions:pearl"
+  },
+  "order": 9,
+  "default_chapter": false,
+  "hidden": true
+}

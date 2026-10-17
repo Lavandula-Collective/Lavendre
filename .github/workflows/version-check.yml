@@ -22,6 +22,8 @@ jobs:
           set -e
 
           VERSION_FILE="pakku.json"
+          BCC_JSON_FILE=".pakku/overrides/config/bcc.json"
+          BCC_TOML_FILE=".pakku/overrides/config/bcc-common.toml"
           UPDATE_CHECKER_FILE=".pakku/overrides/config/modpack-update-checker/config.json"
 
           echo "========================================"
@@ -30,7 +32,7 @@ jobs:
           echo
 
           # --------------------------------------------------
-          # Get master version
+          # Get master pakku.json
           # --------------------------------------------------
 
           MASTER_JSON=$(git show "origin/master:${VERSION_FILE}")
@@ -42,13 +44,25 @@ jobs:
           print(json.loads(sys.argv[1])["version"])
           ' "$MASTER_JSON")
 
+          MASTER_NAME=$(python3 -c '
+          import json
+          import sys
+
+          print(json.loads(sys.argv[1])["name"])
+          ' "$MASTER_JSON")
+
           if [[ -z "$MASTER_VERSION" ]]; then
             echo "::error file=$VERSION_FILE::Could not determine the version from master."
             exit 1
           fi
 
+          if [[ -z "$MASTER_NAME" ]]; then
+            echo "::error file=$VERSION_FILE::Could not determine the name from master."
+            exit 1
+          fi
+
           # --------------------------------------------------
-          # Get PR version
+          # Get PR pakku.json
           # --------------------------------------------------
 
           PR_VERSION=$(python3 <<'PY'
@@ -59,97 +73,119 @@ jobs:
           PY
           )
 
+          PR_NAME=$(python3 <<'PY'
+          import json
+
+          with open("pakku.json", "r") as f:
+              print(json.load(f)["name"])
+          PY
+          )
+
           if [[ -z "$PR_VERSION" ]]; then
             echo "::error file=$VERSION_FILE::Could not determine the version from the PR."
             exit 1
           fi
 
-          echo "Modpack version"
+          if [[ -z "$PR_NAME" ]]; then
+            echo "::error file=$VERSION_FILE::Could not determine the name from the PR."
+            exit 1
+          fi
+
+          echo "Modpack info (pakku.json)"
           echo "────────────────────────────────────────"
-          echo "Master: $MASTER_VERSION"
-          echo "PR:     $PR_VERSION"
+          echo "Master name:    $MASTER_NAME"
+          echo "PR name:        $PR_NAME"
+          echo "Master version: $MASTER_VERSION"
+          echo "PR version:     $PR_VERSION"
           echo
+
+          FAILED=0
+
+          # --------------------------------------------------
+          # Name must not drift from master
+          # --------------------------------------------------
+
+          if [[ "$PR_NAME" == "$MASTER_NAME" ]]; then
+            echo "✓ Name unchanged: $PR_NAME"
+          else
+            echo "✗ pakku.json name changed"
+            echo "  Master: $MASTER_NAME"
+            echo "  PR:     $PR_NAME"
+            echo "::error file=$VERSION_FILE::Modpack name changed from '$MASTER_NAME' to '$PR_NAME'."
+            FAILED=1
+          fi
 
           # --------------------------------------------------
           # Check version bump
           # --------------------------------------------------
 
           if [[ "$PR_VERSION" == "$MASTER_VERSION" ]]; then
-            echo "❌ VERSION BUMP REQUIRED"
-            echo
-            echo "The modpack version has not changed."
-            echo
-            echo "Current version:"
-            echo "  $MASTER_VERSION"
+            echo "✗ Version was not bumped"
             echo
             echo "Every PR targeting master must bump the modpack version."
-            echo
-            echo "Please update the version in:"
-            echo "  $VERSION_FILE"
-            echo
             echo "::error file=$VERSION_FILE::Version was not bumped from $MASTER_VERSION."
+            FAILED=1
+          else
+            echo "✓ Version bump: $MASTER_VERSION → $PR_VERSION"
+          fi
+
+          echo
+
+          if [[ "$FAILED" -ne 0 ]]; then
+            echo "========================================"
+            echo "        ❌ VERSION CHECK FAILED"
+            echo "========================================"
             exit 1
           fi
 
-          echo "✓ Version bump: $MASTER_VERSION → $PR_VERSION"
-          echo
-
           # --------------------------------------------------
-          # Check version markers
+          # bcc.json is now the primary version/name marker
           # --------------------------------------------------
 
-          echo "Version markers"
+          echo "Primary marker (bcc.json)"
           echo "────────────────────────────────────────"
 
-          FAILED=0
-
-          # --------------------------------------------------
-          # Check pakku.json
-          # --------------------------------------------------
-
-          PAKKU_VERSION=$(python3 <<'PY'
-          import json
-
-          with open("pakku.json", "r") as f:
-              print(json.load(f)["version"])
-          PY
-          )
-
-          if [[ "$PAKKU_VERSION" == "$PR_VERSION" ]]; then
-            echo "✓ pakku.json → $PAKKU_VERSION"
-          else
-            echo "✗ pakku.json"
-            echo "  Expected: $PR_VERSION"
-            echo "  Found:    $PAKKU_VERSION"
-            echo "::error file=pakku.json::Expected version $PR_VERSION, found $PAKKU_VERSION."
-            FAILED=1
-          fi
-
-          # --------------------------------------------------
-          # Check Modpack Update Checker
-          # --------------------------------------------------
-
-          if [[ ! -f "$UPDATE_CHECKER_FILE" ]]; then
-            echo "✗ $UPDATE_CHECKER_FILE"
+          if [[ ! -f "$BCC_JSON_FILE" ]]; then
+            echo "✗ $BCC_JSON_FILE"
             echo "  Required file is missing."
-            echo "::error file=$UPDATE_CHECKER_FILE::Required version file is missing."
+            echo "::error file=$BCC_JSON_FILE::Required config file is missing."
             FAILED=1
+            BCC_JSON_NAME=""
+            BCC_JSON_VERSION=""
           else
-            UPDATE_CHECKER_VERSION=$(python3 <<'PY'
+            BCC_JSON_DATA=$(python3 <<PY
           import json
 
-          with open(".pakku/overrides/config/modpack-update-checker/config.json", "r") as f:
-              print(json.load(f)["currentVersion"])
+          with open("$BCC_JSON_FILE", "r") as f:
+              data = json.load(f)
+
+          print(json.dumps({
+              "modpackName": data.get("modpackName", ""),
+              "modpackVersion": data.get("modpackVersion", ""),
+          }))
           PY
             )
 
-            if [[ "$UPDATE_CHECKER_VERSION" == "$PR_VERSION" ]]; then
-              echo "✓ $UPDATE_CHECKER_FILE → $UPDATE_CHECKER_VERSION"
+            BCC_JSON_NAME=$(echo "$BCC_JSON_DATA" | jq -r '.modpackName // ""')
+            BCC_JSON_VERSION=$(echo "$BCC_JSON_DATA" | jq -r '.modpackVersion // ""')
+
+            if [[ "$BCC_JSON_NAME" == "$PR_NAME" ]]; then
+              echo "✓ $BCC_JSON_FILE modpackName → $BCC_JSON_NAME"
             else
-              echo "✗ $UPDATE_CHECKER_FILE"
+              echo "✗ $BCC_JSON_FILE modpackName"
+              echo "  Expected: $PR_NAME"
+              echo "  Found:    $BCC_JSON_NAME"
+              echo "::error file=$BCC_JSON_FILE::Expected modpackName '$PR_NAME', found '$BCC_JSON_NAME'."
+              FAILED=1
+            fi
+
+            if [[ "$BCC_JSON_VERSION" == "$PR_VERSION" ]]; then
+              echo "✓ $BCC_JSON_FILE modpackVersion → $BCC_JSON_VERSION"
+            else
+              echo "✗ $BCC_JSON_FILE modpackVersion"
               echo "  Expected: $PR_VERSION"
-              echo "  Found:    $UPDATE_CHECKER_VERSION"
-              echo "::error file=$UPDATE_CHECKER_FILE::Expected version $PR_VERSION, found $UPDATE_CHECKER_VERSION."
+              echo "  Found:    $BCC_JSON_VERSION"
+              echo "::error file=$BCC_JSON_FILE::Expected modpackVersion '$PR_VERSION', found '$BCC_JSON_VERSION'."
               FAILED=1
             fi
           fi
@@ -157,23 +193,291 @@ jobs:
           echo
 
           # --------------------------------------------------
-          # Required marker result
+          # bcc-common.toml must match bcc.json (not pakku.json directly)
           # --------------------------------------------------
+
+          echo "Secondary marker (bcc-common.toml)"
+          echo "────────────────────────────────────────"
+
+          if [[ ! -f "$BCC_TOML_FILE" ]]; then
+            echo "✗ $BCC_TOML_FILE"
+            echo "  Required file is missing."
+            echo "::error file=$BCC_TOML_FILE::Required config file is missing."
+            FAILED=1
+          else
+            # Parse the TOML file once and dump the fields we care about as JSON,
+            # searching every table for each key since we don't want this check
+            # to break if the keys move between [sections] later.
+            BCC_TOML_DATA=$(python3 <<PY
+          import json
+          import tomllib
+
+          with open("$BCC_TOML_FILE", "rb") as f:
+              data = tomllib.load(f)
+
+          def find(d, key):
+              if isinstance(d, dict):
+                  if key in d:
+                      return d[key]
+                  for v in d.values():
+                      found = find(v, key)
+                      if found is not None:
+                          return found
+              return None
+
+          print(json.dumps({
+              "modpackName": find(data, "modpackName"),
+              "modpackVersion": find(data, "modpackVersion"),
+          }))
+          PY
+            )
+
+            BCC_TOML_NAME=$(echo "$BCC_TOML_DATA" | jq -r '.modpackName // ""')
+            BCC_TOML_VERSION=$(echo "$BCC_TOML_DATA" | jq -r '.modpackVersion // ""')
+
+            if [[ "$BCC_TOML_NAME" == "$BCC_JSON_NAME" ]]; then
+              echo "✓ $BCC_TOML_FILE modpackName → $BCC_TOML_NAME"
+            else
+              echo "✗ $BCC_TOML_FILE modpackName"
+              echo "  Expected: $BCC_JSON_NAME (from bcc.json)"
+              echo "  Found:    $BCC_TOML_NAME"
+              echo "::error file=$BCC_TOML_FILE::Expected modpackName '$BCC_JSON_NAME' (from bcc.json), found '$BCC_TOML_NAME'."
+              FAILED=1
+            fi
+
+            if [[ "$BCC_TOML_VERSION" == "$BCC_JSON_VERSION" ]]; then
+              echo "✓ $BCC_TOML_FILE modpackVersion → $BCC_TOML_VERSION"
+            else
+              echo "✗ $BCC_TOML_FILE modpackVersion"
+              echo "  Expected: $BCC_JSON_VERSION (from bcc.json)"
+              echo "  Found:    $BCC_TOML_VERSION"
+              echo "::error file=$BCC_TOML_FILE::Expected modpackVersion '$BCC_JSON_VERSION' (from bcc.json), found '$BCC_TOML_VERSION'."
+              FAILED=1
+            fi
+          fi
+
+          echo
+
+          # --------------------------------------------------
+          # modpack-update-checker/config.json: version/name fields are
+          # retired in favor of bcc.json (must be blank) and bccEnabled
+          # (nested under "advanced") must be turned on. This file is also
+          # the ONLY source for modpackReleaseType and updateCheckerId —
+          # bcc-common.toml has no say in the release channel; it only
+          # ever gets compared against bcc.json.
+          # --------------------------------------------------
+
+          echo "Retired marker / release channel (modpack-update-checker/config.json)"
+          echo "────────────────────────────────────────"
+
+          if [[ ! -f "$UPDATE_CHECKER_FILE" ]]; then
+            echo "✗ $UPDATE_CHECKER_FILE"
+            echo "  Required file is missing."
+            echo "::error file=$UPDATE_CHECKER_FILE::Required config file is missing."
+            FAILED=1
+            BCC_RELEASE_TYPE=""
+            BCC_UPDATE_CHECKER_ID=""
+          else
+            UPDATE_CHECKER_DATA=$(python3 <<PY
+          import json
+
+          with open("$UPDATE_CHECKER_FILE", "r") as f:
+              data = json.load(f)
+
+          advanced = data.get("advanced", {}) or {}
+
+          print(json.dumps({
+              "currentVersion": data.get("currentVersion", ""),
+              "modpackName": data.get("modpackName", ""),
+              "modpackReleaseType": data.get("modpackReleaseType", ""),
+              "updateCheckerId": data.get("updateCheckerId", ""),
+              "bccEnabled": advanced.get("bccEnabled", False),
+          }))
+          PY
+            )
+
+            UC_CURRENT_VERSION=$(echo "$UPDATE_CHECKER_DATA" | jq -r '.currentVersion // ""')
+            UC_MODPACK_NAME=$(echo "$UPDATE_CHECKER_DATA" | jq -r '.modpackName // ""')
+            UC_BCC_ENABLED=$(echo "$UPDATE_CHECKER_DATA" | jq -r '.bccEnabled | tostring')
+            BCC_RELEASE_TYPE=$(echo "$UPDATE_CHECKER_DATA" | jq -r '.modpackReleaseType // ""')
+            BCC_UPDATE_CHECKER_ID=$(echo "$UPDATE_CHECKER_DATA" | jq -r '.updateCheckerId // ""')
+
+            if [[ -z "$UC_CURRENT_VERSION" ]]; then
+              echo "✓ $UPDATE_CHECKER_FILE currentVersion is empty"
+            else
+              echo "✗ $UPDATE_CHECKER_FILE currentVersion"
+              echo "  Expected: (empty)"
+              echo "  Found:    $UC_CURRENT_VERSION"
+              echo "::error file=$UPDATE_CHECKER_FILE::currentVersion must be empty now that bcc.json is authoritative, found '$UC_CURRENT_VERSION'."
+              FAILED=1
+            fi
+
+            if [[ -z "$UC_MODPACK_NAME" ]]; then
+              echo "✓ $UPDATE_CHECKER_FILE modpackName is empty"
+            else
+              echo "✗ $UPDATE_CHECKER_FILE modpackName"
+              echo "  Expected: (empty)"
+              echo "  Found:    $UC_MODPACK_NAME"
+              echo "::error file=$UPDATE_CHECKER_FILE::modpackName must be empty now that bcc.json is authoritative, found '$UC_MODPACK_NAME'."
+              FAILED=1
+            fi
+
+            if [[ "${UC_BCC_ENABLED,,}" == "true" ]]; then
+              echo "✓ $UPDATE_CHECKER_FILE bccEnabled is true"
+            else
+              echo "✗ $UPDATE_CHECKER_FILE bccEnabled"
+              echo "  Expected: true"
+              echo "  Found:    $UC_BCC_ENABLED"
+              echo "::error file=$UPDATE_CHECKER_FILE::bccEnabled must be true, found '$UC_BCC_ENABLED'."
+              FAILED=1
+            fi
+          fi
+
+          echo
 
           if [[ "$FAILED" -ne 0 ]]; then
             echo "========================================"
             echo "        ❌ VERSION CHECK FAILED"
             echo "========================================"
             echo
-            echo "One or more required version markers do not"
-            echo "match the new modpack version: $PR_VERSION"
+            echo "One or more required markers are wrong. Please fix the"
+            echo "files listed above before merging this pull request."
+            exit 1
+          fi
+
+          echo "✓ All required version/name markers match"
+          echo
+
+          # --------------------------------------------------
+          # Release channel: modpackReleaseType (from
+          # modpack-update-checker/config.json) ↔ updateCheckerId
+          # (from bcc-common.toml)
+          # --------------------------------------------------
+
+          echo "Release channel"
+          echo "────────────────────────────────────────"
+          echo "modpackReleaseType: $BCC_RELEASE_TYPE"
+          echo "updateCheckerId:    $BCC_UPDATE_CHECKER_ID"
+
+          PREVIEW_URL="https://raw.githubusercontent.com/Lavandula-Collective/Lavendre/master/update/preview/"
+          STABLE_URL="https://raw.githubusercontent.com/Lavandula-Collective/Lavendre/master/update/stable/"
+
+          case "$BCC_RELEASE_TYPE" in
+            beta|alpha)
+              EXPECTED_URL="$PREVIEW_URL"
+              ;;
+            stable)
+              EXPECTED_URL="$STABLE_URL"
+              ;;
+            *)
+              EXPECTED_URL=""
+              echo "::warning file=$UPDATE_CHECKER_FILE::Unrecognized modpackReleaseType '$BCC_RELEASE_TYPE'; skipping updateCheckerId check."
+              ;;
+          esac
+
+          if [[ -n "$EXPECTED_URL" ]]; then
+            if [[ "$BCC_UPDATE_CHECKER_ID" == "$EXPECTED_URL" ]]; then
+              echo "✓ updateCheckerId matches the '$BCC_RELEASE_TYPE' release channel"
+            else
+              echo "✗ updateCheckerId does not match the '$BCC_RELEASE_TYPE' release channel"
+              echo "  Expected: $EXPECTED_URL"
+              echo "  Found:    $BCC_UPDATE_CHECKER_ID"
+              echo "::error file=$UPDATE_CHECKER_FILE::For modpackReleaseType '$BCC_RELEASE_TYPE', updateCheckerId must be '$EXPECTED_URL' (found '$BCC_UPDATE_CHECKER_ID')."
+              FAILED=1
+            fi
+          fi
+
+          echo
+
+          # --------------------------------------------------
+          # Stable releases must already have published metadata on
+          # master: a meta.json entry, a versions/<id>/ folder, and a
+          # changelog.txt inside it.
+          # --------------------------------------------------
+
+          if [[ "$BCC_RELEASE_TYPE" == "stable" ]]; then
+            echo "Stable release metadata (master: update/stable/)"
+            echo "────────────────────────────────────────"
+
+            STABLE_META_FILE="update/stable/meta.json"
+
+            # Shown whenever meta.json, the version's id, its versions/
+            # folder, or its changelog.txt isn't already on master — even
+            # if this PR itself adds them. Stable metadata must land on
+            # master through review/cherry-pick or a direct push by the
+            # repo owner, never as a side effect of an unrelated PR, so
+            # new-version notifications can't go out unvalidated.
+            STABLE_NOTE="If the meta.json entry, version folder, or changelog.txt for this version already exist in this pull request, they must be reviewed and cherry-picked by the repository owner, or pushed directly to master, before this check can pass. This is to prevent new version notifications from going out without validation."
+
+            if MASTER_STABLE_META=$(git show "origin/master:${STABLE_META_FILE}" 2>/dev/null); then
+              STABLE_VERSION_FOUND=$(python3 -c '
+          import json
+          import sys
+
+          data = json.loads(sys.argv[1])
+          target = sys.argv[2]
+          found = any(v.get("id") == target for v in data.get("versions", []))
+          print("yes" if found else "no")
+          ' "$MASTER_STABLE_META" "$PR_VERSION")
+
+              if [[ "$STABLE_VERSION_FOUND" == "yes" ]]; then
+                echo "✓ $STABLE_META_FILE (master) lists version $PR_VERSION"
+
+                STABLE_VERSION_DIR="update/stable/versions/${PR_VERSION}"
+                STABLE_CHANGELOG="${STABLE_VERSION_DIR}/changelog.txt"
+
+                if git cat-file -e "origin/master:${STABLE_VERSION_DIR}" 2>/dev/null; then
+                  echo "✓ $STABLE_VERSION_DIR (master) exists"
+
+                  if git cat-file -e "origin/master:${STABLE_CHANGELOG}" 2>/dev/null; then
+                    echo "✓ $STABLE_CHANGELOG (master) exists"
+                  else
+                    echo "✗ $STABLE_CHANGELOG"
+                    echo "  changelog.txt is required."
+                    echo "  $STABLE_NOTE"
+                    echo "::error file=$STABLE_CHANGELOG::changelog.txt is required inside $STABLE_VERSION_DIR/ on master. $STABLE_NOTE"
+                    FAILED=1
+                  fi
+                else
+                  echo "✗ $STABLE_VERSION_DIR"
+                  echo "  Version folder does not exist on master."
+                  echo "  $STABLE_NOTE"
+                  echo "::error file=$STABLE_VERSION_DIR::Version folder for '$PR_VERSION' does not exist under update/stable/versions/ on master. $STABLE_NOTE"
+                  FAILED=1
+                fi
+              else
+                echo "✗ $STABLE_META_FILE"
+                echo "  No entry with id \"$PR_VERSION\" found."
+                echo "  $STABLE_NOTE"
+                echo "::error file=$STABLE_META_FILE::No version entry with id '$PR_VERSION' found in update/stable/meta.json on master. $STABLE_NOTE"
+                FAILED=1
+              fi
+            else
+              echo "✗ $STABLE_META_FILE"
+              echo "  File does not exist on master."
+              echo "  $STABLE_NOTE"
+              echo "::error file=$STABLE_META_FILE::update/stable/meta.json does not exist on master. $STABLE_NOTE"
+              FAILED=1
+            fi
+
             echo
-            echo "Please update the files listed above before"
+          fi
+
+          if [[ "$FAILED" -ne 0 ]]; then
+            echo "========================================"
+            echo "        ❌ VERSION CHECK FAILED"
+            echo "========================================"
+            echo
+            echo "The release channel or stable release metadata is"
+            echo "wrong. Please fix the files listed above before"
             echo "merging this pull request."
             exit 1
           fi
 
-          echo "✓ All required version markers match $PR_VERSION"
+          echo "✓ Release channel is consistent"
+          if [[ "$BCC_RELEASE_TYPE" == "stable" ]]; then
+            echo "✓ Stable release metadata is in place on master"
+          fi
           echo
 
           # --------------------------------------------------
@@ -202,5 +506,5 @@ jobs:
           echo "        ✓ VERSION CHECK PASSED"
           echo "========================================"
           echo
-          echo "All required version markers match:"
-          echo "  $PR_VERSION"
+          echo "All required markers match:"
+          echo "  name=$PR_NAME, version=$PR_VERSION"

@@ -1,0 +1,29 @@
+{
+  "type": "herbalbrews:kettle_brewing",
+  "experience": 1.0,
+  "crafting_duration": 400,
+  "fluid_amount": 15,
+  "heat_amount": 20,
+  "ingredients": [
+    {
+      "item": "rusticdelight:roasted_coffee_beans"
+    },
+    {
+      "item": "rusticdelight:roasted_coffee_beans"
+    },
+    {
+      "item": "rusticdelight:roasted_coffee_beans"
+    },
+    {
+      "item": "rusticdelight:roasted_coffee_beans"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "id": "rusticdelight:dark_coffee"
+  },
+  "effect": "herbalbrews:deeprush",
+  "effect_duration": 4600
+}

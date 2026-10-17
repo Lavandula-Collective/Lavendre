@@ -1,0 +1,13 @@
+#General settings
+[general]
+	#The name of the modpack
+	modpackName = "Lavendre"
+	#The version of the modpack
+	modpackVersion = "0.4.0-alpha"
+	#modpackProjectID is now deprecated and will be removed soon
+	# Default: 0
+	# Range: > 0
+	modpackProjectID = 0
+	#Use the metadata.json to determine the modpack version
+	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
+	useMetadata = false

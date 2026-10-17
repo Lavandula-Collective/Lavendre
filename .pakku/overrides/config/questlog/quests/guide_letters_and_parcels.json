@@ -1,0 +1,46 @@
+{
+  "title": "Letters & Parcels",
+  "description": "Distance need not keep people apart. With a §3Mailbox§r and a few helpful pigeons, letters and packages can travel across the world.\n\n§lSetting Up Mail§r\nEvery Mailbox in the Overworld needs its own address. Use an [§3Address Tag§r](image:envelope:textures/item/address_tag.png:32:32) to assign or change its address, then connect it to the mail network for 3 experience levels. Connected Mailboxes can store received mail and send mail to other addresses.\n\n§lSending Mail§r\nUse an [§3Address Tag§r](image:envelope:textures/item/address_tag.png:32:32) on a Letter or Package to select its recipient. Place the addressed item into your Mailbox, and nearby §3Pigeons§r will collect it and begin the delivery. They can travel across unloaded chunks, allowing mail to reach even distant destinations.\n\n§lLetters and Packages§r\n[§3Letters§r](image:envelope:textures/item/letter.png:32:32) are useful for sending written messages, while [§3Packages§r](image:envelope:textures/item/package.png:32:32) can carry items and make deliveries easier. Packages can also be used for trades through a [§3Payback Tag§r](image:envelope:textures/item/payback_tag_medium.png:32:32).\n\n§lSealing and Trading§r\n[§3Sealing§r](image:envelope:textures/item/seal_stamp.png:32:32) a Letter or Package helps verify its author and protects its integrity. A [§3Payback Tag§r](image:envelope:textures/item/payback_tag_medium.png:32:32) can request any item that fits inside a Package as payment. The mail remains in storage until the recipient pays, after which the transaction is completed. If they fail to pay in time, the mail is returned to its sender.",
+  "icon": {
+    "item": "envelope:sealed_letter"
+  },
+  "chapter": "main",
+  "sort_order": 7,
+  "translatable": true,
+  "show_popup_on_unlock": true,
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "objectives": [
+        {
+          "type": "questlog:item_obtain",
+          "item": "envelope:mailbox",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_craft",
+          "item": "envelope:mailbox",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:entity_approach",
+          "entity": "envelope:pigeon",
+          "range": 5
+        }
+      ],
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 10,
+      "levels": false
+    }
+  ],
+  "completed_sound": "scholar:ui.book_signed",
+  "left_panel_width": 325,
+  "panel_height": 350,
+  "disable_details_button": true
+}

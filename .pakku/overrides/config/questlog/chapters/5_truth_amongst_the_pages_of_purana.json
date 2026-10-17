@@ -1,0 +1,9 @@
+{
+  "name": "§cChapter V:§r Truth Amongst The Pages of Purana",
+  "icon": {
+    "item": "minecraft:enchanted_book"
+  },
+  "order": 5,
+  "default_chapter": false,
+  "hidden": true
+}

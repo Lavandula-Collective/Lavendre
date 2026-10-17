@@ -1,0 +1,80 @@
+{
+  "title": "Beneath a Roof of Your Own",
+  "description": "A temporary shelter will keep the night away, but a home is something else entirely.\n\nChoose a place that feels worth returning to. It need not be grand. For now, it only needs to be yours.",
+  "icon": {
+    "item": "minecraft:white_bed"
+  },
+  "chapter": "1_of_heart_and_harvest",
+  "sort_order": 2,
+  "objectives": [
+    {
+      "type": "questlog:block_place",
+      "name": "Place a Bed",
+      "icon": {
+        "item": "minecraft:white_bed"
+      },
+      "block": "#minecraft:beds",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:block_place",
+      "name": "Place a Crafting Table",
+      "icon": {
+        "item": "minecraft:crafting_table"
+      },
+      "block": "minecraft:crafting_table",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:block_place",
+      "name": "Place a Furnace",
+      "icon": {
+        "item": "minecraft:furnace"
+      },
+      "block": "minecraft:furnace",
+      "required_amount": 1
+    },
+    {
+      "type": "questlog:block_place",
+      "name": "Place 4x Torches",
+      "icon": {
+        "item": "minecraft:torch"
+      },
+      "block": "minecraft:torch",
+      "required_amount": 4
+    },
+    {
+      "type": "questlog:stat",
+      "name": "Sleep on the bed",
+      "icon": {
+        "item": "minecraft:white_bed"
+      },
+      "stat": "minecraft:sleep_in_bed",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "name": "Diamond Magnum Torch",
+      "icon": {
+        "item": "magnumtorch:diamond_magnum_torch"
+      },
+      "item": "magnumtorch:diamond_magnum_torch",
+      "count": 1
+    },
+    {
+      "type": "questlog:experience",
+      "name": "Experience Points 16x",
+      "icon": {
+        "item": "minecraft:experience_bottle"
+      },
+      "experience": 25,
+      "levels": false
+    }
+  ],
+  "details_open_by_default": true,
+  "translatable": true,
+  "completed_sound": "minecraft:entity.player.levelup"
+}

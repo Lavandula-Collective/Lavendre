@@ -1,0 +1,30 @@
+{
+  "title": "A Gentle Hand for Flowers",
+  "description": "Flowers may look simple to gather, but many are more delicate than they seem. Most flowers require Shears to be collected intact; breaking them by hand will destroy them instead.\n\nWild plants are an exception, and can still be gathered normally. When collecting flowers, use the right tools if you wish to bring them home and plant them elsewhere.",
+  "icon": {
+    "item": "minecraft:poppy"
+  },
+  "chapter": "main",
+  "sort_order": 0,
+  "translatable": true,
+  "show_popup_on_unlock": true,
+  "objectives": [
+    {
+      "type": "questlog:block_mine",
+      "block": "#minecraft:flowers",
+      "required_amount": 1
+    }
+  ],
+  "prerequisites": [],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "experience": 10,
+      "levels": false
+    }
+  ],
+  "completed_sound": "scholar:ui.book_signed",
+  "left_panel_width": 300,
+  "panel_height": 200,
+  "disable_details_button": true
+}

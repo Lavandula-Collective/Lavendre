@@ -1,0 +1,9 @@
+{
+  "name": "§4Chapter VIII:§r Where Stars Fall Silent",
+  "icon": {
+    "item": "minecraft:ender_eye"
+  },
+  "order": 8,
+  "default_chapter": false,
+  "hidden": true
+}

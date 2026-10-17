@@ -1,0 +1,12 @@
+[
+  {
+    "action": "replace_input",
+    "target": "farm_and_charm:bacon",
+    "replacement": "farmersdelight:bacon"
+  },
+  {
+    "action": "replace_output",
+    "target": "farm_and_charm:bacon",
+    "replacement": "farmersdelight:bacon"
+  }
+]
