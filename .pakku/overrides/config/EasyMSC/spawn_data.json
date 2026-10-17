@@ -1,0 +1,7 @@
+{
+  "naturalist:butterfly": {
+    "weight": -1,
+    "min": 6,
+    "max": 12
+  }
+}
