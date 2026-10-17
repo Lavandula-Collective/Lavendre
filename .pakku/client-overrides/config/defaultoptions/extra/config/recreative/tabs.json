@@ -21,6 +21,7 @@
       "farm_and_charm:farm_and_charm",
       "hearth_and_timber:hearth_and_timber_compat",
       "brewinandchewin:brewinandchewin",
+      "bushierflowers:bushier_flowers",
       "minecraft:inventory",
       "farmersknives:farmersknives",
       "biomesoplenty:main",
@@ -85,7 +86,8 @@
       "magnumtorch:main",
       "glow_up:glow_up",
       "lootr:lootr",
-      "minecraft:hotbar"
+      "minecraft:hotbar",
+      "bushierflowers:bushier_flowers"
     ]
   },
   {
@@ -14652,6 +14654,30 @@
   {
     "action": "modify_tab",
     "tab": [
+      "bushierflowers:bushier_flowers"
+    ],
+    "remove_items": [
+      "bushierflowers:grown_torchflower",
+      "bushierflowers:grown_lily",
+      "bushierflowers:grown_wither_rose",
+      "bushierflowers:grown_allium",
+      "bushierflowers:grown_dandelion",
+      "bushierflowers:grown_cornflower",
+      "bushierflowers:grown_blue_orchid",
+      "bushierflowers:grown_oxeye_daisy",
+      "bushierflowers:grown_azure_bluet",
+      "bushierflowers:grown_white_tulip",
+      "bushierflowers:grown_pink_tulip",
+      "bushierflowers:grown_orange_tulip",
+      "bushierflowers:grown_red_tulip",
+      "bushierflowers:grown_poppy"
+    ],
+    "add_items": [],
+    "order": []
+  },
+  {
+    "action": "modify_tab",
+    "tab": [
       "minecraft:redstone_blocks"
     ],
     "name": "Redstone \u0026 Technology",
@@ -16964,6 +16990,62 @@
       {
         "item": "biomesoplenty:goldenrod",
         "after": "biomesoplenty:blue_hydrangea"
+      },
+      {
+        "item": "bushierflowers:grown_poppy",
+        "after": "minecraft:pitcher_plant"
+      },
+      {
+        "item": "bushierflowers:grown_red_tulip",
+        "after": "bushierflowers:grown_poppy"
+      },
+      {
+        "item": "bushierflowers:grown_orange_tulip",
+        "after": "bushierflowers:grown_red_tulip"
+      },
+      {
+        "item": "bushierflowers:grown_pink_tulip",
+        "after": "bushierflowers:grown_orange_tulip"
+      },
+      {
+        "item": "bushierflowers:grown_white_tulip",
+        "after": "bushierflowers:grown_pink_tulip"
+      },
+      {
+        "item": "bushierflowers:grown_azure_bluet",
+        "after": "bushierflowers:grown_white_tulip"
+      },
+      {
+        "item": "bushierflowers:grown_oxeye_daisy",
+        "after": "bushierflowers:grown_azure_bluet"
+      },
+      {
+        "item": "bushierflowers:grown_blue_orchid",
+        "after": "bushierflowers:grown_oxeye_daisy"
+      },
+      {
+        "item": "bushierflowers:grown_cornflower",
+        "after": "bushierflowers:grown_blue_orchid"
+      },
+      {
+        "item": "bushierflowers:grown_dandelion",
+        "after": "bushierflowers:grown_cornflower"
+      },
+      {
+        "item": "bushierflowers:grown_allium",
+        "after": "bushierflowers:grown_dandelion"
+      },
+      {
+        "item": "bushierflowers:grown_wither_rose",
+        "after": "bushierflowers:grown_allium"
+      },
+      {
+        "item": "bushierflowers:grown_lily",
+        "after": "bushierflowers:grown_wither_rose"
+      },
+      {
+        "item": "bushierflowers:grown_torchflower",
+        "after": "bushierflowers:grown_lily"
       },
       {
         "item": "crittersandcompanions:clam",
