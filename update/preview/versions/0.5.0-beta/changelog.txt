@@ -3,7 +3,7 @@
 ### Warning: Game-Breaking Update
 This update makes major changes to mods, items, recipes and world generation. A fresh install is highly recommended. You can back up your world and try it, but it may or may not work, and existing worlds could break or have missing items and changed terrain.
 
-This update rolls up everything from 0.1.0-alpha through 0.4.0-alpha: a new guided start, a fresh set of structures to explore, a much bigger kitchen, and a lot of polish. Fabric is now on 0.19.5.
+This update rolls up everything from 0.1.0-alpha through 0.4.0-alpha: a new guided start, a fresh set of structures to explore, a much bigger kitchen, and a lot of polish. Fabric loader is now on 0.19.5.
 
 ## Highlights
 
