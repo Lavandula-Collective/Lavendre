@@ -203,5 +203,5 @@ key_iris.keybind.toggleShaders:key.keyboard.p:
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown:
 key_iris.keybind.wireframe:key.keyboard.unknown:
 key_lambdynlights.key.toggle_fps_dynamic_lighting:key.keyboard.unknown:
-key_key.punchy.triggerable.sword_inspect_old:key.keyboard.unknown:
+key_key.punchy.triggerable.sword_inspect_old:key.keyboard.i:
 key_key.punchy.triggerable.sword_inspect_rework:key.keyboard.i:
