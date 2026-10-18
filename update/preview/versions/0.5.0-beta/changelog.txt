@@ -1,0 +1,422 @@
+## Lavendre v0.5.0-beta
+
+### Warning: Game-Breaking Update
+This update makes major changes to mods, items, recipes and world generation. A fresh install is highly recommended. You can back up your world and try it, but it may or may not work, and existing worlds could break or have missing items and changed terrain.
+
+This update rolls up everything from 0.1.0-alpha through 0.4.0-alpha: a new guided start, a fresh set of structures to explore, a much bigger kitchen, and a lot of polish. Fabric loader is now on 0.19.5.
+
+## Highlights
+
+### A Guided Start
+
+- Added the Adventurer's Handbook, a quest book that walks new players through their first days.
+- Chapter I, "Of Heart and Harvest", has seven quests: gather basics, make light, build a home, plant your first seeds, cook a meal, explore, and settle in with a safe haven. Each one gives a small reward.
+- 12 short guides explain the pack's quirks as you go (see below).
+- New intro screens, a modpack info screen, and an About screen with links.
+- Inventory tips can be toggled on or off.
+- Added Field Guide, plus tooltips that describe items and mods in game.
+
+### Enchanting Has Changed
+
+- Enchanted books can no longer be applied at an anvil. Put them in a bookshelf near an Enchanting Table to unlock that enchantment for the table.
+- Enchantments now grow with use. Keep using your gear and its enchantments level up. Hold Left Ctrl on an item to see its progress.
+- Unbreaking now goes past the usual limit. At Unbreaking V, an item no longer wears down.
+- Damaged tools and armor can be repaired with their own material, with no XP needed.
+
+### Food, Farming and Cooking
+
+- A much bigger kitchen: Farmer's Delight, Farm & Charm, Vinery, HerbalBrews, Bakery, Brewin' and Chewin', Rustic Delight, Ube's Delight, Display Delight, Tweaks Delight and Autochef's Delight all join the pack.
+- Matching ingredients across these mods are now the same item, so tomatoes, onions, bacon, chicken cuts, minced beef, dough, rope and coffee beans all work in each other's recipes.
+- Farmer's Delight's cooking pot is now the one to use. Its recipe is iron, a wooden shovel and a bit more iron. The Farm & Charm pot is gone.
+- The oven (stove) is crafted with iron ingots and bricks.
+- Wild patches of beetroot, carrot, onion, potato, tomato, barley and coffee now grow in the world.
+- Cooking oil can be made with fat from Naturalist animals.
+- Koi fish count as raw fish in recipes.
+- Hide and leather can be used interchangeably in recipes.
+
+### Crafting Tweaks
+
+- Name tags can be crafted with an iron nugget and paper.
+- Item frames are crafted with sticks and paper.
+- Stripped logs and stripped wood can be made at the stonecutter, including Biomes O' Plenty and Vinery wood.
+- Dark cherry fence gates now work as proper fence gates, and Dark Cherry Wood has a recipe.
+- Flowers now need Shears to be picked up whole. Breaking them by hand destroys them. Wild plants are not affected.
+- Over 200 overlapping or off-theme items were removed to avoid duplicates and keep things cozy.
+- Overlapping items from different mods are unified so only one version remains, with Farmer’s Delight taking priority unless another mod adds something unique. Anything left behind still works interchangeably with its replacement, so you get one consistent item instead of duplicates. If you notice any redundancy or overlap, please let us know.
+
+### Exploring the World
+
+- A big structure overhaul. New villages, temples, strongholds, mansions, mineshafts, nether structures, ancient cities and ocean structures from Moog's and Luki's structure mods, plus Sunken Spires.
+- The Sunken Spires ocean temple and the Moog's Temples Reimagined stronghold are turned off.
+- Vaults and trial spawners no longer appear in strongholds and woodland mansions.
+- Twenty Biomes O' Plenty biomes are turned off, including Spider Nest, Visceral Heap, End Corruption, Wasteland and Origin Valley.
+- Days are now 20 minutes long and nights 14 minutes, instead of 10 and 7.
+- Midnight Thoughts adds a gentle overlay when you sleep.
+- New mobs and critters, including Naturalist animals and Critters and Companions friends.
+- Copper armor, tools, lanterns and more join the game.
+
+### Living in the World
+
+- Gravestones: when you die, your items and XP are kept in a gravestone that only you can open. It fades after about 8 hours.
+- Double Doors: doors, fence gates and trapdoors open together.
+- Drop Confirm: dropping tools and weapons now asks you to confirm.
+- Nearby item drops now merge together (Get It Together, Drops!) and Clumps merges XP orbs.
+- Sit down anywhere with X.
+- Press F5 three times for a flexible third-person camera. Press Tab to switch sides or go overhead.
+- Press L to open Show Me Your Skin!, where you can hide or change how armor, elytra and shields look.
+- Mail: Envelope adds mailboxes, letters, packages and pigeons that carry them across the world.
+- Exposure adds cameras and photography, with several add-ons (Catalog, Expanded, Polaroid, Space).
+- Tide 2 reworks fishing.
+- Better Combat changes how weapons swing and hit.
+- Comforts adds sleeping bags and hammocks.
+- Handcrafted adds a large furniture set, with Mizuno's retextures to match.
+
+### Multiplayer
+
+- PvP is now opt-in. Press K to turn it on or off. A skull shows on your screen while it is on.
+- Hardcore Revival: in multiplayer, you get knocked down first and teammates have two minutes to revive you.
+- Simple Voice Chat and Voice Chat Interaction are included.
+- Freecam (Fair Play) is added for building and scouting.
+
+### Menus and Looks
+
+- Brand new title and loading screens, a modpack mode indicator, and a builds slideshow.
+- New custom screens for the CIT Ledger. Press G to browse every texture variant of your items.
+- New background music and AFK cinematic tracks. The AFK cinematic starts after 3 minutes of idling.
+- Lavendre Core resource pack: custom button, menu and GUI looks for EMI, REMI, Backpacked, Farmer's Delight, Let's Do mods, Trinkets, Questlog and more, all matching Mizuno's style.
+- Lavendre Core datapack: wild crop patches, coffee drinks, rolling pin tags and other gameplay glue.
+- New Mizuno resource packs for many of the added mods (see the list below).
+- Hovering Hotbar, Immersive Armor HUD, Immersive Overlays and Dynamic Crosshair make the HUD tidier.
+- EMI replaces JEI as the recipe viewer, with add-ons for loot, enchanting, effects and world generation. REMI keeps long lists of similar items tidy.
+- Recreative reorganizes the creative menu.
+
+### Performance
+
+- Complex Leaf Culling, Chunks Fade In, Too Many Entities and tuned entity culling help keep the pack smooth.
+- Dynamic FPS lowers the load during AFK cinematics.
+- Sodium, Iris, Xaero's maps, Axiom, Flashback and many other core mods are updated.
+
+### Backpacks and Traders
+
+- Backpacked adds wearable backpacks and Goblin Traders add new wandering merchants. Both are bundled directly in the pack.
+
+## Full Mod List
+
+### Added (210)
+
+**Mods**
+
+- [Let's Do Addon] Compat
+- [Let's Do Addon] EMI Compat
+- [Let's Do] Bakery - Farm&Charm Compat
+- [Let's Do] Farm & Charm
+- [Let's Do] Hearth & Timber
+- [Let's Do] HerbalBrews
+- [Let's Do] Lili's Pottery
+- [Let's Do] Vinery
+- Advancement Plaques
+- Almanac
+- Async Logger
+- Auto Reauth
+- Autochef's Delight
+- bad packets
+- Bathymetry
+- Better Climbing
+- Better Combat
+- Better Compatibility Checker
+- Better Days
+- Better Selection
+- Biolith
+- Brewin' And Chewin'
+- Bushier Flowers
+- Carry On
+- Celestia: Shooting Stars
+- Chat Heads
+- Chunks fade in
+- CICADA
+- Clumps
+- Comforts
+- Common Network
+- Complex Leaf Culling
+- Compose Multiplatform
+- Continents
+- Copper Age Backport
+- Copper Age Backport Durability Fix
+- CorgiLib
+- Countered's Smooth F5
+- CraftTweaker
+- DashLoader
+- Data Anchor
+- Datapack/Gamerule Menus
+- Display Delight Fabric
+- Double Doors
+- DropConfirm
+- Easy Mob Spawn Control
+- Eating Animation
+- EMF Compat: Exposure
+- EMF Compat: Gliders
+- EMF Compat: WATUT
+- EMI
+- EMI Addon: Extra Mod Integrations
+- EMI Enchanting
+- EMI Loot
+- EMIffect
+- Enchanted Bookshelves
+- Enhanced Celestials 2: Core
+- Enhanced Celestials 2: Shader Support
+- Envelope
+- Essential Warning Screen
+- Exposure
+- Exposure Catalog
+- Exposure: Expanded
+- Exposure: Polaroid
+- Exposure: Space
+- Farmer's Delight Refabricated
+- Farmer's Knives
+- Fast IP Ping
+- Faux Custom Entity Data
+- Field Guide
+- File Copier
+- Fragmentum
+- Freecam (Fair Play)
+- Get It Together, Drops!
+- Gravestones
+- Handcrafted
+- Hardcore Revival
+- Horseman
+- Hovering Hotbar
+- Iceberg
+- Immersive Armor HUD
+- Immersive Overlays
+- Iridium
+- Iris & Oculus Search
+- Item Descriptions
+- Item Highlighter
+- JamLib
+- JEI / REI / EMI WorldGen
+- Ji AFK Cinematic
+- Kambrik
+- kennytvs-epic-force-close-loading-screen-mod-for-fabric
+- Leave My Bars Alone
+- Let Me Despawn
+- LibJF
+- Lithostitched
+- Log Begone
+- Loot Beams: Refork
+- Loot Journal: Pickup Notifier
+- Lootr
+- Luki's Ancient Cities
+- Luki's Crazy Chambers
+- Luki's Grand Capitals
+- Luki's Strongholds
+- Luki's Woodland Mansions
+- MacOS Input Fixes
+- Magnum Torch
+- MaLiLib
+- Menderman
+- MezzConfig
+- Midnight Thoughts
+- MMR - Moog's Mineshafts Reimagined
+- MMV - Moog's Missing Villages
+- MNS - Moog's Nether Structures
+- Modpack Update Checker
+- Modulation
+- Moog's Glow Up
+- Moonlight Lib
+- MossyLib
+- MTR - Moog's Temples Reimagined
+- Multi Key Bindings
+- MVS - Moog's Voyager Structures
+- NiftyCarts
+- NiftyCrats X Farmer's Delight
+- Nirvana Library
+- No Chat Restrictions
+- Not Enough Animations
+- Obscure Tooltips
+- Outline N' Stuff - Enchantments
+- Overflowing Bars
+- Packet Fixer
+- Panda's Falling Trees
+- PandaLib
+- Panoptic
+- Paxi
+- Peasy Mode
+- Penchant
+- playerAnimator
+- PneumonoCore
+- Polymorph
+- Prism
+- PvP Flag
+- Questlog
+- quick pack
+- Quick Skin
+- Recreative
+- Redirected
+- Refield
+- Reliable EMI (REMI)
+- Reliable Gliders
+- Reliable Recipes
+- Reliable Remover
+- Reliable Replacer
+- Resource Pack Overrides
+- Resourceful Config
+- Resourceful Lib
+- Respackopts
+- Rustic Delight
+- Sawmill
+- Scholar
+- Screenshot to Clipboard
+- Shoulder Surfing Reloaded
+- Show Me Your Skin!
+- Shut Up GL Error
+- Sign Edit Lite
+- Simple Voice Chat
+- Sitting+
+- Smart Completion
+- Smooth Swapping
+- Sodium Shadowy Path Blocks (SSPB)
+- spark
+- Spawn Animations
+- Structure Layout Optimizer
+- Stylish Effects
+- Suggestion Tweaker
+- Sunken Spires
+- TalkBubbles
+- Tide 2
+- Tide Extra Compatibility
+- Too Many Entities
+- Traveler's Titles
+- Trinkets
+- Tweaks Delight
+- Ube's Delight
+- Villager Names
+- Voice Chat Interaction
+- Wet Backapacks
+- XXL Packets
+
+**Resource Packs**
+
+- appleskin for mizunos
+- Bibliophilia | Enchanted Books
+- Enchant Display: Roman numerals
+- Firefly to Fairy
+- Icon Xaero's
+- Mizuno Eating Animation
+- Mizuno Emissive Ores
+- Mizuno's Hat Variants
+- Mizuno's x [Let's Do] Vinery
+- Mizuno's x Brewin' And Chewin'
+- Mizuno's x Comforts
+- Mizuno's x Display Delight
+- Mizuno's x Farmer's Delight
+- Mizuno's x Handcrafted
+- Mizuno's x Letsdo Bakery
+- Mizuno's x Letsdo Farm and Charm
+- Mizuno's x Rustic Delight
+- Mizuno's x Ube's Delight
+- Mod Descriptions
+- Motschen's Better Leaves
+- Move Those Hands! - Punchy Animation Addon
+- Purpura Skies: Xaero's Minimap Frame
+- Vocal Villagers
+### Removed (19)
+
+**Mods**
+
+- Accessories
+- Auto HUD
+- Catalogue
+- CIT Manager
+- Client Sort
+- Configured
+- Framework
+- Just Enough Items (JEI)
+- Leawind's Third Person
+- Menulogue
+- oωo (owo-lib)
+- Raised
+- Skin Shuffle
+- Sodium Options API
+- Sodium Options Mod Compat
+- Streams Reflowing
+- StructureOverlapless
+
+**Resource Packs**
+
+- Hyper Punchy
+- Universal Bushy Leaves
+### Updated (65)
+
+**Mods**
+
+- [EMF] Entity Model Features
+- [ETF] Entity Texture Features
+- Accurate Block Placement Reborn
+- AmbientSounds
+- Architectury API
+- Axiom
+- Balm
+- Chat Patches
+- CITX (CIT Extension)
+- Client Tweaks
+- Collective
+- Cozy Tips
+- Crash Assistant
+- CraterLib
+- CreativeCore
+- Critters and Companions
+- DBTools for Axiom
+- Debugify
+- Drippy Loading Screen
+- Effectual
+- Entity Culling
+- Fabric API
+- Fabric Language Kotlin
+- Fancy Entity Renderer
+- FancyMenu
+- Flashback
+- Fzzy Config
+- Geckolib
+- ImmediatelyFast
+- Immersive Hotbar
+- Immersive Optimization
+- Inventory Essentials
+- Iris Shaders
+- Ixeris
+- Jade 🔍
+- Ksyxis
+- LambDynamicLights - Dynamic Lights
+- MidnightLib
+- Moog's Structure Lib (moogs_structures)
+- More Culling
+- MRU
+- Naturalist
+- Nuit
+- Nuit Interop
+- Optimized Block Entities [OBE]
+- Particle Rain
+- Particular ✨ Reforged
+- Persistent Inventory Search
+- Polytone
+- Puddles & Floods
+- Punchy!
+- Puzzles Lib
+- Raise Sound Limit Simplified
+- Reese's Sodium Options
+- Simple Discord RPC
+- Smooth Gui
+- Sodium
+- Sodium Extra
+- Wavey Capes
+- Xaero's Minimap
+- Xaero's World Map
+- YUNG's API
+
+**Resource Packs**
+
+- Translations for Sodium
+
+**Shaders**
+
+- BSL Shaders
+- MakeUp - Ultra Fast
