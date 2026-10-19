@@ -1,0 +1,43 @@
+## Lavendre v0.5.1-beta
+
+### Warning: Game-Breaking Update
+This update makes major changes to modsn. A fresh install is highly recommended. You can back up your world and try it, but it may or may not work, and existing worlds could break.
+
+A smaller update led by Vanilla Backport: Age of Mayhem, plus a round of recipe viewer fixes and mod updates.
+
+## Highlights
+
+### Vanilla Backport: Age of Mayhem
+
+- Vanilla Backport is updated to Age of Mayhem, the big feature of this release.
+- The creative inventory has been refreshed so the backported items sit in the right place.
+
+### Copper Age Backport Removed
+
+- Copper Age Backport and its Durability Fix are removed from the pack.
+
+### Recipe Viewer Fixes
+
+- Thatch blocks no longer show up grouped with helmets and hats.
+- Handcrafted cushions and Minecraft cushions are now grouped separately.
+
+### Behind the Scenes
+
+- Default option configs now live in an external config, which makes future config updates smoother.
+
+## Full Mod List
+
+### Removed (2)
+
+- Copper Age Backport
+- Copper Age Backport Durability Fix
+
+### Updated (7)
+
+- Ixeris
+- Modulation
+- Platform
+- Reliable Remover
+- Vanilla Backport: Age of Mayhem
+- Wavey Capes
+- [Let's Do] Bakery - Farm&Charm Compat
