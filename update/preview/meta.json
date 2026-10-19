@@ -63,6 +63,17 @@
         }
       },
       "updateType": "major"
+    },
+    {
+      "id": "0.5.1-beta",
+      "releasedAt": 1792401344000,
+      "promotions": {
+        "downloads": {
+          "modrinth": "https://modrinth.com/modpack/lavendre/version/0.5.1-beta",
+          "generic": "https://github.com/Lavandula-Collective/Lavendre/tree/0.5.1-beta"
+        }
+      },
+      "updateType": "major"
     }
   ]
 }
