@@ -3,7 +3,7 @@
   "currentVersion": "",
   "modpackName": "",
   "modpackAuthor": "Lavandula Collective",
-  "modpackReleaseType": "beta",
+  "modpackReleaseType": "alpha",
   "updateCheckerId": "https://raw.githubusercontent.com/Lavandula-Collective/Lavendre/master/update/preview/",
   "advanced": {
     "bccEnabled": true,
