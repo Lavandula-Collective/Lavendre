@@ -1,5 +1,5 @@
 {
   "id": "lavendre:cushions",
   "type": "remi:regex",
-  "regex": ".*:.*cushion.*"
+  "regex": "minecraft:.*cushion.*"
 }

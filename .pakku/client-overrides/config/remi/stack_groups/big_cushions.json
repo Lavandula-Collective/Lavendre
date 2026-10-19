@@ -1,0 +1,5 @@
+{
+  "id": "lavendre:big_cushions",
+  "type": "remi:regex",
+  "regex": "handcrafted:.*cushion.*"
+}
