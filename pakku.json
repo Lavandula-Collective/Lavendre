@@ -1,6 +1,6 @@
 {
     "name": "Lavendre",
-    "version": "0.5.0-beta",
+    "version": "0.5.1-beta",
     "description": "Welcome to cottagecore vanilla+ Minecraft. Built around Mizuno's 16 Craft, Lavendre brings together curated CIT packs, cozy visuals, and thoughtful gameplay enhancements. Farm, explore, build, decorate, and make Minecraft feel like home!",
     "author": "Aerhazu",
     "export_server_side_projects_to_client": true
