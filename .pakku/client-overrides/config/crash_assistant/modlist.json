@@ -477,22 +477,6 @@
     "curseForgeHash": 521715246,
     "modrinthHash": "32271790c96dfcb71134f6a40e8a5bf8179375f3"
   },
-  "copperagebackport-fabric-1.21.1-0.1.4.jar": {
-    "jarName": "copperagebackport-fabric-1.21.1-0.1.4.jar",
-    "modId": "copperagebackport",
-    "name": "Copper Age Backport",
-    "version": "0.1.4",
-    "curseForgeHash": 3789478574,
-    "modrinthHash": "17777733974b4c3681b377aeb4a743d9d706b7ed"
-  },
-  "copperagebackport_durability_fix-fabric-0.1.0.jar": {
-    "jarName": "copperagebackport_durability_fix-fabric-0.1.0.jar",
-    "modId": "copperagebackport_durability_fix",
-    "name": "Copper Age Backport Durability Fix",
-    "version": "0.1.0",
-    "curseForgeHash": 2151955937,
-    "modrinthHash": "66136779a08acd68bf5352bd2ce0673088e25c81"
-  },
   "Corgilib-Fabric-1.21.1-5.0.0.10.jar": {
     "jarName": "Corgilib-Fabric-1.21.1-5.0.0.10.jar",
     "modId": "corgilib",
@@ -1301,13 +1285,13 @@
     "curseForgeHash": 1257805440,
     "modrinthHash": "75055a603b796c7e9c120fc05c6010bdbfcb538b"
   },
-  "Ixeris-4.6.8+1.21.1-fabric.jar": {
-    "jarName": "Ixeris-4.6.8+1.21.1-fabric.jar",
+  "Ixeris-4.6.9+1.21.1-fabric.jar": {
+    "jarName": "Ixeris-4.6.9+1.21.1-fabric.jar",
     "modId": "ixeris",
     "name": "Ixeris",
-    "version": "4.6.8+1.21.1-fabric",
-    "curseForgeHash": 1974793590,
-    "modrinthHash": "c83c96b48e8885dda6e5c3f1a6d7d244740b3b6f"
+    "version": "4.6.9+1.21.1-fabric",
+    "curseForgeHash": 853157124,
+    "modrinthHash": "fa0dc738a81e277c0864853daa14c76468c675ef"
   },
   "Jade-1.21.1-Fabric-15.10.6.jar": {
     "jarName": "Jade-1.21.1-Fabric-15.10.6.jar",
@@ -1421,13 +1405,13 @@
     "curseForgeHash": 1791596217,
     "modrinthHash": "e88e3167ea203fae1b084360fc8242bdfff63128"
   },
-  "letsdo-bakery-fabric-2.1.10.jar": {
-    "jarName": "letsdo-bakery-fabric-2.1.10.jar",
+  "letsdo-bakery-fabric-2.1.11.jar": {
+    "jarName": "letsdo-bakery-fabric-2.1.11.jar",
     "modId": "bakery",
     "name": "[Let\u0027s Do] Bakery",
-    "version": "2.1.10",
-    "curseForgeHash": 2768277340,
-    "modrinthHash": "24f851876a4a92c3574ca2530cca32e7d7b6153d"
+    "version": "2.1.11",
+    "curseForgeHash": 1619915167,
+    "modrinthHash": "962a0784903b49423ffa3c96a9a16341f31d5c04"
   },
   "letsdo-farm_and_charm-fabric-1.1.29.jar": {
     "jarName": "letsdo-farm_and_charm-fabric-1.1.29.jar",
@@ -1698,13 +1682,13 @@
     "curseForgeHash": 690494415,
     "modrinthHash": "c6965ba71753da1ae98af11e58b680508811483d"
   },
-  "modulation-4.0.2+1.21.1-fabric.jar": {
-    "jarName": "modulation-4.0.2+1.21.1-fabric.jar",
+  "modulation-4.0.3+1.21.1-fabric.jar": {
+    "jarName": "modulation-4.0.3+1.21.1-fabric.jar",
     "modId": "modulation",
     "name": "Modulation",
-    "version": "4.0.2+1.21.1",
-    "curseForgeHash": 1371811703,
-    "modrinthHash": "b4c88d6569c6edde6ce02d053c7eb88fae6da3d3"
+    "version": "4.0.3+1.21.1",
+    "curseForgeHash": 1515403999,
+    "modrinthHash": "72bd2eeb24a8dafeded16d4f5a4c4dfd7117ca1e"
   },
   "MoogsBountifulStructures-1.21-1.0.10.jar": {
     "jarName": "MoogsBountifulStructures-1.21-1.0.10.jar",
@@ -2074,13 +2058,13 @@
     "curseForgeHash": 2589927179,
     "modrinthHash": "aa1b9a49f9f190dfe4825c502b150817dd2998c3"
   },
-  "Platform-fabric-1.21.1-1.3.3.jar": {
-    "jarName": "Platform-fabric-1.21.1-1.3.3.jar",
+  "Platform-fabric-1.21.1-1.4.jar": {
+    "jarName": "Platform-fabric-1.21.1-1.4.jar",
     "modId": "platform",
     "name": "Platform",
-    "version": "1.3.3",
-    "curseForgeHash": 1782072968,
-    "modrinthHash": "b3302ad9158171874d01e863d69c8bf4db8faef9"
+    "version": "1.4",
+    "curseForgeHash": 1837263214,
+    "modrinthHash": "3cbdf209292c0f02d62e3db2a54ad6fea8bbd685"
   },
   "player-animation-lib-fabric-2.0.4+1.21.1.jar": {
     "jarName": "player-animation-lib-fabric-2.0.4+1.21.1.jar",
@@ -2234,13 +2218,13 @@
     "curseForgeHash": 1737117677,
     "modrinthHash": "333612dc0e84b0cb40c71e06c9660fcfe37478d2"
   },
-  "reliable_remover-3.7.1+1.21.1-fabric.jar": {
-    "jarName": "reliable_remover-3.7.1+1.21.1-fabric.jar",
+  "reliable_remover-3.7.2+1.21.1-fabric.jar": {
+    "jarName": "reliable_remover-3.7.2+1.21.1-fabric.jar",
     "modId": "reliable_remover",
     "name": "Reliable Remover",
-    "version": "3.7.0+1.21.1",
-    "curseForgeHash": 281268306,
-    "modrinthHash": "6972f4002a91123c9590da9070fd6c6dfecc8aa4"
+    "version": "3.7.2+1.21.1",
+    "curseForgeHash": 587899815,
+    "modrinthHash": "924a83dc46fbf53b0634de96eb6c21966b4fbbb7"
   },
   "reliable_replacer-1.8.2+1.21.1-fabric.jar": {
     "jarName": "reliable_replacer-1.8.2+1.21.1-fabric.jar",
@@ -2658,13 +2642,13 @@
     "curseForgeHash": 1237088857,
     "modrinthHash": "79f4df13d1f1ebb3375f647441c230e1447893ac"
   },
-  "VanillaBackport-fabric-1.21.1-1.1.7.10.jar": {
-    "jarName": "VanillaBackport-fabric-1.21.1-1.1.7.10.jar",
+  "VanillaBackport-fabric-1.21.1-1.2.jar": {
+    "jarName": "VanillaBackport-fabric-1.21.1-1.2.jar",
     "modId": "vanillabackport",
     "name": "VanillaBackport",
-    "version": "1.1.7.10",
-    "curseForgeHash": 2841000101,
-    "modrinthHash": "be520356ef53352b2d3e6ec84ca3abb7ca62f041"
+    "version": "1.2",
+    "curseForgeHash": 395799463,
+    "modrinthHash": "7132a33f1f89485c53baa5bbd58ed37d5ed48477"
   },
   "vcinteraction-fabric-1.21.1-1.0.8.jar": {
     "jarName": "vcinteraction-fabric-1.21.1-1.0.8.jar",
@@ -2706,13 +2690,13 @@
     "curseForgeHash": 2385888551,
     "modrinthHash": "31d06c335b9a3a9fd649e8f4518aaf5a65630f57"
   },
-  "waveycapes-fabric-1.11.2-mc1.21.1.jar": {
-    "jarName": "waveycapes-fabric-1.11.2-mc1.21.1.jar",
+  "waveycapes-fabric-1.11.3-mc1.21.1.jar": {
+    "jarName": "waveycapes-fabric-1.11.3-mc1.21.1.jar",
     "modId": "waveycapes",
     "name": "WaveyCapes",
-    "version": "1.11.2",
-    "curseForgeHash": 2384171233,
-    "modrinthHash": "3cefa859d45c5148492923e7aa363fc19c5995d6"
+    "version": "1.11.3",
+    "curseForgeHash": 2394174117,
+    "modrinthHash": "c51800ebca81b48604071e31dcaa7043d4cc2272"
   },
   "wetbackpacks.jar": {
     "jarName": "wetbackpacks.jar",
