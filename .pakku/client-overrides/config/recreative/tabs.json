@@ -19,7 +19,6 @@
       "backpacked:creative_tab",
       "crittersandcompanions:main",
       "farm_and_charm:farm_and_charm",
-      "hearth_and_timber:hearth_and_timber_compat",
       "brewinandchewin:brewinandchewin",
       "bushierflowers:bushier_flowers",
       "minecraft:inventory",
@@ -60,10 +59,10 @@
       "minecraft:spawn_eggs",
       "displaydelight:item_group",
       "lavendre:operator_utilities",
+      "vanillabackport:vanilla_backport",
       "naturalist:item_group",
       "minecraft:inventory",
       "minecraft:op_blocks",
-      "vanillabackport:vanilla_backport",
       "exposure:exposure",
       "crittersandcompanions:main",
       "tide:tide",
@@ -79,7 +78,6 @@
       "vinery:vinery",
       "herbalbrews:herbalbrews",
       "bakery:bakery",
-      "hearth_and_timber:hearth_and_timber_compat",
       "biomesoplenty:main",
       "hearth_and_timber:hearth_and_timber",
       "minecraft:combat",
@@ -14268,20 +14266,6 @@
       "farm_and_charm:cat_food",
       "farm_and_charm:scarecrow",
       "farm_and_charm:chicken_nest"
-    ],
-    "add_items": [],
-    "order": []
-  },
-  {
-    "action": "modify_tab",
-    "tab": [
-      "hearth_and_timber:hearth_and_timber_compat"
-    ],
-    "remove_items": [
-      "hearth_and_timber:dark_cherry_window_casing",
-      "hearth_and_timber:dark_cherry_railing",
-      "hearth_and_timber:dark_cherry_pillar",
-      "hearth_and_timber:dark_cherry_support"
     ],
     "add_items": [],
     "order": []
