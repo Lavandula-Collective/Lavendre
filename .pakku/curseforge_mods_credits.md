@@ -15,8 +15,4 @@
 - [Menulogue](https://mrcrayfish.com/mods/menulogue) by [MrCrayfish](https://mrcrayfish.com/#)
 - [Olaf's Relative Blocks](www.curseforge.com/minecraft/mc-mods/olafs-relatively-placed-blocks) by [Lukeolafp](https://www.curseforge.com/members/lukeolafp)
 - [Paxi Extra](https://www.curseforge.com/minecraft/mc-mods/paxi-extra) by [aspctt](https://www.curseforge.com/members/aspctt) (Port of [Paxi Plus](https://modrinth.com/mod/paxiplus) by [Lancet_](https://modrinth.com/user/Lancet_). Original by [YUNGNICKYOUNG](https://modrinth.com/user/YUNGNICKYOUNG) & [Fyoncle](https://modrinth.com/user/Fyoncle))
-- [EMF Compat: Core](https://www.curseforge.com/minecraft/mc-mods/emf-compat-core) by [stradat](https://www.curseforge.com/members/stradat/projects)
-- [EMF Compat: Exposure](https://www.curseforge.com/minecraft/mc-mods/emf-compat-exposure) by [stradat](https://www.curseforge.com/members/stradat/projects)
-- [EMF Compat: WATUT](https://www.curseforge.com/minecraft/mc-mods/emf-compat-watut) by [stradat](https://www.curseforge.com/members/stradat/projects)
-- [EMF: Compat: Gliders](https://www.curseforge.com/minecraft/mc-mods/emf-compat-gliders) by [stradat](https://www.curseforge.com/members/stradat/projects)
 - [Touch'n Motion](https://www.curseforge.com/minecraft/mc-mods/touch-and-motion) by [stradat](https://www.curseforge.com/members/stradat/projects)
