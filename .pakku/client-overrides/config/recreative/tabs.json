@@ -2062,6 +2062,13 @@
     "icon": "minecraft:netherite_sword",
     "remove_items": [],
     "add_items": [
+      "minecraft:wooden_spear",
+      "minecraft:stone_spear",
+      "minecraft:copper_spear",
+      "minecraft:iron_spear",
+      "minecraft:golden_spear",
+      "minecraft:diamond_spear",
+      "minecraft:netherite_spear",
       "minecraft:wooden_sword",
       "minecraft:stone_sword",
       "minecraft:copper_sword",
