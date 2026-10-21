@@ -28,13 +28,13 @@
     "//heavyEntities": "Larger Entities slow down the player more",
     "heavyEntities": true,
     "//allowBabies": "Allow babies to be carried even when adult mob is blacklisted (or not whitelisted)",
-    "allowBabies": true,
+    "allowBabies": false,
     "//useWhitelistBlocks": "Use Whitelist instead of Blacklist for Blocks",
-    "useWhitelistBlocks": false,
+    "useWhitelistBlocks": true,
     "//useWhitelistEntities": "Use Whitelist instead of Blacklist for Entities",
     "useWhitelistEntities": false,
     "//useWhitelistStacking": "Use Whitelist instead of Blacklist for Stacking",
-    "useWhitelistStacking": false,
+    "useWhitelistStacking": true,
     "//hitWhileCarrying": "Whether the player can hit blocks and entities while carrying or not",
     "hitWhileCarrying": false,
     "//dropCarriedWhenHit": "Whether the player drops the carried object when hit or not",
@@ -56,7 +56,7 @@
       "minecraft:oak_trapdoor[half]"
     ],
     "//pickupPlayers": "Whether Players can be picked up. Creative players can't be picked up in Survival Mode",
-    "pickupPlayers": true,
+    "pickupPlayers": false,
     "//pickupUnbreakableBlocks": "Whether players in Survival Mode can pick up unbreakable blocks. Creative players always can.",
     "pickupUnbreakableBlocks": false
   },
@@ -65,7 +65,13 @@
     "//allowedEntities": "Entities that CAN be picked up (useWhitelistEntities must be true)",
     "allowedEntities": [],
     "//allowedBlocks": "Blocks that CAN be picked up (useWhitelistBlocks must be true)",
-    "allowedBlocks": [],
+    "allowedBlocks": [
+      "chest*",
+      "barrel*",
+      "handcrafted:shelf*",
+      "drawer*",
+      "cabinet*"
+    ],
     "//allowedStacking": "Entities that CAN have other entities stacked on top of them (useWhitelistStacking must be true)",
     "allowedStacking": []
   },
