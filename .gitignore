@@ -52,6 +52,10 @@
 /ami-icon-cache
 /panoptic/
 /scripts/
+/dynamic-data-pack-cache/
+/dynamic-resource-pack-cache/
+/fieldguide_cache/
+/quickskin/
 command_history.txt
 usercache.json
 usernamecache.json
@@ -113,6 +117,7 @@ Thumbs.db
 ehthumbs.db
 $RECYCLE.BIN/
 *.lnk
+win_event*
 
 # Linux
 .fuse_hidden*
