@@ -1198,6 +1198,45 @@
             ]
         },
         {
+            "pakku_id": "kthrS9OjAVPiz7TQ",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "ancient-remnants"
+            },
+            "name": {
+                "modrinth": "Ancient Remnants: Monoliths"
+            },
+            "id": {
+                "modrinth": "qYtXvlBc"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "ancient_remnants-1.5.2+1.21.1-fabric.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/qYtXvlBc/versions/M6FqkAaO/ancient_remnants-1.5.2+1.21.1-fabric.jar",
+                    "id": "M6FqkAaO",
+                    "parent_id": "qYtXvlBc",
+                    "hashes": {
+                        "sha512": "664c35f806ee3f7c97468229602dc775c371e1ca64b751c9903a88c1ec570e7dd81e49769ef2ebf384a1c9df2a1d0394b23c0a75d5ee1583e9663174fb30d88c",
+                        "sha1": "2bbe09186f430b423dbd50c5eec11c54f43d2e79"
+                    },
+                    "required_dependencies": [
+                        "49C5QgTK"
+                    ],
+                    "size": 9648047,
+                    "date_published": "2026-10-18T01:45:49.307389Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "go97HElWYtGhijBn",
             "pakku_links": [
                 "gk7SqwElaRKovhhf"
