@@ -1,6 +1,6 @@
 {
   "loadOrder": [
     "--user--",
-    "datapacks/Lavendre Core"
+    "lavendre_core:lavendre_core_data"
   ]
 }
