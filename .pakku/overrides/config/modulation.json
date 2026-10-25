@@ -12,11 +12,11 @@
     "enable_extended_clouds": true,
     "extend_frustum": true,
     "async_cloud_meshing": true,
-    "cloud_distance_multiplier": 4.0
+    "cloud_range": 64
   },
   "passable_foliage": {
-    "enable_passable_foliage": true,
-    "enable_scaffolding_mode": true,
+    "enable_passable_foliage": false,
+    "enable_scaffolding_mode": false,
     "enable_pale_oak_leaves": true,
     "enable_tinted_leaves": true,
     "enable_tinted_needles": true,
@@ -63,7 +63,7 @@
     "fix_structure_save_path": true,
     "fix_structure_palette_threading": true,
     "fix_two_by_two_saplings": true,
-    "fix_horizon_line": true,
+    "improved_fog": true,
     "fix_cave_sky": true,
     "patch_sunbathing_godrays": true,
     "better_pause_freezing": true,
