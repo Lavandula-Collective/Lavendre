@@ -109,7 +109,7 @@
   },
   "contextMenu": {
     "keybindMode": "HOLD",
-    "autoSwapToCreative": true,
+    "autoSwapToCreative": false,
     "autoSwapToOtherHotbarWithItem": false,
     "globalHotbars": false
   },
