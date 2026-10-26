@@ -3,7 +3,6 @@
 > [!NOTE]
 > The following mods are obtained manually from CurseForge and redistributed as part of this modpack in accordance with the licenses specified by their respective creators:
 
-- [Structure Overlapless](https://www.curseforge.com/minecraft/mc-mods/structureoverlapless) by [\_nArUTo\_](https://www.curseforge.com/members/_naruto_)
 - [Shoulder Surfing Reloaded: Camera Fixes & Additions](https://www.curseforge.com/minecraft/mc-mods/shoulder-surfing-reloaded-camera-fixes-additions) by [Seramicx](https://www.curseforge.com/members/seramicx)
 - [Better Mount Steering](https://www.curseforge.com/minecraft/mc-mods/better-mount-steering) by [Seramicx](https://www.curseforge.com/members/seramicx)
 - [Entity Player Compat](https://www.curseforge.com/minecraft/mc-mods/entity-player-compat) by [Exers](https://www.curseforge.com/members/exers)
